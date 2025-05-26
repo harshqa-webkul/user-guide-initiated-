@@ -1,8 +1,8 @@
 # Invoices
 
-## Invoice Creation
-
 The Invoice module in AureusERP allows users to generate professional invoices with detailed control over billing, product lines, accounting standards, and marketing insights. Below is the **step-by-step** guide to creating an invoice.
+
+## Invoice Creation
 
 ### Steps to Create a New Invoice
 
@@ -119,6 +119,6 @@ Once the invoice is **Confirmed** (status becomes Posted), the following actions
 - **Credit Note**: Create a credit note with **Reason** and **Date**.
 - **Delete**: Remove the invoice if needed.
 
-  ![Create Invoice](../../../images/invoice_confirm.png)
+![Create Invoice](../../../images/invoice_confirm.png)
 
 ---
