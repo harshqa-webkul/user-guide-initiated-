@@ -1,12 +1,12 @@
 # Credit Note
 
-## Credit Note Creation
-
 The **Credit Note** module in **AureusERP** allows businesses to issue refunds or adjustments for previously invoiced amounts. This guide explains the complete flow for creating and managing credit notes.
+
+## Credit Note Creation
 
 ### Steps to Create a New Credit Note
 
-1. Navigate to **Invoices >> Customers >> Credit Notes >> New Credit Note**.
+1. Navigate to **Invoices >> Customers >> Credit Notes >> New Credit Note** as shown in the below image.
 
    ![Create Credit Note](../../../images/credit_note_create_1.png)
 

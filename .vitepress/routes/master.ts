@@ -19,9 +19,9 @@ const routes = [
         collapsed: true,
         items: [
           { text: 'Products', link: '/master/invoice/vendors/products' },
-          { text: 'Customers', link: '/master/invoice/vendors/vendors' },
-          { text: 'Invoices', link: '/master/invoice/vendors/bills' },
-          { text: 'Credit Notes', link: '/master/invoice/vendors/refunds' },
+          { text: 'Vendors', link: '/master/invoice/vendors/vendors' },
+          { text: 'Bills', link: '/master/invoice/vendors/bills' },
+          { text: 'Refunds', link: '/master/invoice/vendors/refunds' },
           { text: 'Payments', link: '/master/invoice/vendors/payments' },
         ]
       },

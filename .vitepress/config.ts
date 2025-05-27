@@ -2,6 +2,13 @@ import { defineConfig } from 'vitepress'
 import sidebar from './routes'
 
 export default defineConfig({
+  vite: {
+    server: {
+      host: true,
+      port: 5173,
+      allowedHosts: true // your ngrok domain
+    }
+  },
   lang: 'en-US',
   srcDir: 'src',
   title: 'Aureus ERP',

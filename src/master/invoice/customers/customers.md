@@ -1,4 +1,4 @@
-# 👥 Customer
+# Customer
 
 The **Customer** module in **AureusERP** allows users to manage their clients by capturing all relevant personal, financial, and invoicing details. This guide walks you through the process of creating and managing customers.
 
@@ -6,119 +6,120 @@ The **Customer** module in **AureusERP** allows users to manage their clients by
 
 ### Steps to Create a Customer
 
-1. Navigate to **Invoices >> Customers >> Customer >> New Customer**.
+1.  Navigate to **Invoices >> Customers >> Customers >> New Customer**.
 
-   ![Create Customer](../../../images/customer_create_1.png)
+    ![Create Customer](../../../images/customer_create.png)
 
-2. Fill out the form with the following details:
+2.  Fill out the form with the following details:
 
-   ### 🧾 General Section
+    ### General Section
 
-- **Individual or Company** (Toggle Button):
-  - Switch between individual and company type.
-  - If **Company** is selected, the **Company** field disappears.
-- **Name**
-- **Company:** (Dropdown or ➕ Create New)
-- **Tax ID**
-- **Job Title**
-- **Phone**
-- **Mobile**
-- **Email**
-- **Website**
-- **Title:** (Dropdown or ➕ Create New)
-- **Tags:** (Dropdown or ➕ Create New)
-- **Address:** Street, City, Zip, State, Country
+    - **Individual or Company** (Toggle Button):
+      - Choose whether the customer is an individual or a business entity.
+      - If **Company** is selected, the **Company** field disappears to avoid redundancy.
+    - **Name:** Full name of the individual or contact person.
+    - **Company:** Select or create the associated company, if applicable.
+    - **Tax ID** Enter the official tax identification number for regulatory compliance.
+    - **Job Title** Job designation of the individual (if applicable).
+    - **Phone** Primary landline contact number.
+    - **Mobile** Mobile number for direct or urgent contact.
+    - **Email** Email address for communication and invoicing.
+    - **Website** Official website of the customer or company.
+    - **Title:** Select or create a prefix like Mr., Ms., Dr., etc.
+    - **Tags:** Use predefined or custom tags to categorize or label the customer.
+    - **Address:** Enter the complete physical address including Street, City, Zip Code, State, and Country.
 
----
+    ![Create Customer](../../../images/customer_create_1.png)
 
-### 🛒 Sales and Purchase Section
+    ### Sales and Purchase Section
 
-#### Sales Subsection
+    - **Sales Subsection**
 
-- **Sales Person:** Dropdown to select any user.
-- **Payment Terms:** Select predefined payment terms.
-- **Payment Method:** Define preferred method for sales transactions.
+      - **_Sales Person:_** Select the internal user responsible for this customer.
+      - **_Payment Terms:_** Defines how long the customer has to pay after being invoiced (e.g., Net 30, Immediate).
+      - **_Payment Method:_** Preferred method for receiving payments from this customer (e.g., bank transfer, cheque).
 
-#### Purchase Subsection
+    - **Purchase Subsection**
 
-- **Payment Terms:** Set purchase-side payment terms.
-- **Payment Method:** Define purchase payment method.
+      - **_Payment Terms:_** Sets default payment timeline when buying from this customer.
+      - **_Payment Method:_** Indicates how your company intends to pay this customer if they’re also a vendor.
 
----
+    ![Create Customer](../../../images/customer_create_purchase.png)
 
-### 🧾 Fiscal Information Subsection
+    - **Fiscal Information Subsection**
 
-- **Fiscal Position:** (Dropdown)
+      - **_Fiscal Position:_** Determines the applicable tax and accounting rules for the customer, often based on location or legal entity type.
 
----
+    - **Others Subsection**
 
-### 📂 Others Subsection
+      - **_Company ID:_** Internal reference code or identifier used for tracking this customer.
+      - **_Reference:_** A secondary identifier such as a vendor/customer code.
+      - **_Industry:_** Select the business sector the customer operates in; helpful for reporting and segmentation.
 
-- **Company ID**
-- **Reference**
-- **Industry:** (Dropdown)
+    ![Create Customer](../../../images/customer_create_others.png)
 
----
+    ### Invoicing Section
 
-### 🧾 Invoicing Section
+    - **Customer Invoices Subsection**
 
-#### Customer Invoices Subsection
+      - **_Invoice Sending Method:_** Choose how invoices will be sent—**Download**, **Email**, or **Post**
+      - **_eInvoice Format:_** Specify the electronic invoicing format used for compliance with legal or regional requirements.
 
-- **Invoice Sending Method:** Options like **Download**, **Email**, or **Post**
-- **eInvoice Format:** (Dropdown)
+    - **Automation Subsection**
 
-#### Automation Subsection
+      - **_Auto Post Bills:_** Controls whether the system should automatically post bills. Options:
+        - **_Always:_** Automatically post bills.
+        - **_Ask after 3 validations without edit:_** Semi-automatic mode after verification.
+        - **_Never:_** Manual posting only.
+      - **_Ignore Abnormal Invoice Amount:_** Toggles a rule to bypass validation warnings for unusually high or low invoice values.
+      - **_Ignore Abnormal Invoice Date:_** Ignores validations triggered by suspicious or mismatched invoice dates.
 
-- **Auto Post Bills:** Options include:
-  - Always
-  - Ask after 3 validations without edit
-  - Never
-- **Ignore Abnormal Invoice Amount:** (Toggle Button)
-- **Ignore Abnormal Invoice Date:** (Toggle Button)
+    ![Create Customer](../../../images/customer_create_invoicing.png)
 
----
+## After Customer Creation
 
-## ✅ After Customer Creation
+Once you click **Create**, you will be redirected to the **View Partner** page. This page provides a centralized overview of the customer's information and offers tools to manage contacts, addresses, and bank accounts.
 
-Clicking **Create** redirects to the **View Partner** page.
+![Create Customer](../../../images/customer_create_view.png)
 
----
+### Edit Partner
 
-### 🛠️ Available Actions:
+Update the customer’s personal, company, or fiscal details by clicking the Edit Partner button. Ideal for making corrections or updating records over time.
 
-#### ✏️ Edit Partner
+### Contacts
 
-Update existing customer details.
+- Click on the **Contacts** tab to open the **Manage Contacts** page.
+- Use the **Add Contact** button to launch a modal form.
+- This form replicates the customer creation format, allowing you to:
+  - Add multiple points of contact for a customer.
+  - Capture details like name, email, phone, title, etc.
 
----
+![Create Customer](../../../images/customer_create_contact.png)
 
-### 👥 Manage Contacts
+> 📌 **_Use Case:_** Helpful for organizations with multiple contact persons.
 
-- Click **Contacts** to go to the **Manage Contacts** page.
-- Click **Add Contact** to open a modal with the same form as above for new contact creation.
+### Address
 
----
-
-### 🗺️ Manage Address
-
-- Click **Address** to open the **Manage Address** page.
+- Click the **Address** tab to navigate to the **Manage Address** page.
 - Click **Add Address** to open a modal form with:
 
-  - **Toggles:** Permanent, Present, Invoice, Delivery, Other
-  - **Fields:** Name, Email, Phone, Mobile, Address fields
+  - **Toggles:** Define the type of address — Permanent, Present, Invoice, Delivery, or Other.
+  - **Fields:** Name, Email, Phone, Mobile, and full Address Details (Street, City, Zip Code, State, Country)
+
+![Create Customer](../../../images/customer_create_address.png)
+
+### Bank Accounts
+
+- Navigate to the **Bank Account** section to manage financial details.
+- Click **New Bank Account** to open a modal form with the following fields:
+
+  - **Account Number\***: Unique identifier of the customer’s bank account.
+  - **Can Send Money:** Enable if this account can be used for outbound payments.
+  - **Bank\***: Choose from existing banks or click ➕ to create a new one.
+  - **Account Holder\***: Select the relevant customer from the dropdown.
+
+![Create Customer](../../../images/customer_create_bank.png)
+
+> 📌 **_Use Case:_** Manage multiple financial accounts for the customer, control access, and define payment channels.
 
 ---
-
-### 🏦 Manage Bank Accounts
-
-- Click **Bank Account** to go to the **Manage Bank Accounts** page.
-- Click **New Bank Account** to open a modal with:
-
-  - **Account Number\***:
-  - **Can Send Money:** (Toggle Button)
-  - **Bank\***: (Dropdown or ➕ Create)
-  - **Account Holder\***: (Dropdown showing existing customers)
-
----
-
-That completes the **Customer Creation and Management** process in **AureusERP**.
