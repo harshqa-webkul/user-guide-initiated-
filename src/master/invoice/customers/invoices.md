@@ -20,10 +20,9 @@ The Invoice module in AureusERP allows users to generate professional invoices w
     - **_Invoice Date:_** Choose the date of invoice generation.
     - **_Due Date:_** Set the deadline for payment.
     - **_Payment Term:_** Select a predefined payment term (e.g., Net 30, Immediate).
-
       > 🛈 When a payment term is selected, the **Due Date** field will be automatically replaced with the calculated date based on the selected term.
 
-      ![Create Invoice](../../../images/invoice_create_general.png)
+    ![Create Invoice](../../../images/invoice_create_general.png)
 
     ### 📦 Invoice Lines
 
@@ -39,7 +38,7 @@ The Invoice module in AureusERP allows users to generate professional invoices w
       - **_Unit Price:_** Input price per unit.
       - **_Subtotal:_** Automatically calculated as `(Quantity x Unit Price - Discount) + Taxes`.
 
-      ![Create Invoice](../../../images/invoice_create_invoicelines.png)
+    ![Create Invoice](../../../images/invoice_create_invoicelines.png)
 
     ### 📝 Other Information
 

@@ -20,10 +20,9 @@ The **Credit Note** module in **AureusERP** allows businesses to issue refunds o
    - **_Invoice Date:_** Set the creation date of the credit note.
    - **_Due Date:_** Enter the due date for applying the credit.
    - **_Payment Term:_** Choose a payment term from the dropdown (e.g., Net 15, Immediate).
-
      > 🛈 Selecting a payment term will replace the **Due Date** field with an auto-calculated one based on the term.
 
-     ![General Section](../../../images/credit_note_general.png)
+   ![General Section](../../../images/credit_note_general.png)
 
    ### 📦 Invoice Lines
 
