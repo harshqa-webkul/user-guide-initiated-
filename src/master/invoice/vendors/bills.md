@@ -24,10 +24,9 @@ The **Bills** module in **AureusERP** is designed to help businesses accurately 
    - **_Recipient Bank:_** Choose the vendor's bank account for payment.
    - **_Due Date:_** Set the payment deadline manually or calculate automatically based on payment terms.
    - **_Payment Term:_** Select a pre-defined duration for when the bill should be paid (e.g., Net 30, Immediate).
-
      > 🛈 When a payment term is selected, the **Due Date** field will be automatically replaced with the calculated date based on the selected term.
 
-     ![Create Bill](../../../images/bill_create_general.png)
+   ![Create Bill](../../../images/bill_create_general.png)
 
    ### 📦 Invoice Lines
 
