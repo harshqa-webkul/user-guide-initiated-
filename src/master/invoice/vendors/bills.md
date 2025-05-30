@@ -107,3 +107,8 @@ Once the bill is **Confirmed** (status becomes Posted), the following actions be
 ![Create Invoice](../../../images/bill_confirm.png)
 
 ---
+
+<!-- <video controls style="max-width: 100%; height: auto;">
+  <source src="../../../videos/1.webm" type="video/webm" allow="accelerometer; autoplay;">
+  Your browser does not support the video tag.
+</video> -->
