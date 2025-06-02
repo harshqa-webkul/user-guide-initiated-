@@ -42,7 +42,7 @@ const routes = [
           { text: 'Customers', link: '/master/sales/orders/customers' },
         ]
       },
-      { text: 'To Invoice', link: '/master/sales/to-invoice' },
+      { text: 'To Invoice', link: '/master/sales/toInvoice' },
       { text: 'Products', link: '/master/sales/products' },
       { text: 'Configurations', link: '/master/sales/configurations' },
       { text: 'Settings', link: '/master/sales/settings' },
