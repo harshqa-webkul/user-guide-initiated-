@@ -61,6 +61,9 @@ You can:
 - **Search:** By name or internal reference.
 - **Bulk Actions:** Archive, restore, or delete selected products.
 
+   <ImagePopup src="/images1/manufacturing/product_list_view.png" alt="Product List View" />
+>
+
 ### Summary
 
 The Manufacturing **Products** section is your launchpad for everything related to a producible item:

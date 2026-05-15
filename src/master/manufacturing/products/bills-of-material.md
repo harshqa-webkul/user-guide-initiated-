@@ -21,11 +21,7 @@ Create a BoM for every product that is **manufactured** (instead of purchased) o
 
    <ImagePopup src="/images1/manufacturing/bom_navigation.png" alt="Bills of Materials Navigation" />
 
-2. Click the **New Bill of Material** button at the top right.
-
-   <ImagePopup src="/images1/manufacturing/bom_create_button.png" alt="Create BoM Button" />
-
-3. Fill in the following details:
+2. Fill in the following details:
 
    #### General Section
 
@@ -56,7 +52,7 @@ Create a BoM for every product that is **manufactured** (instead of purchased) o
 
     <ImagePopup src="/images1/manufacturing/bom_miscellaneous_tab.png" alt="BoM Miscellaneous Tab" />
 
-4. Configure the **tabs** below the general section.
+3. Configure the **tabs** below the general section.
 
 ### Components Tab
 
@@ -94,7 +90,7 @@ Use the **Edit Operation** action on a line to open the full operation form (inc
 <ImagePopup src="/images1/manufacturing/bom_operations_tab.png" alt="BoM Operations Tab" />
 
 
-5. **Action Buttons:**
+4. **Action Buttons:**
 
    - **Create** – Save and open the BoM record.
    - **Create & Create Another** – Save and open a blank form to create another BoM.
@@ -103,8 +99,6 @@ Use the **Edit Operation** action on a line to open the full operation form (inc
 ## Bill of Material View Page
 
 After creation, you land on the **BoM View Page** with all tabs and a few extra controls.
-
-<ImagePopup src="/images1/manufacturing/bom_view_page.png" alt="BoM View Page" />
 
 - **View:** Read-only summary of the BoM, including general info, components, operations, by-products, and the miscellaneous configuration.
 - **Edit:** Modify any field.
