@@ -101,6 +101,38 @@ const routes = [
     ]
   },
   {
+    text: 'Manufacturing',
+    collapsed: false,
+    items: [
+      {
+        text: 'Operations',
+        collapsed: true,
+        items: [
+          { text: 'Manufacturing Orders', link: '/master/manufacturing/operations/manufacturing-orders' },
+          { text: 'Work Orders', link: '/master/manufacturing/operations/work-orders' },
+        ]
+      },
+      {
+        text: 'Products',
+        collapsed: true,
+        items: [
+          { text: 'Products', link: '/master/manufacturing/products/products' },
+          { text: 'Bills of Materials', link: '/master/manufacturing/products/bills-of-material' },
+          { text: 'Lots/Serial Numbers', link: '/master/manufacturing/products/lots' },
+        ]
+      },
+      {
+        text: 'Configurations',
+        collapsed: true,
+        items: [
+          { text: 'Work Centers', link: '/master/manufacturing/configurations/work-centers' },
+          { text: 'Operations', link: '/master/manufacturing/configurations/operations' },
+        ]
+      },
+      { text: 'Settings', link: '/master/manufacturing/settings' },
+    ]
+  },
+  {
     text: 'Contacts',
     collapsed: false,
     items: [
