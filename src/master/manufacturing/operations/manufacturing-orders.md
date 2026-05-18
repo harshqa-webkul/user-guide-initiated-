@@ -69,7 +69,7 @@ By default, manufacturing happens in a single step (components go straight into 
 
    <ImagePopup src="/images1/manufacturing/mo_general_section.png" alt="MO General Section" />
 
-4. Configure the **tabs** below the general section.
+3. Configure the **tabs** below the general section.
 
 ### Components Tab
 
@@ -106,17 +106,6 @@ Columns:
 - **_Lot/Serial:_** Lot or serial assigned at this step.
 
 <ImagePopup src="/images1/manufacturing/mo_work_orders_tab.png" alt="MO Work Orders Tab" />
-
-### By-Products Tab
-
-Visible when **Byproducts** is enabled in settings. Shows the secondary outputs of this MO.
-
-- **_Product:_** The by-product.
-- **_To:_** Destination location where it will be stored.
-- **_To Produce:_** Planned quantity.
-- **_UoM:_** Unit of measure.
-
-<ImagePopup src="/images1/manufacturing/mo_byproducts_tab.png" alt="MO By-Products Tab" />
 
 ### Miscellaneous Tab
 
@@ -157,8 +146,6 @@ Click **Confirm** to validate the MO. The system reserves the required component
 
 Click **Plan** to schedule each [Work Order](./work-orders.md) on its [Work Center](../configurations/work-centers.md) based on capacity and dependencies. State becomes **Planned**.
 
-<ImagePopup src="/images1/manufacturing/mo_plan_action.png" alt="Plan Manufacturing Order" />
-
 ### Unplan
 
 Click **Unplan** to release the scheduled slots — useful if dates or priorities change. The MO returns to **Confirmed**.
@@ -166,8 +153,6 @@ Click **Unplan** to release the scheduled slots — useful if dates or prioritie
 ### Start
 
 Click **Start** to mark production as actively in progress. The first [Work Order](./work-orders.md) becomes available to operators. State becomes **In Progress**.
-
-<ImagePopup src="/images1/manufacturing/mo_start_action.png" alt="Start Manufacturing Order" />
 
 ### Validate the Component Pick Transfer
 
@@ -203,15 +188,13 @@ In a **3-step route**, the finished units are not added to sellable stock until 
 2. Verify the quantity and destination location, then click **Validate**.
 3. The finished goods move into `Stock` and become available for sale or further production.
 
-<Imagepop src="/images1/manufacturing/mo_store_finished_product_action.png" alt="Store Finished Product Action" />
+<ImagePopup src="/images1/manufacturing/mo_store_finished_product_action.png" alt="Store Finished Product Action" />
 
 > In a **1-step route** the finished goods are posted to stock immediately on **Produce All** — no separate transfer is needed.
 
 ### Cancel
 
 Click **Cancel** at any point before completion to abort the MO. Reserved components are released. State becomes **Cancelled**.
-
-<ImagePopup src="/images1/manufacturing/mo_cancel_action.png" alt="Cancel Manufacturing Order" />
 
 ### Other Page Actions
 
@@ -221,7 +204,7 @@ Click **Cancel** at any point before completion to abort the MO. Reserved compon
 
 - **Transfers:** Open the **Manage Transfers** sub-tab to view every stock move triggered by this MO (component picks, finished product put-away, scraps).
 
-  <ImagePopup src="/images1/manufacturing/mo_transfers_tab.png" alt="Manufacturing Order Transfers" />
+  <ImagePopup src="/images1/manufacturing/mo_transfers_tab1.png" alt="Manufacturing Order Transfers" />
 
 - **Print MO / Print Labels:** Generate a printable order sheet or product labels for shop-floor use.
 

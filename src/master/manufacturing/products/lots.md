@@ -15,11 +15,7 @@ Each finished unit can be assigned its own **Serial Number**, and each batch can
 
    <ImagePopup src="/images1/manufacturing/lot_navigation.png" alt="Lots Navigation" />
 
-2. Click the **New** button at the top right.
-
-   <ImagePopup src="/images1/manufacturing/lot_create_button.png" alt="Create Lot Button" />
-
-3. Fill in the following details:
+2. Fill in the following details:
 
    - **_Lot/Serial Number:_** The unique identifier of the lot or serial. Auto-generated sequences can be configured per product.
    - **_Product:_** Select the tracked product. Only products with `Tracking = By Lots` or `By Unique Serial Number` are eligible.
@@ -44,11 +40,10 @@ After creation, you are redirected to the **Lot View Page** with a sub-navigatio
 
 - **View:** Summary of the lot details — product, quantity, reference, and notes.
 - **Edit:** Modify any saved field.
-- **Quantities:** See on-hand quantity of this lot in every location, along with the date it arrived. Useful for stock audits.
+- **Locations:** See on-hand quantity of this lot in every location, along with the date it arrived. Useful for stock audits.
 
   <ImagePopup src="/images1/manufacturing/lot_quantities_tab.png" alt="Lot Quantities Tab" />
 
-- **Traceability:** View every stock move involving this lot (receipts, internal transfers, work orders, deliveries) so you can trace it end-to-end.
 - **Archive / Delete:** Remove or archive lots that are no longer in use.
 
 ## List View — Filters & Actions
