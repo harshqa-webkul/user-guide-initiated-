@@ -32,7 +32,7 @@ A Manufacturing Order is the **last step** of the manufacturing process. Before 
 
 By default, manufacturing happens in a single step (components go straight into production and finished goods go straight to stock). If you want a more controlled flow — **pick the components → manufacture → store the finished product** — you must enable the **3-step manufacturing route** on your warehouse.
 
-1. **Turn on multi-step routes.** Navigate to **`Inventory → Settings → Manage Warehouses`** and enable **Multi Steps Routes**, then click **Save Changes**. See the [Inventory Settings](../../inventories/settings.md) guide.
+1. **Turn on multi-step routes.** Navigate to **`Inventory → Settings → Manage Warehouses`** and enable **Multi Steps Routes**, then click **Save Changes**. See the [Inventory Settings](../../inventories/settings.md#manage-warehouses) guide.
 
    <ImagePopup src="/images1/manufacturing/mo_enable_multi_step_routes.png" alt="Enable Multi Steps Routes" />
 
@@ -54,11 +54,7 @@ By default, manufacturing happens in a single step (components go straight into 
 
    <ImagePopup src="/images1/manufacturing/mo_navigation.png" alt="Manufacturing Orders Navigation" />
 
-2. Click the **New Manufacturing Order** button at the top right.
-
-   <ImagePopup src="/images1/manufacturing/mo_create_button.png" alt="Create Manufacturing Order Button" />
-
-3. Fill in the following details:
+2. Fill in the following details:
 
    #### General Section
 
@@ -149,9 +145,11 @@ The MO progresses through the following states:
 
 (with optional `Cancelled` from any state before completion.)
 
+> **Behind the scenes — stock transfers.** Every MO is backed by inventory **transfers** that physically move stock between locations. In a **3-step route** the system creates a **Pick Components** transfer (raw materials → production area) and, after production, a **Store Finished Product** transfer (finished goods → stock). In a **1-step route** both moves are posted automatically when you click **Produce All**. You can review and validate every transfer from the **Manage Transfers** tab.
+
 ### Confirm
 
-Click **Confirm** to validate the MO. The system reserves components, generates work orders, and changes the state to **Confirmed**.
+Click **Confirm** to validate the MO. The system reserves the required components, generates the work orders, and — in a 3-step route — creates the **Pick Components** transfer so the raw materials can be moved to the production area. The state changes to **Confirmed**.
 
 <ImagePopup src="/images1/manufacturing/mo_confirm_action.png" alt="Confirm Manufacturing Order" />
 
@@ -165,25 +163,49 @@ Click **Plan** to schedule each [Work Order](./work-orders.md) on its [Work Cent
 
 Click **Unplan** to release the scheduled slots — useful if dates or priorities change. The MO returns to **Confirmed**.
 
-<ImagePopup src="/images1/manufacturing/mo_unplan_action.png" alt="Unplan Manufacturing Order" />
-
 ### Start
 
 Click **Start** to mark production as actively in progress. The first [Work Order](./work-orders.md) becomes available to operators. State becomes **In Progress**.
 
 <ImagePopup src="/images1/manufacturing/mo_start_action.png" alt="Start Manufacturing Order" />
 
+### Validate the Component Pick Transfer
+
+In a **3-step route**, the raw materials do not leave their storage location until the **Pick Components** transfer is validated.
+
+1. Open the **Transfers** tab and edit the **Pick Components** transfer.
+2. Check the picked quantities, then click **Validate**.
+3. The components move from `Stock` to the production location, and the **on-hand quantity of each raw material is reduced** accordingly.
+
+<ImagePopup src="/images1/manufacturing/mo_transfers_tab.png" alt="Manufacturing Order Transfers" />
+
+> **Note — 1-step route:** If your warehouse uses the 1-step route there is no separate pick transfer — component stock is consumed directly when you click **Produce All**.
+
 ### Produce All
 
-Click **Produce All** to validate the MO and post the finished quantity to stock. If consumption or produced quantities differ from the plan, the system shows a **Consumption Warning** or **Produced is different than expected** dialog so you can:
+Click **Produce All** to validate the MO and post the finished quantity. The system consumes the components recorded on the **Components** tab and, in a **3-step route**, generates the **Store Finished Product** transfer for the newly produced units. State becomes **Done**.
+
+If consumption or produced quantities differ from the plan, the system shows a **Consumption Warning** or **Produced is different than expected** dialog so you can:
 
 - Confirm with the current quantities, **or**
 - Click **Set Quantities and Confirm** to keep the planned values.
 
-State becomes **Done** and inventory is updated.
-
 <ImagePopup src="/images1/manufacturing/mo_produce_all_action.png" alt="Produce All Action" />
 <ImagePopup src="/images1/manufacturing/mo_consumption_warning.png" alt="Consumption Warning Modal" />
+
+> **Note — Over-consumption warning:** If an operator records **more of a component than the quantity defined in the BoM**, the system raises a **Consumption Warning** when you validate. The dialog lists each over- or under-consumed component so you can either accept the actual quantities or click **Set Quantities and Confirm** to revert to the planned BoM values. The same check applies to output — producing more or fewer units than planned triggers the **"Produced is different than expected"** dialog.
+
+### Store the Finished Product
+
+In a **3-step route**, the finished units are not added to sellable stock until the **Store Finished Product** transfer is validated.
+
+1. Open the **Transfers** tab and edit the **Store Finished Product** transfer.
+2. Verify the quantity and destination location, then click **Validate**.
+3. The finished goods move into `Stock` and become available for sale or further production.
+
+<Imagepop src="/images1/manufacturing/mo_store_finished_product_action.png" alt="Store Finished Product Action" />
+
+> In a **1-step route** the finished goods are posted to stock immediately on **Produce All** — no separate transfer is needed.
 
 ### Cancel
 

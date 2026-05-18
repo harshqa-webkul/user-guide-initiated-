@@ -16,11 +16,7 @@ Define every distinct task on your shop floor as an Operation so that when a [Ma
 
    <ImagePopup src="/images1/manufacturing/operation_navigation.png" alt="Operations Navigation" />
 
-2. Click the **New Operation** button at the top right.
-
-   <ImagePopup src="/images1/manufacturing/operation_create_button.png" alt="Create Operation Button" />
-
-3. Fill in the following details:
+2. Fill in the following details:
 
    #### General Section
 
@@ -54,7 +50,7 @@ Define every distinct task on your shop floor as an Operation so that when a [Ma
 
    <ImagePopup src="/images1/manufacturing/operation_worksheet_section.png" alt="Operation Work Sheet Section" />
 
-4. **Action Buttons:**
+3. **Action Buttons:**
 
    - **Create** – Save and open the operation record.
    - **Create & Create Another** – Save and open a blank form to add another operation.
