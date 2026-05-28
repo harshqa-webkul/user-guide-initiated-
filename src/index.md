@@ -48,6 +48,10 @@ features:
     title: Manufacturing Management
     details: Plan production, manage BoMs, and track work orders on the shop floor.
     link: /master/manufacturing/operations/manufacturing-orders.md
+  - icon: 🔧
+    title: Maintenance Management
+    details: Track equipment, schedule preventive maintenance, and log corrective requests.
+    link: /master/maintenance/operations/maintenance-requests.md
   - icon: 🎓
     title: Recruitment System
     details: Simplify recruitment and find the best talent with ease.

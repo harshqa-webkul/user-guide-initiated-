@@ -133,6 +133,36 @@ const routes = [
     ]
   },
   {
+    text: 'Maintenance',
+    collapsed: false,
+    items: [
+      {
+        text: 'Operations',
+        collapsed: true,
+        items: [
+          { text: 'Maintenance Requests', link: '/master/maintenance/operations/maintenance-requests' },
+          { text: 'Maintenance Calendar', link: '/master/maintenance/operations/calendar' },
+        ]
+      },
+      {
+        text: 'Equipment',
+        collapsed: true,
+        items: [
+          { text: 'Equipment', link: '/master/maintenance/equipments/equipments' },
+        ]
+      },
+      {
+        text: 'Configurations',
+        collapsed: true,
+        items: [
+          { text: 'Categories', link: '/master/maintenance/configurations/categories' },
+          { text: 'Teams', link: '/master/maintenance/configurations/teams' },
+          { text: 'Stages', link: '/master/maintenance/configurations/stages' },
+        ]
+      },
+    ]
+  },
+  {
     text: 'Contacts',
     collapsed: false,
     items: [
