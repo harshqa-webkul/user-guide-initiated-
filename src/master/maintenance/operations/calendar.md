@@ -16,8 +16,6 @@ Navigate to **`Maintenance → Maintenance Calendar`** as shown below:
 
 The calendar opens in **Month view** by default and lists every request that has a **Scheduled Date** set.
 
-<ImagePopup src="/images1/maintenance/calendar_main_view.png" alt="Maintenance Calendar Main View" />
-
 ## Switching Views
 
 Use the buttons at the top-right of the calendar to switch between views:
