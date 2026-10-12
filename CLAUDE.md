@@ -52,6 +52,7 @@ Writing rules:
 - Bold every UI label. One `<ImagePopup>` per UI step, with meaningful alt text.
 - Do not use em dashes or en dashes anywhere in content. Use a full stop, comma, colon or brackets.
 - Do not name other ERP products or use their brand terms.
+- Never write about features Aureus does not have, and never add "not available" or "not yet" notes. Only describe what the app does.
 - Write content in our own words.
 
 Before finishing a module, check that no dash characters are left in its pages and that `npm run docs:build` passes.

@@ -152,8 +152,8 @@ Payment is the last step. Aureus does not take money on the order. You record it
 
 1. **Payment Term.** On the order, the **Payment Term** field says when the customer must pay, for example **Immediate Payment**. The invoice copies this term to work out its **Due Date**. You set it when you [create the quotation](./create-quotation.md).
 2. **Create the invoice.** Click **Create Invoice** on the order, as shown above.
-3. **Post the invoice.** Open it from the **Invoices** tab and confirm it. See [Create an invoice](../../finance/invoices/customers/create-invoice.md).
-4. **Register the payment.** When the money arrives, open the invoice and register it. See [Register a payment](../../finance/invoices/customers/register-payment.md).
+3. **Post the invoice.** Open it from the **Invoices** tab and confirm it. See [Create an invoice](../../finance/customer-invoices/create-invoice.md).
+4. **Register the payment.** When the money arrives, open the invoice and register it. See [Register a payment](../../finance/payments/register-payment.md).
 
 After the payment, look at the **Invoices** tab again. The **Amount Due** goes down. When it reaches 0, the **Payment State** shows the invoice as paid.
 
@@ -193,6 +193,6 @@ Lock an order once the customer has agreed. It keeps the price and quantities sa
 - [Create an invoice from an order](../invoicing/order-to-invoice.md)
 - [Sell more to the same customer](../invoicing/order-to-upsell.md)
 - [Invoicing policies](../invoicing/invoicing-policies.md)
-- [Create an invoice](../../finance/invoices/customers/create-invoice.md)
-- [Register a payment](../../finance/invoices/customers/register-payment.md)
+- [Create an invoice](../../finance/customer-invoices/create-invoice.md)
+- [Register a payment](../../finance/payments/register-payment.md)
 - [Settings](../configuration/settings.md)

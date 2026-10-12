@@ -21,8 +21,8 @@ Here is one sale from start to finish. Brightway Offices wants 10 office chairs.
 
 Payment is the last step of the flow, and it happens in the invoicing part of Aureus, not on the quotation.
 
-- **On the quotation.** You choose a **Payment Term**. It says when the customer must pay, for example "30 Days". The term is copied to the invoice and sets its due date. A customer can carry a default term, see [Manage customers](./manage-customers.md). To set up terms, see [Payment terms](../../finance/invoices/configuration/payment-terms.md).
-- **On the invoice.** When the customer pays, you record it on the customer invoice. See [Create an invoice](../../finance/invoices/customers/create-invoice.md) and [Register a payment](../../finance/invoices/customers/register-payment.md).
+- **On the quotation.** You choose a **Payment Term**. It says when the customer must pay, for example "30 Days". The term is copied to the invoice and sets its due date. A customer can carry a default term, see [Manage customers](./manage-customers.md). To set up terms, see [Payment terms](../../finance/customer-invoices/payment-terms.md).
+- **On the invoice.** When the customer pays, you record it on the customer invoice. See [Create an invoice](../../finance/customer-invoices/create-invoice.md) and [Register a payment](../../finance/payments/register-payment.md).
 - **On the order.** Open the order and click the **Invoices** tab. It lists each invoice with its **Amount Due** and **Payment State**, so you can see at a glance whether the customer has paid.
 
 ::: info

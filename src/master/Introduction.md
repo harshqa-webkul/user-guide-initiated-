@@ -32,12 +32,12 @@ Each section contains:
 
 ### 🧾 Invoices
 
-- [Customers](../master/finance/invoices/customers/manage-customers.md)
-- [Products](../master/finance/invoices/products/manage-products.md)
-- [Invoices](../master/finance/invoices/customers/create-invoice.md)
-- [Payments](../master/finance/invoices/customers/register-payment.md)
-- [Bills & Payments](../master/finance/invoices/vendors/create-bill.md)
-- [Invoice Settings](../master/finance/invoices/configuration/settings.md)
+- [Credit Notes & Refunds](../master/finance/customer-invoices/credit-notes-and-refunds.md)
+- [Invoice Sequence](../master/finance/customer-invoices/invoice-sequence.md)
+- [Invoices](../master/finance/customer-invoices/create-invoice.md)
+- [Payments](../master/finance/payments/register-payment.md)
+- [Bills & Payments](../master/finance/vendor-bills/create-bill.md)
+- [Invoice Settings](../master/finance/configuration/index.md)
 
 ### 🛒 Sales
 

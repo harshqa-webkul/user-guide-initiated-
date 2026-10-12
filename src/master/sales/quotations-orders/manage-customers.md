@@ -57,7 +57,7 @@ This section sets the defaults that Aureus copies onto a new quotation for this 
 **Sales**
 
 - **_Sales Person:_** The team member who looks after this customer. Pick yourself, for example.
-- **_Payment Terms:_** When the customer must pay after you invoice. For example, "30 Days" means payment is due 30 days after the invoice date. You can change it on each quotation. To create new terms, see [Payment terms](../../finance/invoices/configuration/payment-terms.md).
+- **_Payment Terms:_** When the customer must pay after you invoice. For example, "30 Days" means payment is due 30 days after the invoice date. You can change it on each quotation. To create new terms, see [Payment terms](../../finance/customer-invoices/payment-terms.md).
 - **_Payment Method:_** How the customer usually pays, such as bank transfer.
 
 **Purchase**
@@ -158,4 +158,4 @@ Check the **Email** and **Payment Terms** before you send the first quotation. A
 - [Quotations and orders](./index.md)
 - [Contacts](../../getting-started/contacts/contacts.md)
 - [Tags](../configuration/tags.md)
-- [Payment terms](../../finance/invoices/configuration/payment-terms.md)
+- [Payment terms](../../finance/customer-invoices/payment-terms.md)

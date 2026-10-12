@@ -172,9 +172,9 @@ Open the quotation and click the **Edit** tab. Change the fields, then click **S
 
 A quotation does not take payment. Payment comes later, on the invoice. The steps are:
 
-1. **Payment Term:** You choose it on the quotation. It sets the due date of the invoice. Terms are created in the Invoices app. See [Payment terms](../../finance/invoices/configuration/payment-terms.md).
-2. **Invoice:** After you confirm the order, you create the invoice from it. See [Create an invoice](../../finance/invoices/customers/create-invoice.md).
-3. **Register payment:** When the customer pays, you record the payment on the invoice. See [Register a payment](../../finance/invoices/customers/register-payment.md).
+1. **Payment Term:** You choose it on the quotation. It sets the due date of the invoice. Terms are created in the Invoices app. See [Payment terms](../../finance/customer-invoices/payment-terms.md).
+2. **Invoice:** After you confirm the order, you create the invoice from it. See [Create an invoice](../../finance/customer-invoices/create-invoice.md).
+3. **Register payment:** When the customer pays, you record the payment on the invoice. See [Register a payment](../../finance/payments/register-payment.md).
 
 To follow the money on an order, open it and click the **Invoices** tab. It shows each invoice with its **Payment State** and **Amount Due**. See [Manage orders](./manage-orders.md).
 

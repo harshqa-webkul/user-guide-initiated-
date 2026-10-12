@@ -60,58 +60,86 @@ const routes = [
   {
     text: 'Finance',
     collapsed: true,
+    link: '/master/finance/',
     items: [
       {
-        text: 'Invoices',
+        text: 'Get Started',
         collapsed: true,
-        link: '/master/finance/invoices/',
+        link: '/master/finance/get-started/',
         items: [
-          {
-            text: 'Customers',
-            collapsed: true,
-            link: '/master/finance/invoices/customers/',
-            items: [
-          { text: 'Manage Customers', link: '/master/finance/invoices/customers/manage-customers' },
-          { text: 'Create an Invoice', link: '/master/finance/invoices/customers/create-invoice' },
-          { text: 'Create a Credit Note', link: '/master/finance/invoices/customers/create-credit-note' },
-          { text: 'Register a Payment', link: '/master/finance/invoices/customers/register-payment' },
-            ]
-          },
-          {
-            text: 'Vendors',
-            collapsed: true,
-            link: '/master/finance/invoices/vendors/',
-            items: [
-          { text: 'Manage Vendors', link: '/master/finance/invoices/vendors/manage-vendors' },
-          { text: 'Create a Bill', link: '/master/finance/invoices/vendors/create-bill' },
-          { text: 'Create a Refund', link: '/master/finance/invoices/vendors/create-refund' },
-          { text: 'Register a Payment', link: '/master/finance/invoices/vendors/register-payment' },
-            ]
-          },
-          {
-            text: 'Products',
-            collapsed: true,
-            link: '/master/finance/invoices/products/',
-            items: [
-          { text: 'Manage Products', link: '/master/finance/invoices/products/manage-products' },
-            ]
-          },
-          {
-            text: 'Configuration',
-            collapsed: true,
-            link: '/master/finance/invoices/configuration/',
-            items: [
-          { text: 'Settings', link: '/master/finance/invoices/configuration/settings' },
-          { text: 'Bank Accounts', link: '/master/finance/invoices/configuration/bank-accounts' },
-          { text: 'Payment Terms', link: '/master/finance/invoices/configuration/payment-terms' },
-          { text: 'Incoterms', link: '/master/finance/invoices/configuration/incoterms' },
-          { text: 'Taxes', link: '/master/finance/invoices/configuration/taxes' },
-          { text: 'Product Categories', link: '/master/finance/invoices/configuration/product-categories' },
-          { text: 'Product Attributes', link: '/master/finance/invoices/configuration/product-attributes' },
-            ]
-          },
+          { text: 'Accounting Setup', link: '/master/finance/get-started/accounting-setup' },
+          { text: 'Accounting Overview', link: '/master/finance/get-started/accounting-overview' },
+          { text: 'Chart of Accounts', link: '/master/finance/get-started/chart-of-accounts' },
+          { text: 'Journals', link: '/master/finance/get-started/journals' },
+          { text: 'Default Accounts', link: '/master/finance/get-started/default-accounts' },
+          { text: 'Multi-Currency', link: '/master/finance/get-started/multi-currency' },
         ]
       },
+      {
+        text: 'Taxes',
+        collapsed: true,
+        link: '/master/finance/taxes/',
+        items: [
+          { text: 'Taxes', link: '/master/finance/taxes/taxes' },
+          { text: 'Tax Groups', link: '/master/finance/taxes/tax-groups' },
+          { text: 'Fiscal Positions', link: '/master/finance/taxes/fiscal-positions' },
+          { text: 'Tax Settings', link: '/master/finance/taxes/tax-settings' },
+        ]
+      },
+      {
+        text: 'Customer Invoices',
+        collapsed: true,
+        link: '/master/finance/customer-invoices/',
+        items: [
+          { text: 'Create an Invoice', link: '/master/finance/customer-invoices/create-invoice' },
+          { text: 'Credit Notes and Refunds', link: '/master/finance/customer-invoices/credit-notes-and-refunds' },
+          { text: 'Invoice Sequence', link: '/master/finance/customer-invoices/invoice-sequence' },
+          { text: 'Payment Terms', link: '/master/finance/customer-invoices/payment-terms' },
+          { text: 'Incoterms', link: '/master/finance/customer-invoices/incoterms' },
+        ]
+      },
+      {
+        text: 'Vendor Bills',
+        collapsed: true,
+        link: '/master/finance/vendor-bills/',
+        items: [
+          { text: 'Create a Bill', link: '/master/finance/vendor-bills/create-bill' },
+          { text: 'Bill Sequence', link: '/master/finance/vendor-bills/bill-sequence' },
+        ]
+      },
+      {
+        text: 'Payments',
+        collapsed: true,
+        link: '/master/finance/payments/',
+        items: [
+          { text: 'Register a Payment', link: '/master/finance/payments/register-payment' },
+          { text: 'Manage Payments', link: '/master/finance/payments/manage-payments' },
+          { text: 'Bank Accounts', link: '/master/finance/payments/bank-accounts' },
+        ]
+      },
+      {
+        text: 'Accounting Entries',
+        collapsed: true,
+        link: '/master/finance/accounting-entries/',
+        items: [
+          { text: 'Journal Entries', link: '/master/finance/accounting-entries/journal-entries' },
+          { text: 'Journal Items', link: '/master/finance/accounting-entries/journal-items' },
+        ]
+      },
+      {
+        text: 'Reporting',
+        collapsed: true,
+        link: '/master/finance/reporting/',
+        items: [
+          { text: 'Balance Sheet', link: '/master/finance/reporting/balance-sheet' },
+          { text: 'Profit and Loss', link: '/master/finance/reporting/profit-and-loss' },
+          { text: 'General Ledger', link: '/master/finance/reporting/general-ledger' },
+          { text: 'Trial Balance', link: '/master/finance/reporting/trial-balance' },
+          { text: 'Partner Ledger', link: '/master/finance/reporting/partner-ledger' },
+          { text: 'Aged Receivable and Payable', link: '/master/finance/reporting/aged-receivable-and-payable' },
+        ]
+      },
+      { text: 'Configuration', link: '/master/finance/configuration/' },
     ]
   },
   {
