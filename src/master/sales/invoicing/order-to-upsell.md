@@ -1,6 +1,6 @@
 # Orders to upsell
 
-The **Orders To Upsell** page lists orders whose invoice status is **Up Selling**. These are orders where the delivered quantity is higher than the ordered quantity. Use the page to find orders that you may want to bill for extra goods.
+The **Orders To Upsell** page lists orders whose invoice status is **Up Selling**. These are orders where the delivered quantity is higher than the ordered quantity. Use the page to find orders that you may want to invoice for extra goods.
 
 > **In simple words:** This page shows orders where you delivered more than the customer ordered.
 
@@ -15,7 +15,7 @@ The page has the same views, columns and filters as [Orders to invoice](order-to
 
 When no order qualifies, the page shows **No Orders To Upsells**.
 
-<ImagePopup src="/images1/sales/order_to_upsell_list.png" alt="Sales → To Invoice → Orders To Upsell list" />
+<!-- TODO-SCREENSHOT: /images1/sales/order_to_upsell_list.png | Sales → To Invoice → Orders To Upsell list (needs sample data, list is empty in the dev app) -->
 
 ## When an order appears here
 

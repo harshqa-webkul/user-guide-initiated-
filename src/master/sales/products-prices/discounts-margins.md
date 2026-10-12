@@ -14,7 +14,7 @@ Discounts let you lower the price on a quotation line by a percentage. Margins s
 
 3. Click **Save changes**.
 
-<ImagePopup src="/images1/sales/manage_pricing_navigation.png" alt="Manage Pricing settings page with the Discount and Margins options" />
+<ImagePopup src="/images1/sales/set_manage_pricing.png" alt="Manage Pricing settings page with the Discount and Margins options" />
 
 ## Where discounts show
 

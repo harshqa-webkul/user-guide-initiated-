@@ -1,10 +1,10 @@
 # Sales
 
-The **Sales** module takes a customer from first quote to final invoice. Use it to prepare quotations, confirm them as sales orders, manage your products and prices, and bill what you sold.
+The **Sales** module takes a customer from first quote to final invoice. Use it to prepare quotations, confirm them as sales orders, manage your products and prices, and invoice what you sold.
 
 Everything follows one flow: a **customer** receives a **quotation**, the quotation is **confirmed** as a sales order, and the order is **invoiced**.
 
-> **In simple words:** Sales is where you quote, sell and bill.
+> **In simple words:** Sales is where you quote, sell and invoice.
 
 ## How the module is organised
 
@@ -21,11 +21,11 @@ Create quotes, send them and turn them into orders.
 
 ### Invoicing
 
-Bill the customer for what you sold.
+Invoice the customer for what you sold.
 
 - [Invoicing](./invoicing/index.md): overview of the group.
-- [Invoicing policies](./invoicing/invoicing-policies.md): bill ordered or delivered quantities.
-- [Order to invoice](./invoicing/order-to-invoice.md): orders that are ready to bill.
+- [Invoicing policies](./invoicing/invoicing-policies.md): invoice ordered or delivered quantities.
+- [Order to invoice](./invoicing/order-to-invoice.md): orders that are ready to invoice.
 - [Order to upsell](./invoicing/order-to-upsell.md): orders where you can sell more.
 
 ### Products and prices
@@ -37,7 +37,7 @@ Define what you sell and at what price.
 - [Product variants](./products-prices/product-variants.md): sell one product in several versions.
 - [Price lists](./products-prices/price-lists.md): set prices for groups of customers.
 - [Discounts and margins](./products-prices/discounts-margins.md): discount lines and see your profit.
-- [Currencies](./products-prices/currencies.md): sell in more than one currency.
+- [Sell in other currencies](./products-prices/sell-in-other-currencies.md): quote in another currency.
 
 ### Configuration
 

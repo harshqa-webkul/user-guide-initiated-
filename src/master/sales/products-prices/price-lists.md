@@ -18,7 +18,7 @@ The **Price Lists** page shows only when the feature is on.
 
 Go to `Sales → Products → Price Lists`. The list shows **Price List**, **Currency**, **Company**, **Rules** and **Active**. You can filter by **Active** and **Currency**. When nothing exists, it shows **No Price Lists**.
 
-<ImagePopup src="/images1/sales/pricelists.png" alt="Sales → Products → Price Lists list" />
+<ImagePopup src="/images1/sales/pricelists.png" alt="Price Lists list showing India Price List (INR) with its currency and company" />
 
 ## Create a price list
 
@@ -62,12 +62,27 @@ The rules table shows **Apply On**, **Applies To**, **Min. Quantity**, **Compute
 To end prices at 9.99, set **Round off to** 10.00 and set **Extra Fee** to -0.01.
 :::
 
+<ImagePopup src="/images1/sales/pricelist_rule_window.png" alt="Add Rule window with product, fixed price, minimum quantity and validity dates" />
+
 ## Use a price list on a quotation
 
-On a quotation, choose the list in **Price List**. The field shows only when **Price Lists** is on. The quotation currency follows the price list.
+On a quotation, choose the list in **Price List**. The field shows only when **Price Lists** is on. When you choose a customer, Aureus fills the price list that is saved on that customer, if there is one.
+
+The quotation then takes the **currency of the price list**. Every product line is priced again at once, so you do not have to change anything by hand. If you change the price list later, the lines are priced again.
+
+### How the price on a line is worked out
+
+Products always keep their **Price** in your company's base currency, for example USD. For each line, Aureus looks at the price list rules:
+
+1. **A rule matches the product.** The rule decides the price.
+   - **Fixed Price:** The price you typed in the rule is used as it is. Type it in the currency of the price list.
+   - **Discount** or **Formula:** The percentage or formula is applied to the sales price (or cost, or another price list) after it has been converted to the price list currency.
+2. **No rule matches.** Aureus converts the product's normal sales price to the price list currency with the exchange rate.
+
+To sell in another currency, set the currency of the price list and add an exchange rate. The full steps, with an example and screenshots, are in [Sell in other currencies](sell-in-other-currencies.md).
 
 ## See also
 
-- [Currencies](currencies.md)
+- [Sell in other currencies](sell-in-other-currencies.md)
 - [Create a quotation](../quotations-orders/create-quotation.md)
 - [Discounts and margins](discounts-margins.md)

@@ -10,7 +10,7 @@ Products are the goods and services you sell. This group explains how to create 
 - [Product variants](product-variants.md): Sell one product in several versions, such as sizes or colors.
 - [Price lists](price-lists.md): Sell at different prices to different customers.
 - [Discounts and margins](discounts-margins.md): Show discounts and margins on quotations.
-- [Currencies](currencies.md): See the currencies you can sell in.
+- [Sell in other currencies](sell-in-other-currencies.md): quote in another currency with a price list and an exchange rate.
 
 ## Turn features on first
 

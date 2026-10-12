@@ -1,6 +1,6 @@
 # Orders to invoice
 
-The **Orders To Invoice** page lists the confirmed sales orders that are ready to be billed. Use it as your billing worklist. You open an order from it and create the customer invoice.
+The **Orders To Invoice** page lists the confirmed sales orders that are ready to be invoiced. Use it as your invoicing worklist. You open an order from it and create the customer invoice.
 
 > **In simple words:** This page shows every order that is waiting for an invoice.
 
@@ -36,8 +36,8 @@ An order appears here when its invoice status is **To Invoice**. The invoice pol
 ## Create an invoice from an order
 
 1. Go to `Sales → To Invoice → Orders To Invoice`.
-2. Click the order you want to bill.
-3. Check the **Order Line** table. The **Delivered** and **Invoiced** columns show how much is delivered and already billed.
+2. Click the order you want to invoice.
+3. Check the **Order Line** table. The **Delivered** and **Invoiced** columns show how much is delivered and already invoiced.
 
    <ImagePopup src="/images1/sales/order_view_lines.png" alt="Order view with the Order Line table showing Quantity, Delivered and Invoiced columns" />
 
@@ -45,20 +45,20 @@ An order appears here when its invoice status is **To Invoice**. The invoice pol
 5. In the **Create Invoice** window, keep **Regular invoice** selected.
 6. Click **Submit**.
 
-   <ImagePopup src="/images1/sales/create_invoice_modal.png" alt="Create Invoice window with the Regular invoice option and the Submit and Cancel buttons" />
+   <ImagePopup src="/images1/sales/create_invoice_window.png" alt="Create Invoice window with the Regular invoice option and the Submit and Cancel buttons" />
 
 The app shows the message **Invoice created**.
 
 ## Actions and statuses
 
-- **Create Invoice:** Creates a customer invoice for the quantities that are ready to bill.
+- **Create Invoice:** Creates a customer invoice for the quantities that are ready to invoice.
 - **Submit:** Confirms the window and creates the invoice.
 - **Cancel:** Closes the window without creating an invoice.
 
-After you create the invoice, the **Invoiced** column on the order lines shows the billed quantity. Open the **Invoices** tab on the order to see the invoice.
+After you create the invoice, the **Invoiced** column on the order lines shows the invoiced quantity. Open the **Invoices** tab on the order to see the invoice.
 
 ::: warning
-If no line is ready to bill, the app shows **No invoiceable lines**. Check that the goods are delivered when the policy is **Delivered Quantities**.
+If no line is ready to invoice, the app shows **No invoiceable lines**. Check that the goods are delivered when the policy is **Delivered Quantities**.
 :::
 
 ## See also

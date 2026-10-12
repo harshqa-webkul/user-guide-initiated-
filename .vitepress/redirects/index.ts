@@ -3,6 +3,7 @@ import path from 'node:path'
 
 // Old URL (no extension) -> new URL. Add an entry whenever a page moves or is renamed.
 export const redirects: Record<string, string> = {
+  '/master/sales/products-prices/currencies': '/master/sales/products-prices/sell-in-other-currencies',
   '/master/sales/orders/quotations': '/master/sales/quotations-orders/create-quotation',
   '/master/sales/orders/orders': '/master/sales/quotations-orders/manage-orders',
   '/master/sales/orders/customers': '/master/sales/quotations-orders/manage-customers',

@@ -150,7 +150,7 @@ const routes = [
           { text: 'Product Variants', link: '/master/sales/products-prices/product-variants' },
           { text: 'Price Lists', link: '/master/sales/products-prices/price-lists' },
           { text: 'Discounts and Margins', link: '/master/sales/products-prices/discounts-margins' },
-          { text: 'Currencies', link: '/master/sales/products-prices/currencies' },
+          { text: 'Sell in Other Currencies', link: '/master/sales/products-prices/sell-in-other-currencies' },
         ]
       },
       {

@@ -29,7 +29,7 @@ Go to `Sales → Products`. The list has these views:
 
 The list shows **Favorite**, **Images**, **Name**, **Variants**, **Reference**, **Tags**, **Price**, **Cost**, **On Hand** and **Forecasted**. Use **Group by** for **Type**, **Category** or **Created At**.
 
-<ImagePopup src="/images1/sales/product_create.png" alt="Products list with the Default, Goods, Services, Favorites and Archived views and the New Product button" />
+<ImagePopup src="/images1/sales/products_list.png" alt="Products list with the Default, Goods, Services, Favorites and Archived views and the New Product button" />
 
 ## Create a product
 
