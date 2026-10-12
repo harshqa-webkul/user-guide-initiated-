@@ -42,7 +42,7 @@ For each variant you can:
 - **Edit:** Change the variant details.
 - **Delete:** Remove the variant. The app shows **Variant deleted**.
 
-<!-- TODO-SCREENSHOT: /images1/sales/product_variants_list.png | Product Variants page with the Variant Values column and row actions (needs sample data, list is empty in the dev app) -->
+<ImagePopup src="/images1/sales/product_variants_list.png" alt="Product Variants page with the variant values and row actions" />
 
 In the product list, the **Variants** column shows how many variants a product has.
 

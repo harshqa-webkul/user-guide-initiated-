@@ -126,7 +126,9 @@ The **Invoices** tab lists every invoice made from this order. The number on the
 
 Click an invoice to open it. For SO/1, expect one row with a total of $603.75.
 
-<!-- TODO-SCREENSHOT: /images1/sales/order_invoices_tab.png | Invoices tab of an order with the Amount Due and Payment State columns (needs sample data, list is empty in the dev app) -->
+<ImagePopup src="/images1/sales/order_invoices_tab.png" alt="Invoices tab of an order with a draft invoice, Amount Due and Payment State Not paid" />
+
+A new invoice starts as **Draft** with a **Payment State** of **Not paid**. The **Amount Due** equals the **Total** until a payment is recorded.
 
 ## Deliveries tab
 

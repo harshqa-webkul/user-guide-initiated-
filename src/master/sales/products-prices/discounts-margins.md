@@ -18,9 +18,17 @@ Discounts let you lower the price on a quotation line by a percentage. Margins s
 
 ## Where discounts show
 
-With **Discount** on, the **Order Line** table of a quotation has a **Discount (%)** column. It is hidden by default. Use the column toggle to show it, then enter a percentage on each line.
+With **Discount** on, the **Order Line** table of a quotation can show a **Discount (%)** column. It is hidden by default. To show it:
 
-<!-- TODO-SCREENSHOT: /images1/sales/quotation_discount_column.png | Quotation Order Line table with the Discount (%) column shown -->
+1. Click the **column icon** at the right end of the table header.
+2. Tick **Discount (%)**. You can tick **Margin** and **Margin (%)** here too.
+3. Click **Apply columns**.
+
+<ImagePopup src="/images1/sales/discount_colmgr_ticked.png" alt="Column list with Margin, Margin (%) and Discount (%) ticked and the Apply columns button" />
+
+Then enter a percentage on each line. In this example, 5 Camping Hammocks at 65 with a **Discount (%)** of 10 give an **Amount** of 292.50.
+
+<ImagePopup src="/images1/sales/quotation_discount_column.png" alt="Order Line table with Margin, Margin (%) and Discount (%) columns and a 10 percent discount" />
 
 ## Where margins show
 

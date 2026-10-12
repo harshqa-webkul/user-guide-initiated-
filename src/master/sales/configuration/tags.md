@@ -8,7 +8,7 @@ Tags are colour labels for sales orders. They help you filter and spot orders, s
 
 Go to `Sales → Configurations → Sales Orders → Tag`.
 
-<!-- TODO-SCREENSHOT: /images1/sales/cfg_tags_list.png | Sales → Configurations → Tag list with New Tag button (needs sample data, list is empty in the dev app) -->
+<ImagePopup src="/images1/sales/cfg_tags_list.png" alt="Tags list with the Priority tag, its colour and the New Tag button" />
 
 The list shows **Name**, **Color** and **Created by**. Use the search box to find a tag.
 
