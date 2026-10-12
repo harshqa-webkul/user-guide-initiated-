@@ -4,7 +4,7 @@ An invoice asks a customer to pay for what you sold. It lists the products, the 
 
 > **In simple words:** You fill in a form, click **Confirm**, and the invoice becomes official. Then you send it and wait for the payment.
 
-You use invoices every time you sell something and want to be paid. If the sale started in the **Sales** app, create the invoice from the order instead. See [Order to invoice](../../sales/invoicing/order-to-invoice.md).
+You use invoices every time you sell something and want to be paid. If the sale started in the **Sales** app, create the invoice from the order instead. See [Order to invoice](../../sales/sales/invoicing/order-to-invoice.md).
 
 Open the invoice list with `Invoices → Customers → Invoices` or `Accounting → Customers → Invoices`. Both apps show the same screen.
 
@@ -212,7 +212,7 @@ The **Other Information** tab of a saved invoice shows **Auto Post** as a tick o
 
 ## See also
 
-- [Manage customers](../../sales/quotations-orders/manage-customers.md)
+- [Manage customers](../../sales/sales/quotations-orders/manage-customers.md)
 - [Credit notes and refunds](credit-notes-and-refunds.md)
 - [Invoice sequence](invoice-sequence.md)
 - [Invoicing processes](index.md)

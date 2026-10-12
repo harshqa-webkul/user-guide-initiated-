@@ -19,7 +19,7 @@ End-user documentation site for Aureus ERP (Laravel/Filament open-source ERP), b
 - `.vitepress/routes/index.ts` — maps URL prefix to sidebar. Only `/master/` exists today.
 - `.vitepress/routes/master.ts` — **hand-written sidebar**. Not generated from the file tree. Every new page must be added here or it will not appear in navigation.
 - `.vitepress/theme/` — extends default theme; registers global components `VersionSwitcher` and `ImagePopup`; custom CSS in `styles/`.
-- `src/master/<area>/<module>/...` — pages grouped by area: `getting-started` (contacts, chatter), `finance/invoices`, `sales`, `supply-chain/{purchase,inventories,manufacturing,maintenance}`, `human-resources/{employees,recruitment,time-off}`, `project`, `website`. The `master` segment is the doc version; `VersionSwitcher` swaps `/<version>/` in the URL, so a new version means a new `src/<version>/` tree, a new routes file, and an entry in the `versions` array in `VersionSwitcher.vue`.
+- `src/master/<area>/<module>/...` — pages grouped by area: `getting-started` (contacts, chatter), `finance/invoices`, `sales/{sales,point-of-sale}`, `supply-chain/{purchase,inventories,manufacturing,maintenance}`, `human-resources/{employees,recruitment,time-off}`, `project`, `website`. The `master` segment is the doc version; `VersionSwitcher` swaps `/<version>/` in the URL, so a new version means a new `src/<version>/` tree, a new routes file, and an entry in the `versions` array in `VersionSwitcher.vue`.
 - `.vitepress/redirects/index.ts` — old URL to new URL map. `buildEnd` in `config.ts` writes a forwarding HTML page for each entry. Add a line whenever a page is moved or renamed.
 - `src/public/` — static assets served from `/`.
 

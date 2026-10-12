@@ -145,53 +145,142 @@ const routes = [
   {
     text: 'Sales',
     collapsed: true,
-    link: '/master/sales/',
     items: [
       {
-        text: 'Quotations and Orders',
+        text: 'Sales',
         collapsed: true,
-        link: '/master/sales/quotations-orders/',
+        link: '/master/sales/sales/',
         items: [
-          { text: 'Create a Quotation', link: '/master/sales/quotations-orders/create-quotation' },
-          { text: 'Optional Products', link: '/master/sales/quotations-orders/optional-products' },
-          { text: 'Send and Confirm a Quotation', link: '/master/sales/quotations-orders/send-and-confirm-quotation' },
-          { text: 'Manage Orders', link: '/master/sales/quotations-orders/manage-orders' },
-          { text: 'Manage Customers', link: '/master/sales/quotations-orders/manage-customers' },
+          {
+            text: 'Quotations and Orders',
+            collapsed: true,
+            link: '/master/sales/sales/quotations-orders/',
+            items: [
+              { text: 'Create a Quotation', link: '/master/sales/sales/quotations-orders/create-quotation' },
+              { text: 'Optional Products', link: '/master/sales/sales/quotations-orders/optional-products' },
+              { text: 'Send and Confirm a Quotation', link: '/master/sales/sales/quotations-orders/send-and-confirm-quotation' },
+              { text: 'Manage Orders', link: '/master/sales/sales/quotations-orders/manage-orders' },
+              { text: 'Manage Customers', link: '/master/sales/sales/quotations-orders/manage-customers' },
+            ]
+          },
+          {
+            text: 'Invoicing',
+            collapsed: true,
+            link: '/master/sales/sales/invoicing/',
+            items: [
+              { text: 'Invoicing Policies', link: '/master/sales/sales/invoicing/invoicing-policies' },
+              { text: 'Order to Invoice', link: '/master/sales/sales/invoicing/order-to-invoice' },
+              { text: 'Order to Upsell', link: '/master/sales/sales/invoicing/order-to-upsell' },
+            ]
+          },
+          {
+            text: 'Products and Prices',
+            collapsed: true,
+            link: '/master/sales/sales/products-prices/',
+            items: [
+              { text: 'Manage Products', link: '/master/sales/sales/products-prices/manage-products' },
+              { text: 'Product Variants', link: '/master/sales/sales/products-prices/product-variants' },
+              { text: 'Price Lists', link: '/master/sales/sales/products-prices/price-lists' },
+              { text: 'Discounts and Margins', link: '/master/sales/sales/products-prices/discounts-margins' },
+              { text: 'Sell in Other Currencies', link: '/master/sales/sales/products-prices/sell-in-other-currencies' },
+            ]
+          },
+          {
+            text: 'Configuration',
+            collapsed: true,
+            link: '/master/sales/sales/configuration/',
+            items: [
+              { text: 'Settings', link: '/master/sales/sales/configuration/settings' },
+              { text: 'Product Categories', link: '/master/sales/sales/configuration/product-categories' },
+              { text: 'Product Attributes', link: '/master/sales/sales/configuration/product-attributes' },
+              { text: 'Packagings', link: '/master/sales/sales/configuration/packagings' },
+              { text: 'Tags', link: '/master/sales/sales/configuration/tags' },
+              { text: 'UOM Categories', link: '/master/sales/sales/configuration/uom-categories' },
+            ]
+          },
         ]
       },
       {
-        text: 'Invoicing',
+        text: 'Point of Sale',
         collapsed: true,
-        link: '/master/sales/invoicing/',
+        link: '/master/sales/point-of-sale/',
         items: [
-          { text: 'Invoicing Policies', link: '/master/sales/invoicing/invoicing-policies' },
-          { text: 'Order to Invoice', link: '/master/sales/invoicing/order-to-invoice' },
-          { text: 'Order to Upsell', link: '/master/sales/invoicing/order-to-upsell' },
-        ]
-      },
-      {
-        text: 'Products and Prices',
-        collapsed: true,
-        link: '/master/sales/products-prices/',
-        items: [
-          { text: 'Manage Products', link: '/master/sales/products-prices/manage-products' },
-          { text: 'Product Variants', link: '/master/sales/products-prices/product-variants' },
-          { text: 'Price Lists', link: '/master/sales/products-prices/price-lists' },
-          { text: 'Discounts and Margins', link: '/master/sales/products-prices/discounts-margins' },
-          { text: 'Sell in Other Currencies', link: '/master/sales/products-prices/sell-in-other-currencies' },
-        ]
-      },
-      {
-        text: 'Configuration',
-        collapsed: true,
-        link: '/master/sales/configuration/',
-        items: [
-          { text: 'Settings', link: '/master/sales/configuration/settings' },
-          { text: 'Product Categories', link: '/master/sales/configuration/product-categories' },
-          { text: 'Product Attributes', link: '/master/sales/configuration/product-attributes' },
-          { text: 'Packagings', link: '/master/sales/configuration/packagings' },
-          { text: 'Tags', link: '/master/sales/configuration/tags' },
-          { text: 'UOM Categories', link: '/master/sales/configuration/uom-categories' },
+          {
+            text: 'Get Started',
+            collapsed: true,
+            link: '/master/sales/point-of-sale/get-started/',
+            items: [
+              { text: 'POS Overview', link: '/master/sales/point-of-sale/get-started/pos-overview' },
+              { text: 'Set Up a Register', link: '/master/sales/point-of-sale/get-started/set-up-a-register' },
+              { text: 'POS Settings', link: '/master/sales/point-of-sale/get-started/pos-settings' },
+            ]
+          },
+          {
+            text: 'Sessions',
+            collapsed: true,
+            link: '/master/sales/point-of-sale/sessions/',
+            items: [
+              { text: 'Open a Register', link: '/master/sales/point-of-sale/sessions/open-register' },
+              { text: 'Cash In and Out', link: '/master/sales/point-of-sale/sessions/cash-in-and-out' },
+              { text: 'Close a Session', link: '/master/sales/point-of-sale/sessions/close-session' },
+            ]
+          },
+          {
+            text: 'Selling',
+            collapsed: true,
+            link: '/master/sales/point-of-sale/selling/',
+            items: [
+              { text: 'Terminal Overview', link: '/master/sales/point-of-sale/selling/terminal-overview' },
+              { text: 'Take an Order', link: '/master/sales/point-of-sale/selling/take-an-order' },
+              { text: 'Notes and Customers', link: '/master/sales/point-of-sale/selling/order-notes-and-customers' },
+              { text: 'Restaurant Tables', link: '/master/sales/point-of-sale/selling/restaurant-tables' },
+              { text: 'Pay and Receipt', link: '/master/sales/point-of-sale/selling/pay-and-receipt' },
+              { text: 'Refunds', link: '/master/sales/point-of-sale/selling/refunds' },
+              { text: 'Invoice a POS Order', link: '/master/sales/point-of-sale/selling/invoice-a-pos-order' },
+            ]
+          },
+          {
+            text: 'Orders and Payments',
+            collapsed: true,
+            link: '/master/sales/point-of-sale/orders-payments/',
+            items: [
+              { text: 'Orders', link: '/master/sales/point-of-sale/orders-payments/orders' },
+              { text: 'Payments', link: '/master/sales/point-of-sale/orders-payments/payments' },
+              { text: 'Customers', link: '/master/sales/point-of-sale/orders-payments/customers' },
+            ]
+          },
+          {
+            text: 'Products and Pricing',
+            collapsed: true,
+            link: '/master/sales/point-of-sale/products-pricing/',
+            items: [
+              { text: 'Products', link: '/master/sales/point-of-sale/products-pricing/products' },
+              { text: 'Categories and Attributes', link: '/master/sales/point-of-sale/products-pricing/categories-and-attributes' },
+              { text: 'Pricing and Taxes', link: '/master/sales/point-of-sale/products-pricing/pricing-and-taxes' },
+            ]
+          },
+          {
+            text: 'Payments Setup',
+            collapsed: true,
+            link: '/master/sales/point-of-sale/payments-setup/',
+            items: [
+              { text: 'Payment Methods', link: '/master/sales/point-of-sale/payments-setup/payment-methods' },
+              { text: 'Coins and Bills', link: '/master/sales/point-of-sale/payments-setup/coins-and-bills' },
+              { text: 'Preparation Printers', link: '/master/sales/point-of-sale/payments-setup/preparation-printers' },
+              { text: 'Floors and Notes', link: '/master/sales/point-of-sale/payments-setup/restaurant-floors-and-notes' },
+            ]
+          },
+          {
+            text: 'Reporting',
+            collapsed: true,
+            link: '/master/sales/point-of-sale/reporting/',
+            items: [
+              { text: 'Dashboard', link: '/master/sales/point-of-sale/reporting/dashboard' },
+              { text: 'Orders Report', link: '/master/sales/point-of-sale/reporting/orders-report' },
+              { text: 'Sales Details', link: '/master/sales/point-of-sale/reporting/sales-details' },
+              { text: 'Session Report', link: '/master/sales/point-of-sale/reporting/session-report' },
+            ]
+          },
         ]
       },
     ]

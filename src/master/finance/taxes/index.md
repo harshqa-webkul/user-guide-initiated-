@@ -26,7 +26,7 @@ Taxes are the percentages or fixed amounts you add to what you sell and buy, suc
 2. Review the **Prices** setting in [Tax settings](tax-settings.md) before you create your first invoice. It is locked after that.
 3. Create or adjust your [Tax groups](tax-groups.md).
 4. Create your [Taxes](taxes.md). Make one for Sale and one for Purchase for each rate.
-5. Add the taxes to your products. See [Manage products](../../sales/products-prices/manage-products.md).
+5. Add the taxes to your products. See [Manage products](../../sales/sales/products-prices/manage-products.md).
 6. If you serve customers in different regions, add [Fiscal positions](fiscal-positions.md).
 
 ## How taxes reach an invoice

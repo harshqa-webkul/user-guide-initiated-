@@ -58,7 +58,7 @@ Click **Add Account Mapping** and fill in:
 
 ## Where a fiscal position is used
 
-- On a customer, in the **Sales & Purchases** tab, **Fiscal Position**. See [Customers](../../sales/quotations-orders/manage-customers.md).
+- On a customer, in the **Sales & Purchases** tab, **Fiscal Position**. See [Customers](../../sales/sales/quotations-orders/manage-customers.md).
 - On an invoice or bill, in **Other Information**, under **Accounting**, **Fiscal Position**. The field hint says: "Fiscal positions are used to adapt taxes and accounts based on the customer location." You cannot change it after the document is posted.
 - On a journal entry, in **Other Information**.
 
@@ -76,5 +76,5 @@ Create `Export Customers`, **Country** `Germany`. In **Account Mapping**, set **
 
 - [Taxes](taxes.md)
 - [Chart of accounts](../get-started/chart-of-accounts.md)
-- [Customers](../../sales/quotations-orders/manage-customers.md)
+- [Customers](../../sales/sales/quotations-orders/manage-customers.md)
 - [Create an invoice](../customer-invoices/create-invoice.md)

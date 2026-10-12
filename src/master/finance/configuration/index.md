@@ -43,8 +43,8 @@ Until the company is set up, the Accounting settings pages show a **Set up accou
 | Fiscal Positions | - | `Accounting → Configurations → Accounting → Fiscal Positions` | [Fiscal positions](../taxes/fiscal-positions.md) |
 | Tax Groups | `Invoices → Configurations → Accounting → Tax Groups` | `Accounting → Configurations → Accounting → Tax Groups` | [Tax groups](../taxes/tax-groups.md) |
 | Taxes | `Invoices → Configurations → Accounting → Taxes` | `Accounting → Configurations → Accounting → Taxes` | [Taxes](../taxes/taxes.md) |
-| Attributes | `Invoices → Configurations → Products → Attributes` | `Accounting → Configurations → Products → Attributes` | [Product attributes](../../sales/configuration/product-attributes.md) |
-| Categories | `Invoices → Configurations → Products → Categories` | `Accounting → Configurations → Products → Categories` | [Product categories](../../sales/configuration/product-categories.md) |
+| Attributes | `Invoices → Configurations → Products → Attributes` | `Accounting → Configurations → Products → Attributes` | [Product attributes](../../sales/sales/configuration/product-attributes.md) |
+| Categories | `Invoices → Configurations → Products → Categories` | `Accounting → Configurations → Products → Categories` | [Product categories](../../sales/sales/configuration/product-categories.md) |
 
 ::: tip
 Work through the pages in the order given in [Finance](../index.md#set-up-in-this-order).

@@ -23,7 +23,7 @@ Use this process when the sale started in the **Sales** app. You do not retype a
 5. Aureus creates a **Draft** invoice and links it to the order. The order number shows in **Source Document**.
 6. Open the invoice, check the lines and click **Confirm**.
 
-See [Manage orders](../../sales/quotations-orders/manage-orders.md) for the order itself and [Order to invoice](../../sales/invoicing/order-to-invoice.md) for the full flow.
+See [Manage orders](../../sales/sales/quotations-orders/manage-orders.md) for the order itself and [Order to invoice](../../sales/sales/invoicing/order-to-invoice.md) for the full flow.
 
 ## Process 2: invoice by hand
 
@@ -36,7 +36,7 @@ Use this process for a sale that has no order, such as a service you bill direct
 
 <ImagePopup src="/images1/finance/invoice_list.png" alt="Invoices list where you click New Invoice" />
 
-The customer must already exist. To add one, see [Contacts](../../getting-started/contacts/contacts.md) and [Manage customers](../../sales/quotations-orders/manage-customers.md). The full form is in [Create an invoice](create-invoice.md).
+The customer must already exist. To add one, see [Contacts](../../getting-started/contacts/contacts.md) and [Manage customers](../../sales/sales/quotations-orders/manage-customers.md). The full form is in [Create an invoice](create-invoice.md).
 
 ## Process 3: credit note from an invoice
 

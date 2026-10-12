@@ -32,54 +32,64 @@ Each section contains:
 
 ### 🧾 Invoices
 
-- [Credit Notes & Refunds](../master/finance/customer-invoices/credit-notes-and-refunds.md)
-- [Invoice Sequence](../master/finance/customer-invoices/invoice-sequence.md)
-- [Invoices](../master/finance/customer-invoices/create-invoice.md)
-- [Payments](../master/finance/payments/register-payment.md)
-- [Bills & Payments](../master/finance/vendor-bills/create-bill.md)
-- [Invoice Settings](../master/finance/configuration/index.md)
+- [Credit Notes & Refunds](./finance/customer-invoices/credit-notes-and-refunds.md)
+- [Invoice Sequence](./finance/customer-invoices/invoice-sequence.md)
+- [Invoices](./finance/customer-invoices/create-invoice.md)
+- [Payments](./finance/payments/register-payment.md)
+- [Bills & Payments](./finance/vendor-bills/create-bill.md)
+- [Invoice Settings](./finance/configuration/index.md)
 
 ### 🛒 Sales
 
-- [Quotations](../master/sales/quotations-orders/create-quotation.md)
-- [Sales Orders](../master/sales/quotations-orders/manage-orders.md)
-- [Sales Products](../master/sales/products-prices/manage-products.md)
-- [Customers](../master/sales/quotations-orders/manage-customers.md)
-- [Sales Settings](../master/sales/configuration/settings.md)
+- [Quotations](./sales/sales/quotations-orders/create-quotation.md)
+- [Sales Orders](./sales/sales/quotations-orders/manage-orders.md)
+- [Sales Products](./sales/sales/products-prices/manage-products.md)
+- [Customers](./sales/sales/quotations-orders/manage-customers.md)
+- [Sales Settings](./sales/sales/configuration/settings.md)
+
+### 🧮 Point of Sale
+
+- [Point of Sale overview](./sales/point-of-sale/index.md)
+- [Set up a register](./sales/point-of-sale/get-started/set-up-a-register.md)
+- [Open a register](./sales/point-of-sale/sessions/open-register.md)
+- [Take an order](./sales/point-of-sale/selling/take-an-order.md)
+- [Refunds](./sales/point-of-sale/selling/refunds.md)
+- [Close a session](./sales/point-of-sale/sessions/close-session.md)
+- [Reports](./sales/point-of-sale/reporting/index.md)
 
 ### 📦 Purchase
 
-- [Purchase RFQs](../master/supply-chain/purchase/orders/quotations.md)
-- [Purchase Orders](../master/supply-chain/purchase/orders/purchase-orders.md)
-- [Purchase Agreements](../master/supply-chain/purchase/orders/purchase-agreements.md)
-- [Purchase Settings](../master/supply-chain/purchase/settings.md)
+- [Purchase RFQs](./supply-chain/purchase/orders/quotations.md)
+- [Purchase Orders](./supply-chain/purchase/orders/purchase-orders.md)
+- [Purchase Agreements](./supply-chain/purchase/orders/purchase-agreements.md)
+- [Purchase Settings](./supply-chain/purchase/settings.md)
 
 ### 🏬 Inventory
 
-- [Transfers](../master/supply-chain/inventories/operations/transfers.md)
-- [Adjustments](../master/supply-chain/inventories/operations/adjustments.md)
-- [Products](../master/supply-chain/inventories/products/products.md)
-- [Lots/Serial Numbers](../master/supply-chain/inventories/products/lots-serial-number.md)
-- [Warehouse Configuration](../master/supply-chain/inventories/configurations/warehouse-management.md)
-- [Inventory Settings](../master/supply-chain/inventories/settings.md)
+- [Transfers](./supply-chain/inventories/operations/transfers.md)
+- [Adjustments](./supply-chain/inventories/operations/adjustments.md)
+- [Products](./supply-chain/inventories/products/products.md)
+- [Lots/Serial Numbers](./supply-chain/inventories/products/lots-serial-number.md)
+- [Warehouse Configuration](./supply-chain/inventories/configurations/warehouse-management.md)
+- [Inventory Settings](./supply-chain/inventories/settings.md)
 
 ### 👥 Employees
 
-- [Employees](../master/human-resources/employees/employees.md)
-- [Departments](../master/human-resources/employees/departments.md)
-- [Employee Configurations](../master/human-resources/employees/configurations.md)
+- [Employees](./human-resources/employees/employees.md)
+- [Departments](./human-resources/employees/departments.md)
+- [Employee Configurations](./human-resources/employees/configurations.md)
 
 ### 📝 Recruitment
 
-- [Applications](../master/human-resources/recruitment/applications.md)
-- [Configurations](../master/human-resources/recruitment/configuration.md)
+- [Applications](./human-resources/recruitment/applications.md)
+- [Configurations](./human-resources/recruitment/configuration.md)
 
 ### 🕒 Time Off
 
-- [My Time](../master/human-resources/time-off/my-time.md)
-- [Overview](../master/human-resources/time-off/overview.md)
-- [Management](../master/human-resources/time-off/management.md)
-- [Configurations](../master/human-resources/time-off/configuration.md)
+- [My Time](./human-resources/time-off/my-time.md)
+- [Overview](./human-resources/time-off/overview.md)
+- [Management](./human-resources/time-off/management.md)
+- [Configurations](./human-resources/time-off/configuration.md)
 
 ## 🧭 Guide Structure Overview
 

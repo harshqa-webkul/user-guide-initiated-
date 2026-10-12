@@ -38,7 +38,7 @@ When a payment is matched to an invoice and a difference is left, Aureus posts a
 - **_Income Account:_** The account new products sell into. Sample: **Product Sales**.
 - **_Expense Account:_** The account new products are bought into. Sample: **Expenses**.
 
-These two accounts appear as the starting value in the account fields of a new product and a new product category. You can still change them per product or per category. See [Manage products](../../sales/products-prices/manage-products.md).
+These two accounts appear as the starting value in the account fields of a new product and a new product category. You can still change them per product or per category. See [Manage products](../../sales/sales/products-prices/manage-products.md).
 
 ::: info
 Receivable, payable, bank and cash types, credit card and off balance accounts are not offered as product accounts.

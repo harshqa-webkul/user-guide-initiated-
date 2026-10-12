@@ -10,7 +10,7 @@ You may sell to a customer in euros while your books are in US dollars. Aureus l
 2. The currency has an **exchange rate** with a date on or before the document date.
 3. The **Exchange Difference** journal and the gain and loss accounts are set in [Default accounts](default-accounts.md).
 
-Activate currencies and add rates under `Invoices → Configurations → Currencies` or `Accounting → Configurations → Accounting → Currencies`. The steps are the same as in [Sell in other currencies](../../sales/products-prices/sell-in-other-currencies.md). The base currency and the other currency fields are in [Currency](../../general-settings/companies/currency.md).
+Activate currencies and add rates under `Invoices → Configurations → Currencies` or `Accounting → Configurations → Accounting → Currencies`. The steps are the same as in [Sell in other currencies](../../sales/sales/products-prices/sell-in-other-currencies.md). The base currency and the other currency fields are in [Currency](../../general-settings/companies/currency.md).
 
 ## Currency on an invoice or a bill
 
@@ -55,7 +55,7 @@ When the payment is matched to the invoice and a difference remains, Aureus post
 
 ## See also
 
-- [Sell in other currencies](../../sales/products-prices/sell-in-other-currencies.md)
+- [Sell in other currencies](../../sales/sales/products-prices/sell-in-other-currencies.md)
 - [Currency](../../general-settings/companies/currency.md)
 - [Default accounts](default-accounts.md)
 - [Create an invoice](../customer-invoices/create-invoice.md)

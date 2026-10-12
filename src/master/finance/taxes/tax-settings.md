@@ -72,4 +72,4 @@ Use the option on the tax when one tax differs from the rest, for example when o
 - [Taxes](taxes.md)
 - [Tax groups](tax-groups.md)
 - [Fiscal positions](fiscal-positions.md)
-- [Manage products](../../sales/products-prices/manage-products.md)
+- [Manage products](../../sales/sales/products-prices/manage-products.md)

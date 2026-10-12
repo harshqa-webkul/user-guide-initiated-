@@ -61,7 +61,7 @@ Make the percentages of all due terms add up to 100. If they do not, part of the
 ## Use a payment term
 
 - On an invoice, pick it in **Payment Term**. The **Due Date** field then hides and the term gives the date. See [Create an invoice](create-invoice.md).
-- On a customer, set **Payment Terms** in the **Sales and Purchases** tab. Every new invoice for that customer starts with it. See [Manage customers](../../sales/quotations-orders/manage-customers.md).
+- On a customer, set **Payment Terms** in the **Sales and Purchases** tab. Every new invoice for that customer starts with it. See [Manage customers](../../sales/sales/quotations-orders/manage-customers.md).
 
 ## Edit and delete
 
@@ -70,5 +70,5 @@ Use the row menu to **View**, **Edit** or **Delete**. A deleted term moves to **
 ## See also
 
 - [Create an invoice](create-invoice.md)
-- [Manage customers](../../sales/quotations-orders/manage-customers.md)
+- [Manage customers](../../sales/sales/quotations-orders/manage-customers.md)
 - [Create a vendor bill](../vendor-bills/create-bill.md)

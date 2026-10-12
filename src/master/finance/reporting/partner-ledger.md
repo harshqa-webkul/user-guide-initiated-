@@ -47,10 +47,10 @@ All their invoices are paid. The lines cancel each other.
 The partner has no posted entry up to the end date.
 
 **How do I see only overdue partners?**
-Use [Aged receivable and aged payable](./aged-receivable-and-payable.md).
+Use [Aged receivable and aged payable](aged-receivable-and-payable.md).
 
 ## See also
 
-- [Aged receivable and aged payable](./aged-receivable-and-payable.md)
-- [Customers](../../sales/quotations-orders/manage-customers.md)
-- [Reporting overview](./index.md)
+- [Aged receivable and aged payable](aged-receivable-and-payable.md)
+- [Customers](../../sales/sales/quotations-orders/manage-customers.md)
+- [Reporting overview](index.md)
