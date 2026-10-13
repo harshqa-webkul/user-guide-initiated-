@@ -1,134 +1,115 @@
-# Purchase Orders
+# Purchase orders
 
-The **Purchase Orders** module in the **Purchases** plugin of **AureusERP** allows users to manage confirmed purchase agreements with vendors. A Purchase Order (PO) is typically created by confirming a Request for Quotation (RFQ), and it triggers receipt and billing processes.
+A purchase order (PO) is a confirmed order. You are now committed to buy, and Aureus plans the receipt. Small orders confirm at once. Big orders can wait for a manager to approve them.
 
-## Purchase Order Creation
+> **In simple words:** A purchase order is an RFQ you said yes to.
 
-### Steps to Create a New Purchase Order
+Open `Purchase → Orders → Purchase Orders`.
 
-1. Navigate to **`Purchase → Orders → Purchase Orders → New Purchase Order`** as shown in the below image.
+## Settings
 
-   <ImagePopup src="/images1/purchases/purchase_create_1.png" alt="Create Quotation" />
+Two options in `Purchase → Settings → Manage Orders` change what happens on confirm.
 
-2. Fill in the following sections:
+- **Purchase Order Approval:** Turn on to hold big orders. Then set **Minimum Amount**. The default is 5000.
+- **Lock Confirmed Orders:** Turn on to send confirmed orders straight to **Locked**.
 
-   ### General Section
+## Overview
 
-   - **_Vendor:_** Select the supplier for this order.
-   - **_Order Deadline:_** The last date to confirm this order.
-   - **_Vendor Reference:_** A reference number provided by the vendor.
-   - **_Expected Arrival:_** Expected delivery date for the products.
-   - **_Agreement:_** Optional – select a linked Purchase Agreement if available.
-   - **_Currency:_** Select the transaction currency.
+<ImagePopup src="/images1/purchase/po_list.png" alt="Purchase Orders list showing PO/3, PO/4 and PO/5" />
 
-   <ImagePopup src="/images1/purchases/rfq_general_section.png" alt="RFQ General Section" />
+The list shows orders in the **Purchase Order** and **Locked** states only.
 
-   ### Product Section
+- **Tabs:** **Default**, **My Orders**, **Starred**, **Waiting Bills**, **Bills Received**.
+- **Group by:** **Vendor**, **Buyer**, **State**, **Created At**, **Updated At**.
+- **New Order:** starts a new order directly.
 
-   Click on **Add Product** to add item lines.
+## Confirm an order
 
-   - **_Product:_** Choose the product to order.
-   - **_Expected Arrival:_** Planned arrival date for that specific product.
-   - **_Quantity:_** Enter the number of units.
-   - **_Unit:_** Measurement unit (e.g., Dozens, Units).
-   - **_Packaging Qty:_** Quantity per package.
-   - **_Packaging:_** Select packaging type.
-   - **_Unit Price:_** Purchase price per unit.
-   - **_Taxes:_** Select applicable tax group.
-   - **_Discount (%):_** Optional discount on that line item.
-   - **_Amount:_** Auto-calculated field based on quantity and unit price.
+Scenario: open **PO/3** from Consolidated Components, with 15 **SSD 512GB** and 10 **Laptop Battery**.
 
-   <ImagePopup src="/images1/purchases/rfq_product_section.png" alt="RFQ Product Section" />
+1. Open the RFQ and click **Confirm Order**.
 
-   ### Additional Information Section
+<ImagePopup src="/images1/purchase/po_confirm.png" alt="RFQ with the Confirm Order button highlighted" />
 
-   - **_Buyer:_** Internal staff member responsible for this purchase.
-   - **_Payment Term:_** Payment agreement terms with the vendor.
-   - **_Company:_** Company placing the order (for multi-company setups).
-   - **_Source Document:_** Reference to any related document (optional).
-   - **_Incoterm:_** International Commercial Term defining delivery terms.
-   - **_Incoterm Location:_** Specific location for Incoterm application.
+2. The state bar moves to **Purchase Order**. The **Confirmation Date** is filled.
+3. The **Receipts** tab shows a new receipt, **WH/IN/11**. See [Receipts](../../inventories/operations/receipts.md).
 
-   <ImagePopup src="/images1/purchases/rfq_additional_info.png" alt="RFQ Additional Information" />
+<ImagePopup src="/images1/purchase/po_confirmed.png" alt="PO/3 in Purchase Order state with Create Bill, Lock and Cancel buttons" />
 
-   ### Terms and Conditions
+## Approval workflow
 
-   Add any legal, shipping, or other terms agreed with the vendor.
+With **Purchase Order Approval** on, the total decides what happens.
 
-3. Action Buttons
-
-   At the bottom of the form:
-
-   - **_Create:_** Save and generate the Purchase Order.
-   - **_Create & Create Another:_** Save and open a new order form.
-   - **_Cancel:_** Exit without saving.
-
-## After PO Creation
-
-After clicking **Create**, you are redirected to the **Edit Purchase Order** page.
-
-<ImagePopup src="/images1/purchases/po_bill_edit.png" alt="Create RFQ" />
-
-### Top-right Action Buttons:
-
-- **_Send by Email:_** Email the PO to the vendor.
-- **_Print RFQ:_** Download or print a PDF version of the PO.
-- **_Confirm Order:_** Finalize and lock the PO.
-- **_Cancel:_** Cancel the order.
-- **_Delete:_** Permanently remove the order.
-
-## After Confirming Purchase Order
-
-Once you click **Confirm Order**:
-
-- The status changes from **Draft** to **Confirmed**.
-- The **Receipt** is automatically generated.
-- Edit fields become disabled.
-- Top-right buttons now show:
-  - **_Confirm Receipt Date:_**
-  - **_Create Bill:_**
-  - **_Unlock:_**
-
-<ImagePopup src="/images1/purchases/po_bill_confirmed.png" alt="Create RFQ" />
-
-## Receipt Validation (Stockable Products Only)
-
-1. Click on the **_Receipts_** tab.
-   <ImagePopup src="/images1/purchases/rfq_receipt_tab.png" alt="Create RFQ" />
-2. Click **_Edit_** to update actual received quantities.
-   <ImagePopup src="/images1/purchases/rfq_receipt_edit.png" alt="Create RFQ" />
-3. Click **_Validate_** to confirm delivery.
-4. Stock gets reserved and reduced from inventory.
-   <ImagePopup src="/images1/purchases/rfq_receipt_validate.png" alt="Create RFQ" />
-
-## Vendor Bill Generation
-
-After validating the receipt:
-
-1. Click **_Create Bill_** – the bill will be **automatically generated** from the PO details.
-   <ImagePopup src="/images1/purchases/rfq_bill_create.png" alt="Create RFQ" />
-2. Navigate to the **_Vendor Bills_** tab to review and manage the generated bill.
-   <ImagePopup src="/images1/purchases/rfq_bill_auto_fill.png" alt="Create RFQ" />
-   > ⚠️ **Note:** If the **receipt is not validated**, you’ll get a **validation error**.
-
-## Purchase Order Lifecycle Flow
-
-```sh
-Purchase Order (Draft)
-   ↓
-Confirm Order
-   ↓
-Receipt (If stockable)
-   ↓
-Validate Receipt
-   ↓
-Create Bill
-   ↓
-Vendor Bill
-   ↓
-Register Payment
+```text
+Total below Minimum Amount  → Purchase Order
+Total at or above it, you are an approver → Purchase Order
+Total at or above it, you are not → To Approve
 ```
 
-## Summary
+An approver is a user whose resource permission is **Global** or **Group**. When an approver clicks **Confirm Order** on a **To Approve** order, it moves on. It becomes **Locked** if **Lock Confirmed Orders** is on. Otherwise it becomes **Purchase Order**.
 
-This guide detailed the process of creating and managing Purchase Orders in the **Purchases** module of **AureusERP**. You learned how to fill out order details, add products, confirm orders, validate receipts, and generate vendor bills. Proper management of purchase orders ensures efficient procurement and accurate financial tracking.
+<!-- TODO-SCREENSHOT: /images1/purchase/po_to_approve.png | Order in To Approve state with total above the minimum amount -->
+
+::: info
+Receipts are planned only after approval, not while the order is **To Approve**.
+:::
+
+## Send and print
+
+- **Send PO By Email:** emails the confirmed order with the PDF. The state does not change.
+- **Print PO:** downloads the PDF.
+
+## Lock and unlock
+
+Locking protects a confirmed order from edits.
+
+- Click **Lock** on a **Purchase Order**. It becomes **Locked**.
+- Click **Unlock** on a **Locked** order. It returns to **Purchase Order**.
+
+<ImagePopup src="/images1/purchase/po_locked.png" alt="Locked order showing Unlock and Create Bill buttons" />
+
+## Cancel an order
+
+Click **Cancel**. The state becomes **Canceled** and planned receipts are canceled. Aureus refuses in two cases.
+
+- **The order cannot be canceled since they have receipts that are already done.** Return the goods first.
+- **The order cannot be canceled. You must first cancel their related vendor bills.** Cancel the bills, then try again.
+
+<ImagePopup src="/images1/purchase/po_cancel_refused.png" alt="Notification refusing to cancel because a receipt is already done" />
+
+## Set to Draft
+
+A **Canceled** order shows **Set to Draft**. Click it to return the order to **RFQ**. You can edit and send it again.
+
+## Quantity rules
+
+After confirmation, Aureus protects what you already received.
+
+| Message | Cause |
+| --- | --- |
+| **Cannot Reduce Quantity** | You set a quantity below the **Received** quantity. |
+| **Cannot Delete Product** | You removed a line from a confirmed order. |
+| **Quantity Exceeds Blanket Order Limit** | The line is above the linked blanket order. |
+
+Raising a quantity is allowed. The planned receipt grows with it.
+
+## Actions and statuses
+
+| Button | Shown in | Result |
+| --- | --- | --- |
+| **Confirm Order** | **RFQ**, **RFQ Sent**, **To Approve** | **Purchase Order**, **Locked** or **To Approve** |
+| **Send PO By Email** | **Purchase Order** | Emails the vendor. No state change. |
+| **Print PO** | **Purchase Order** | Downloads the PDF. |
+| **Create Bill** | **Purchase Order**, **Locked** | Makes a vendor bill. See [Vendor bills](vendor-bills.md). |
+| **Lock** | **Purchase Order** | **Locked** |
+| **Unlock** | **Locked** | **Purchase Order** |
+| **Cancel** | Not **Locked** | **Canceled**, unless refused |
+| **Set to Draft** | **Canceled** | **RFQ** |
+| **Delete** | Most states | Removes the order. |
+
+## See also
+
+- [Orders overview](index.md)
+- [Quotations](quotations.md)
+- [Receipts](../../inventories/operations/receipts.md)
+- [Purchase settings](../get-started/purchase-settings.md)

@@ -9,7 +9,7 @@ The **Manage Users** page sets the rules for how people join and sign in. You ch
 1. Go to `Settings → Settings`.
 2. In the left menu, under **General**, click **Manage Users**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/manage_users_page.png | Manage Users page with the four options -->
+<ImagePopup src="/images1/general-settings/manage_users_page.png" alt="Manage Users page with the four options" />
 
 ## Set the options
 
@@ -22,7 +22,7 @@ The page has four options.
 
 Click **Save changes** to apply your choices.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/manage_users_saved.png | Manage Users page after saving, with the success message -->
+<ImagePopup src="/images1/general-settings/manage_users_saved.png" alt="Manage Users page after saving, with the success message" />
 
 ::: warning
 Set **Default Company** before you invite anyone. Without it, **Invite User** shows the message **Default Company Not Set** and sends nothing.

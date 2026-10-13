@@ -22,7 +22,7 @@ See [Users](../users/users.md) and [Companies](./companies.md).
 
 The page reloads in that company. The company in **bold** is the one you are working in.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/company_switcher.png | Top bar company switcher open with the list of companies, tick boxes, Confirm and Reset -->
+<ImagePopup src="/images1/general-settings/company_switcher.png" alt="Top bar company switcher open with the list of companies, tick boxes, Confirm and Reset" />
 
 ## Work in several companies at once
 

@@ -93,4 +93,4 @@ Use the **POS** tab to check your till catalogue. Every product in that list is 
 - [Categories and attributes](./categories-and-attributes.md)
 - [Pricing and taxes](./pricing-and-taxes.md)
 - [Manage products in Sales](../../sales/products-prices/manage-products.md)
-- [Products in Inventory](../../../supply-chain/inventories/products/products.md)
+- [Products in Inventory](../../../supply-chain/inventories/products/configure-product.md)

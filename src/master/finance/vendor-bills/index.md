@@ -27,7 +27,7 @@ The screens exist in both apps. Use `Invoices → Vendors → Bills` or `Account
 
 You can also start a bill from a purchase order. Open a confirmed order and click **Create Bill**. Aureus fills the bill from the order lines. See [Purchase orders](../../supply-chain/purchase/orders/purchase-orders.md).
 
-The vendor must exist before you create the bill. See [Vendors](../../supply-chain/purchase/orders/vendors.md) and [Contacts](../../getting-started/contacts/contacts.md).
+The vendor must exist before you create the bill. See [Vendors](../../getting-started/contacts/contacts.md) and [Contacts](../../getting-started/contacts/contacts.md).
 
 ## States of a bill
 

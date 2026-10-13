@@ -9,7 +9,7 @@ The **Branding** page lets you replace the default logos, favicon and theme colo
 1. Go to `Settings → Settings`.
 2. In the left menu, under **General**, click **Branding**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/branding_page.png | Branding page with the Logo & Favicon and Colors sections -->
+<ImagePopup src="/images1/general-settings/branding_page.png" alt="Branding page with the Logo & Favicon and Colors sections" />
 
 ## Change logos and favicon
 
@@ -22,7 +22,7 @@ The **Logo & Favicon** section has these fields. Leave a field empty to keep the
 
 Each upload accepts image files only.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/branding_logos.png | Logo & Favicon section with the four fields -->
+<ImagePopup src="/images1/general-settings/branding_logos.png" alt="Logo & Favicon section with the four fields" />
 
 ## Change colors
 
@@ -37,7 +37,7 @@ The **Colors** section has six color pickers. Leave one empty to keep the defaul
 
 Enter the color as a hex code, for example `#2563eb`, or use the picker.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/branding_colors.png | Colors section with the six color pickers and the Reset to default link -->
+<ImagePopup src="/images1/general-settings/branding_colors.png" alt="Colors section with the six color pickers and the Reset to default link" />
 
 To go back to the default colors, click **Reset to default** in the section header. Confirm the prompt. Then click **Save changes**.
 

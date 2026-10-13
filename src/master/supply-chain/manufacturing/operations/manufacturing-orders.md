@@ -32,11 +32,11 @@ A Manufacturing Order is the **last step** of the manufacturing process. Before 
 
 By default, manufacturing happens in a single step (components go straight into production and finished goods go straight to stock). If you want a more controlled flow — **pick the components → manufacture → store the finished product** — you must enable the **3-step manufacturing route** on your warehouse.
 
-1. **Turn on multi-step routes.** Navigate to **`Inventory → Settings → Manage Warehouses`** and enable **Multi Steps Routes**, then click **Save Changes**. See the [Inventory Settings](../../inventories/settings.md#manage-warehouses) guide.
+1. **Turn on multi-step routes.** Navigate to **`Inventory → Settings → Manage Warehouses`** and enable **Multi Steps Routes**, then click **Save Changes**. See the [Inventory Settings](../../inventories/get-started/inventory-settings.md) guide.
 
    <ImagePopup src="/images1/manufacturing/mo_enable_multi_step_routes.png" alt="Enable Multi Steps Routes" />
 
-2. **Edit the warehouse.** Navigate to **`Inventory → Configurations → Warehouse Management`**, open the warehouse you produce in, and click **Edit**. See the [Warehouse Management](../../inventories/configurations/warehouse-management.md) guide.
+2. **Edit the warehouse.** Navigate to **`Inventory → Configurations → Warehouse Management`**, open the warehouse you produce in, and click **Edit**. See the [Warehouses](../../inventories/warehouses/warehouses.md) guide.
 
    <ImagePopup src="/images1/manufacturing/mo_warehouse_edit.png" alt="Edit Warehouse" />
 

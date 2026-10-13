@@ -27,7 +27,7 @@ Use the **All** and **Archived** tabs to switch between active and archived fiel
 3. Fill in the form. The left side holds the field details. The right side holds the type and the target form.
 4. Click **Create**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/custom_fields_create.png | Create Field form showing General, Settings and Resource sections -->
+<ImagePopup src="/images1/general-settings/custom_fields_create.png" alt="Create Custom Fields form with name, code, type, sort order and resource" />
 
 ### General
 
@@ -43,7 +43,7 @@ The code must start with a letter or an underscore. It can contain only letters,
 - **_Is Multiselect:_** Shown only for **Select**. Turn it on to let users pick more than one value.
 - **_Sort Order:_** A whole number. It sets the position of the field among the other custom fields.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/custom_fields_settings.png | Settings section with Type, Input Type and Sort Order -->
+<ImagePopup src="/images1/general-settings/custom_fields_settings.png" alt="Settings section with Type, Input Type and Sort Order" />
 
 ::: warning
 After you save, you cannot change **Code**, **Type**, **Input Type**, **Plugin** or **Resource**. Choose them with care.
@@ -58,13 +58,13 @@ Choose where the field appears.
 
 Only forms that support custom fields are listed. Forms of plugins that are not installed or not active are left out.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/custom_fields_resource.png | Resource section with Plugin and Resource selected -->
+<ImagePopup src="/images1/general-settings/custom_fields_resource.png" alt="Resource section with Plugin and Resource selected" />
 
 ### Options
 
 This section appears only for the types **Select**, **Checkbox List** and **Radio**. Click **Add Option** for each choice, and type its name.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/custom_fields_options.png | Options section with several options added -->
+<ImagePopup src="/images1/general-settings/custom_fields_options.png" alt="Options section with several options added" />
 
 ### Form Settings
 
@@ -81,7 +81,7 @@ Use this section to control how the field behaves on the form. It has two parts.
 - **_Setting:_** Choose an option, for example **Default Value**, **Placeholder**, **Helper Text**, **Hint** or **Read Only**. The list depends on the field type.
 - **_Value:_** Enter the value for that setting. Some settings show a **Color** list instead.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/custom_fields_form_settings.png | Form Settings section with one validation and one additional setting -->
+<ImagePopup src="/images1/general-settings/custom_fields_form_settings.png" alt="Form Settings section with one validation and one additional setting" />
 
 ### Table Settings
 
@@ -91,13 +91,13 @@ Use this section to show the field as a column in the list of the target form.
 2. Click **Add Setting**, if you want to adjust the column.
 3. Choose a **Setting**, then set its value. Options include **Color**, **Alignment**, **Font Weight**, **Icon Position** and **Size**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/custom_fields_table_settings.png | Table Settings section with Use in Table turned on -->
+<ImagePopup src="/images1/general-settings/custom_fields_table_settings.png" alt="Table Settings section with Use in Table turned on" />
 
 ### Infolist Settings
 
 Use this section to style the field on the read-only view page of a record. Click **Add Setting**, choose a **Setting**, then set its value. Options include **Color**, **Font Weight**, **Icon Position** and **Size**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/custom_fields_infolist_settings.png | Infolist Settings section with one setting added -->
+<ImagePopup src="/images1/general-settings/custom_fields_infolist_settings.png" alt="Infolist Settings section with one setting added" />
 
 ## Field types
 

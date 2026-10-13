@@ -8,7 +8,7 @@ A **role** is a named set of permissions. You give a role to a user, and the use
 
 Open `Settings → Roles` to see the list of roles.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/roles_list.png | Role list with Name, Guard Name, Permissions and Updated At columns -->
+<ImagePopup src="/images1/general-settings/roles_list.png" alt="Role list with Name, Guard Name, Permissions and Updated At columns" />
 
 The list has these columns:
 
@@ -22,7 +22,7 @@ The list has these columns:
 1. Go to `Settings → Roles`.
 2. Click the create button at the top right.
 
-   <!-- TODO-SCREENSHOT: /images1/general-settings/role_create_form.png | Empty role form with Name, Guard Name, Select All and permission tabs -->
+   <ImagePopup src="/images1/general-settings/role_create_form.png" alt="New role form with the name Regional Sales Manager, the Web guard and the permission tabs" />
 
 3. Fill in the top of the form:
 
@@ -43,7 +43,7 @@ Permissions sit in tabs. Each tab shows a count badge.
 
 Inside each tab, permissions are grouped by module. Each module is a collapsible section, closed at first. Click a section to open it.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/role_permission_groups.png | Resources tab with one module section open showing checkbox groups -->
+<ImagePopup src="/images1/general-settings/role_permission_groups.png" alt="Sale section open with permission checkboxes, some ticked" />
 
 Under **Resources**, each screen has its own box of checkboxes. The permission types are:
 

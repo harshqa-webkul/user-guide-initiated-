@@ -9,7 +9,7 @@ Your **profile** holds your own account details: your name, photo, email, langua
 1. Click your name in the top bar.
 2. Click your name again in the menu that opens.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/profile_menu.png | Top bar user menu showing the user's name -->
+<ImagePopup src="/images1/general-settings/profile_menu.png" alt="Top bar user menu showing the user's name" />
 
 ## Update your details
 
@@ -22,7 +22,7 @@ In **Profile Information**:
 
 Click **Save Changes**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/profile_page.png | Profile page with Profile Information, Update Password and Authenticator app sections -->
+<ImagePopup src="/images1/general-settings/profile_page.png" alt="Profile page with Profile Information, Update Password and Authenticator app sections" />
 
 ## Change your password
 

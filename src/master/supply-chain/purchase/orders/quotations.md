@@ -1,139 +1,143 @@
-# Request for Quotation (RFQ)
+# Quotations
 
-In **AureusERP**, a **Request for Quotation (RFQ)** is the first step in the purchase process. It allows the purchasing team to ask suppliers for price quotes before placing an order. This helps companies compare offers and choose the best vendor based on price, delivery time, and other terms.
+A request for quotation (RFQ) asks a vendor for a price on products you want to buy. You build it, send it by email and, when the vendor agrees, confirm it. The RFQ then becomes a purchase order.
 
-## RFQ Creation
+> **In simple words:** An RFQ is a draft purchase. Nobody is committed until you click **Confirm Order**.
 
-### Steps to Create a New RFQ
+Open `Purchase → Orders → Request for Quotation`. The page title is **Request For Quotations**.
 
-1. Navigate to **`Purchases → Orders → Request For Quotations → New RFQ`** as shown in the below image.
+## Settings
 
-   <ImagePopup src="/images1/purchases/quotation_create_1.png" alt="Create Quotation" />
+Some fields appear only when a setting is on. Set them in `Purchase → Settings → Manage Orders` or `Manage Products`.
 
-2. Filling up fields as per the **section** defined below:
+| Field or column | Setting that shows it |
+| --- | --- |
+| **Agreement** | **Purchase Agreements** |
+| **Unit** | **Unit of Measure** |
+| **Packaging Qty** and **Packaging** | **Packagings** |
+| **Deliver To** | The Inventory app is installed |
 
-   ### General Section
+## Overview
 
-   - **_Vendor:_** Select the vendor (supplier) from whom you want to request a quotation.
-   - **_Order Deadline:_** Last date for vendor to respond to this RFQ.
-   - **_Vendor Reference:_** Add a reference or order ID from the vendor’s side for cross-verification.
-   - **_Expected Arrival:_** Estimated date of delivery.
-   - **_Agreement:_** If this RFQ is part of a purchase agreement (e.g., blanket order), link the agreement here.
-   - **_Currency:_** The currency to be used in this transaction. This is often auto-filled with your company's default.
+The list shows every order that is not yet hidden by a tab.
 
-   <ImagePopup src="/images1/purchases/rfq_general_section.png" alt="RFQ General Section" />
+<ImagePopup src="/images1/purchase/rfq_list.png" alt="Request For Quotations list with tabs and the New RFQ button" />
 
-   ### Product Section
+- **Tabs:** **Default**, **My Purchases** (your own orders), **Purchase Orders** (confirmed ones) and **Starred**.
+- **Group by:** **Vendor**, **Buyer**, **State**, **Created At**, **Updated At**.
+- **Search:** type a reference or vendor name.
+- **Favorite star:** click the star in the first column to mark an order. The **Starred** tab lists them.
+- **Columns:** **Reference**, **Vendor**, **Company**, **Buyer**, **Order Deadline**, **Source Document**, **Untaxed Amount**, **Total Amount**, **Status**. You can also show **Vendor Reference**, **Billing Status** and **Receipt Status**.
 
-   Click on **Add Product** to add items to your quotation request.
+## Create an RFQ
 
-   - **_Product:_** Select the product you want to buy from the list of existing products.
-   - **_Expected Arrival:_** Specify when you expect to receive the product.
-   - **_Quantity:_** How many units of the product you want to order.
-   - **_Unit:_** Unit of measure such as Units, Dozens, Kilograms, etc.
-   - **_Packaging Qty:_** Number of items in one package or box. Helps in bulk handling.
-   - **_Packaging:_** Select the type of packaging (e.g., carton, box, etc.).
-   - **_Unit Price:_** Enter the price offered by the vendor.
-   - **_Taxes:_** Apply the relevant tax group/rate to this product.
-   - **_Discount (%):_** Enter any vendor-provided discount.
-   - **_Amount:_** Auto-calculated total for the line item based on quantity, price, taxes, and discount.
+Scenario: you need 20 **SSD 512GB** from **FreshFoods Wholesale**.
 
-   <ImagePopup src="/images1/purchases/rfq_product_section.png" alt="RFQ Product Section" />
+1. Click **New RFQ**.
+2. Fill the **General** section.
 
-   ### Additional Information Section
+<ImagePopup src="/images1/purchase/rfq_create_general.png" alt="New RFQ form General section filled with vendor FreshFoods Wholesale and order deadline" />
 
-   - **_Buyer:_** The internal user (employee) responsible for this purchase.
-   - **_Payment Term:_** Terms under which payment will be made, like “30 days,” “Immediate,” etc.
-   - **_Company:_** If you're running multiple companies in AureusERP, select the one initiating this purchase.
-   - **_Source Document:_** If this RFQ is linked to another document (like a sales order), reference it here.
-   - **_Incoterm:_** International commercial term for shipping responsibility (e.g., FOB, CIF).
-   - **_Incoterm Location:_** The place tied to the incoterm (e.g., port name or delivery warehouse).
+- **_Vendor:_** Required. Pick the supplier. Create one in [Contacts](../../../getting-started/contacts/contacts.md) first if needed.
+- **_Vendor Reference:_** The vendor's own quote or order number. It helps match their delivery note.
+- **_Agreement:_** Link a blanket order or template. Shown only with **Purchase Agreements** on.
+- **_Currency:_** Required. The default is **USD**.
+- **_Confirmation Date:_** Appears after the order is sent. It shows when you confirmed.
+- **_Order Deadline:_** Required. The last day the vendor can accept.
+- **_Expected Arrival:_** The date you want the goods.
+- **_Deliver To:_** Required with Inventory. The receiving operation, such as **My Company: Receipts**.
 
-   <ImagePopup src="/images1/purchases/rfq_additional_info.png" alt="RFQ Additional Information" />
+3. Open the **Products** tab and click **Add Product**.
 
-   ### Terms and Conditions
+<ImagePopup src="/images1/purchase/rfq_create_lines.png" alt="Products tab with SSD 512GB line, quantity 20 and unit price filled" />
 
-   Write any legal terms, warranty clauses, refund conditions, or additional instructions that apply to this order.
+Each line has these columns:
 
-3. Action Buttons
+- **_Product:_** Required. Pick the item.
+- **Expected Arrival:** The date for this line.
+- **_Quantity:_** How many you want.
+- **Received** and **Billed:** Appear after you confirm. They fill themselves.
+- **Unit:** The unit of measure. Needs **Unit of Measure**.
+- **Packaging Qty** and **Packaging:** Need **Packagings**.
+- **Taxes:** The tax on the line.
+- **Discount (%):** A percentage off the price.
+- **Unit Price:** The price for one unit. A [vendor price](../products/vendor-price-lists.md) fills it when one matches.
+- **Amount:** Calculated for you.
 
-   At the bottom of the RFQ form, you’ll see the following buttons:
+Use **Add Section** to add a heading line and **Add Note** to add a text line between products. The summary below shows **Untaxed Amount**, **Tax** and **Total Amount**.
 
-   - **_Create:_** Saves and creates the RFQ.
-   - **_Create & Create Another:_** Saves the current RFQ and resets the form.
-   - **_Cancel:_** Discards all unsaved data.
+4. Open **Additional Information** if needed.
 
-## After RFQ Creation
+<ImagePopup src="/images1/purchase/rfq_create_additional.png" alt="Additional Information tab with buyer, company, incoterm and payment term" />
 
-Once created, you are redirected to the **Edit Purchase Order** view.
+- **Buyer:** The person in charge.
+- **Company:** The buying company.
+- **Source Document:** Your own origin reference.
+- **Incoterm** and **Incoterm Location:** The delivery terms.
+- **Payment Term:** When you pay.
 
-<ImagePopup src="/images1/purchases/rfq_bill_edit.png" alt="Create RFQ" />
+5. Open **Terms and Conditions** to write terms for the vendor.
+6. Click **Create**. The order gets a number such as **PO/00012** and the status **RFQ**.
 
-### Available Actions on View Page:
+::: tip
+Click **Create & create another** to enter several RFQs in a row.
+:::
 
-- **_Edit Quotation:_** Modify RFQ details.
-- **_Vendor Bills:_** View vendor bills.
-- **_Receipts:_** Manage delivery receipts.
-- **_Send by Email:_** Send this RFQ directly to the vendor.
-   <ImagePopup src="/images1/purchases/rfq_bill_view.png" alt="Create RFQ" />
-- **_Print RFQ:_** Download or print the quote in PDF format.
-- **_Confirm Order:_** Approve the RFQ and convert it into a **Purchase Order**.
-   <ImagePopup src="/images1/purchases/rfq_bill_view1.png" alt="Create RFQ" />
-- **_Cancel:_** Cancel the RFQ.
-- **_Delete:_** Permanently delete the RFQ.
+## Send the RFQ
 
-## After Confirmation RFQ
+1. Open the RFQ and click **Send By Email**.
+2. Check the window.
 
-Once you **Confirm Order**, the RFQ becomes a **Purchase Order**. At this point:
+<ImagePopup src="/images1/purchase/rfq_send_email.png" alt="Send By Email window with vendor, subject and message" />
 
-- The document changes from **RFQ** to **Confirmed Purchase Order**
-- Fields are locked for editing
-- A **Receipt** is automatically generated
-- New buttons appear:
+- **To:** The vendors. They need an email address.
+- **Subject:** The default is **Purchase Order #name**.
+- **Message:** The email text. It includes **Accept** and **Decline** links.
 
-  - **_Confirm Receipt Date:_**
-  - **_Create Bills:_**
-  - **_Unlock:_** (to make changes again)
+3. Click send. The PDF is attached, the status becomes **RFQ Sent** and the email is saved in the chatter.
 
-<ImagePopup src="/images1/purchases/rfq_bill_confirmed.png" alt="Create RFQ" />
+The button now reads **Re-Send By Email**. Use it to send again.
 
-## Receipt Validation Flow
+To give the vendor a paper copy, click **Print RFQ**. It downloads a PDF and also sets the status to **RFQ Sent**.
 
-1. Go to the **Receipts** tab.
-   <ImagePopup src="/images1/purchases/rfq_receipt_tab.png" alt="Create RFQ" />
-2. Click **_Edit_** if needed (e.g., change quantity received).
-   <ImagePopup src="/images1/purchases/rfq_receipt_edit.png" alt="Create RFQ" />
-3. Click **_Validate_** to confirm that products have been received into inventory.
-   <ImagePopup src="/images1/purchases/rfq_receipt_validate.png" alt="Create RFQ" />
+## Vendor answers
 
-> ⚠️ Only after validating the receipt can you proceed to create vendor bills.
+The vendor can answer in two ways.
 
-## Vendor Bill Generation
+- **Email link:** The vendor clicks **Accept** or **Decline** in the email. A page shows **Quotation Accepted** or **Quotation Declined**.
+- **Vendor portal:** The vendor signs in, opens the RFQ and clicks **Accept** or **Decline**. A message confirms the answer.
 
-1. Click **_Create Bill_**.
-   <ImagePopup src="/images1/purchases/rfq_bill_create.png" alt="Create RFQ" />
-2. The system auto-fills bill data from the purchase order.
-   <ImagePopup src="/images1/purchases/rfq_bill_auto_fill.png" alt="Create RFQ" />
-3. You can review, **_edit_**, and save the bill.
+<ImagePopup src="/images1/purchase/vp_rfq_accept_decline.png" alt="Vendor portal page for an RFQ with the Accept, Decline and Download/Print buttons" />
 
-## Full RFQ-to-Bill Flow
+Either way, Aureus adds a comment to the order chatter, such as **The RFQ has been acknowledged by vendor.** The status does not change on its own.
 
-```sh
-RFQ (Draft)
-    ↓
-Confirm Order
-    ↓
-Purchase Order (Confirmed)
-    ↓
-Receipt (Confirmed & Validated)
-    ↓
-Create Vendor Bill
-    ↓
-Register Payment
-    ↓
-Purchase Completed
-```
+<ImagePopup src="/images1/purchase/vp_chatter_accepted.png" alt="Order chatter with the comment The RFQ has been acknowledged by vendor from the vendor" />
 
-## Summary
+::: info
+The answer only records what the vendor said. You still click **Confirm Order** to buy. For portal setup and screens, see [Vendor portal](vendor-portal.md).
+:::
 
-This guide detailed the process of creating and managing a Request for Quotation (RFQ) in **AureusERP**. You learned how to fill out the RFQ form, confirm the order, validate receipts, and generate vendor bills, ensuring a smooth procurement workflow.
+## Confirm the order
+
+Click **Confirm Order**. The RFQ becomes a purchase order, or **To Approve** when approval applies. See [Purchase orders](purchase-orders.md).
+
+<ImagePopup src="/images1/purchase/rfq_confirm.png" alt="RFQ Sent order PO/2 with the Confirm Order button highlighted" />
+
+## Actions and statuses
+
+| Button | Shown in | Result |
+| --- | --- | --- |
+| **Send By Email** | **RFQ** | Emails the vendor. Status becomes **RFQ Sent**. |
+| **Re-Send By Email** | **RFQ Sent** | Sends the email again. |
+| **Print RFQ** | **RFQ**, **RFQ Sent** | Downloads the PDF. Status becomes **RFQ Sent**. |
+| **Confirm Order** | **RFQ**, **RFQ Sent** | Makes it a purchase order. |
+| **Cancel** | **RFQ**, **RFQ Sent** | Status becomes **Canceled**. |
+| **Delete** | **RFQ**, **RFQ Sent** | Removes the order. |
+
+## See also
+
+- [Orders overview](index.md)
+- [Purchase orders](purchase-orders.md)
+- [Vendor portal](vendor-portal.md)
+- [Vendor price lists](../products/vendor-price-lists.md)
+- [Contacts](../../../getting-started/contacts/contacts.md)

@@ -8,7 +8,7 @@ A **company** is a legal entity that you run in Aureus ERP. Each company has its
 
 Open `Settings → Companies` to see the list of companies.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/companies_list.png | Company list with the All Companies and Archived Companies tabs and the New Company button -->
+<ImagePopup src="/images1/general-settings/companies_list.png" alt="Company list with the All Companies and Archived Companies tabs and the New Company button" />
 
 The list has two tabs:
 
@@ -32,7 +32,7 @@ Use the filters **Status** and **Country** to narrow the list. You can also grou
 1. Go to `Settings → Companies`.
 2. Click **New Company**.
 
-   <!-- TODO-SCREENSHOT: /images1/general-settings/company_create_form.png | Empty New Company form -->
+   <ImagePopup src="/images1/general-settings/company_create_form.png" alt="New Company form filled with company, address, branding and contact details" />
 
 3. Fill in the form as described below.
 4. Click **Create**. A company-created message appears.
@@ -47,7 +47,7 @@ Use the filters **Status** and **Country** to narrow the list. You can also grou
 
 ### Address Information
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/company_address_section.png | Address Information section -->
+<ImagePopup src="/images1/general-settings/company_address_section.png" alt="Address Information section" />
 
 - **_Street 1:_** The first address line.
 - **_Street 2:_** The second address line.
@@ -65,7 +65,7 @@ Your installed modules or custom fields may add more fields here. See [Custom fi
 
 ### Branding
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/company_branding_section.png | Branding and Contact Information sections on the right side of the form -->
+<ImagePopup src="/images1/general-settings/company_branding_section.png" alt="Branding and Contact Information sections on the right side of the form" />
 
 - **_Company Logo:_** Upload an image.
 - **_Color:_** Pick a color. It is stored as a hex code.
@@ -83,7 +83,7 @@ A branch is a company that belongs to another company. You add it on the parent 
 1. Open a company and scroll to the **Branches** table.
 2. Click the create button.
 
-   <!-- TODO-SCREENSHOT: /images1/general-settings/company_branch_form.png | Branch form with the General Information, Address Information and Contact Information tabs -->
+   <ImagePopup src="/images1/general-settings/company_branch_form.png" alt="Branch form with the General Information, Address Information and Contact Information tabs" />
 
 3. Fill in the three tabs.
 4. Save the branch. A **Branch created** message appears.

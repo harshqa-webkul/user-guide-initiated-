@@ -59,19 +59,24 @@ Each section contains:
 
 ### 📦 Purchase
 
+- [Purchase overview](./supply-chain/purchase/index.md)
 - [Purchase RFQs](./supply-chain/purchase/orders/quotations.md)
 - [Purchase Orders](./supply-chain/purchase/orders/purchase-orders.md)
 - [Purchase Agreements](./supply-chain/purchase/orders/purchase-agreements.md)
-- [Purchase Settings](./supply-chain/purchase/settings.md)
+- [Vendor bills from orders](./supply-chain/purchase/orders/vendor-bills.md)
+- [Purchase Settings](./supply-chain/purchase/get-started/purchase-settings.md)
 
 ### 🏬 Inventory
 
-- [Transfers](./supply-chain/inventories/operations/transfers.md)
-- [Adjustments](./supply-chain/inventories/operations/adjustments.md)
-- [Products](./supply-chain/inventories/products/products.md)
-- [Lots/Serial Numbers](./supply-chain/inventories/products/lots-serial-number.md)
-- [Warehouse Configuration](./supply-chain/inventories/configurations/warehouse-management.md)
-- [Inventory Settings](./supply-chain/inventories/settings.md)
+- [Inventory overview](./supply-chain/inventories/index.md)
+- [First steps](./supply-chain/inventories/get-started/first-steps.md)
+- [Receipts](./supply-chain/inventories/operations/receipts.md)
+- [Deliveries](./supply-chain/inventories/operations/deliveries.md)
+- [Inventory adjustments](./supply-chain/inventories/adjustments/inventory-adjustments.md)
+- [Lots and serial numbers](./supply-chain/inventories/tracking/lots-and-serial-numbers.md)
+- [Warehouses](./supply-chain/inventories/warehouses/warehouses.md)
+- [Routes and rules](./supply-chain/inventories/routes/index.md)
+- [Inventory settings](./supply-chain/inventories/get-started/inventory-settings.md)
 
 ### 👥 Employees
 

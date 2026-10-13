@@ -12,7 +12,7 @@ The app creates most sequences by itself. A sequence for a journal, a warehouse 
 
 Open `Settings → Sequences` to see all sequences.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/sequences_list.png | Sequences list with the New Sequence button and the Company filter -->
+<ImagePopup src="/images1/general-settings/sequences_list.png" alt="Sequences list with the New Sequence button and the Company filter" />
 
 The list shows these columns:
 
@@ -35,7 +35,7 @@ Create a sequence yourself only for a custom code. Documents that need one creat
 3. Fill in the form.
 4. Click **Create**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/sequences_create.png | New Sequence form with the General and Numbering sections -->
+<ImagePopup src="/images1/general-settings/sequences_create.png" alt="New Sequence form with the General and Numbering sections" />
 
 ### General
 
@@ -52,7 +52,7 @@ Create a sequence yourself only for a custom code. Documents that need one creat
 - **_Step:_** How much the counter grows each time. The default is 1.
 - **_Reset Counter:_** When the counter goes back to 1. Choose **Never**, **Every Year** or **Every Month**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/sequences_numbering.png | Numbering section with prefix, suffix, padding, next number, step and reset counter -->
+<ImagePopup src="/images1/general-settings/sequences_numbering.png" alt="Numbering section with prefix, suffix, padding, next number, step and reset counter" />
 
 ### Example
 

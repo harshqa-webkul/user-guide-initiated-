@@ -33,7 +33,7 @@ The state bar shows **Draft** and **Posted**. A new bill is a **Draft**.
 
 ### General
 
-- **_Vendor:_** The supplier. Required. Create new suppliers first: see [Vendors](../../supply-chain/purchase/orders/vendors.md) and [Contacts](../../getting-started/contacts/contacts.md). It fills the **Payment Term**, **Payment Method** and the recipient bank from the vendor record.
+- **_Vendor:_** The supplier. Required. Create new suppliers first: see [Vendors](../../getting-started/contacts/contacts.md) and [Contacts](../../getting-started/contacts/contacts.md). It fills the **Payment Term**, **Payment Method** and the recipient bank from the vendor record.
 - **_Bill Reference:_** The number printed on the supplier's invoice. Type it exactly. It helps you find the bill later and avoid entering it twice.
 - **_Bill Date:_** The date on the supplier's invoice. Required.
 - **_Accounting Date:_** The date the bill is recorded in your books. It starts as today. Change it to put the bill in another period.
@@ -121,7 +121,7 @@ See [Credit notes and refunds](../customer-invoices/credit-notes-and-refunds.md)
 
 ## See also
 
-- [Vendors](../../supply-chain/purchase/orders/vendors.md)
+- [Vendors](../../getting-started/contacts/contacts.md)
 - [Contacts](../../getting-started/contacts/contacts.md)
 - [Credit notes and refunds](../customer-invoices/credit-notes-and-refunds.md)
 - [Bill sequence](bill-sequence.md)

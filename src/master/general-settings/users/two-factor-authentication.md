@@ -19,9 +19,9 @@ Install an authenticator app on your phone. Any app that makes 6-digit time-base
 
 The status changes to **Enabled**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/two_factor_section.png | Authenticator app section on the profile page, status Disabled with the Set up button -->
+<ImagePopup src="/images1/general-settings/two_factor_section.png" alt="Authenticator app section on the profile page, status Disabled with the Set up button" />
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/two_factor_setup_modal.png | Set up authenticator app window with QR code and 6-digit code field -->
+<ImagePopup src="/images1/general-settings/two_factor_setup_modal.png" alt="Set up authenticator app window with QR code and 6-digit code field" />
 
 <!-- TODO-SCREENSHOT: /images1/general-settings/two_factor_recovery_codes.png | recovery codes shown after enabling -->
 

@@ -18,9 +18,9 @@ Portal access needs the **Website** plugin. If you do not see the **Portal Acces
 
 The contact receives an email with a link to set a password for the customer portal.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/portal_access_menu.png | Contact page with the Portal Access button open showing Grant Portal Access -->
+<ImagePopup src="/images1/general-settings/portal_access_menu.png" alt="Contact page with the Portal Access button open showing Grant Portal Access" />
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/portal_grant_modal.png | Grant Portal Access window with the invitation message -->
+<ImagePopup src="/images1/general-settings/portal_grant_modal.png" alt="Grant Portal Access window with the invitation message" />
 
 ::: warning
 Each email address can have portal access only once. If another contact with portal access already uses the same email address, Aureus shows **Email address already in use**.
@@ -28,6 +28,10 @@ Each email address can have portal access only once. If another contact with por
 
 ::: tip
 If the invitation email cannot be sent, Aureus still grants the access and tells you the email failed. Use **Send Password Reset** to send the link again later.
+:::
+
+::: info
+A vendor with portal access can sign in and answer the RFQs you send. See [Vendor portal](../../supply-chain/purchase/orders/vendor-portal.md).
 :::
 
 ## See who has portal access
@@ -38,7 +42,7 @@ If the invitation email cannot be sent, Aureus still grants the access and tells
   - **_Email Verified At:_** When the contact set a password, or **Never**.
   - **_Last Portal Login:_** The last time the contact signed in, or **Never**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/portal_status_section.png | Customer Portal section on a contact page -->
+<ImagePopup src="/images1/general-settings/portal_status_section.png" alt="Customer Portal section on a contact page" />
 
 ## Manage portal access
 
@@ -52,3 +56,4 @@ Open the **Portal Access** button on the contact to use these actions:
 
 - [Contacts](../../getting-started/contacts/contacts.md)
 - [Users](./users.md)
+- [Vendor portal](../../supply-chain/purchase/orders/vendor-portal.md)

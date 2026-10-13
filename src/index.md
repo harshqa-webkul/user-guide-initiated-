@@ -27,7 +27,7 @@ features:
   - icon: 🛒
     title: Purchase Order System
     details: Simplify and track your purchases with our robust Purchase Order system
-    link: /master/supply-chain/purchase/orders/purchase-orders.md
+    link: /master/supply-chain/purchase/index.md
   - icon: 👨‍💼
     title: Employee Management
     details: Manage and track employee details and performance.

@@ -292,53 +292,141 @@ const routes = [
       {
         text: 'Purchase',
         collapsed: true,
+        link: '/master/supply-chain/purchase/',
         items: [
           {
-            text: 'Orders',
+            text: 'Get Started',
             collapsed: true,
+            link: '/master/supply-chain/purchase/get-started/',
             items: [
-          { text: 'Quotations', link: '/master/supply-chain/purchase/orders/quotations' },
-          { text: 'Purchase Orders', link: '/master/supply-chain/purchase/orders/purchase-orders' },
-          { text: 'Purchase Agreements', link: '/master/supply-chain/purchase/orders/purchase-agreements' },
-          { text: 'Vendors', link: '/master/supply-chain/purchase/orders/vendors' },
-            ]
-          },
-          { text: 'Products', link: '/master/supply-chain/purchase/products' },
-          { text: 'Configurations', link: '/master/supply-chain/purchase/configurations' },
-          { text: 'Settings', link: '/master/supply-chain/purchase/settings' },
-        ]
-      },
-      {
-        text: 'Inventory',
-        collapsed: true,
-        items: [
-          {
-            text: 'Operations',
-            collapsed: true,
-            items: [
-          { text: 'Transfers', link: '/master/supply-chain/inventories/operations/transfers' },
-          { text: 'Adjustments', link: '/master/supply-chain/inventories/operations/adjustments' },
+              { text: 'Purchase Settings', link: '/master/supply-chain/purchase/get-started/purchase-settings' },
+              { text: 'First Steps', link: '/master/supply-chain/purchase/get-started/first-steps' },
             ]
           },
           {
             text: 'Products',
             collapsed: true,
+            link: '/master/supply-chain/purchase/products/',
             items: [
-          { text: 'Products', link: '/master/supply-chain/inventories/products/products' },
-          { text: 'Packages', link: '/master/supply-chain/inventories/products/packages' },
-          { text: 'Lots/Serial Number', link: '/master/supply-chain/inventories/products/lots-serial-number' },
+              { text: 'Configure a Product', link: '/master/supply-chain/purchase/products/configure-product' },
+              { text: 'Vendor Price Lists', link: '/master/supply-chain/purchase/products/vendor-price-lists' },
+              { text: 'Product Configuration', link: '/master/supply-chain/purchase/products/product-configuration' },
             ]
           },
           {
-            text: 'Configurations',
+            text: 'Manage Deals',
             collapsed: true,
+            link: '/master/supply-chain/purchase/orders/',
             items: [
-          { text: 'Warehouse Management', link: '/master/supply-chain/inventories/configurations/warehouse-management' },
-          { text: 'Products', link: '/master/supply-chain/inventories/configurations/products' },
-          { text: 'Delivery', link: '/master/supply-chain/inventories/configurations/delivery' },
+              { text: 'Requests for Quotation', link: '/master/supply-chain/purchase/orders/quotations' },
+              { text: 'Vendor Portal', link: '/master/supply-chain/purchase/orders/vendor-portal' },
+              { text: 'Purchase Orders', link: '/master/supply-chain/purchase/orders/purchase-orders' },
+              { text: 'Vendor Bills', link: '/master/supply-chain/purchase/orders/vendor-bills' },
+              { text: 'Blanket Orders', link: '/master/supply-chain/purchase/orders/blanket-orders' },
+              { text: 'Purchase Templates', link: '/master/supply-chain/purchase/orders/purchase-templates' },
             ]
           },
-          { text: 'Settings', link: '/master/supply-chain/inventories/settings' },
+        ]
+      },
+      {
+        text: 'Inventory',
+        collapsed: true,
+        link: '/master/supply-chain/inventories/',
+        items: [
+          {
+            text: 'Get Started',
+            collapsed: true,
+            link: '/master/supply-chain/inventories/get-started/',
+            items: [
+              { text: 'Inventory Overview', link: '/master/supply-chain/inventories/get-started/inventory-overview' },
+              { text: 'Inventory Settings', link: '/master/supply-chain/inventories/get-started/inventory-settings' },
+              { text: 'First Steps', link: '/master/supply-chain/inventories/get-started/first-steps' },
+            ]
+          },
+          {
+            text: 'Products',
+            collapsed: true,
+            link: '/master/supply-chain/inventories/products/',
+            items: [
+              { text: 'Configure a Product', link: '/master/supply-chain/inventories/products/configure-product' },
+              { text: 'Product Categories', link: '/master/supply-chain/inventories/products/product-categories' },
+              { text: 'Attributes and Packagings', link: '/master/supply-chain/inventories/products/attributes-and-packagings' },
+              { text: 'Units of Measure', link: '/master/supply-chain/inventories/products/units-of-measure' },
+            ]
+          },
+          {
+            text: 'Tracking',
+            collapsed: true,
+            link: '/master/supply-chain/inventories/tracking/',
+            items: [
+              { text: 'Lots and Serial Numbers', link: '/master/supply-chain/inventories/tracking/lots-and-serial-numbers' },
+              { text: 'Packages', link: '/master/supply-chain/inventories/tracking/packages' },
+            ]
+          },
+          {
+            text: 'Warehouses and Locations',
+            collapsed: true,
+            link: '/master/supply-chain/inventories/warehouses/',
+            items: [
+              { text: 'Warehouses', link: '/master/supply-chain/inventories/warehouses/warehouses' },
+              { text: 'Locations', link: '/master/supply-chain/inventories/warehouses/locations' },
+              { text: 'Operation Types', link: '/master/supply-chain/inventories/warehouses/operation-types' },
+              { text: 'Storage Categories', link: '/master/supply-chain/inventories/warehouses/storage-categories' },
+            ]
+          },
+          {
+            text: 'Operations',
+            collapsed: true,
+            link: '/master/supply-chain/inventories/operations/',
+            items: [
+              { text: 'Receipts', link: '/master/supply-chain/inventories/operations/receipts' },
+              { text: 'Deliveries', link: '/master/supply-chain/inventories/operations/deliveries' },
+              { text: 'Internal Transfers', link: '/master/supply-chain/inventories/operations/internal-transfers' },
+              { text: 'Dropships', link: '/master/supply-chain/inventories/operations/dropships' },
+              { text: 'Stock Moves and Lots', link: '/master/supply-chain/inventories/operations/stock-moves-and-lots' },
+              { text: 'Backorders and Returns', link: '/master/supply-chain/inventories/operations/backorders-and-returns' },
+              { text: 'Print Documents', link: '/master/supply-chain/inventories/operations/print-documents' },
+            ]
+          },
+          {
+            text: 'Adjustments',
+            collapsed: true,
+            link: '/master/supply-chain/inventories/adjustments/',
+            items: [
+              { text: 'Inventory Adjustments', link: '/master/supply-chain/inventories/adjustments/inventory-adjustments' },
+              { text: 'Scrap', link: '/master/supply-chain/inventories/adjustments/scrap' },
+            ]
+          },
+          {
+            text: 'Routes and Rules',
+            collapsed: true,
+            link: '/master/supply-chain/inventories/routes/',
+            items: [
+              { text: 'One-Step Flow', link: '/master/supply-chain/inventories/routes/one-step-flow' },
+              { text: 'Two-Step Flow', link: '/master/supply-chain/inventories/routes/two-step-flow' },
+              { text: 'Three-Step Flow', link: '/master/supply-chain/inventories/routes/three-step-flow' },
+              { text: 'Routes and Rules', link: '/master/supply-chain/inventories/routes/routes-and-rules' },
+              { text: 'Putaway Rules', link: '/master/supply-chain/inventories/routes/putaway-rules' },
+            ]
+          },
+          {
+            text: 'Reporting',
+            collapsed: true,
+            link: '/master/supply-chain/inventories/reporting/',
+            items: [
+              { text: 'Moves History', link: '/master/supply-chain/inventories/reporting/moves-history' },
+              { text: 'Stock Report', link: '/master/supply-chain/inventories/reporting/stock-report' },
+            ]
+          },
+          {
+            text: 'Barcode',
+            collapsed: true,
+            link: '/master/supply-chain/inventories/barcode/',
+            items: [
+              { text: 'Scan Operations', link: '/master/supply-chain/inventories/barcode/scan-operations' },
+              { text: 'Scan Adjustments', link: '/master/supply-chain/inventories/barcode/scan-adjustments' },
+            ]
+          },
         ]
       },
       {

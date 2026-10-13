@@ -74,7 +74,7 @@ Buying works the same way in reverse. You record a vendor bill, confirm it, pay 
 3. Check the [default accounts](get-started/default-accounts.md).
 4. Create your [taxes](taxes/taxes.md) and review [tax settings](taxes/tax-settings.md).
 5. Add [payment terms](customer-invoices/payment-terms.md) and [bank accounts](payments/bank-accounts.md).
-6. Create your [products](../sales/sales/products-prices/manage-products.md), [customers](../sales/sales/quotations-orders/manage-customers.md) and [vendors](../supply-chain/purchase/orders/vendors.md).
+6. Create your [products](../sales/sales/products-prices/manage-products.md), [customers](../sales/sales/quotations-orders/manage-customers.md) and [vendors](../getting-started/contacts/contacts.md).
 7. Create your first [invoice](customer-invoices/create-invoice.md) or [bill](vendor-bills/create-bill.md).
 
 ## See also

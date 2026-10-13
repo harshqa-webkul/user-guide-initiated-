@@ -16,7 +16,7 @@ The Settings app has these tabs at the top of the screen:
 - **Sequences:** Control how document numbers are built. See [Sequences](./customization/sequences.md).
 - **Settings:** Open the option pages described below.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/settings_top_tabs.png | Settings app with the top tabs Roles, Companies, Teams, Users, Custom Fields, Sequences and Settings -->
+<ImagePopup src="/images1/general-settings/settings_top_tabs.png" alt="Settings app with the top tabs Roles, Companies, Teams, Users, Custom Fields, Sequences and Settings" />
 
 ## The General group
 
@@ -29,7 +29,7 @@ Click the **Settings** tab to open a menu on the left. The **General** group has
 
 Each installed module can add its own group to this menu.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/settings_left_menu.png | Settings tab with the left menu showing the General group -->
+<ImagePopup src="/images1/general-settings/settings_left_menu.png" alt="Settings tab with the left menu showing the General group" />
 
 ::: info
 You see only the pages your role allows. If a page is missing, ask an administrator to check your role.

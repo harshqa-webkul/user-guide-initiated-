@@ -7,7 +7,7 @@ A bank account record stores the account number of a partner and the bank it bel
 ## Where to find bank accounts
 
 - Invoices app: `Invoices → Configurations → Bank Accounts`.
-- On a customer or vendor: open the contact and use its bank accounts section. See [Contacts](../../getting-started/contacts/contacts.md) and [Vendors](../../supply-chain/purchase/orders/vendors.md).
+- On a customer or vendor: open the contact and use its bank accounts section. See [Contacts](../../getting-started/contacts/contacts.md) and [Vendors](../../getting-started/contacts/contacts.md).
 
 The menu item **Bank Accounts** is in the Invoices app. The Accounting app does not list it in its menu. The records are shared, so a bank account saved in one place shows up everywhere.
 
@@ -70,4 +70,4 @@ You pay vendor FreshFoods Wholesale for bill BILL/2026/4. First you add their ac
 
 - [Register a payment](./register-payment.md)
 - [Manage payments](./manage-payments.md)
-- [Vendors](../../supply-chain/purchase/orders/vendors.md)
+- [Vendors](../../getting-started/contacts/contacts.md)

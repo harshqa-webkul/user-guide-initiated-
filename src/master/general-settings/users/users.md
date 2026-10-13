@@ -17,7 +17,7 @@ You must also set a **Default Company** on that page before you can send an invi
 
 Open `Settings → Users` to see the list of users.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/users_list.png | User list with the All Users and Archived Users tabs and the New User and Invite User buttons -->
+<ImagePopup src="/images1/general-settings/users_list.png" alt="User list with the All Users and Archived Users tabs and the New User and Invite User buttons" />
 
 The list has two tabs:
 
@@ -43,7 +43,7 @@ Use the filters **Resource Permission**, **Teams**, **Roles**, **Default Company
 1. Go to `Settings → Users`.
 2. Click **New User**.
 
-   <!-- TODO-SCREENSHOT: /images1/general-settings/user_create_form.png | Empty New User form -->
+   <ImagePopup src="/images1/general-settings/user_create_form.png" alt="New User form filled with name, email, password, role, team and company" />
 
 3. Fill in the form as described below.
 4. Click **Create**. A **User created** message appears.
@@ -61,7 +61,7 @@ The password fields show only when you create a user. To change a password later
 
 ### Permissions
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/user_permissions_section.png | Permissions section with Roles, Resource Permission and Teams -->
+<ImagePopup src="/images1/general-settings/user_permissions_section.png" alt="Permissions section with Roles, Resource Permission and Teams" />
 
 - **_Roles:_** Choose one or more roles. Required. See [Roles](./roles.md).
 - **_Resource Permission:_** Choose how much data the user can reach. Required. The options are **Global**, **Group** and **Individual**. The default is **Global**.
@@ -88,7 +88,7 @@ You can create a new team without leaving the form. Use the plus icon next to **
 
 ### Multi Company
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/user_multi_company_section.png | Multi Company section with Allowed Companies and Default Company -->
+<ImagePopup src="/images1/general-settings/user_multi_company_section.png" alt="Multi Company section with Allowed Companies and Default Company" />
 
 - **_Allowed Companies:_** Choose every company the user may work in. See [Companies](../companies/companies.md).
 - **_Default Company:_** The company that opens first. Required. It must be one of the allowed companies.
@@ -104,7 +104,7 @@ Use an invitation when you want the person to choose their own password.
 1. Go to `Settings → Users`.
 2. Click **Invite User**.
 
-   <!-- TODO-SCREENSHOT: /images1/general-settings/user_invite_modal.png | Invite User modal with the Email field -->
+   <ImagePopup src="/images1/general-settings/user_invite_modal.png" alt="Invite User window with an email address typed in" />
 
 3. Enter the **Email** of the person.
 4. Click **Invite User**.
@@ -171,7 +171,7 @@ Every user can edit their own details on the **Profile** page. It has these part
 
 Click **Save Changes** to apply them. To change your password, click **Update Password** at the top. Enter **Current Password**, **New Password** and **Confirm Password**. The new password must differ from the current one. After the change, you are signed out and must sign in again.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/profile_page.png | Profile page with photo, name, email, language and the Update Password button -->
+<ImagePopup src="/images1/general-settings/profile_page.png" alt="Profile page with photo, name, email, language and the Update Password button" />
 
 ## See also
 

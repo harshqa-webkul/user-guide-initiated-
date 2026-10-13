@@ -8,7 +8,7 @@ A **plugin** is a module of Aureus ERP, such as Sales, Inventory or Accounting. 
 
 Open the **Plugins** menu in the main navigation to see the plugin list. It shows each plugin as a card.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/plugins_list.png | Plugins page with the four tabs and plugin cards -->
+<ImagePopup src="/images1/general-settings/plugins_list.png" alt="Plugins page with the four tabs and plugin cards" />
 
 Each card shows:
 
@@ -32,7 +32,7 @@ Each tab shows a count. You can search by name.
 1. On a card, open the row menu.
 2. Click **View**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/plugins_view.png | Plugin details page with Plugin Information and Dependencies sections -->
+<ImagePopup src="/images1/general-settings/plugins_view.png" alt="Plugin details page with Plugin Information and Dependencies sections" />
 
 The page shows:
 
@@ -68,7 +68,7 @@ The install stops after 5 minutes. Wait for the message before you leave the pag
 3. Read the **Uninstall Confirmation** window.
 4. Click **Uninstall Plugin**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/plugins_uninstall_confirm.png | Uninstall Confirmation window with Data Impact table -->
+<ImagePopup src="/images1/general-settings/plugins_uninstall_confirm.png" alt="Uninstall Confirmation window with Data Impact table" />
 
 The window shows:
 
@@ -87,7 +87,7 @@ If an installed plugin depends on this one, the window shows **Action Required**
 
 Click **Sync Available Plugins** at the top of the page. Then click **Sync Plugins**. The app scans for new plugins and adds them to the list. A message shows how many new plugins it found.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/plugins_sync.png | Sync Plugins confirmation window -->
+<ImagePopup src="/images1/general-settings/plugins_sync.png" alt="Sync Plugins confirmation window" />
 
 ## Actions and statuses
 

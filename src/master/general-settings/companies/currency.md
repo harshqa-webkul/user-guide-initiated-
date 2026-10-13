@@ -11,7 +11,7 @@ The **Manage Currency** page sets the **Base Currency** of your system. Product 
 3. In **Base Currency**, choose a currency. Type to search the list.
 4. Click **Save changes**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/manage_currency_page.png | Manage Currency page with the Base Currency field -->
+<ImagePopup src="/images1/general-settings/manage_currency_page.png" alt="Manage Currency page with the Base Currency field" />
 
 ::: info
 The list shows only active currencies. If yours is missing, activate it first. See [Manage currencies](#manage-currencies).
@@ -24,7 +24,7 @@ The currency list is not in the Settings menu. It appears in the Configuration m
 1. Open the Configuration menu of one of these modules.
 2. Click **Currencies**.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/currencies_list.png | Currencies list with the Status toggle column -->
+<ImagePopup src="/images1/general-settings/currencies_list.png" alt="Currencies list with the Status toggle column" />
 
 ### Overview
 
@@ -50,7 +50,7 @@ Active currencies are listed first. You can search, sort, group by **Name**, **S
 4. In **Status & Configuration**, use **_Status_** to turn the currency on or off. It is on by default.
 5. Save the record.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/currency_form.png | Currency form with Currency Information, Format Configuration and Status sections -->
+<ImagePopup src="/images1/general-settings/currency_form.png" alt="New currency form with currency, format and status sections" />
 
 ### Enable or archive a currency
 
@@ -74,7 +74,7 @@ The **Currency Rates** section keeps past exchange rates against the base curren
 
 You need at least one rate row. Use the clone icon to copy a row. Deleting a row asks you to confirm.
 
-<!-- TODO-SCREENSHOT: /images1/general-settings/currency_rates.png | Currency Rates section with the Add Rate button and one rate row -->
+<ImagePopup src="/images1/general-settings/currency_rates.png" alt="Currency Rates section with the Add Rate button and one rate row" />
 
 ## See also
 
