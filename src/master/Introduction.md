@@ -1,99 +1,112 @@
-# AureusERP User Guide
+# Introduction
 
-Welcome to the **AureusERP User Guide**, a complete documentation resource designed to help you understand, configure, and operate every module of the system seamlessly.
+Aureus ERP is open-source business software. It keeps sales, purchasing, stock, production, accounting, people and your website in one system. Every module reads the same records, so you enter data once and use it everywhere.
 
-Whether you are a business owner, manager, accountant, warehouse operator, or HR professional, this guide will walk you through all available features with clear explanations, screenshots, and step-by-step instructions.
+This guide teaches you how to use Aureus ERP, one task at a time. Each page explains a feature, shows the exact steps and points you to the next page.
 
-## 📘 What You Will Learn
+> **In simple words:** One system for your whole business, and one guide to learn it.
 
-This guide covers everything from basic navigation to advanced configuration across all key modules, including:
+## How the modules work together
 
-- **Invoices & Billing**
-- **Sales Management**
-- **Purchase Management**
-- **Inventory & Warehouse**
-- **Contacts**
-- **Projects & Tasks**
-- **Website CMS**
-- **Employees & HR**
-- **Recruitment**
-- **Time Off Management**
+Modules share contacts, products and documents. A sale can start a delivery. A delivery can start an invoice. A purchase can fill your stock.
 
-Each section contains:
+```text
+Sales order ──► Delivery (Inventory) ──► Customer invoice (Finance)
+Purchase order ──► Receipt (Inventory) ──► Vendor bill (Finance)
+Manufacturing order ──► Finished goods (Inventory)
+```
 
-- Feature explanation
-- Use cases
-- Navigation steps
-- Field descriptions
-- Examples & screenshots
-- Configuration notes
+You do not need every module. Install the ones you need and add others later.
 
-# 📂 Quick Navigation
+## Where to start
 
-### 🧾 Invoices
+Pick the line that matches your job.
 
-- [Customers](../master/invoice/customers/customers.md)
-- [Products](../master/invoice/customers/products.md)
-- [Invoices](../master/invoice/customers/invoices.md)
-- [Payments](../master/invoice/customers/payments.md)
-- [Bills & Payments](../master/invoice/vendors/bills.md)
-- [Invoice Settings](../master/invoice/settings.md)
+| If you want to | Start here |
+| --- | --- |
+| Learn the basics every screen shares | [Getting started](./getting-started/stages.md) |
+| Add users, companies and options | [General settings](./general-settings/index.md) |
+| Quote, sell and invoice | [Sales](./sales/sales/index.md) |
+| Buy from vendors | [Purchase](./supply-chain/purchase/index.md) |
+| Track and move stock | [Inventory](./supply-chain/inventories/index.md) |
+| Build products from components | [Manufacturing](./supply-chain/manufacturing/index.md) |
+| Bill customers and pay vendors | [Finance](./finance/index.md) |
+| Manage people and leave | [Employees](./human-resources/employees/index.md) |
+| Run projects and log hours | [Project](./services/project/index.md) |
+| Publish a public site and blog | [Website](./website/index.md) |
 
-### 🛒 Sales
+## What is in the guide
 
-- [Quotations](../master/sales/orders/quotations.md)
-- [Sales Orders](../master/sales/orders/orders.md)
-- [Sales Products](../master/sales/products.md)
-- [Customers](../master/sales/orders/customers.md)
-- [Sales Settings](../master/sales/settings.md)
+The sidebar groups the guide the same way Aureus ERP groups its modules.
 
-### 📦 Purchase
+### Getting started
 
-- [Purchase RFQs](../master/purchase/orders/quotations.md)
-- [Purchase Orders](../master/purchase/orders/purchase-orders.md)
-- [Purchase Agreements](../master/purchase/orders/purchase-agreements.md)
-- [Purchase Settings](../master/purchase/settings.md)
+Short pages on ideas that appear in every module.
 
-### 🏬 Inventory
+- [Stages](./getting-started/stages.md): move records through steps.
+- [Chatter](./getting-started/chatter.md): write notes and follow a record.
+- [Activities](./getting-started/activities.md): schedule and track to-dos.
+- [Search, filter and group](./getting-started/search-filter-group.md): find records fast.
+- [Contacts](./getting-started/contacts/contacts.md): the customers, vendors and companies all modules share.
 
-- [Transfers](../master/inventories/operations/transfers.md)
-- [Adjustments](../master/inventories/operations/adjustments.md)
-- [Products](../master/inventories/products/products.md)
-- [Lots/Serial Numbers](../master/inventories/products/lots-serial-number.md)
-- [Warehouse Configuration](../master/inventories/configurations/warehouse-management.md)
-- [Inventory Settings](../master/inventories/settings.md)
+### General settings
 
-### 👥 Employees
+- [General settings](./general-settings/index.md): users, roles, companies, teams, sequences and system-wide options.
 
-- [Employees](../master/employees/employees.md)
-- [Departments](../master/employees/departments.md)
-- [Employee Configurations](../master/employees/configurations.md)
+### Finance
 
-### 📝 Recruitment
+- [Finance](./finance/index.md): invoices, bills, payments, taxes and reports.
 
-- [Applications](../master/recruitment/applications.md)
-- [Configurations](../master/recruitment/configuration.md)
+### Sales
 
-### 🕒 Time Off
+- [Sales](./sales/sales/index.md): quotations, orders, products and prices.
+- [Point of Sale](./sales/point-of-sale/index.md): the cash register for shops and cafés.
 
-- [My Time](../master/timeOff/my-time.md)
-- [Overview](../master/timeOff/overview.md)
-- [Management](../master/timeOff/management.md)
-- [Configurations](../master/timeOff/configuration.md)
+### Supply chain
 
-## 🧭 Guide Structure Overview
+- [Purchase](./supply-chain/purchase/index.md): requests for quotation, orders, receipts and vendor bills.
+- [Inventory](./supply-chain/inventories/index.md): warehouses, transfers, counts and tracking.
+- [Manufacturing](./supply-chain/manufacturing/index.md): bills of materials, work centers and manufacturing orders.
+- [Maintenance](./supply-chain/maintenance/index.md): equipment and repair requests.
 
-The documentation is structured exactly as the system modules appear in AureusERP:
+### Human resources
 
-- Invoices
-- Sales
-- Purchase
-- Inventory
-- Employees
-- Recruitment
-- Time Off
-- Contacts
-- Website CMS
-- Projects & Tasks
+- [Employees](./human-resources/employees/index.md): the people directory.
+- [Recruitment](./human-resources/recruitment/index.md): applications and hiring setup.
+- [Time off](./human-resources/time-off/index.md): leave requests, approvals and balances.
 
-Each module contains detailed navigation, setup, and usage instructions.
+### Services
+
+- [Project](./services/project/index.md): projects, tasks and progress.
+- [Timesheets](./services/timesheets/index.md): hours spent on tasks.
+
+### Website
+
+- [Website](./website/index.md): pages, blog, customer accounts and contact details.
+
+## How each page is built
+
+Most pages follow the same pattern, so you always know where to look.
+
+- A short introduction and an **In simple words** line explain the feature.
+- **Settings** tells you which option must be on before a menu appears.
+- Numbered steps walk you through the screen, with a screenshot for each step.
+- Menu paths look like `Module → Section → Page`.
+- Field names are in **bold italics**, and buttons are in **bold**.
+- **See also** at the end links to related pages.
+
+Click any screenshot to enlarge it.
+
+::: tip
+Use the search box at the top of this site to jump straight to a feature, a field name or a button.
+:::
+
+::: info
+You only see the menus your role allows. If a menu in this guide is missing on your screen, ask an administrator to check your role and installed plugins.
+:::
+
+## See also
+
+- [General settings](./general-settings/index.md)
+- [Search, filter and group](./getting-started/search-filter-group.md)
+- [Contacts](./getting-started/contacts/contacts.md)
