@@ -38,11 +38,11 @@ See [Job positions](../job-positions/job-positions.md) for the card details.
 4. Type **Rahul Verma** as **Full Name**. Add the email **rahul.verma@example.com** and a phone number.
 5. Save the candidate, then click **Create**.
 
-<ImagePopup src="/images1/recruitment/gs_new_applicant_modal.png" alt="Create Applicant window with the Candidate field open and the new candidate form filled for Rahul Verma" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_new_applicant_modal.png | Create Applicant window with the Candidate field open and the new candidate form filled for Rahul Verma -->
 
 The edit page of the applicant opens. The applicant starts in the stage **New**, because that stage is the default.
 
-<ImagePopup src="/images1/recruitment/gs_applicant_new_stage.png" alt="Edit Applicant page for Rahul Verma with the stage bar showing New" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_applicant_new_stage.png | Edit Applicant page for Rahul Verma with the stage bar showing New -->
 
 ## Step 4: Fill in the applicant
 
@@ -53,7 +53,7 @@ The edit page of the applicant opens. The applicant starts in the stage **New**,
 5. Choose **Source** and **Medium**, for example **LinkedIn**.
 6. Click the stars to rate the applicant. Click **Save changes**.
 
-<ImagePopup src="/images1/recruitment/gs_applicant_filled.png" alt="Edit Applicant form for Rahul Verma filled with job position, recruiter, tags, degree, salary, source and medium" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_applicant_filled.png | Edit Applicant form for Rahul Verma filled with job position, recruiter, tags, degree, salary, source and medium -->
 
 Each field is explained in [Add an applicant](../applicants/add-applicant.md).
 
@@ -64,12 +64,12 @@ The state tells your team how an applicant is doing inside a stage.
 1. Click the **State** icon button in the page header.
 2. Choose **Ready for next stage** and click **Submit**.
 
-<ImagePopup src="/images1/recruitment/gs_state_modal.png" alt="State window with In Progress, Ready for next stage and Blocked options" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_state_modal.png | State window with In Progress, Ready for next stage and Blocked options -->
 
 3. Click **First Interview** in the stage bar. The stage changes at once.
 4. Keep clicking the next stage as the hiring goes on, up to **Contract Proposal**.
 
-<ImagePopup src="/images1/recruitment/gs_stage_first_interview.png" alt="Stage bar with First Interview selected for Rahul Verma" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_stage_first_interview.png | Stage bar with First Interview selected for Rahul Verma -->
 
 ::: tip
 Moving to a new stage resets the state to **In Progress**.
@@ -80,7 +80,7 @@ Moving to a new stage resets the state to **In Progress**.
 1. Click **Contract Signed** in the stage bar.
 2. Check the **Application status** pill. It now says **Hired**.
 
-<ImagePopup src="/images1/recruitment/gs_stage_contract_signed.png" alt="Stage bar on Contract Signed with the Hired status pill" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_stage_contract_signed.png | Stage bar on Contract Signed with the Hired status pill -->
 
 ## Step 7: Create the employee
 
@@ -88,9 +88,9 @@ Moving to a new stage resets the state to **In Progress**.
 2. The employee page opens. Review the profile and save it.
 3. Go back to the applicant. The button is now **Go to Employee**. Click it to open the profile.
 
-<ImagePopup src="/images1/recruitment/gs_create_employee.png" alt="Applicant header with the Create Employee button before hiring is finished" />
-<ImagePopup src="/images1/recruitment/gs_employee_created.png" alt="New employee profile for Rahul Verma opened from the applicant" />
-<ImagePopup src="/images1/recruitment/gs_go_to_employee.png" alt="Hired applicant header with the Go to Employee icon button" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_create_employee.png | Applicant header with the Create Employee button before hiring is finished -->
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_employee_created.png | New employee profile for Rahul Verma opened from the applicant -->
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_go_to_employee.png | Hired applicant header with the Go to Employee icon button -->
 
 See [Employee profile](../../employees/employees/employee-profile.md) for what to fill in next.
 
@@ -102,15 +102,15 @@ Add a second applicant, **Meera Nair**, for **Warehouse Supervisor** the same wa
 2. Choose the reason **Refused by applicant: salary**.
 3. Leave **Notify** on. **Email To** shows her email address. Click **Submit**.
 
-<ImagePopup src="/images1/recruitment/gs_refuse_modal.png" alt="Refuse Reason window with Refused by applicant: salary chosen, Notify on and Email To filled" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_refuse_modal.png | Refuse Reason window with Refused by applicant: salary chosen, Notify on and Email To filled -->
 
 4. Check the applicant. The status is **Refused** and the stage bar is hidden.
 
-<ImagePopup src="/images1/recruitment/gs_refused_applicant.png" alt="Refused applicant page for Meera Nair with the Restore button" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_refused_applicant.png | Refused applicant page for Meera Nair with the Restore button -->
 
 5. To bring her back, click **Restore** and confirm.
 
-<ImagePopup src="/images1/recruitment/gs_restore_confirm.png" alt="Restore confirmation window for Meera Nair" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_restore_confirm.png | Restore confirmation window for Meera Nair -->
 
 See [Refuse and reopen](../applicants/refuse-and-reopen.md) for the details.
 
@@ -120,7 +120,7 @@ See [Refuse and reopen](../applicants/refuse-and-reopen.md) for the details.
 2. The list is grouped by stage. Find the group of each applicant.
 3. Open the three dots menu and apply the **Hired** view to see hired people.
 
-<ImagePopup src="/images1/recruitment/gs_applicant_list.png" alt="Applicants list grouped by stage showing Rahul Verma and Meera Nair" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/gs_applicant_list.png | Applicants list grouped by stage showing Rahul Verma and Meera Nair -->
 
 ## See also
 

@@ -16,15 +16,15 @@ Meera Nair applied for **Warehouse Supervisor**. She declined because of the pay
 
 1. Open Meera's applicant page. Click **Refuse** in the header.
 
-<ImagePopup src="/images1/recruitment/refuse_button_header.png" alt="Applicant page for Meera Nair with the Refuse button in the header" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/refuse_button_header.png | Applicant page for Meera Nair with the Refuse button in the header -->
 
 2. The **Refuse Reason** window opens. It shows the reasons as buttons. Choose **Refused by applicant: salary**.
 
-<ImagePopup src="/images1/recruitment/refuse_modal_reasons.png" alt="Refuse Reason window listing the refuse reasons with none selected" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/refuse_modal_reasons.png | Refuse Reason window listing the refuse reasons with none selected -->
 
 3. After you choose a reason, two fields appear. **Notify** is on by default. **Email To** holds the candidate's email address.
 
-<ImagePopup src="/images1/recruitment/refuse_modal_notify.png" alt="Refuse Reason window with Refused by applicant: salary selected, the Notify toggle on and Email To showing Meera's email" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/refuse_modal_notify.png | Refuse Reason window with Refused by applicant: salary selected, the Notify toggle on and Email To showing Meera's email -->
 
 - **_Refuse reason:_** Required. Pick one button. **Submit** does nothing until you pick one.
 - **_Notify:_** On by default. When it is on, Aureus sends the candidate an email based on the reason's template.
@@ -32,7 +32,7 @@ Meera Nair applied for **Warehouse Supervisor**. She declined because of the pay
 
 4. Turn **Notify** off if you do not want to send a message. Click **Submit**.
 
-<ImagePopup src="/images1/recruitment/refuse_after_submit.png" alt="Meera Nair applicant page after refusing, with the Refused status and the stage bar hidden" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/refuse_after_submit.png | Meera Nair applicant page after refusing, with the Refused status and the stage bar hidden -->
 
 ## What happens after you refuse
 
@@ -47,11 +47,11 @@ Each reason uses one of two email templates, **Applicant Refuse** or **Applicant
 
 5. Open Meera's applicant page. Click **Restore** in the header.
 
-<ImagePopup src="/images1/recruitment/restore_button_header.png" alt="Refused applicant page with the Restore button in the header" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/restore_button_header.png | Refused applicant page with the Restore button in the header -->
 
 6. Confirm in the window that opens.
 
-<ImagePopup src="/images1/recruitment/restore_confirm.png" alt="Restore confirmation window for Meera Nair" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/restore_confirm.png | Restore confirmation window for Meera Nair -->
 
 Aureus reopens the application. Meera is back in the process and you can click a stage again.
 

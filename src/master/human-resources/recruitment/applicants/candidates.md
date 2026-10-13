@@ -10,7 +10,7 @@ Open `Recruitments → Applications → Candidates`.
 
 The page lists candidates as cards. Use **Sort by** to order them by **Full Name**. Group them by **Manager**. Each card has **View**, **Edit** and **Delete**.
 
-<ImagePopup src="/images1/recruitment/candidates_list.png" alt="Candidates page with cards for each candidate and the New Candidate button" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/candidates_list.png | Candidates page with cards for each candidate and the New Candidate button -->
 
 ## Create a candidate
 
@@ -27,7 +27,7 @@ You can also create a candidate while [adding an applicant](add-applicant.md).
 - **_Phone Number:_** The contact number.
 - **_LinkedIn Profile:_** The link to the person's profile.
 
-<ImagePopup src="/images1/recruitment/candidate_create_basic.png" alt="Create Candidate form with the Basic Information section filled for Rahul Verma" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/candidate_create_basic.png | Create Candidate form with the Basic Information section filled for Rahul Verma -->
 
 ### Additional Details
 
@@ -40,7 +40,7 @@ You can also create a candidate while [adding an applicant](add-applicant.md).
 - **_Status:_** A toggle for an active candidate.
 - **_Evaluation:_** A star rating.
 
-<ImagePopup src="/images1/recruitment/candidate_create_additional.png" alt="Additional Details section with degree, tags, manager, availability date, status and evaluation filled in" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/candidate_create_additional.png | Additional Details section with degree, tags, manager, availability date, status and evaluation filled in -->
 
 4. Click **Create**, or **Create & create another** to add more.
 
@@ -48,7 +48,7 @@ You can also create a candidate while [adding an applicant](add-applicant.md).
 
 Open a candidate and use the **Skills** table, or the **Manage Skills** tab. Click **Add Skill** to record a skill. Each row shows **Skill Type**, **Skill**, **Skill Level** and **Level Percent**. Use the row actions to view, edit or delete a skill. Skill types are set up in the employee settings.
 
-<ImagePopup src="/images1/recruitment/candidate_skills_table.png" alt="Skills table of a candidate with Skill Type, Skill, Skill Level and Level Percent columns and the Add Skill button" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/candidate_skills_table.png | Skills table of a candidate with Skill Type, Skill, Skill Level and Level Percent columns and the Add Skill button -->
 
 ## Actions
 

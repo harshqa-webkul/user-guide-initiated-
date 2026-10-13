@@ -19,12 +19,12 @@ Rahul Verma applies for **Warehouse Supervisor**. You follow him from **New** to
 
 1. Open Rahul's applicant page in edit mode. The **New** stage is blue on the stage bar.
 
-<ImagePopup src="/images1/recruitment/applicant_edit_overview.png" alt="Edit Applicant page for Rahul Verma showing the stage bar, General Information card, right column cards and Save changes button" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_edit_overview.png | Edit Applicant page for Rahul Verma showing the stage bar, General Information card, right column cards and Save changes button -->
 
 2. In **General Information**, choose **Warehouse Supervisor** in **Job Positions**.
 3. Set **Recruiter** to **ERP Admin**. Add an **Interviewer**. Add one or more **Tags**.
 
-<ImagePopup src="/images1/recruitment/applicant_general_information.png" alt="General Information card with Rahul Verma, Warehouse Supervisor, recruiter ERP Admin, interviewer and tags filled in" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_general_information.png | General Information card with Rahul Verma, Warehouse Supervisor, recruiter ERP Admin, interviewer and tags filled in -->
 
 - **_Candidate name:_** Required. Choose the candidate. **Emails**, **Phone** and **Linkedin Profile** load from the candidate.
 - **_Job Positions:_** The job applied for. The first time you choose one, Aureus puts the applicant in the first default stage. Later changes copy the recruiter, interviewers and department from the position.
@@ -36,7 +36,7 @@ Rahul Verma applies for **Warehouse Supervisor**. You follow him from **New** to
 
 4. Use the right column. Choose a **Degree** and an **Availability Date** under **Education & Availability**. Set **Department** if needed.
 
-<ImagePopup src="/images1/recruitment/applicant_education_availability.png" alt="Education and Availability card with a degree chosen and an availability date set" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_education_availability.png | Education and Availability card with a degree chosen and an availability date set -->
 
 5. Under **Expected & Proposed Salary**, type `40000` in **Expected Salary**. Fill **Proposed Salary** when you make an offer. Each salary has an **Other Benefit** field for extras. All values are numbers from 0.
 
@@ -44,7 +44,7 @@ Rahul Verma applies for **Warehouse Supervisor**. You follow him from **New** to
 
 6. Under **Source & Medium**, choose where the application came from, for example **LinkedIn** as **Source**. Choose how it reached you in **Medium**.
 
-<ImagePopup src="/images1/recruitment/applicant_source_medium.png" alt="Source and Medium card with a source and a medium selected" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_source_medium.png | Source and Medium card with a source and a medium selected -->
 
 7. Click **Save changes**.
 
@@ -56,17 +56,17 @@ Rahul Verma applies for **Warehouse Supervisor**. You follow him from **New** to
 
 8. Click the stars at the top of **General Information**. The tooltips are **Good**, **Very Good** and **Very Excellent**. Click the active star again to clear the rating.
 
-<ImagePopup src="/images1/recruitment/applicant_stars.png" alt="Three star rating at the top of General Information with two stars selected" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_stars.png | Three star rating at the top of General Information with two stars selected -->
 
 ### Move through the stages
 
 9. Click the next stage on the bar, for example **First Interview**. The change saves at once. You can click any stage, forward or back.
 
-<ImagePopup src="/images1/recruitment/applicant_stage_stepper.png" alt="Stage bar with First Interview highlighted in blue after Rahul Verma moved from New" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_stage_stepper.png | Stage bar with First Interview highlighted in blue after Rahul Verma moved from New -->
 
 10. Click the icon button **State**. Choose **In Progress**, **Ready for next stage** or **Blocked**, then click **Submit**.
 
-<ImagePopup src="/images1/recruitment/applicant_state_modal.png" alt="State window with In Progress, Ready for next stage and Blocked options and Submit button" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_state_modal.png | State window with In Progress, Ready for next stage and Blocked options and Submit button -->
 
 When you change the stage, the state goes back to **In Progress**.
 
@@ -78,15 +78,15 @@ A **Blocked** applicant disappears from the main applicant list. Open the **Bloc
 
 11. Click **Contract Signed** on the stage bar. This stage is a **Hired Stage**. Aureus sets the **Application status** to **Hired** and fills **Hired Date**.
 
-<ImagePopup src="/images1/recruitment/applicant_hired_stage.png" alt="Applicant page with Contract Signed highlighted and the Application status shown as Hired with a Hired Date" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_hired_stage.png | Applicant page with Contract Signed highlighted and the Application status shown as Hired with a Hired Date -->
 
 12. Click **Create Employee**. Aureus creates the employee from the applicant and opens the employee page. Check it and save. See [Add an employee](../../employees/employees/add-employee.md).
 
-<ImagePopup src="/images1/recruitment/applicant_create_employee_button.png" alt="Hired applicant page header with the Create Employee button" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_create_employee_button.png | Hired applicant page header with the Create Employee button -->
 
 13. Back on the applicant, click the **Go to Employee** icon to open the employee later.
 
-<ImagePopup src="/images1/recruitment/applicant_go_to_employee.png" alt="Applicant header showing the Go to Employee icon button with its tooltip" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_go_to_employee.png | Applicant header showing the Go to Employee icon button with its tooltip -->
 
 If you click another stage that is not a hired stage, the applicant is no longer hired.
 

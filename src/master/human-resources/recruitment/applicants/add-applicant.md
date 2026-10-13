@@ -16,26 +16,26 @@ Rahul Verma applies for **Warehouse Supervisor**. He is not in Aureus yet, so yo
 
 1. Open `Recruitments → Applications → Applicants`. Click **New Applicant**.
 
-<ImagePopup src="/images1/recruitment/applicants_list_new_button.png" alt="Applicants list with the New Applicant button in the top right corner" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicants_list_new_button.png | Applicants list with the New Applicant button in the top right corner -->
 
 2. The **Create Applicant** window opens. It has one field, **Candidate**. Open the list and look for Rahul Verma. He is not there, so use the create option under the list.
 
-<ImagePopup src="/images1/recruitment/applicant_create_modal_empty.png" alt="Create Applicant window with the empty Candidate select and the Create and Cancel buttons" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_create_modal_empty.png | Create Applicant window with the empty Candidate select and the Create and Cancel buttons -->
 
 3. Fill in the candidate form that opens:
    - **Full Name:** `Rahul Verma`
    - **Email Address:** `rahul.verma@example.com`
    - **Phone Number:** a phone number.
 
-<ImagePopup src="/images1/recruitment/applicant_create_inline_candidate.png" alt="Inline candidate form filled with Rahul Verma, his email address and phone number" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_create_inline_candidate.png | Inline candidate form filled with Rahul Verma, his email address and phone number -->
 
 4. Save the candidate. The window returns to **Create Applicant** with **Rahul Verma** selected.
 
-<ImagePopup src="/images1/recruitment/applicant_create_candidate_selected.png" alt="Create Applicant window with Rahul Verma selected in the Candidate field" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_create_candidate_selected.png | Create Applicant window with Rahul Verma selected in the Candidate field -->
 
 5. Click **Create**. Aureus opens the **Edit Applicant** page. Continue with [Process an applicant](process-applicant.md) to choose the job position and the recruiter.
 
-<ImagePopup src="/images1/recruitment/applicant_edit_after_create.png" alt="Edit Applicant page for Rahul Verma in the New stage, just after creation" />
+<!-- TODO-SCREENSHOT: /images1/recruitment/applicant_edit_after_create.png | Edit Applicant page for Rahul Verma in the New stage, just after creation -->
 
 ## Fields
 
