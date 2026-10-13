@@ -1,7 +1,7 @@
 const routes = [
   {
     text: 'Getting Started',
-    collapsed: true,
+    collapsed: false,
     items: [
       { text: 'Introduction', link: '/master/Introduction' },
       { text: 'Stages', link: '/master/getting-started/stages' },

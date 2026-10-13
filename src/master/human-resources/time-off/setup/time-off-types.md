@@ -17,11 +17,11 @@ The page lists every leave type. Two tabs sit above the list.
 - **All:** leave types in use.
 - **Archived:** leave types you deleted. You can restore them here.
 
-The columns **Name** and **Allocation Approval** show by default. Use the **Columns** button to add **Time Off Approval**, **Notified Time Officers**, **Requires Allocation**, **Employee Request**, **Color** and **Company**. Use the search box to find a type. The filter button lets you build rules on fields such as **Name**, **Requires Allocation** and **Time Type**.
+The columns **Name** and **Allocation Approval** show by default. Use the columns icon (the toggle next to the search box) to add **Time Off Approval**, **Notified Time Officers**, **Requires Allocation**, **Employee Request**, **Color** and **Company**. Use the search box to find a type. The funnel icon opens the filters, where you can build rules on fields such as **Name**, **Requires Allocation** and **Time Type**.
 
 Each row has **View**, **Edit** and **Delete**. **Delete** archives the type.
 
-<ImagePopup src="/images1/time-off/to_set_types_list.png" alt="Leave Types list with the All and Archived tabs showing the seven leave types" />
+<ImagePopup src="/images1/time-off/to_set_types_list.png" alt="Leave Types list with the All and Archived tabs, the Name and Allocation Approval columns and the seven leave types" />
 
 ## Create a leave type
 
@@ -61,12 +61,12 @@ The first **Approval** is for requests. The second is for allocations. They have
 
 ### Display Option
 
-- **_Color:_** Required. Pick a colour. It paints the balance card and the calendar bars.
+- **_Color:_** Required. Empty by default. Type a hex code such as `#2f72cc`, or click the swatch dot and pick a colour in the panel. It paints the balance card and the calendar bars.
 
 ### Configuration
 
 - **_Notified Time Off Officers:_** Pick users from a searchable list. It is empty by default.
-- **_Take Time Off In:_** **Day** (default) or **Half Day**.
+- **_Take Time Off In:_** How a request is counted. The default is **Day**. **Half Day** is also available.
 - **_Public Holiday Included:_** Toggle, off by default.
 - **_Allow to Attach Supporting Document:_** Toggle, off by default.
 - **_Show on Dashboard:_** Toggle, off by default. When on, the type gets a balance card on `Time Off → My Time → Dashboard`.
@@ -77,7 +77,7 @@ With **Requires Allocation** set to **Yes**, two more settings appear.
 - **_Allow Negative Cap:_** Toggle, off by default.
 - **_Max Negative Cap:_** Required number, default `0`. It shows only when **Allow Negative Cap** is on.
 
-<ImagePopup src="/images1/time-off/to_set_type_config.png" alt="Display Option and Configuration cards with Color, Notified Time Off Officers, Take Time Off In Day and the toggles" />
+<ImagePopup src="/images1/time-off/to_set_type_config.png" alt="Display Option and Configuration cards with Color #2f72cc, Notified Time Off Officers HR Admin, Take Time Off In Day, only Show on Dashboard switched on and Kind of Time Off Absence" />
 
 4. Click **Create**. The type opens in the list. Use **Create & create another** to add several.
 

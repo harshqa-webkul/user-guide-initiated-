@@ -14,9 +14,9 @@ The **Calendar** field uses a working schedule. Pick one that already exists, su
 
 The page lists each holiday. The columns are **Name**, **Start Date**, **End Date** and **Calendar**. Use the search box to find a name, for example `Day`. Group the list by **Start Date**, **End Date** or **Company Name**. Each row has **View**, **Edit** and **Delete**.
 
-Sample data holds thirteen holidays of 2025, from **New Year's Day** to **Christmas Day**. They all use the calendar **Flexible 40 hours/week**.
+Sample data includes thirteen holidays of 2025, from **New Year's Day** to **Christmas Day**. They all use the calendar **Flexible 40 hours/week**. Dates show as `2025-01-01`. The list can hold more rows than these thirteen, so use the page numbers below the table.
 
-<ImagePopup src="/images1/time-off/to_set_holidays_list.png" alt="Public Holidays list showing New Year's Day, Republic Day and Christmas Day with start and end dates and the calendar" />
+<ImagePopup src="/images1/time-off/to_set_holidays_list.png" alt="Public Holidays list showing New Year's Day, Republic Day and Gandhi Jayanti with start and end dates and the calendar" />
 
 ## Create a public holiday
 
@@ -27,7 +27,7 @@ This example adds **Company Foundation Day**.
 3. Fill in the form.
 
 - **_Name:_** Required. Type `Company Foundation Day`.
-- **_Start Date:_** Required. Pick the first day.
+- **_Start Date:_** Required. Pick the first day. Dates show like `Oct 20, 2026`.
 - **_End Date:_** Required. Pick the last day. For one day, pick the same date.
 - **_Calendar:_** Optional. Choose **Flexible 40 hours/week**.
 
@@ -41,7 +41,7 @@ Click **Create & create another** to add several holidays in a row.
 
 ## Where holidays show
 
-Open `Time Off → My Time → Dashboard`. Click the round blue button in the corner of the calendar. A **Holidays** window opens with two sections: **Public Holidays** and **Mandatory Holidays**. Each public holiday shows its name and its date or date range.
+Open `Time Off → My Time → Dashboard`. Click the round blue icon button next to **New Time Off**. A **Holidays** panel slides in from the right with two sections: **Public Holidays** and **Mandatory Holidays**. Each public holiday shows its name, a grey **N/A** line, and its date or date range. Scroll down to see **Mandatory Holidays**.
 
 <ImagePopup src="/images1/time-off/to_set_holidays_window.png" alt="Holidays window on My Time with the Public Holidays section listing names and dates" />
 
