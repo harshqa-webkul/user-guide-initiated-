@@ -6,7 +6,7 @@ This section gets you from an empty module to a working leave flow. You check a 
 
 ## What is in this section
 
-- [First steps](first-steps.md): a tutorial with two people, **Sarah Mitchell** and **Priya Sharma**. You see a request, an approval, a refusal by the balance rule, an allocation, a refusal by a manager, a half day and the calendar.
+- [First steps](first-steps.md): a tutorial with two people, **Sarah Mitchell** and **Priya Sharma**. You see a request, an approval, a denied request, an allocation, a refusal by a manager, a half day and the calendar.
 
 ## Before you start
 
@@ -19,7 +19,7 @@ You need at least one employee linked to your user. Sample data links **Sarah Mi
 1. Where your balance shows.
 2. How to ask for days off.
 3. Where a manager approves or refuses.
-4. Why a request can be refused before it is saved.
+4. Why a request can be denied before it is saved.
 5. How an allocation gives a person days.
 
 ## After the tutorial

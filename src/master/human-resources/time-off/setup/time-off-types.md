@@ -99,7 +99,7 @@ All seven have **Show on Dashboard** on and **Kind of Time Off** set to **Absenc
 
 **Paid Time Off** needs an allocation. Priya Sharma has no days, so her request is refused until you allocate some. After you allocate 12 days, she can book up to 12.
 
-**Sick Time Off** has no limit. Priya can request it at any time without an allocation. No balance runs out.
+**Sick Time Off** has no day limit. Priya still needs an approved Sick Time Off allocation before Aureus accepts a request.
 
 ## Edit, view or delete
 

@@ -7,7 +7,7 @@ My Allocation lists the day balances granted to you and lets you ask for more da
 Open `Time Off → My Time → My Allocation`.
 
 ::: info Before you start
-The leave type must have **Requires Allocation** set to **Yes**. See [Time off types](../setup/time-off-types.md). Your user also needs a linked employee.
+The leave type must exist. See [Time off types](../setup/time-off-types.md). Your user also needs a linked employee.
 :::
 
 ## Overview
@@ -21,13 +21,13 @@ The page is titled **My Allocations**. Each row shows one allocation.
 
 Use **Group by** to group rows by **Employee Name**, **Time Off Type**, **Allocation Type**, **Status** or **Start Date**. Type in the search box to find a row.
 
-<ImagePopup src="/images1/time-off/alloc_my_list.png" alt="My Allocations list with one row for Paid Time Off, amount 20.0000, Regular, Approved" />
+<ImagePopup src="/images1/time-off/alloc_my_list.png" alt="My Allocations list with one row: Paid Time Off, 20.0000, Regular, Approved" />
 
 ## Request an allocation
 
 1. Open `Time Off → My Time → My Allocation`. Click **New My Allocation**.
 
-<ImagePopup src="/images1/time-off/alloc_my_create_empty.png" alt="Create My Allocation form with the State bar showing To Approve and empty fields" />
+<ImagePopup src="/images1/time-off/alloc_my_create_empty.png" alt="Create My Allocation form with the State bar on To Approve, empty Name and Time Off Type, Regular selected, Date From Oct 13 2026, Date To No Limit and Allocation 0" />
 
 2. Look at the **State** bar. It starts on **To Approve**. You cannot change it.
 
@@ -52,12 +52,12 @@ Use **Group by** to group rows by **Employee Name**, **Time Off Type**, **Alloca
 ### Days and reason
 
 8. Type the number of days in **Allocation**. The field shows **Number of Days**. Write **5**.
-9. Explain the request in **Reason**.
+9. Explain the request in **Reason**. Write **Extra days for a family trip**.
 
 - **_Allocation:_** Required. The number of days. The default is 0.
 - **_Reason:_** Optional. Tell the approver why you need the days.
 
-<ImagePopup src="/images1/time-off/alloc_my_create_filled.png" alt="Filled Create My Allocation form with Paid Time Off, Regular, Date From Oct 13 2026, Date To empty, 5 days" />
+<ImagePopup src="/images1/time-off/alloc_my_create_filled.png" alt="Filled Create My Allocation form: Name Annual leave 2026 top-up, Paid Time Off, Regular, Date From Oct 13 2026, Date To No Limit, 5 days, reason Extra days for a family trip" />
 
 10. Click **Create**. Click **Create & create another** to add a second one.
 

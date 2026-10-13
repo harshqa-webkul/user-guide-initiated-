@@ -1,13 +1,13 @@
 # Time off allocations
 
-An allocation is a balance of days that you grant to an employee for one leave type. Some leave types, such as **Paid Time Off**, only work when the employee has days to spend. The allocation is that stock of days. Without it, the employee cannot request this type of leave.
+An allocation is a balance of days that you grant to an employee for one leave type. An allocation is the stock of days that requests spend. Without an approved allocation for a type, the employee cannot request that leave.
 
 > **In simple words:** An allocation says "this person may take this many days of this leave type". Requests spend the days.
 
 Open `Time Off → My Time → My Allocation` to see your own allocations. Open `Time Off → Management → Allocation` to manage everyone's.
 
 ::: info Before you start
-Check the leave type in [Time off types](../setup/time-off-types.md). The allocation only matters when **Requires Allocation** is set to **Yes**.
+Check the leave type in [Time off types](../setup/time-off-types.md). Set up the allocation before the first request of that type.
 :::
 
 ## How the balance works
@@ -22,12 +22,11 @@ Example from this guide: Sarah Mitchell has **Paid Time Off 2026**, an allocatio
 
 The balance shows on the cards in [My Time](../requests/my-time.md). Each card shows the days left and a line such as **Valid until 2026-12-31**.
 
-## When you do not need an allocation
+## When a request is denied
 
-Open a leave type and look at **Requires Allocation**.
+Without an approved allocation, Aureus denies the request. A **Leave Request Denied** message appears, for example `You do not have any allocated leave for Paid Time Off.` The same happens for **Sick Time Off**: `You do not have any allocated leave for Sick Time Off.` Nothing is saved.
 
-- **Yes**: employees need an approved allocation first. Without one, Aureus refuses the request.
-- **No Limit**: employees can request the leave without any allocation. Sick leave is an example.
+In this guide Priya Sharma gets a 12 day **Paid Time Off** allocation and a 5 day **Sick Time Off** allocation.
 
 ## The two ways to create an allocation
 

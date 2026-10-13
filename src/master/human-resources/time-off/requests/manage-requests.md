@@ -2,7 +2,7 @@
 
 Management is where you review every time off request and decide on it. You can approve a request, refuse it, open it or change it. You can also create a request for someone else.
 
-> **In simple words:** Open the list, find the request, and use its **Actions** menu to **Approve** or **Refuse**.
+> **In simple words:** Open the list, find the request, and use the three-dot menu on its row to **Approve** or **Refuse**.
 
 Menu: `Time Off → Management → Time off`. The page is titled **Time Offs**.
 
@@ -18,9 +18,9 @@ The page opens on the **Waiting For Me** tab. Tabs sit above the list.
 - **Waiting For Me:** requests that are **To Approve**.
 - **Second Approval**, **Approved:** other saved views of the list.
 
-Click the kebab menu next to the tabs to see more views: **Currently Valid**, **My Team**, **My Department** and **Refused**. The same menu lets you add a view or reset them.
+Click the three-dot button next to the tabs. The **Views** panel opens with **Favorite Views** (**Waiting For Me**, **Second Approval**, **Approved**) and **Preset Views** (**Currently Valid**, **My Team**, **My Department**, **Refused**). **Add New** and **Reset** sit at the top.
 
-<ImagePopup src="/images1/time-off/manage_list_tabs.png" alt="Time Offs list with tabs Default, Waiting For Me, Second Approval and Approved and the kebab menu open" />
+<ImagePopup src="/images1/time-off/manage_list_tabs.png" alt="Time Offs list on the Waiting For Me tab with the Views panel open showing Favorite Views and Preset Views" />
 
 - **Columns:** **Employee**, **Time Off Type**, **Description**, **Date From**, **Date To**, **Duration**, **Status**.
 - **Group by:** Employee, Time Off Type, Status, Start Date, End Date.
@@ -31,30 +31,32 @@ Click the kebab menu next to the tabs to see more views: **Currently Valid**, **
 Sarah Mitchell's Paid Time Off request for 3 days is **To Approve**.
 
 1. Open `Time Off → Management → Time off`. Click **Waiting For Me**.
-2. Find Sarah's row. Open its **Actions** menu.
+2. Find Sarah's row. Click the three-dot icon at the end of the row. The clock icon beside it schedules an activity.
 
-<ImagePopup src="/images1/time-off/manage_row_actions.png" alt="Actions menu on Sarah Mitchell's row with Approve, Refuse, View, Edit and Delete" />
+<ImagePopup src="/images1/time-off/manage_row_actions.png" alt="Row menu on Sarah Mitchell's Paid Time Off request, 19 to 21 October, 3 working days, with Approve, Refuse, View, Edit and Delete" />
 
 3. Click **Approve**.
-4. The **Status** badge changes to **Approved**.
+4. A **Time Off approved** message appears and the **Status** badge changes to **Approved**. No confirmation window opens.
 
-<ImagePopup src="/images1/time-off/manage_approved_row.png" alt="Sarah Mitchell's Paid Time Off row with Status Approved" />
+<ImagePopup src="/images1/time-off/manage_approved_row.png" alt="Default tab of the Time Offs list with Sarah Mitchell's Paid Time Off row for 2026-10-19 to 2026-10-21, 3 working days, Status Approved" />
 
-Sarah's **Paid Time Off** card on [My Time](my-time.md) now shows **17.0**.
+Sarah's **Paid Time Off** card on [My Time](my-time.md) shows **17.0**. It already showed 17.0 while the request was **To Approve**.
 
 ## Refuse a request
 
-Priya Sharma asked for 1 day of Sick Time Off.
+Priya Sharma asked for 1 day of Sick Time Off on 26 October.
 
-1. Open the **Actions** menu on Priya's row.
+1. Click the three-dot icon on Priya's row.
 2. Click **Refuse**.
-3. The **Status** badge shows **Refused**.
+3. A **Time Off refused** message appears and the **Status** badge shows **Refused**.
 
-<ImagePopup src="/images1/time-off/manage_refused_row.png" alt="Priya Sharma's Sick Time Off row with Status Refused" />
+<ImagePopup src="/images1/time-off/manage_refused_row.png" alt="Time Offs list filtered by Priya with the Paid Time Off request To Approve and the Sick Time Off request for 2026-10-26, 1 working day, Status Refused" />
 
 A refused request does not use any balance.
 
 ## Row actions
+
+Open the three-dot menu on a row to use these.
 
 - **Approve:** hidden when the request is already **Approved**. It reads **Validate** when the status is **Second Approval**.
 - **Refuse:** hidden when the request is already **Refused**.
@@ -66,9 +68,9 @@ Clicking a row also opens **View**. The **View** and **Edit** pages have no **Ap
 
 ## Create or edit as a manager
 
-Click **New Time off**. The form is the same as in [Request time off](request-time-off.md), plus **Employee Name** and **Department Name**, both required. Use it to enter leave on behalf of someone.
+Click **New Time off**. The form is the same as in [Request time off](request-time-off.md), plus **Employee Name** and **Department Name**, both required. **Department Name** fills in when you choose the employee. Use it to enter leave on behalf of someone. The page is titled **Create Time Off**. After you click **Create**, a **Time Off created** message appears and the app opens the request **View** page.
 
-<ImagePopup src="/images1/time-off/manage_create_form.png" alt="Create form in Management with Employee Name Priya Sharma, Time Off Type, dates and Duration" />
+<ImagePopup src="/images1/time-off/manage_create_form.png" alt="Create Time Off form with Employee Name Priya Sharma, Department Name Operations, Paid Time Off, 22 to 23 October 2026 and Duration 2 working days" />
 
 ## Where the status shows
 
