@@ -14,7 +14,7 @@ Open `Website → Configurations`. The sidebar group **Blog** holds **Categories
 
 Open `Website → Configurations → Categories`.
 
-<!-- TODO-SCREENSHOT: /images1/website/cat_list.png | Categories list with The Knowledge Vault, The Flavor Journal, Beyond Borders Travel, tabs All and Archived, New Category button -->
+<ImagePopup src="/images1/website/cat_list.png" alt="Categories list with The Knowledge Vault, The Flavor Journal, Beyond Borders Travel, tabs All and Archived, New Category button" />
 
 - **Tabs:** **All**, **Archived**.
 - **Columns:** name and **Created At**.
@@ -29,7 +29,7 @@ Open `Website → Configurations → Categories`.
 - **_Slug:_** Built from the name. Locked after saving. It appears in the address `/blog/{category}`.
 - **_Sub Title:_** A short description.
 
-<!-- TODO-SCREENSHOT: /images1/website/cat_form.png | New Category form filled with The Knowledge Vault, slug and sub title -->
+<ImagePopup src="/images1/website/cat_form.png" alt="New Category form filled with The Knowledge Vault, slug and sub title" />
 
 3. Click **Create**. **Create & create another** keeps the form open.
 
@@ -37,9 +37,9 @@ Open `Website → Configurations → Categories`.
 
 Click **Delete** on the row. The category moves to **Archived**. Use **Restore** to bring it back.
 
-If posts use the category, Aureus refuses. It shows **Cannot delete category** with the text "You cannot delete this category as it is associated with some posts."
+If posts use the category, Aureus refuses to force delete it. It shows **Category could not be deleted** with the text "The Category cannot be deleted because it is currently in use."
 
-<!-- TODO-SCREENSHOT: /images1/website/cat_delete_guard.png | The Cannot delete category message after deleting a category that has posts -->
+<ImagePopup src="/images1/website/cat_delete_guard.png" alt="The Category could not be deleted message after force deleting a category that has posts" />
 
 ::: tip
 Move the posts to another category first, then delete.
@@ -49,7 +49,7 @@ Move the posts to another category first, then delete.
 
 Open `Website → Configurations → Tags`.
 
-<!-- TODO-SCREENSHOT: /images1/website/tag_list.png | Tags list with Learn and Grow, Travel With Ease, Tech Savy Blogs showing Name and Color columns -->
+<ImagePopup src="/images1/website/tag_list.png" alt="Tags list with Learn and Grow, Travel With Ease, Tech Savy Blogs showing Name and Color columns" />
 
 - **Tabs:** **All**, **Archived**.
 - **Columns:** **Name**, **Color**.
@@ -62,7 +62,7 @@ Open `Website → Configurations → Tags`.
 - **_Name:_** Required. Must be unique, for example `Learn and Grow`.
 - **_Color:_** Pick a colour with the colour picker.
 
-<!-- TODO-SCREENSHOT: /images1/website/tag_form.png | New Tag form with Name Travel With Ease and a colour chosen -->
+<ImagePopup src="/images1/website/tag_form.png" alt="New Tag form with Name Travel With Ease and a colour chosen" />
 
 3. Click **Create**.
 
@@ -72,7 +72,7 @@ You can also create tags inside a post. See [Blog posts](blog-posts.md).
 
 On `/blog` categories show as pills in a row: **All** plus every category. Click a pill to see only that category. The tag filter lists your tags. Pick one to narrow the posts.
 
-<!-- TODO-SCREENSHOT: /images1/website/cat_public_pills.png | Public /blog page showing category pills and the tag filter -->
+<ImagePopup src="/images1/website/cat_public_pills.png" alt="Public /blog page showing category pills and the tag filter" />
 
 ## See also
 

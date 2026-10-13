@@ -21,7 +21,7 @@ Open the app from the app switcher, then choose **Website**. No setting turns We
 | **Configurations** | `Website → Configurations` | Manage **Categories** and **Tags**. See [Categories and tags](../blog/categories-and-tags.md) |
 | **Settings** | `Website → Settings → Manage Contacts` | Set email, phone and social links. See [Manage contacts](../settings/manage-contacts.md) |
 
-<!-- TODO-SCREENSHOT: /images1/website/ov_top_bar.png | Website app top bar showing Blog Posts, Pages, Customers, Configurations and Settings menus -->
+<ImagePopup src="/images1/website/ov_top_bar.png" alt="Website app top bar showing Blog Posts, Pages, Customers, Configurations and Settings menus" />
 
 Every list and form has a **Locale** switcher with English, Arabic, Spanish, Portuguese (Brazil) and French. Titles, content and meta fields can be translated.
 
@@ -46,7 +46,7 @@ Open `Website → Dashboard`. Two filters sit at the top.
 
 The page counts ignore the filters. The blog counts follow them.
 
-<!-- TODO-SCREENSHOT: /images1/website/dash_stats.png | Dashboard filters Date Range and Author with the six stat tiles -->
+<ImagePopup src="/images1/website/dash_stats.png" alt="Dashboard filters Date Range and Author with the six stat tiles" />
 
 ### Widgets
 
@@ -59,7 +59,7 @@ The page counts ignore the filters. The blog counts follow them.
 | **Top Categories Table** | Categories ranked by post count |
 | **Recent Blogs Table** | The latest posts |
 
-<!-- TODO-SCREENSHOT: /images1/website/dash_widgets.png | Dashboard charts and the Top Categories and Recent Blogs tables -->
+<ImagePopup src="/images1/website/dash_widgets.png" alt="Dashboard charts and the Top Categories and Recent Blogs tables" />
 
 ## Admin option to public site
 
@@ -92,7 +92,7 @@ A page must be published to appear. A draft page gives a not found error to visi
 
 The top bar shows Home, your header pages, Blog, a search box, a language list, **Login** and **Register**. The footer shows a short fixed description, **Useful Links**, **Contact Us**, **Follow Us** and a copyright line.
 
-<!-- TODO-SCREENSHOT: /images1/website/site_top_bar_footer.png | Public home page with the top bar and the footer both visible -->
+<ImagePopup src="/images1/website/site_top_bar_footer.png" alt="Public home page with the top bar: Home, header pages, Blog, search, language list, Login and Register" />
 
 ## See also
 

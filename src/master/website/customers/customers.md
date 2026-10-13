@@ -8,7 +8,7 @@ Open `Website → Customers`.
 
 ## Overview
 
-<!-- TODO-SCREENSHOT: /images1/website/cust_list.png | Website → Customers list, Default tab, rows such as Ben Foster and Grace Liu with the Portal Access badge visible, tabs row and Create Contact button -->
+<ImagePopup src="/images1/website/cust_list.png" alt="Website → Customers list, Default tab, rows such as Ben Foster and Grace Liu with the Portal Access badge visible, tabs row and Create Contact button" />
 
 - **Button:** **Create Contact**.
 - **Tabs:** **Default**, **Individuals**, **Companies**, **Employees**, **Customers**, **Vendors**, **Archived**.
@@ -22,7 +22,7 @@ Click **Customers** to see only contacts marked as customers. Click **Archived**
 
 A **Portal Access** badge shows on rows of contacts that can sign in. To list them, open the filters and choose **Portal Access**.
 
-<!-- TODO-SCREENSHOT: /images1/website/cust_portal_filter.png | Customers list with the filter panel open and Portal Access selected, filtered rows showing the badge -->
+<ImagePopup src="/images1/website/cust_portal_filter.png" alt="Customers list with the filter panel open and Portal Access selected, filtered rows showing the badge" />
 
 ::: tip
 Use the **Portal Access** filter to find who can sign in, for example before you send an announcement.
@@ -35,21 +35,21 @@ Scenario: add **Ben Foster**, a person who orders from you.
 1. Open `Website → Customers`.
 2. Click **Create Contact**.
 
-<!-- TODO-SCREENSHOT: /images1/website/cust_create_button.png | Customers list with the Create Contact button highlighted -->
+<ImagePopup src="/images1/website/cust_create_button.png" alt="Customers list with the Create Contact button highlighted" />
 
 3. In **General**, choose **Individual** under **Account type**. Enter **Name**, **Email**, **Phone** and an address.
 
-<!-- TODO-SCREENSHOT: /images1/website/cust_form_general.png | Create Contact form, General tab filled for Ben Foster: Individual, name, email ben.foster@mail.com, phone, address -->
+<ImagePopup src="/images1/website/cust_form_general.png" alt="Create Contact form, General tab filled for Ben Foster: Individual, name, email ben.foster@mail.com, phone, address" />
 
 4. Open **Sales and Purchases** to set the salesperson and payment terms if you need them.
 
-<!-- TODO-SCREENSHOT: /images1/website/cust_form_sales.png | Create Contact form, Sales and Purchases tab with Responsible and Payment Terms filled -->
+<ImagePopup src="/images1/website/cust_form_sales.png" alt="Create Contact form, Sales and Purchases tab with Responsible and Payment Terms filled" />
 
 5. Click **Create**.
 
 Aureus opens the contact page. The contact shows **Not Granted** under **Customer Portal**.
 
-<!-- TODO-SCREENSHOT: /images1/website/cust_view.png | Contact view page for Ben Foster with the Customer Portal section showing Portal Access: Not Granted -->
+<ImagePopup src="/images1/website/cust_view.png" alt="Contact view page for Ben Foster with the Customer Portal section showing Portal Access: Not Granted" />
 
 ### Form tabs in short
 
@@ -74,7 +74,7 @@ Open a customer to find these pages.
 | **Contacts** | Other people who work for this customer. Click **Add Contact** to add one. |
 | **Addresses** | Extra addresses. Types are Permanent, Present, Invoice, Delivery and Other. |
 
-<!-- TODO-SCREENSHOT: /images1/website/cust_addresses.png | Addresses sub page of Grace Liu with one Delivery address in the list -->
+<ImagePopup src="/images1/website/cust_addresses.png" alt="Addresses sub page of Grace Liu with one Delivery address in the list" />
 
 ## Actions and statuses
 

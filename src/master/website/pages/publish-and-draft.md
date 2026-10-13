@@ -30,11 +30,11 @@ Scenario: make the new **Our Team** page live.
 1. Open `Website → Pages`.
 2. Click **Edit** on the **Our Team** row.
 
-<!-- TODO-SCREENSHOT: /images1/website/page_edit_draft.png | Edit page for Our Team in draft state with the Publish button in the header -->
+<ImagePopup src="/images1/website/page_edit_draft.png" alt="Edit page for Our Team in draft state with the Publish button in the header" />
 
 3. Click **Publish** in the top right. Aureus shows **Page published**. It also records the publish date.
 
-<!-- TODO-SCREENSHOT: /images1/website/page_published_message.png | Edit page right after clicking Publish with the Page published message visible -->
+<ImagePopup src="/images1/website/page_published_message.png" alt="Edit page right after clicking Publish with the Page published message visible" />
 
 4. Go back to the list. **Is Published** is on for that row.
 
@@ -45,7 +45,7 @@ Use this to take a page off the site, for example while you rewrite it.
 1. Click **Edit** on a published page.
 2. Click **Set as Draft**. Aureus shows **Page set as draft**.
 
-<!-- TODO-SCREENSHOT: /images1/website/page_set_draft.png | Edit page for a published page with Set as Draft button and the Page set as draft message -->
+<ImagePopup src="/images1/website/page_set_draft.png" alt="Edit page for a published page with Set as Draft button and the Page set as draft message" />
 
 The link leaves the menus and `/pages/{slug}` stops working at once.
 
@@ -58,7 +58,7 @@ In Aureus, **Delete** on a page moves it to the **Archived** tab. It is not gone
 3. Click **Restore** to bring it back. Aureus shows **Page restored**.
 4. Click **Force Delete** to remove it for good.
 
-<!-- TODO-SCREENSHOT: /images1/website/page_archived_tab.png | Pages list on the Archived tab with one archived page and Restore and Force Delete actions visible -->
+<ImagePopup src="/images1/website/page_archived_tab.png" alt="Pages list on the Archived tab with one archived page and Restore and Force Delete actions visible" />
 
 ::: warning
 **Force Delete** cannot be undone.
@@ -72,7 +72,7 @@ Every list and form has a **Locale** switcher. It offers English, Arabic, Spanis
 2. Enter the **Title**, **Content** and SEO fields in that language.
 3. Click **Save**.
 
-<!-- TODO-SCREENSHOT: /images1/website/page_locale_switcher.png | Page edit form with the Locale switcher open showing the five languages -->
+<ImagePopup src="/images1/website/page_locale_switcher.png" alt="Page edit header with the Locale switcher at the top right" />
 
 Use the same switcher later to review or change each translation.
 

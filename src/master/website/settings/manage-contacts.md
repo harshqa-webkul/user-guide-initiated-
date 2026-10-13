@@ -6,7 +6,7 @@ Manage Contacts holds the public contact details of your business. You enter an 
 
 Open it from `Website → Settings → Manage Contacts`.
 
-<!-- TODO-SCREENSHOT: /images1/website/set_manage_contacts.png | Manage Contacts form with Email, Phone and all ten social link fields filled with real sample values, Save changes button visible -->
+<ImagePopup src="/images1/website/set_manage_contacts.png" alt="Manage Contacts form with Email, Phone and all ten social link fields filled with real sample values, Save changes button visible" />
 
 ## Contact details
 
@@ -42,16 +42,16 @@ Type only the username. Do not paste a full address. The prefix is added for you
 1. Go to `Website → Settings → Manage Contacts`.
 2. Enter your **Email**, for example `hello@yourcompany.com`.
 
-   <!-- TODO-SCREENSHOT: /images1/website/set_contacts_fields.png | Contacts section with Email and Phone filled -->
+   <ImagePopup src="/images1/website/set_contacts_fields.png" alt="Contacts section with Email and Phone filled" />
 
 3. Enter your **Phone**, for example `+1 555 0100`.
 4. Type the username for each social network you use. Leave the others empty.
 
-   <!-- TODO-SCREENSHOT: /images1/website/set_social_links.png | Social Links section with several usernames filled after their prefixes -->
+   <ImagePopup src="/images1/website/set_social_links.png" alt="Social Links section with several usernames filled after their prefixes" />
 
 5. Click **Save changes**.
 
-   <!-- TODO-SCREENSHOT: /images1/website/set_saved.png | Form after clicking Save changes with the saved confirmation visible -->
+   <ImagePopup src="/images1/website/set_saved.png" alt="Form after clicking Save changes with the saved confirmation visible" />
 
 ## Default values
 
@@ -67,7 +67,7 @@ Open your site at `/` and scroll to the footer.
 
 Fields you leave empty show no icon.
 
-<!-- TODO-SCREENSHOT: /images1/website/set_footer_public.png | Public site footer at / showing Useful Links, Contact Us with email and phone, and Follow Us icons -->
+<ImagePopup src="/images1/website/set_footer_public.png" alt="Public site footer at / showing Useful Links, Contact Us with email and phone, and Follow Us icons" />
 
 ::: info
 The footer is the same on every page. One change in Manage Contacts updates the whole site.

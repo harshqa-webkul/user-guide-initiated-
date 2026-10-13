@@ -663,18 +663,56 @@ const routes = [
       {
         text: 'Project',
         collapsed: true,
+        link: '/master/services/project/',
         items: [
-          { text: 'Projects', link: '/master/services/project/projects' },
-          { text: 'Tasks', link: '/master/services/project/tasks' },
-          { text: 'Configurations', link: '/master/services/project/configurations' },
-          { text: 'Settings', link: '/master/services/project/settings' }
+          {
+            text: 'Get Started',
+            collapsed: true,
+            link: '/master/services/project/get-started/',
+            items: [
+              { text: 'Project Settings', link: '/master/services/project/get-started/project-settings' }
+            ]
+          },
+          {
+            text: 'Project Management',
+            collapsed: true,
+            link: '/master/services/project/project-management/',
+            items: [
+              { text: 'Create a Project', link: '/master/services/project/project-management/create-project' },
+              { text: 'Project Stages and Milestones', link: '/master/services/project/project-management/project-stages-and-milestones' },
+              { text: 'Project Dashboard', link: '/master/services/project/project-management/project-dashboard' }
+            ]
+          },
+          {
+            text: 'Task Management',
+            collapsed: true,
+            link: '/master/services/project/task-management/',
+            items: [
+              { text: 'Create a Task', link: '/master/services/project/task-management/create-task' },
+              { text: 'Task Stages and States', link: '/master/services/project/task-management/task-stages-and-states' },
+              { text: 'Task Views and Filters', link: '/master/services/project/task-management/task-list-views-and-filters' },
+              { text: 'Sub Tasks', link: '/master/services/project/task-management/sub-tasks' }
+            ]
+          },
+          {
+            text: 'Configuration',
+            collapsed: true,
+            link: '/master/services/project/configuration/',
+            items: [
+              { text: 'Tags', link: '/master/services/project/configuration/tags' },
+              { text: 'Activity Plans', link: '/master/services/project/configuration/activity-plans' }
+            ]
+          }
         ]
       },
       {
         text: 'Timesheets',
         collapsed: true,
+        link: '/master/services/timesheets/',
         items: [
-          { text: 'Timesheets', link: '/master/services/timesheets/timesheets' },
+          { text: 'Log Time', link: '/master/services/timesheets/log-time' },
+          { text: 'Timesheet List and Filters', link: '/master/services/timesheets/timesheet-list-and-filters' },
+          { text: 'Timesheet Settings', link: '/master/services/timesheets/timesheet-settings' }
         ]
       },
     ]

@@ -22,7 +22,7 @@ Address: `/register`.
 2. Enter **Name**, **Email address**, **Password** and **Confirm password**. All four are required.
 3. Click **Create account**.
 
-<!-- TODO-SCREENSHOT: /images1/website/portal_register.png | Public /register page filled for Nina Patel: name, email nina.patel@example.com, password dots -->
+<ImagePopup src="/images1/website/portal_register.png" alt="Public /register page filled for Nina Patel: name, email nina.patel@example.com, password dots" />
 
 The visitor is now a contact. If a visitor already has an account, the **Log in** link opens the sign-in page.
 
@@ -35,7 +35,7 @@ Address: `/login`.
 3. Tick **Remember me** to stay signed in.
 4. Click **Sign in**.
 
-<!-- TODO-SCREENSHOT: /images1/website/portal_login.png | Public /login page with Email address, Password, Forgot password?, Remember me, Sign in and the Create account link -->
+<ImagePopup src="/images1/website/portal_login.png" alt="Public /login page with Email address, Password, Forgot password?, Remember me, Sign in and the Create account link" />
 
 If the details are wrong, the page says "These credentials do not match our records." After too many attempts, it asks the visitor to wait.
 
@@ -45,7 +45,7 @@ If the details are wrong, the page says "These credentials do not match our reco
 2. Enter **Email address**.
 3. Click **Send reset link**.
 
-<!-- TODO-SCREENSHOT: /images1/website/portal_forgot.png | Forgot password page with the email field filled and the Send reset link button -->
+<ImagePopup src="/images1/website/portal_forgot.png" alt="Forgot password page with the email field filled and the Send reset link button" />
 
 **Back to login** returns to the sign-in page.
 
@@ -75,7 +75,7 @@ Open a customer. The **Customer Portal** section shows:
 - **_Email Verified At:_** When the contact set a password, or **Never**.
 - **_Last Portal Login:_** The last sign-in, or **Never**.
 
-<!-- TODO-SCREENSHOT: /images1/website/portal_status.png | Contact view page of Nina Patel showing the Customer Portal section with Portal Access: Granted -->
+<ImagePopup src="/images1/website/portal_status.png" alt="Contact view page of Nina Patel showing the Customer Portal section with Portal Access: Granted" />
 
 A visitor who registered on the site shows as **Granted**. A contact you created in the admin panel shows **Not Granted** until you grant access.
 
@@ -83,12 +83,12 @@ A visitor who registered on the site shows as **Granted**. A contact you created
 
 Use the **Portal Access** menu at the top of the contact view or edit page.
 
-<!-- TODO-SCREENSHOT: /images1/website/portal_menu.png | Contact page with the Portal Access menu open showing the four actions -->
+<ImagePopup src="/images1/website/portal_menu.png" alt="Contact page with the Portal Access menu open showing Change Password, Send Password Reset and Revoke Portal Access" />
 
 | Action | What it does |
 | --- | --- |
-| **Grant Portal Access** | Sends an email so the contact can set a password. |
-| **Change Password** | You set a new password for the contact. |
+| **Grant Portal Access** | Shows only when the contact has no access. It sends an email so the contact can set a password. |
+| **Change Password** | Shows once access is granted. You set a new password for the contact. |
 | **Send Password Reset** | Emails a reset link to the contact. |
 | **Revoke Portal Access** | Stops the contact from signing in. |
 

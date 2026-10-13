@@ -12,7 +12,7 @@ Open `Website → Blog Posts`.
 
 ## Overview
 
-<!-- TODO-SCREENSHOT: /images1/website/post_list.png | Blog Posts list on Default tab showing several posts with Author and Is Published columns, tabs and New Post button -->
+<ImagePopup src="/images1/website/post_list.png" alt="Blog Posts list on Default tab showing several posts with Author and Is Published columns, tabs and New Post button" />
 
 - **Button:** **New Post**.
 - **Tabs:** **Default**, **My Posts** and **Archived**. **My Posts** shows what you wrote.
@@ -21,7 +21,7 @@ Open `Website → Blog Posts`.
 - **Group by:** **Category**, **Author**, **Created At**.
 - **Filters:** **Is Published**, **Author**, **Created By**, **Category**, **Tags**.
 
-<!-- TODO-SCREENSHOT: /images1/website/post_filters.png | Blog Posts list with the filter panel open showing Author, Category and Tags filters -->
+<ImagePopup src="/images1/website/post_filters.png" alt="Blog Posts list with the filter panel open showing Author, Category and Tags filters" />
 
 ## Create a blog post
 
@@ -29,7 +29,7 @@ Scenario: write **Cloud ERP: Why Small Teams Are Switching** in the category **T
 
 1. Open `Website → Blog Posts` and click **New Post**.
 
-<!-- TODO-SCREENSHOT: /images1/website/post_new_button.png | Blog Posts list with New Post button highlighted -->
+<ImagePopup src="/images1/website/post_new_button.png" alt="Blog Posts list with New Post button highlighted" />
 
 ### General
 
@@ -41,7 +41,7 @@ Scenario: write **Cloud ERP: Why Small Teams Are Switching** in the category **T
 - **_Content:_** Required. The article body. Use the editor for headings, lists and links.
 - **_Banner:_** The main picture. Upload an image file.
 
-<!-- TODO-SCREENSHOT: /images1/website/post_form_general.png | General section filled with title, subtitle, content text and an uploaded banner image -->
+<ImagePopup src="/images1/website/post_form_general.png" alt="General section filled with title, subtitle, content text and an uploaded banner image" />
 
 ### SEO
 
@@ -51,7 +51,7 @@ Scenario: write **Cloud ERP: Why Small Teams Are Switching** in the category **T
 - **_Meta Keywords:_** Comma separated words, for example `ERP, cloud, small business`.
 - **_Meta Description:_** A one or two sentence summary.
 
-<!-- TODO-SCREENSHOT: /images1/website/post_form_seo.png | SEO section filled with meta title, keywords and description -->
+<ImagePopup src="/images1/website/post_form_seo.png" alt="SEO section filled with meta title, keywords and description" />
 
 ### Settings
 
@@ -60,7 +60,7 @@ Scenario: write **Cloud ERP: Why Small Teams Are Switching** in the category **T
 - **_Category:_** Required. Pick one, for example **The Knowledge Vault**.
 - **_Tags:_** Pick one or more, for example **Tech Savy Blogs**. Type to search.
 
-<!-- TODO-SCREENSHOT: /images1/website/post_form_settings.png | Settings section with Category The Knowledge Vault and tag Tech Savy Blogs selected -->
+<ImagePopup src="/images1/website/post_form_settings.png" alt="Settings section with Category The Knowledge Vault and tag Learn and Grow selected" />
 
 You do not choose the author. Aureus uses the user who is logged in.
 
@@ -72,7 +72,7 @@ If the tag does not exist, add it without leaving the form.
 2. Enter a **Name**. Pick a **Color**.
 3. Save the small form. The new tag is now selected.
 
-<!-- TODO-SCREENSHOT: /images1/website/post_inline_tag.png | Inline create tag modal with Name and Color fields filled -->
+<ImagePopup src="/images1/website/post_inline_tag.png" alt="Inline create tag modal with Name and Color fields filled" />
 
 5. Click **Create**. **Create & create another** saves and opens a blank form. **Cancel** leaves without saving.
 
@@ -94,7 +94,7 @@ Saving edits shows **Post updated**.
 Create → Draft → Publish → Published → Set as Draft → Draft
 ```
 
-<!-- TODO-SCREENSHOT: /images1/website/post_publish.png | Edit page of the Cloud ERP post with Publish button and the Post published message -->
+<ImagePopup src="/images1/website/post_publish.png" alt="Edit page of the Cloud ERP post with Publish button and the Post published message" />
 
 ::: warning
 A new post is not on the site until you click **Publish**.
@@ -104,9 +104,9 @@ A new post is not on the site until you click **Publish**.
 
 Published posts appear on `/blog` under **Our Latest Posts**. Each card sits in its category. Newest posts come first, nine to a page. Clicking a card opens the post page. It shows the banner, the content, the tags, the author, the date and the reading time.
 
-<!-- TODO-SCREENSHOT: /images1/website/post_public_list.png | Public /blog page showing Our Latest Posts with category pills and post cards -->
+<ImagePopup src="/images1/website/post_public_list.png" alt="Public /blog page showing Our Latest Posts with category pills and post cards" />
 
-<!-- TODO-SCREENSHOT: /images1/website/post_public_detail.png | Public post page for Cloud ERP with banner, tags, author, date and reading time -->
+<ImagePopup src="/images1/website/post_public_detail.png" alt="Public post page for Cloud ERP with banner, tags, author, date and reading time" />
 
 ## See also
 

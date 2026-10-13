@@ -72,5 +72,5 @@ The **Project Stages** page then appears under **Configurations**.
 
 ## See also
 
-- [Project configurations](../services/project/configurations.md)
+- [Project configurations](../services/project/configuration/index.md)
 - [Recruitment configuration](../human-resources/recruitment/configuration.md)

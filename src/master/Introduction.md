@@ -93,10 +93,10 @@ Each section contains:
 
 ### 🕒 Time Off
 
-- [My Time](./human-resources/time-off/my-time.md)
-- [Overview](./human-resources/time-off/overview.md)
-- [Management](./human-resources/time-off/management.md)
-- [Configurations](./human-resources/time-off/configuration.md)
+- [My Time](./human-resources/time-off/requests/my-time.md)
+- [Overview](./human-resources/time-off/requests/overview-calendar.md)
+- [Management](./human-resources/time-off/requests/manage-requests.md)
+- [Configurations](./human-resources/time-off/setup/time-off-types.md)
 
 ### 🌐 Website
 

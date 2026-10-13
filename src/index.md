@@ -19,7 +19,7 @@ features:
   - icon: 📊
     title: Project Management System
     details: Streamline projects and collaborate with ease using our comprehensive PMS
-    link: /master/services/project/projects.md
+    link: /master/services/project/
   - icon: 👥
     title: Contacts Management
     details: Effortlessly manage and organize your contacts with our intuitive system

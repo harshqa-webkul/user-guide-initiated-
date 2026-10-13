@@ -21,7 +21,7 @@ Steps 4 and 5 need the **Blogs** plugin.
 3. Type a username in the social fields you use.
 4. Click **Save changes**.
 
-<!-- TODO-SCREENSHOT: /images1/website/first_contacts.png | Manage Contacts filled with email, phone and social usernames -->
+<ImagePopup src="/images1/website/first_contacts.png" alt="Manage Contacts filled with email, phone and social usernames" />
 
 The footer now shows these details. See [Manage contacts](../settings/manage-contacts.md).
 
@@ -32,7 +32,7 @@ The footer now shows these details. See [Manage contacts](../settings/manage-con
 3. In the **Content** editor, replace the sample text with a welcome message.
 4. Click **Save changes**.
 
-<!-- TODO-SCREENSHOT: /images1/website/first_home_edit.png | Home page edit form, General tab, with welcome text in the Content editor -->
+<ImagePopup src="/images1/website/first_home_edit.png" alt="Home page edit form with the Content editor showing the welcome text" />
 
 Do not change the **Slug**. The slug `home` makes this page the front page. See [Create a page](../pages/create-a-page.md).
 
@@ -44,11 +44,11 @@ Do not change the **Slug**. The slug `home` makes this page the front page. See 
 4. Open the **Settings** tab. Turn on **Is Visible Header Menu**.
 5. Click **Create**.
 
-<!-- TODO-SCREENSHOT: /images1/website/first_page_create.png | New Page form for Our Team with the Settings tab showing Is Visible Header Menu on -->
+<ImagePopup src="/images1/website/first_page_create.png" alt="New Page form for Our Team with the Settings tab showing Is Visible Header Menu on" />
 
 The page starts as a draft. Click **Publish** in the header of the page.
 
-<!-- TODO-SCREENSHOT: /images1/website/first_page_publish.png | Our Team edit page with the Publish button and the Page published message -->
+<ImagePopup src="/images1/website/first_page_publish.png" alt="Our Team edit page right after Publish with the Page published message" />
 
 You see "Page published". See [Publish and draft](../pages/publish-and-draft.md).
 
@@ -59,7 +59,7 @@ You see "Page published". See [Publish and draft](../pages/publish-and-draft.md)
 3. Go to `Website → Configurations → Tags` and click **New Tag**.
 4. Enter **Name** `Learn and Grow`. Pick a **Color**. Click **Create**.
 
-<!-- TODO-SCREENSHOT: /images1/website/first_category_tag.png | The Knowledge Vault category form and Learn and Grow tag form with colour picked -->
+<ImagePopup src="/images1/website/first_category_tag.png" alt="The Knowledge Vault category form and Learn and Grow tag form with colour picked" />
 
 See [Categories and tags](../blog/categories-and-tags.md).
 
@@ -71,9 +71,9 @@ See [Categories and tags](../blog/categories-and-tags.md).
 4. Open the **Settings** tab. Choose **Category** `The Knowledge Vault` and **Tags** `Learn and Grow`.
 5. Click **Create**, then click **Publish**.
 
-<!-- TODO-SCREENSHOT: /images1/website/first_post_create.png | New Post form with title, sub title, banner, and Settings tab showing category and tag -->
+<ImagePopup src="/images1/website/first_post_create.png" alt="New Post form with title, sub title, banner, and Settings tab showing category and tag" />
 
-<!-- TODO-SCREENSHOT: /images1/website/first_post_published.png | Post edit page after Publish with the Post published message -->
+<ImagePopup src="/images1/website/first_post_published.png" alt="Post edit page after Publish with the Post published message" />
 
 You see "Post published". The author is you. See [Blog posts](../blog/blog-posts.md).
 
@@ -83,9 +83,9 @@ You see "Post published". The author is you. See [Blog posts](../blog/blog-posts
 2. Find **Our Team** in the top bar. Click it.
 3. Click **Blog**. Find your post. Click its category pill.
 
-<!-- TODO-SCREENSHOT: /images1/website/first_public_site.png | Public home page showing Our Team in the top bar and the new footer details -->
+<ImagePopup src="/images1/website/first_public_site.png" alt="Public home page showing Our Team in the top bar and the new footer details" />
 
-<!-- TODO-SCREENSHOT: /images1/website/first_public_blog.png | Public /blog page listing the Cloud ERP post with category pill and tag -->
+<ImagePopup src="/images1/website/first_public_blog.png" alt="Public /blog page listing the Cloud ERP post with category pill and tag" />
 
 ## Behind the scenes
 
