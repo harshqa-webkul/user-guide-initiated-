@@ -16,7 +16,7 @@ The list shows **Name**, a **Status** icon, **Created At** and **Updated At**. U
 
 The example creates a plan named **Launch follow-up**.
 
-1. Click **New Activity Plan**.
+1. Click **New Activity Plan**. The **Create Activity Plan** window opens.
 2. Fill in the form.
 
    - **_Name:_** (required) A clear name, for example **Launch follow-up**.
@@ -24,13 +24,13 @@ The example creates a plan named **Launch follow-up**.
 
    <ImagePopup src="/images1/project/cf_activity_plan_form.png" alt="Activity plan form with name Launch follow-up and Status on" />
 
-3. Click **Create**. The plan opens for editing.
+3. Click **Create**. The plan is saved and shows in the list. Click **Edit** on its row to add steps.
 
 ## Add activity templates
 
-Each step of the plan is an activity template. Open the **Activity Templates** tab and click **Create**.
+Each step of the plan is an activity template. On the **Edit Activity Plan** page, find the **Activity Plan Templates** section and click **New activity plan template**.
 
-<ImagePopup src="/images1/project/cf_activity_templates_tab.png" alt="Activity Templates tab of the plan Launch follow-up" />
+<ImagePopup src="/images1/project/cf_activity_templates_tab.png" alt="Activity Plan Templates section of the plan Launch follow-up with one step listed" />
 
 Fill in the sections of the form.
 
@@ -51,7 +51,7 @@ Fill in the sections of the form.
 - **_Delay Unit:_** **Minutes**, **Hours**, **Days** or **Weeks**.
 - **_Delay From:_** **Before Plan Date** or **After Plan Date**. This says what the delay counts from.
 
-<ImagePopup src="/images1/project/cf_activity_template_form.png" alt="Activity template form with activity type Email, summary Send launch email and a delay of 2 days" />
+<ImagePopup src="/images1/project/cf_activity_template_form.png" alt="Create Activity Plan Template window with activity type To-Do, summary Send launch email and a delay of 2 days" />
 
 Click **Create** to save the step. Add more steps the same way.
 

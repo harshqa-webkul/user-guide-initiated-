@@ -77,7 +77,7 @@ Click a task to open its view page. The page shows these parts:
 
 The sub navigation at the top has **View**, **Edit** and **Sub Tasks**. **Edit** opens the same form. Scroll to the bottom of the **View** page to find the **Timesheets** and **Sub Tasks** tabs. The **Timesheets** tab shows when timesheets are on for the project, or for a private task.
 
-<ImagePopup src="/images1/project/tk_view_page.png" alt="Task view page with the sub navigation View, Edit and Sub Tasks, and the Timesheets and Sub Tasks tabs at the bottom" />
+<ImagePopup src="/images1/project/tk_view_page.png" alt="Task view page with the sub navigation View, Edit and Sub Tasks" />
 
 ## Actions and statuses
 

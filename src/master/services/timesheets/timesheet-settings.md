@@ -40,7 +40,7 @@ The field appears only when **Enable Timesheets** is on.
 
 ## Summary rows on a task
 
-Open a task, scroll down the **View** page and click the **Timesheets** tab. Rows under the **Time Spent** column show:
+Open a task, scroll down the **View** page and click the **Timesheets** tab. The **Summary** rows under the **Time Spent** column show:
 
 - **_Time Spent:_** Hours logged on this task.
 - **_Time Spent on Subtasks:_** Hours logged on its sub tasks.
@@ -51,17 +51,17 @@ Open a task, scroll down the **View** page and click the **Timesheets** tab. Row
 
 ## Progress and its colours
 
-The task view has a **Time Tracking** section with **Allocated Hours**, total spent, remaining time and **Progress**. The task list also shows a **Progress** bar.
+The task view has a **Time Tracking** section with **Allocated Time**, **Time Spent**, **Time Remaining** and **Progress**. The task list also shows a **Progress** bar.
 
 | Progress | Colour | Meaning |
 | --- | --- | --- |
-| Under 100% | Yellow | Work is within the plan. |
+| Under 100% | Orange | Work is within the plan. |
 | Exactly 100% | Green | The plan is used in full. |
 | Over 100% | Red | The task is over its plan. |
 
-**Progress** can pass 100%. Remaining time then shows a negative number.
+**Progress** can pass 100%. Remaining time then shows a negative number, as in the example below.
 
-<ImagePopup src="/images1/timesheets/ts_task_progress.png" alt="Time Tracking section of a task showing progress" />
+<ImagePopup src="/images1/timesheets/ts_task_progress.png" alt="Time Tracking section of Migrate CMS content with 25 hours spent, minus 5 remaining and 125 percent progress in red" />
 
 ## What happens after each save or delete
 

@@ -40,7 +40,7 @@ The table has the same columns as the task list and a **Trashed** filter. Use th
 
 ## How time rolls up
 
-Log time on the sub-task like on any task. On the parent, the **Timesheets** tab then shows these totals.
+Log time on the sub-task like on any task. On the parent, scroll down the **View** page. The **Timesheets** tab then shows these totals.
 
 | Total | Meaning |
 | --- | --- |
@@ -49,9 +49,9 @@ Log time on the sub-task like on any task. On the parent, the **Timesheets** tab
 | **Total Time Spent** | The two added together |
 | **Remaining Time** | Allocated hours minus the total |
 
-In **Migrate CMS content**, allocated 20 hours, the sub-tasks **Export legacy articles** and **Import and re-format media** hold 6 hours each. Those 12 hours count toward the parent.
+In **Migrate CMS content**, allocated 20 hours, the sub-tasks **Export legacy articles** and **Import and re-format media** hold 6 hours each. Those 12 hours count toward the parent. With 13 hours on the task itself, the totals are 13 hours, 12 hours, 25 hours and minus 5 hours remaining.
 
-<ImagePopup src="/images1/project/tk_parent_timesheets_totals.png" alt="Timesheets tab of Migrate CMS content with the time summaries" />
+<ImagePopup src="/images1/project/tk_parent_timesheets_totals.png" alt="Timesheets tab of Migrate CMS content with Time Spent 13, Time Spent on Subtasks 12, Total Time Spent 25 and Remaining Time minus 5" />
 
 The **Statistics** block on the parent view page shows how many sub-tasks it has.
 

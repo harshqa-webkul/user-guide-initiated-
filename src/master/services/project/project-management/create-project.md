@@ -16,11 +16,11 @@ Open `Project → Projects`.
 
 Projects appear as cards, not as a table. Each card shows the name, the customer, the planned dates, the project manager and the tags. A badge with remaining hours appears when timesheets and milestones are on for the project.
 
-<ImagePopup src="/images1/project/pj_list_cards.png" alt="Project list as cards showing Website Revamp, ERP Implementation and Internal IT Upgrade with customer, dates, manager and tags" />
+<ImagePopup src="/images1/project/pj_list_cards.png" alt="Project list as cards showing Customer Portal Launch, Internal IT Upgrade and ERP Implementation with customer, dates, manager and tags" />
 
 ### Tabs
 
-- **My Projects:** projects you manage or follow.
+- **My Projects:** projects where you are the project manager.
 - **My Favorites:** projects you marked with the star.
 - **Unassigned Projects:** projects with no project manager.
 - **Archived Projects:** projects you deleted. You can restore them.
@@ -29,7 +29,7 @@ Projects appear as cards, not as a table. Each card shows the name, the customer
 
 Group the cards by **Stage**, **Project Manager**, **Customer** or **Created At**. Use the search box to find a project by name. Open the filter panel to narrow the list by fields such as **Name**, **Visibility**, **Start Date**, **End Date**, **Allow Timesheets**, **Allow Milestones**, **Stage**, **Customer**, **Project Manager** and **Tags**.
 
-<ImagePopup src="/images1/project/pj_list_filters.png" alt="Project list with the filter panel open and the Group by menu showing Stage, Project Manager, Customer and Created At" />
+<ImagePopup src="/images1/project/pj_list_filters.png" alt="Filters panel of the project list with the Add rule menu listing Name, Visibility, Start Date, End Date, Stage, Customer and more" />
 
 ### Card buttons
 

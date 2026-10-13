@@ -18,7 +18,7 @@ Open `Project → Configurations → Project Stages`.
 2. Type a **Name**, for example **To Do**.
 3. Click **Create**.
 
-<ImagePopup src="/images1/project/cf_project_stage_form.png" alt="Project stage window with the name In Progress typed in" />
+<ImagePopup src="/images1/project/cf_project_stage_form.png" alt="Create Project Stage window with the name Review typed in" />
 
 - **_Name:_** Required and unique. Up to 255 characters.
 
@@ -36,7 +36,7 @@ Needs **Enable Milestones** in settings and **Allow Milestones** on the project.
 2. Click **Add Project Milestone**. A window opens.
 3. Fill the form and click **Create**.
 
-<ImagePopup src="/images1/project/pj_milestone_form.png" alt="Milestone form with Name Go Live, a Deadline and Is Completed off" />
+<ImagePopup src="/images1/project/pj_milestone_form.png" alt="Create Milestone window with Name Go Live, a Deadline and Is Completed off" />
 
 - **_Name:_** Required. Example: **Phase 1 Complete**.
 - **_Deadline:_** The date and time to reach it.

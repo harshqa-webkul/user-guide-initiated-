@@ -10,7 +10,7 @@ Open `Project → Configurations → Tags`.
 
 The list shows each tag with its **Name** and **Color**. Use the row menu for **Edit**, **Delete**, **Restore** and **Force delete**. Tick rows for the same bulk actions.
 
-<ImagePopup src="/images1/project/cf_tags_list.png" alt="Tags list with Requirements, Testing, Documentation, Client Work and Design" />
+<ImagePopup src="/images1/project/cf_tags_list.png" alt="Tags list with each tag name and its colour" />
 
 ## Create a tag
 
@@ -25,8 +25,6 @@ The example creates the tag **Client Work**.
    <ImagePopup src="/images1/project/cf_tag_form.png" alt="Tag modal with name Client Work and an orange colour" />
 
 3. Click **Create**. The tag now appears in the list.
-
-   <ImagePopup src="/images1/project/cf_tag_created.png" alt="Tags list showing the new tag Client Work" />
 
 You can also create a tag while filling a project or task. Open the **Tags** field and use the create option. Give the **Name** and **Color**.
 

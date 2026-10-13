@@ -25,13 +25,13 @@ Each time you save or delete an entry, Aureus recalculates the task it belongs t
 
 ### Example
 
-The task **Migrate CMS content** in **Website Revamp** has 20 allocated hours. Its sub tasks **Export legacy articles** (6h) and **Import and re-format media** (6h) have logged 12 hours. Ava Lewis logs 3 hours on the main task.
+The task **Migrate CMS content** in **Website Revamp** has 20 allocated hours. People logged 10 hours on it. Ava Lewis then logs 3 more hours. Its sub tasks **Export legacy articles** and **Import and re-format media** have 6 hours each.
 
-- **Time Spent** is 3 hours.
+- **Time Spent** is 13 hours.
 - **Time Spent on Subtasks** is 12 hours.
-- **Total Time Spent** is 15 hours.
-- **Remaining Time** is 5 hours.
-- **Progress** is 75%.
+- **Total Time Spent** is 25 hours.
+- **Remaining Time** is minus 5 hours, because the task is over its plan.
+- **Progress** is 125%.
 
 ::: tip
 If **Allocated Hours** is empty or 0, **Progress** stays at 0. Set the hours on the task first.
@@ -54,7 +54,7 @@ If **Allocated Hours** is empty or 0, **Progress** stays at 0. Set the hours on 
 
 ## Where timesheets appear in the project area
 
-- The **Timesheets** tab on a task. See [Create a task](../project/task-management/create-task.md).
+- The **Timesheets** tab at the bottom of the task **View** page. See [Create a task](../project/task-management/create-task.md).
 - Time columns and **Progress** in the task list.
 - **Total Hours Spent** and **Top Assignees** on the [project dashboard](../project/project-management/project-dashboard.md).
 - **Allocated Hours** and **Remaining Hours** on a project. See [Create a project](../project/project-management/create-project.md).

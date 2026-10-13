@@ -6,7 +6,7 @@ The task list shows every task you may see. A busy project can hold hundreds, so
 
 Open `Project → Tasks`. A row of figures at the top sums up tasks, hours spent and time remaining.
 
-<ImagePopup src="/images1/project/tk_list_overview.png" alt="Task list with the view tabs, summary figures and task rows" />
+<ImagePopup src="/images1/project/tk_list_overview.png" alt="Task list with the view tabs and task rows" />
 
 ## View tabs
 
@@ -39,7 +39,7 @@ Drag a row to change the sort order.
 
 Click **Group** and pick one of: **State**, **Project**, **Deadline**, **Stage**, **Milestone**, **Customer** or **Created At**.
 
-<ImagePopup src="/images1/project/tk_group_by_project.png" alt="Task list grouped by Project" />
+<ImagePopup src="/images1/project/tk_group_by_project.png" alt="Task list grouped by Project with Group by set to Project" />
 
 ## Filters
 
@@ -49,15 +49,15 @@ Click the filter icon to open the filter panel. You can filter by these fields:
 - **Assignees**, **Customer**, **Project**, **Stage**, **Milestone**, **Company** and **Creator**.
 - With timesheets on: **Allocated Hours**, **Total Hours Spent**, **Remaining Hours**, **Overtime** and **Progress**.
 
-For example, filter **Project** to **Website Revamp** and **Assignees** to **Aarav Mehta**.
+Click **Add rule**, pick a field, then set its value. For example, add a rule for **Project** and choose **Website Revamp**. Click **Apply filters** to see the result. **Reset** clears the rules.
 
-<ImagePopup src="/images1/project/tk_filters_panel.png" alt="Filter panel with Project set to Website Revamp and Assignees set to Aarav Mehta" />
+<ImagePopup src="/images1/project/tk_filters_panel.png" alt="Filters panel with the Add rule menu listing Title, Priority, State, Tags, Project, Assignees and more" />
 
 ## Row and bulk actions
 
 The row menu has **View**, **Edit**, **Delete**, **Restore** and **Force delete**. Tick several rows to use bulk **Delete**, **Restore** or **Force delete**. Checkboxes show only if your role allows these actions.
 
-<ImagePopup src="/images1/project/tk_bulk_actions.png" alt="Archived Tasks tab with rows selected and bulk Restore and Force delete" />
+<ImagePopup src="/images1/project/tk_bulk_actions.png" alt="Task list with two rows ticked and the Bulk actions button visible" />
 
 ::: warning
 **Delete** archives a task. **Force delete** removes it for good. You cannot undo it.

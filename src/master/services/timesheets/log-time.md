@@ -1,6 +1,6 @@
 # Log time
 
-Logging time means adding a timesheet entry. You can do it from the main Timesheets page, where you pick the project and task yourself. You can also do it from inside a task, where the project and task are already known.
+Logging time means adding a timesheet entry. You do it from the Timesheets page, where you pick the project and the task. Each task then shows its own time.
 
 > **In simple words:** Pick who worked, on what, on which day and for how many hours. Save, and the task totals update.
 
@@ -13,7 +13,7 @@ Open `Project → Timesheets`.
 ## Add a timesheet from the Timesheets page
 
 1. Open `Project → Timesheets`.
-2. Click **Add Timesheet**. A form opens.
+2. Click **Add Timesheet**. The **Create Timesheet** window opens.
 
 <ImagePopup src="/images1/timesheets/ts_add_timesheet_button.png" alt="Timesheets page with the Add Timesheet button" />
 
@@ -32,7 +32,7 @@ Open `Project → Timesheets`.
 The **Task** list depends on the **Project**. If you change the project, the task is cleared. Pick the task again.
 :::
 
-4. Click **Create**. A message confirms **Timesheet created**.
+4. Click **Create**. A message confirms the timesheet was created.
 
 ### Enter hours as decimals
 
@@ -57,19 +57,14 @@ Ava Lewis imported 40 articles on 14 Oct 2026. Enter these values:
 
 Aureus sets the **Creator** to you. This is useful when you log time for someone else.
 
-## Add a timesheet from a task
+## See the time on a task
+
+Every task shows its entries in a **Timesheets** tab. Use it to check the time of one task.
 
 1. Open `Project → Tasks` and open the task, for example **Migrate CMS content**.
 2. Scroll down the **View** page and click the **Timesheets** tab.
 
-<ImagePopup src="/images1/timesheets/ts_task_timesheets_tab.png" alt="Timesheets tab of the task Migrate CMS content" />
-
-3. Click **Add Timesheet**.
-4. Fill in **Date**, **Employee**, **Description** and **Time Spent**. Aureus fills the project and task from this task.
-
-<ImagePopup src="/images1/timesheets/ts_task_add_timesheet_form.png" alt="Add Timesheet form opened from a task" />
-
-5. Click **Create**.
+<ImagePopup src="/images1/timesheets/ts_task_timesheets_tab.png" alt="Time Tracking section and Timesheets tab of the task Migrate CMS content" />
 
 The tab lists **Date**, **Employee**, **Description** and **Time Spent**. Rows at the bottom show the totals. See [Timesheet settings](timesheet-settings.md).
 
@@ -79,16 +74,16 @@ The **Timesheets** tab appears only when **Enable Timesheets** is on and the pro
 
 ## Edit an entry
 
-1. Find the entry in the list or in the task's **Timesheets** tab.
+1. Find the entry in the Timesheets list.
 2. Click **Edit** at the end of the row.
-3. Change the values and save. A message confirms **Timesheet updated**.
+3. Change the values and save. A message confirms the timesheet was updated.
 
 Task totals are recalculated after the save.
 
 ## Delete an entry
 
 1. Click **Delete** at the end of the row.
-2. Confirm. A message confirms **Timesheet deleted**.
+2. Confirm. A message confirms the timesheet was deleted.
 
 Task totals are recalculated after the delete. To remove many entries at once, see [Timesheet list and filters](timesheet-list-and-filters.md).
 
@@ -102,7 +97,7 @@ On the Timesheets page, click the **My Timesheets** tab. It shows only entries w
 
 | Action | Result |
 | --- | --- |
-| **Add Timesheet** | Creates an entry and adds its hours to the task. |
+| **Add Timesheet** | Opens the form. **Create** saves the entry and adds its hours to the task. |
 | **Edit** | Changes an entry and recalculates the task. |
 | **Delete** | Removes an entry and recalculates the task. |
 

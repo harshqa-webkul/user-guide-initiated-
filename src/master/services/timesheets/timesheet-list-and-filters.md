@@ -8,7 +8,7 @@ Open `Project → Timesheets`.
 
 ## Overview
 
-<ImagePopup src="/images1/timesheets/ts_list_overview.png" alt="Timesheets list with columns and Sum row" />
+<ImagePopup src="/images1/timesheets/ts_list_overview.png" alt="Timesheets list with its columns" />
 
 ### Columns
 
@@ -34,18 +34,18 @@ You type decimal hours, but the list shows hours and minutes.
 | 1.25 | 1:15 |
 | 0.5 | 0:30 |
 
-### Sum row
+### Summary rows
 
-The last row of the table is labelled **Time Spent**. It adds up the hours of the entries in view. Filters and groups change what it adds.
+The bottom of the table has a **Summary** block under **Time Spent**. **This page** adds the entries you see. **All timesheets** adds every entry that matches your filters. Filters and groups change what it adds.
 
-<ImagePopup src="/images1/timesheets/ts_sum_row.png" alt="Sum row at the bottom of the Time Spent column" />
+<ImagePopup src="/images1/timesheets/ts_sum_row.png" alt="Summary block at the bottom of the Time Spent column with This page and All timesheets totals" />
 
 ## Group entries
 
-1. Click **Group** in the toolbar.
+1. Open the **Group by** list in the toolbar.
 2. Choose one option.
 
-<ImagePopup src="/images1/timesheets/ts_group_by.png" alt="Group menu with Date, Employee, Project, Task and Creator" />
+<ImagePopup src="/images1/timesheets/ts_group_by.png" alt="Timesheets list grouped by Project with Group by set to Project" />
 
 | Group by | Use it to |
 | --- | --- |
@@ -59,9 +59,9 @@ Each group shows its own total.
 
 ## Filter entries
 
-1. Click **Filter** in the toolbar.
+1. Click the filter icon in the toolbar. The **Filters** panel opens.
 2. Set one or more filters.
-3. Close the panel. The table updates.
+3. Click **Apply filters**. The table updates. Click **Reset** to clear them.
 
 - **_Date From:_** Show entries on or after this day.
 - **_Date Until:_** Show entries up to this day.
@@ -70,7 +70,7 @@ Each group shows its own total.
 - **_Task:_** Pick one or more tasks.
 - **_Creator:_** Pick who created the entries.
 
-<ImagePopup src="/images1/timesheets/ts_filters.png" alt="Filter panel with Date From, Date Until, Employee and Project" />
+<ImagePopup src="/images1/timesheets/ts_filters.png" alt="Filters panel with Date From and Date Until set, and the Employee, Project, Task and Creator lists below" />
 
 ### Example
 
