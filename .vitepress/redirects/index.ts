@@ -147,11 +147,37 @@ export const redirects: Record<string, string> = {
 // Writes a small HTML page at every old URL that forwards to the new one.
 export function writeRedirects(outDir: string) {
   for (const [from, to] of Object.entries(redirects)) {
-    const file = path.join(outDir, from.replace(/^\//, '') + '.html')
+    const rel = from.replace(/^\//, '')
+    const file = path.join(
+      outDir,
+      rel.endsWith('/') ? rel + 'index.html' : rel + '.html'
+    )
+    if (fs.existsSync(file)) continue
     fs.mkdirSync(path.dirname(file), { recursive: true })
     fs.writeFileSync(
       file,
       `<!doctype html><html><head><meta charset="utf-8"><title>Redirecting</title><link rel="canonical" href="${to}"><meta http-equiv="refresh" content="0; url=${to}"><script>location.replace(${JSON.stringify(to)})</script></head><body><a href="${to}">Page moved</a></body></html>`
     )
+  }
+}
+
+// Dev server only: `buildEnd` does not run there, so serve the same redirects on the fly.
+export function devRedirectPlugin() {
+  return {
+    name: 'dev-redirects',
+    configureServer(server: any) {
+      server.middlewares.use((req: any, res: any, next: () => void) => {
+        const url = (req.url || '').split('?')[0]
+        const key = url.replace(/\.html$/, '')
+        const to = redirects[key] || redirects[key + '/'] || redirects[key.replace(/\/$/, '')]
+        if (to) {
+          res.statusCode = 302
+          res.setHeader('Location', to)
+          res.end()
+          return
+        }
+        next()
+      })
+    }
   }
 }

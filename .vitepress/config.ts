@@ -1,11 +1,12 @@
 import { defineConfig } from 'vitepress'
 import sidebar from './routes'
-import { writeRedirects } from './redirects'
+import { writeRedirects, devRedirectPlugin } from './redirects'
 
 
 
 export default defineConfig({
   vite: {
+    plugins: [devRedirectPlugin()],
     server: {
       host: true,
       port: 5173,
