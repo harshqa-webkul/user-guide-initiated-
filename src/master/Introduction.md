@@ -72,7 +72,7 @@ Short pages on ideas that appear in every module.
 ### Human resources
 
 - [Employees](./human-resources/employees/index.md): the people directory.
-- [Recruitment](./human-resources/recruitment/applications.md): applications and hiring setup.
+- [Recruitment](./human-resources/recruitment/index.md): applications and hiring setup.
 - [Time off](./human-resources/time-off/index.md): leave requests, approvals and balances.
 
 ### Services

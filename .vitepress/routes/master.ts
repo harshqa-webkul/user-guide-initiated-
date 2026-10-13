@@ -597,9 +597,41 @@ const routes = [
       {
         text: 'Recruitment',
         collapsed: true,
+        link: '/master/human-resources/recruitment/',
         items: [
-          { text: 'Applications', link: '/master/human-resources/recruitment/applications' },
-          { text: 'Configurations', link: '/master/human-resources/recruitment/configuration' },
+          {
+            text: 'Get started',
+            collapsed: true,
+            link: '/master/human-resources/recruitment/get-started/',
+            items: [
+              { text: 'First steps', link: '/master/human-resources/recruitment/get-started/first-steps' }
+            ]
+          },
+          { text: 'Recruitment dashboard', link: '/master/human-resources/recruitment/dashboard/recruitment-dashboard' },
+          { text: 'Job positions', link: '/master/human-resources/recruitment/job-positions/job-positions' },
+          {
+            text: 'Applicants',
+            collapsed: true,
+            link: '/master/human-resources/recruitment/applicants/',
+            items: [
+              { text: 'Add an applicant', link: '/master/human-resources/recruitment/applicants/add-applicant' },
+              { text: 'Process an applicant', link: '/master/human-resources/recruitment/applicants/process-applicant' },
+              { text: 'Refuse and reopen', link: '/master/human-resources/recruitment/applicants/refuse-and-reopen' },
+              { text: 'Applicant list', link: '/master/human-resources/recruitment/applicants/applicant-list' },
+              { text: 'Candidates', link: '/master/human-resources/recruitment/applicants/candidates' }
+            ]
+          },
+          {
+            text: 'Setup',
+            collapsed: true,
+            link: '/master/human-resources/recruitment/setup/',
+            items: [
+              { text: 'Stages', link: '/master/human-resources/recruitment/setup/stages' },
+              { text: 'Refuse reasons', link: '/master/human-resources/recruitment/setup/refuse-reasons' },
+              { text: 'Tags and degrees', link: '/master/human-resources/recruitment/setup/tags-degrees' },
+              { text: 'Sources and mediums', link: '/master/human-resources/recruitment/setup/sources-and-mediums' }
+            ]
+          },
         ]
       },
       {
