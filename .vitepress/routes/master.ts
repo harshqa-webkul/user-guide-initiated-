@@ -432,61 +432,103 @@ const routes = [
       {
         text: 'Manufacturing',
         collapsed: true,
+        link: '/master/supply-chain/manufacturing/',
         items: [
           {
-            text: 'Operations',
+            text: 'Get Started',
             collapsed: true,
+            link: '/master/supply-chain/manufacturing/get-started/',
             items: [
-          { text: 'Manufacturing Orders', link: '/master/supply-chain/manufacturing/operations/manufacturing-orders' },
-          { text: 'Work Orders', link: '/master/supply-chain/manufacturing/operations/work-orders' },
+              { text: 'Manufacturing Settings', link: '/master/supply-chain/manufacturing/get-started/manufacturing-settings' },
+              { text: 'First Steps', link: '/master/supply-chain/manufacturing/get-started/first-steps' },
             ]
           },
           {
-            text: 'Products',
+            text: 'Basic Setup',
             collapsed: true,
+            link: '/master/supply-chain/manufacturing/basic-setup/',
             items: [
-          { text: 'Products', link: '/master/supply-chain/manufacturing/products/products' },
-          { text: 'Bills of Materials', link: '/master/supply-chain/manufacturing/products/bills-of-material' },
-          { text: 'Lots/Serial Numbers', link: '/master/supply-chain/manufacturing/products/lots' },
+              { text: 'Configure a Product', link: '/master/supply-chain/manufacturing/basic-setup/configure-product' },
+              { text: 'Bills of Materials', link: '/master/supply-chain/manufacturing/basic-setup/bill-of-materials' },
+              { text: 'One-Step Manufacturing', link: '/master/supply-chain/manufacturing/basic-setup/one-step-manufacturing' },
+              { text: 'Two-Step Manufacturing', link: '/master/supply-chain/manufacturing/basic-setup/two-step-manufacturing' },
+              { text: 'Three-Step Manufacturing', link: '/master/supply-chain/manufacturing/basic-setup/three-step-manufacturing' },
+              { text: 'Manufacturing Order Costs', link: '/master/supply-chain/manufacturing/basic-setup/manufacturing-order-costs' },
             ]
           },
           {
-            text: 'Configurations',
+            text: 'Advanced Configuration',
             collapsed: true,
+            link: '/master/supply-chain/manufacturing/advanced-configuration/',
             items: [
-          { text: 'Work Centers', link: '/master/supply-chain/manufacturing/configurations/work-centers' },
-          { text: 'Operations', link: '/master/supply-chain/manufacturing/configurations/operations' },
+              { text: 'Work Centers', link: '/master/supply-chain/manufacturing/advanced-configuration/work-centers' },
+              { text: 'Operations', link: '/master/supply-chain/manufacturing/advanced-configuration/operations' },
+              { text: 'Work Order Dependencies', link: '/master/supply-chain/manufacturing/advanced-configuration/work-order-dependencies' },
+              { text: 'BoMs for Product Variants', link: '/master/supply-chain/manufacturing/advanced-configuration/bom-variants' },
             ]
           },
-          { text: 'Settings', link: '/master/supply-chain/manufacturing/settings' },
+          {
+            text: 'Workflows',
+            collapsed: true,
+            link: '/master/supply-chain/manufacturing/workflows/',
+            items: [
+              { text: 'Manufacturing Orders', link: '/master/supply-chain/manufacturing/workflows/manufacturing-orders' },
+              { text: 'Plan and Schedule', link: '/master/supply-chain/manufacturing/workflows/plan-and-schedule' },
+              { text: 'Work Orders', link: '/master/supply-chain/manufacturing/workflows/work-orders' },
+              { text: 'Produce and Consume', link: '/master/supply-chain/manufacturing/workflows/produce-and-consume' },
+              { text: 'Lots and Serial Numbers', link: '/master/supply-chain/manufacturing/workflows/lots-and-serial-numbers' },
+            ]
+          },
         ]
       },
       {
         text: 'Maintenance',
         collapsed: true,
+        link: '/master/supply-chain/maintenance/',
         items: [
           {
-            text: 'Operations',
+            text: 'Get Started',
             collapsed: true,
+            link: '/master/supply-chain/maintenance/get-started/',
             items: [
-          { text: 'Maintenance Requests', link: '/master/supply-chain/maintenance/operations/maintenance-requests' },
-          { text: 'Maintenance Calendar', link: '/master/supply-chain/maintenance/operations/calendar' },
+              { text: 'First Steps', link: '/master/supply-chain/maintenance/get-started/first-steps' },
+            ]
+          },
+          {
+            text: 'Setup',
+            collapsed: true,
+            link: '/master/supply-chain/maintenance/setup/',
+            items: [
+              { text: 'Maintenance Teams', link: '/master/supply-chain/maintenance/setup/maintenance-teams' },
+              { text: 'Equipment Categories', link: '/master/supply-chain/maintenance/setup/equipment-categories' },
+              { text: 'Stages', link: '/master/supply-chain/maintenance/setup/stages' },
             ]
           },
           {
             text: 'Equipment',
             collapsed: true,
+            link: '/master/supply-chain/maintenance/equipment/',
             items: [
-          { text: 'Equipment', link: '/master/supply-chain/maintenance/equipments/equipments' },
+              { text: 'Add Equipment', link: '/master/supply-chain/maintenance/equipment/add-equipment' },
+              { text: 'Manage Equipment', link: '/master/supply-chain/maintenance/equipment/manage-equipment' },
             ]
           },
           {
-            text: 'Configurations',
+            text: 'Maintenance Requests',
+            collapsed: true,
+            link: '/master/supply-chain/maintenance/requests/',
+            items: [
+              { text: 'Create a Request', link: '/master/supply-chain/maintenance/requests/create-request' },
+              { text: 'Process a Request', link: '/master/supply-chain/maintenance/requests/process-request' },
+              { text: 'Preventive Maintenance', link: '/master/supply-chain/maintenance/requests/preventive-maintenance' },
+              { text: 'Request List', link: '/master/supply-chain/maintenance/requests/request-list' },
+            ]
+          },
+          {
+            text: 'Calendar',
             collapsed: true,
             items: [
-          { text: 'Categories', link: '/master/supply-chain/maintenance/configurations/categories' },
-          { text: 'Teams', link: '/master/supply-chain/maintenance/configurations/teams' },
-          { text: 'Stages', link: '/master/supply-chain/maintenance/configurations/stages' },
+              { text: 'Maintenance Calendar', link: '/master/supply-chain/maintenance/calendar/maintenance-calendar' },
             ]
           },
         ]
@@ -500,10 +542,56 @@ const routes = [
       {
         text: 'Employees',
         collapsed: true,
+        link: '/master/human-resources/employees/',
         items: [
-          { text: 'Employees', link: '/master/human-resources/employees/employees' },
-          { text: 'Departments', link: '/master/human-resources/employees/departments' },
-          { text: 'Configurations', link: '/master/human-resources/employees/configurations' },
+          {
+            text: 'Get Started',
+            collapsed: true,
+            link: '/master/human-resources/employees/get-started/',
+            items: [
+              { text: 'First Steps', link: '/master/human-resources/employees/get-started/first-steps' },
+            ]
+          },
+          {
+            text: 'Employees',
+            collapsed: true,
+            link: '/master/human-resources/employees/employees/',
+            items: [
+              { text: 'Add an Employee', link: '/master/human-resources/employees/employees/add-employee' },
+              { text: 'Employee Profile', link: '/master/human-resources/employees/employees/employee-profile' },
+              { text: 'Employee List', link: '/master/human-resources/employees/employees/employee-list' },
+              { text: 'Skills and Resume', link: '/master/human-resources/employees/employees/skills-and-resume' },
+              { text: 'Leaving the Company', link: '/master/human-resources/employees/employees/leaving-the-company' },
+            ]
+          },
+          {
+            text: 'Departments',
+            collapsed: true,
+            items: [
+              { text: 'Departments', link: '/master/human-resources/employees/departments/departments' },
+            ]
+          },
+          {
+            text: 'Setup',
+            collapsed: true,
+            link: '/master/human-resources/employees/setup/',
+            items: [
+              { text: 'Job Positions', link: '/master/human-resources/employees/setup/job-positions' },
+              { text: 'Employment Types', link: '/master/human-resources/employees/setup/employment-types' },
+              { text: 'Work Locations', link: '/master/human-resources/employees/setup/work-locations' },
+              { text: 'Tags', link: '/master/human-resources/employees/setup/tags' },
+              { text: 'Departure Reasons', link: '/master/human-resources/employees/setup/departure-reasons' },
+              { text: 'Skill Types', link: '/master/human-resources/employees/setup/skill-types' },
+              { text: 'Activity Plans', link: '/master/human-resources/employees/setup/activity-plans' },
+            ]
+          },
+          {
+            text: 'Reporting',
+            collapsed: true,
+            items: [
+              { text: 'Skills Report', link: '/master/human-resources/employees/reporting/skills-report' },
+            ]
+          },
         ]
       },
       {
@@ -517,11 +605,53 @@ const routes = [
       {
         text: 'Time Off',
         collapsed: true,
+        link: '/master/human-resources/time-off/',
         items: [
-          { text: 'My Time', link: '/master/human-resources/time-off/my-time' },
-          { text: 'Overview', link: '/master/human-resources/time-off/overview' },
-          { text: 'Management', link: '/master/human-resources/time-off/management' },
-          { text: 'Configuration', link: '/master/human-resources/time-off/configuration' },
+          {
+            text: 'Get Started',
+            collapsed: true,
+            link: '/master/human-resources/time-off/get-started/',
+            items: [
+              { text: 'First Steps', link: '/master/human-resources/time-off/get-started/first-steps' },
+            ]
+          },
+          {
+            text: 'Setup',
+            collapsed: true,
+            link: '/master/human-resources/time-off/setup/',
+            items: [
+              { text: 'Time Off Types', link: '/master/human-resources/time-off/setup/time-off-types' },
+              { text: 'Public Holidays', link: '/master/human-resources/time-off/setup/public-holidays' },
+              { text: 'Mandatory Days', link: '/master/human-resources/time-off/setup/mandatory-days' },
+            ]
+          },
+          {
+            text: 'Requests',
+            collapsed: true,
+            link: '/master/human-resources/time-off/requests/',
+            items: [
+              { text: 'Request Time Off', link: '/master/human-resources/time-off/requests/request-time-off' },
+              { text: 'My Time', link: '/master/human-resources/time-off/requests/my-time' },
+              { text: 'Manage Requests', link: '/master/human-resources/time-off/requests/manage-requests' },
+              { text: 'Overview Calendar', link: '/master/human-resources/time-off/requests/overview-calendar' },
+            ]
+          },
+          {
+            text: 'Allocations',
+            collapsed: true,
+            link: '/master/human-resources/time-off/allocations/',
+            items: [
+              { text: 'My Allocation', link: '/master/human-resources/time-off/allocations/my-allocation' },
+              { text: 'Manage Allocations', link: '/master/human-resources/time-off/allocations/manage-allocations' },
+            ]
+          },
+          {
+            text: 'Reporting',
+            collapsed: true,
+            items: [
+              { text: 'By Employees', link: '/master/human-resources/time-off/reporting/by-employees' },
+            ]
+          },
         ]
       },
     ]
@@ -552,12 +682,52 @@ const routes = [
   {
     text: 'Website',
     collapsed: true,
+    link: '/master/website/',
     items: [
-      { text: 'Blog Posts', link: '/master/website/blog-posts' },
-      { text: 'Pages', link: '/master/website/pages' },
-      { text: 'Customers', link: '/master/website/customers' },
-      { text: 'Configuartions', link: '/master/website/configurations' },
-      { text: 'Settings', link: '/master/website/settings' },
+      {
+        text: 'Get Started',
+        collapsed: true,
+        link: '/master/website/get-started/',
+        items: [
+          { text: 'Website Overview', link: '/master/website/get-started/website-overview' },
+          { text: 'First Steps', link: '/master/website/get-started/first-steps' },
+        ]
+      },
+      {
+        text: 'Pages',
+        collapsed: true,
+        link: '/master/website/pages/',
+        items: [
+          { text: 'Create a Page', link: '/master/website/pages/create-a-page' },
+          { text: 'Publish and Draft', link: '/master/website/pages/publish-and-draft' },
+        ]
+      },
+      {
+        text: 'Blog',
+        collapsed: true,
+        link: '/master/website/blog/',
+        items: [
+          { text: 'Blog Posts', link: '/master/website/blog/blog-posts' },
+          { text: 'Categories and Tags', link: '/master/website/blog/categories-and-tags' },
+        ]
+      },
+      {
+        text: 'Customers',
+        collapsed: true,
+        link: '/master/website/customers/',
+        items: [
+          { text: 'Customers', link: '/master/website/customers/customers' },
+          { text: 'Portal and Sign In', link: '/master/website/customers/portal-and-sign-in' },
+        ]
+      },
+      {
+        text: 'Settings',
+        collapsed: true,
+        link: '/master/website/settings/',
+        items: [
+          { text: 'Manage Contacts', link: '/master/website/settings/manage-contacts' },
+        ]
+      },
     ]
   },
 

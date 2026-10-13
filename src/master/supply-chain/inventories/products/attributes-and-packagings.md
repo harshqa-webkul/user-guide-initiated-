@@ -27,7 +27,7 @@ An attribute is a choice with a list of options. Examples from the sample data a
 
 <ImagePopup src="/images1/inventory/prod_attribute_create.png" alt="Attribute form named Size, type Select, with options Small Medium Large and extra price" />
 
-- **_Name\*:_** The attribute name, such as **Size**.
+- **_Name\:_** Required. The attribute name, such as **Size**.
 - **_Type:_** **Radio**, **Select** or **Color**. It decides how a buyer picks the option.
 - **_Options:_** Click **Add to options**. For each option set **Name\***, **Color** (for the Color type) and **Extra Price\*** (default 0).
 
@@ -56,9 +56,9 @@ A packaging is a named pack size for one product. Stock still counts in units. T
 
 <ImagePopup src="/images1/inventory/prod_packaging_create.png" alt="New packaging window with name Pack Of 10, product Car Dash Camera, quantity 10 and barcode" />
 
-- **_Name\*:_** For example **Pack Of 10**.
-- **_Product\*:_** The product this pack belongs to, such as **Car Dash Camera**.
-- **_Qty\*:_** Units in one pack, such as 10.
+- **_Name\:_** Required. For example **Pack Of 10**.
+- **_Product\:_** Required. The product this pack belongs to, such as **Car Dash Camera**.
+- **_Qty\:_** Required. Units in one pack, such as 10.
 - **_Barcode:_** Scan code for the pack, such as **PACK-10**.
 - **_Company:_** Owner company.
 - **_Package Type:_** A box type, when Packages is on.

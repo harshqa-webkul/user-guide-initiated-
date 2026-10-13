@@ -31,11 +31,11 @@ features:
   - icon: 👨‍💼
     title: Employee Management
     details: Manage and track employee details and performance.
-    link: /master/human-resources/employees/employees.md
+    link: /master/human-resources/employees/employees/add-employee.md
   - icon: 💼
     title: Job Position Management
     details: Easily define, manage, and track job positions and roles.
-    link: /master/human-resources/employees/employees.md
+    link: /master/human-resources/employees/setup/job-positions.md
   - icon: 📦
     title: Inventory Management
     details: Stay on top of your stock levels with efficient inventory management.
@@ -47,7 +47,7 @@ features:
   - icon: 🏭
     title: Manufacturing Management
     details: Plan production, manage BoMs, and track work orders on the shop floor.
-    link: /master/supply-chain/manufacturing/operations/manufacturing-orders.md
+    link: /master/supply-chain/manufacturing/workflows/manufacturing-orders.md
   - icon: 🔧
     title: Maintenance Management
     details: Track equipment, schedule preventive maintenance, and log corrective requests.

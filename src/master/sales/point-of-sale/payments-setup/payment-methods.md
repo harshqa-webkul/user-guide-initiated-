@@ -36,14 +36,14 @@ You do not pick the type. Aureus reads it from the journal.
 2. Click **New Payment Method**.
 3. Fill in the **General** section.
 
-   - **_Name\*:_** For example **Cash**.
+   - **_Name\:_** Required. For example **Cash**.
    - **_Company:_** The company the method belongs to.
-   - **_Integration\*:_** Choose **None**, **Payment Terminal** or **QR Code**. Use **None** for cash.
+   - **_Integration\:_** Required. Choose **None**, **Payment Terminal** or **QR Code**. Use **None** for cash.
    - **_Identify Customer:_** Switch it on to post one journal item per payment on the customer receivable.
 
 4. Fill in the **Accounting** section.
 
-   - **_Journal\*:_** Pick the journal, for example **Cash Transactions**. Leave it empty only when **Identify Customer** is on.
+   - **_Journal\:_** Required. Pick the journal, for example **Cash Transactions**. Leave it empty only when **Identify Customer** is on.
    - **_Intermediary Account:_** Leave it empty to use the default account from the company settings.
 
    <ImagePopup src="/images1/pos/payment_method_form.png" alt="Payment method form with Name Cash, Company My Company, Integration None and Journal Cash Transactions" />

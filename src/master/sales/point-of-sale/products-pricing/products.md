@@ -56,13 +56,13 @@ Products without a PoS category still sell. Cashiers find them with search inste
 1. Click **New Product**.
 2. Fill in the main fields.
 
-   - **_Name\*:_** For example **Butter Chicken**.
+   - **_Name\:_** Required. For example **Butter Chicken**.
    - **_Description_**, **_Tags_** and **_Images_**.
    - **_Type:_** **Goods** or **Service**.
    - **_Reference_** and **_Barcode_:** A barcode lets cashiers scan the item.
-   - **_Category\*:_** The product category used by Inventory and Sales.
-   - **_Price\*:_** The selling price.
-   - **_Cost\*:_** What the product costs you.
+   - **_Category\:_** Required. The product category used by Inventory and Sales.
+   - **_Price\:_** Required. The selling price.
+   - **_Cost\:_** Required. What the product costs you.
    - **_Product taxes_** and **_Supplier taxes_:** The taxes on sale and purchase.
 
 3. Fill in the **Inventory** section if you track stock. Choose **Track Inventory**, then **Track By** unique serial number, lots or quantity.

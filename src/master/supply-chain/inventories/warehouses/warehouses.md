@@ -71,7 +71,7 @@ The **Shipment Management** fieldset has two radio lists.
 
 The default for both lists is **One step**, as the create form shows. Extra steps add extra locations and extra documents, but give you more control.
 
-A third fieldset, **Resupply Management**, appears when the Manufacturing app is installed. Its **Manufacturing** radio sets how many steps manufacturing uses. See [Manufacturing orders](../../manufacturing/operations/manufacturing-orders.md).
+A third fieldset, **Resupply Management**, appears when the Manufacturing app is installed. Its **Manufacturing** radio sets how many steps manufacturing uses. See [Manufacturing orders](../../manufacturing/workflows/manufacturing-orders.md).
 
 ::: tip
 The dev warehouse uses three steps for reception, delivery and manufacturing. That is why you see documents such as **WH/PICK**, **WH/PACK** and **WH/QC**. See [Three-step flow](../routes/three-step-flow.md).

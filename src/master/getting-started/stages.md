@@ -38,9 +38,9 @@ A stage that is still used by records cannot always be deleted. Move those recor
 - **_Name:_** The name of the stage, for example `New Request` or `In Progress`.
 - **_Done:_** Turn on for the last step. A request in a done stage counts as finished.
 
-<ImagePopup src="/images1/maintenance/stage_general_section.png" alt="Maintenance stage form with Name and Done" />
+<ImagePopup src="/images1/maintenance/set_stage_form.png" alt="New Stage window with the Name and Done fields" />
 
-See [Maintenance requests](../supply-chain/maintenance/operations/maintenance-requests.md) for how requests move between stages.
+See [Maintenance requests](../supply-chain/maintenance/requests/process-request.md) for how requests move between stages.
 
 ### Recruitment stages
 

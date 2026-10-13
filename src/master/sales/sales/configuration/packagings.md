@@ -22,10 +22,10 @@ The list shows **Name**, **Product**, **Qty**, **Barcode** and **Company**. Use 
 2. Click **New Packaging**. A window opens.
 3. Fill in the fields.
 
-   - **_Name\*:_** Enter the pack name, such as Pack Of 10.
+   - **_Name\:_** Required. Enter the pack name, such as Pack Of 10.
    - **_Barcode:_** Enter a barcode for the pack.
-   - **_Product\*:_** Select the product.
-   - **_Qty\*:_** Enter the number of items in one pack.
+   - **_Product\:_** Required. Select the product.
+   - **_Qty\:_** Required. Enter the number of items in one pack.
    - **_Company:_** Select the company. It defaults to your current company.
 
    <ImagePopup src="/images1/sales/product_packaging_form.png" alt="Packaging window with name, barcode, product, quantity and company" />

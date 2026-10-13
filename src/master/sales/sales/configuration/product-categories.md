@@ -26,7 +26,7 @@ Use **Group by** to group rows by **Parent**, **Creator**, **Created At** or **U
 2. Click **New Category**.
 3. Fill in the **General** section.
 
-   - **_Name\*:_** Enter the category name.
+   - **_Name\:_** Required. Enter the category name.
    - **_Parent:_** Select a parent to make this a subcategory. Leave it empty for a top level category.
 
    <ImagePopup src="/images1/sales/category_form.png" alt="Category form with Name and Parent fields" />

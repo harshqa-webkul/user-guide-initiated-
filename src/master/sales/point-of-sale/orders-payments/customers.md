@@ -23,7 +23,7 @@ The row actions are **View**, **Edit** and **Delete**.
 3. Fill in the **General** section.
 
    - **_Account type:_** Choose **Individual** or **Company**.
-   - **_Name\*:_** Enter the name, for example **Sofia Rossi**.
+   - **_Name\:_** Required. Enter the name, for example **Sofia Rossi**.
    - **_Company:_** For an individual, pick the company they work for.
    - **_Tax ID_**, **_Job Title_**, **_Phone_**, **_Mobile_**, **_Email_**, **_Website_**: Fill in what you know.
    - **_Title:_** Choose **Mr** or **Mrs**.

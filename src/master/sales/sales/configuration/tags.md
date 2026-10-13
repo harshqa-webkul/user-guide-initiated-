@@ -18,7 +18,7 @@ The list shows **Name**, **Color** and **Created by**. Use the search box to fin
 2. Click **New Tag**. A window opens.
 3. Fill in the fields.
 
-   - **_Name\*:_** Enter the tag name.
+   - **_Name\:_** Required. Enter the tag name.
    - **_Color:_** Pick a colour or enter a hex code, such as #941c79.
 
    <ImagePopup src="/images1/sales/sales_order_tag_form.png" alt="Create Tag window with name and colour" />

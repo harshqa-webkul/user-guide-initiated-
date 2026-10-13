@@ -80,9 +80,11 @@ Each section contains:
 
 ### 👥 Employees
 
-- [Employees](./human-resources/employees/employees.md)
-- [Departments](./human-resources/employees/departments.md)
-- [Employee Configurations](./human-resources/employees/configurations.md)
+- [Employees overview](./human-resources/employees/index.md)
+- [First steps](./human-resources/employees/get-started/first-steps.md)
+- [Add an employee](./human-resources/employees/employees/add-employee.md)
+- [Departments](./human-resources/employees/departments/departments.md)
+- [Employee setup](./human-resources/employees/setup/index.md)
 
 ### 📝 Recruitment
 
@@ -95,6 +97,15 @@ Each section contains:
 - [Overview](./human-resources/time-off/overview.md)
 - [Management](./human-resources/time-off/management.md)
 - [Configurations](./human-resources/time-off/configuration.md)
+
+### 🌐 Website
+
+- [Website overview](./website/index.md)
+- [First steps](./website/get-started/first-steps.md)
+- [Pages](./website/pages/index.md)
+- [Blog](./website/blog/index.md)
+- [Customers](./website/customers/index.md)
+- [Manage Contacts](./website/settings/manage-contacts.md)
 
 ## 🧭 Guide Structure Overview
 

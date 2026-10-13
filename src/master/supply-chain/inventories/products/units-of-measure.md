@@ -32,12 +32,12 @@ Rows have **Edit** and **Delete** actions.
 
 <ImagePopup src="/images1/inventory/uom_category_create.png" alt="UOM category form named Packaging weight with units listed in the Units of Measure repeater" />
 
-- **_Name\*:_** The category, for example **Packaging weight**.
+- **_Name\:_** Required. The category, for example **Packaging weight**.
 - **Units of Measure:** Click **Add Unit** for each row.
-  - **_Unit of Measure\*:_** The unit name.
-  - **_Type\*:_** The first row is the **Reference** unit. Later rows are bigger or smaller than it.
+  - **_Unit of Measure\:_** Required. The unit name.
+  - **_Type\:_** Required. The first row is the **Reference** unit. Later rows are bigger or smaller than it.
   - **_Ratio:_** How many reference units fit in this one. Default 1. Locked for the Reference row.
-  - **_Rounding Precision\*:_** The smallest step allowed. Default 0.01.
+  - **_Rounding Precision\:_** Required. The smallest step allowed. Default 0.01.
 
 3. Click **Create**.
 

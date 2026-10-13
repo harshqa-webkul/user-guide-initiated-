@@ -20,7 +20,7 @@ The tabs are **Default**, **Active** and **Archived**. Columns are **Name**, **T
 2. Click **New Floor**.
 3. Fill in the **General** section.
 
-   - **_Name\*:_** For example **Rooftop Lounge**.
+   - **_Name\:_** Required. For example **Rooftop Lounge**.
    - **_Point of Sale:_** The restaurant registers that use this floor.
    - **_Background Colour:_** The colour of the floor plan.
    - **_Background Image:_** An optional picture, such as a floor drawing.
@@ -36,9 +36,9 @@ Open a floor with **Edit**. Below the form you see a **Tables** list. Ground Flo
 1. Click **New table**.
 2. Fill in the window.
 
-   - **_Table Number\*:_** For example **T4**.
-   - **_Shape\*:_** **Square** or **Round**.
-   - **_Seats\*:_** How many guests sit there.
+   - **_Table Number\:_** Required. For example **T4**.
+   - **_Shape\:_** Required. **Square** or **Round**.
+   - **_Seats\:_** Required. How many guests sit there.
    - **_Horizontal Position_** and **_Vertical Position_:** The distance in pixels from the left and top edge of the plan.
    - **_Width_** and **_Height_:** The size on the plan.
    - **_Colour:_** The table colour.
@@ -79,7 +79,7 @@ The list shows **Note** and **Colour**. Four notes exist: **Wait**, **To Serve**
 2. Click **New Note Model**. A window opens.
 3. Fill in the form.
 
-   - **_Note\*:_** The text, such as **Less Spicy**.
+   - **_Note\:_** Required. The text, such as **Less Spicy**.
    - **_Colour:_** The colour of the chip.
 
    <ImagePopup src="/images1/pos/note_model_form.png" alt="New note model window with Note Less Spicy and a colour chosen" />

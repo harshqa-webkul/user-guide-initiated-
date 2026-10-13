@@ -23,16 +23,16 @@ The list has two tabs: **All** and **Archived**. The columns are **Name** and **
 
 ### General
 
-- **_Name\*:_** Enter the attribute name, such as Size.
-- **_Type\*:_** Choose **Radio**, **Select** or **Color**. The default is **Radio**.
+- **_Name\:_** Required. Enter the attribute name, such as Size.
+- **_Type\:_** Required. Choose **Radio**, **Select** or **Color**. The default is **Radio**.
 
 ### Options
 
 Add one row for each value. Click **Add to options** for more rows.
 
-- **_Name\*:_** Enter the option, such as Large.
+- **_Name\:_** Required. Enter the option, such as Large.
 - **_Color:_** Pick a colour. This shows only when **Type** is **Color**.
-- **_Extra Price\*:_** Enter the amount added to the product price when this option is chosen. The default is 0.
+- **_Extra Price\:_** Required. Enter the amount added to the product price when this option is chosen. The default is 0.
 
 <ImagePopup src="/images1/sales/attribute_form.png" alt="Attribute form with General section and Options rows" />
 

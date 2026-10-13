@@ -14,11 +14,11 @@ The list shows **Name**, **Company**, **Tax Group**, **Tax Type**, **Invoice Lab
 
 Click **New Tax** to add one. The form asks for:
 
-- **_Name\*:_** For example **15 %**.
-- **_Tax Type\*:_** **Sale** or **Purchase**.
-- **_Tax Computation\*:_** How the amount is worked out.
+- **_Name\:_** Required. For example **15 %**.
+- **_Tax Type\:_** Required. **Sale** or **Purchase**.
+- **_Tax Computation\:_** Required. How the amount is worked out.
 - **_Tax Scope:_** Goods or services.
-- **_Amount\*:_** The rate in percent.
+- **_Amount\:_** Required. The rate in percent.
 - **_Advanced Options:_** **Invoice label**, **Tax Group\***, **Country** and **Included in Price**.
 
 The Finance module owns taxes. Read [Taxes](../../../finance/taxes/taxes.md) for every field and the repartition lines.

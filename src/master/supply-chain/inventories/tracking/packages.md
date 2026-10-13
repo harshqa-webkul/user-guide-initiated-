@@ -19,7 +19,7 @@ Go to `Inventory → Settings → Manage Operations` and turn on **Packages**. C
 
 ### General
 
-- **_Name\*:_** For example **Small Box**.
+- **_Name\:_** Required. For example **Small Box**.
 - **Barcode:** Scan code of the type.
 - **Company:** Owner company.
 
@@ -29,8 +29,8 @@ Go to `Inventory → Settings → Manage Operations` and turn on **Packages**. C
 
 ### Weight
 
-- **_Weight\*:_** Weight of the empty box.
-- **_Max Weight\*:_** The most it can carry.
+- **_Weight\:_** Required. Weight of the empty box.
+- **_Max Weight\:_** Required. The most it can carry.
 
 3. Click **Create**.
 
@@ -40,7 +40,7 @@ Go to `Inventory → Settings → Manage Operations` and turn on **Packages**. C
 
 <ImagePopup src="/images1/inventory/pkg_create.png" alt="Create package form with name PACK007, type Small Box, pack date and location WH/Stock" />
 
-- **_Name\*:_** Package code. The field placeholder reads **eg. PACK007**.
+- **_Name\:_** Required. Package code. The field placeholder reads **eg. PACK007**.
 - **_Package Type:_** Pick a type such as **Small Box**. Click **+** next to it to create a type on the spot.
 - **_Pack Date:_** The date it was packed. It defaults to today.
 - **_Location:_** Where the package sits, such as **WH/Stock**.

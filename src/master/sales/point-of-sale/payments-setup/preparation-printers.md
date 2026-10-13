@@ -18,10 +18,10 @@ The list shows **Name**, **Printer Type**, **Proxy IP**, **Categories** and **Co
 2. Click **New Printer**.
 3. Fill in the **General** section.
 
-   - **_Name\*:_** For example **Kitchen Printer**.
-   - **_Printer Type\*:_** Choose **IoT Box** or **Epson ePOS**.
+   - **_Name\:_** Required. For example **Kitchen Printer**.
+   - **_Printer Type\:_** Required. Choose **IoT Box** or **Epson ePOS**.
    - **_Proxy IP:_** The IP address of the printer or its box, such as 192.168.1.50.
-   - **_Company\*:_** The company that owns the printer.
+   - **_Company\:_** Required. The company that owns the printer.
    - **_Printed Categories:_** Pick the PoS categories to print, for example **Starters**, **Pizza & Pasta** and **Main Course**.
 
    <ImagePopup src="/images1/pos/preparation_printer_form.png" alt="Preparation printer form with Name Kitchen Printer, Printer Type Epson ePOS, Proxy IP 192.168.1.50 and Printed Categories Starters, Main Course" />

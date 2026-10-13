@@ -22,7 +22,7 @@ The list shows **Name**, **Parent Category** and **Colour**. Use **Group by** to
 2. Click **New Category**.
 3. Fill in the **General** section.
 
-   - **_Name\*:_** For example **Mobiles & Tablets**.
+   - **_Name\:_** Required. For example **Mobiles & Tablets**.
    - **_Parent Category:_** Pick a parent to make a sub category. Leave it empty for a top tile.
    - **_Colour:_** Pick a colour for the tile.
    - **_Image:_** Upload a picture for the tile.
@@ -60,8 +60,8 @@ The tabs are **All** and **Archived**. Columns are **Name** and **Type**. Filter
 2. Click **New Attribute**.
 3. Fill in the **General** section.
 
-   - **_Name\*:_** For example **Size**.
-   - **_Type\*:_** Choose **Radio**, **Select** or **Color**. This sets how the choice looks.
+   - **_Name\:_** Required. For example **Size**.
+   - **_Type\:_** Required. Choose **Radio**, **Select** or **Color**. This sets how the choice looks.
 
 4. In **Options**, enter an **Option Name\*** and an **Extra Price\***. Click **Add to options** for each value.
 

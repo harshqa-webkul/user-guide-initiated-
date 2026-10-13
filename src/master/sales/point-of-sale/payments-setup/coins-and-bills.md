@@ -25,8 +25,8 @@ The list is sorted by value. It has 13 denominations, from 0.05 up.
 2. Click **New Coin/Bill**. A window opens.
 3. Fill in the **General** section.
 
-   - **_Name\*:_** For example **50.00**.
-   - **_Coin/Bill Value\*:_** The value, such as 50.
+   - **_Name\:_** Required. For example **50.00**.
+   - **_Coin/Bill Value\:_** Required. The value, such as 50.
    - **_For All PoS:_** On by default. When on, every register offers it.
    - **_Point of Sales:_** Pick the registers when **For All PoS** is off. The field is greyed out while it is on.
 

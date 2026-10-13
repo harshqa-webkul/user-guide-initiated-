@@ -75,8 +75,8 @@ Validate warnings you may see:
 
 <ImagePopup src="/images1/inventory/lot_create.png" alt="Create lot form with name MC-VITC-001, product Vitamin C Tablets 500mg and reference, and Company empty" />
 
-- **_Name\*:_** The lot or serial code, such as **MC-VITC-001**. The placeholder shows the pattern **LOT/0001/20121**.
-- **_Product\*:_** The tracked product. It cannot change once the lot has moved.
+- **_Name\:_** Required. The lot or serial code, such as **MC-VITC-001**. The placeholder shows the pattern **LOT/0001/20121**.
+- **_Product\:_** Required. The tracked product. It cannot change once the lot has moved.
 - **_Company:_** Owner company. It is empty by default.
 - **_Reference:_** An internal number if it differs from the maker's code.
 - **_Description:_** Free notes.

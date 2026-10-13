@@ -23,16 +23,16 @@ The list shows **Name** and **UOMs**. Aureus ships with categories such as Unit,
 
 ### General
 
-- **_Name\*:_** Enter the category name, such as Weight.
+- **_Name\:_** Required. Enter the category name, such as Weight.
 
 ### Units of Measure
 
 Add one row per unit. Click **Add Unit** for more rows.
 
-- **_Unit of Measure\*:_** Enter the unit name, such as kg.
-- **_Type\*:_** Choose **Reference**, **Bigger** or **Smaller**. The default is **Reference**.
-- **_Ratio\*:_** Enter how the unit relates to the reference unit. It must be above zero. For a **Reference** unit it is fixed at 1.
-- **_Rounding Precision\*:_** Enter the rounding step. It must be above zero. The default is 0.01.
+- **_Unit of Measure\:_** Required. Enter the unit name, such as kg.
+- **_Type\:_** Required. Choose **Reference**, **Bigger** or **Smaller**. The default is **Reference**.
+- **_Ratio\:_** Required. Enter how the unit relates to the reference unit. It must be above zero. For a **Reference** unit it is fixed at 1.
+- **_Rounding Precision\:_** Required. Enter the rounding step. It must be above zero. The default is 0.01.
 
 <ImagePopup src="/images1/sales/cfg_uom_form.png" alt="New UOM Category form with the General section and the Units of Measure table" />
 

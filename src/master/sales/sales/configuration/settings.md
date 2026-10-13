@@ -46,7 +46,7 @@ Go to `Sales → Settings → Manage Quotation & Order`.
 
 <ImagePopup src="/images1/sales/set_manage_quotation.png" alt="Sales → Settings → Manage Quotation & Order page showing validity days and Lock Confirm Sales" />
 
-- **_Default Quotation Validity\*:_** Enter the default number of days a quotation is valid. The field is required and the value is in days.
+- **_Default Quotation Validity\:_** Required. Enter the default number of days a quotation is valid. The field is required and the value is in days.
 - **_Lock Confirm Sales:_** Turn on to lock the sales order after confirmation.
 
 Click **Save changes** to apply. Read more in [Send and confirm a quotation](../quotations-orders/send-and-confirm-quotation.md).

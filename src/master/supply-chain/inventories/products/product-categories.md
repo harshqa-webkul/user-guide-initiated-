@@ -21,7 +21,7 @@ The list shows **Name**, **Full Name**, **Parent Path**, **Parent** and **Creato
 
 ### General
 
-- **_Name\*:_** The category name, such as **Pharma**.
+- **_Name\:_** Required. The category name, such as **Pharma**.
 - **_Parent:_** The category above this one, such as **All**. Aureus builds the full path from it.
 
 ### Inventory
