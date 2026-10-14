@@ -28,8 +28,8 @@ const routes = [
         text: 'Companies',
         collapsed: true,
         items: [
-          { text: 'Companies', link: '/master/general-settings/companies/companies' },
           { text: 'Currency', link: '/master/general-settings/companies/currency' },
+          { text: 'Companies', link: '/master/general-settings/companies/companies' },
           { text: 'Multi-Company', link: '/master/general-settings/companies/multi-company' },
         ]
       },
@@ -37,10 +37,10 @@ const routes = [
         text: 'Users',
         collapsed: true,
         items: [
-          { text: 'Manage Users', link: '/master/general-settings/users/manage-users' },
-          { text: 'Users', link: '/master/general-settings/users/users' },
           { text: 'Roles', link: '/master/general-settings/users/roles' },
           { text: 'Teams', link: '/master/general-settings/users/teams' },
+          { text: 'Manage Users', link: '/master/general-settings/users/manage-users' },
+          { text: 'Users', link: '/master/general-settings/users/users' },
           { text: 'Portal Access', link: '/master/general-settings/users/portal-access' },
           { text: 'Your Profile', link: '/master/general-settings/users/profile' },
           { text: 'Two-Factor Authentication', link: '/master/general-settings/users/two-factor-authentication' },

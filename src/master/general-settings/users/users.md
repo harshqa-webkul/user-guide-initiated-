@@ -162,16 +162,7 @@ The **Status** switch controls whether the user is active. A deleted user appear
 
 ## Your own profile
 
-Every user can edit their own details on the **Profile** page. It has these parts:
-
-- **_Profile Photo:_** A square picture. JPG, PNG or WEBP, up to 2 MB.
-- **_Name:_** Your name.
-- **_Email:_** Your login email.
-- **_Preferred Language:_** The interface language. The page reloads when you change it.
-
-Click **Save Changes** to apply them. To change your password, click **Update Password** at the top. Enter **Current Password**, **New Password** and **Confirm Password**. The new password must differ from the current one. After the change, you are signed out and must sign in again.
-
-<ImagePopup src="/images1/general-settings/profile_page.png" alt="Profile page with photo, name, email, language and the Update Password button" />
+Every user edits their own photo, name, language and password on the **Profile** page. See [Your profile](./profile.md).
 
 ## See also
 

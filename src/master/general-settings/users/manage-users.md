@@ -4,6 +4,10 @@ The **Manage Users** page sets the rules for how people join and sign in. You ch
 
 > **In simple words:** This page controls how new users are invited and what they get by default.
 
+::: info Before you start
+Create a [company](../companies/companies.md) and a [role](./roles.md) first. You choose them as defaults below.
+:::
+
 ## Open the page
 
 1. Go to `Settings → Settings`.
@@ -15,8 +19,10 @@ The **Manage Users** page sets the rules for how people join and sign in. You ch
 
 The page has four options.
 
-- **_Enable User Invitation:_** Turn on to let users invite other users. The **Invite User** button then shows on the Users list.
-- **_Enable Reset Password:_** Turn on to let users reset their password. This also shows the **Change Password** action on a user record, and the reset link on the sign-in page.
+- **_Enable User Invitation:_** Turn on to let users invite other users. The **Invite User** button then shows on the Users list. When it is off, create users yourself with **New User**. See [Users](./users.md).
+- **_Enable Reset Password:_** Turn on to let users reset their password.
+  - It shows the **Change Password** action on a user record.
+  - It shows the reset link on the sign-in page.
 - **_Default Role:_** Choose the role given to a new user who accepts an invitation. Type to search the list.
 - **_Default Company:_** Choose the company given to a new user who accepts an invitation. Type to search the list.
 

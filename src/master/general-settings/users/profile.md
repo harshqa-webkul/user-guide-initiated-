@@ -33,7 +33,7 @@ In **Update Password**:
 3. Enter it again in **Confirm Password**.
 4. Click **Save Changes**.
 
-The new password must be different from the current one.
+The new password must be different from the current one. After the change, you are signed out and must sign in again.
 
 ## Add a second step to sign in
 

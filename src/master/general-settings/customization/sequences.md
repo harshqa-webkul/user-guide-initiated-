@@ -45,7 +45,7 @@ Create a sequence yourself only for a custom code. Documents that need one creat
 
 ### Numbering
 
-- **_Prefix:_** Text placed before the number. You can use `%(year)`, `%(y)`, `%(month)` and `%(day)`. For example, `INV/%(year)/`.
+- **_Prefix:_** Text placed before the number. You can use `%(year)` (2026), `%(y)` (26), `%(month)` (10) and `%(day)` (14). For example, `INV/%(year)/`.
 - **_Suffix:_** Text placed after the number. The same placeholders work here.
 - **_Number Padding:_** How many digits the number has. The app adds zeros on the left. Use a value from 1 to 12. The default is 5.
 - **_Next Number:_** The number the next document gets. The default is 1.
@@ -71,8 +71,10 @@ You can only raise **Next Number**. You cannot lower it. This stops two document
 :::
 
 ::: tip
-To restart numbering, delete the sequence. The app creates it again from the highest document number that exists.
+Delete does not restart at 1. The app creates the sequence again after the highest document number that exists.
 :::
+
+Old documents keep their numbers when you change a sequence.
 
 When you change **Reset Counter**, the app starts a new period for the counter.
 
@@ -90,3 +92,5 @@ Click **Delete** on a row, or select several rows and use the bulk delete. The a
 
 - [Companies](../companies/companies.md)
 - [Custom fields](./custom-fields.md)
+- [Invoice sequence](../../finance/customer-invoices/invoice-sequence.md)
+- [Bill sequence](../../finance/vendor-bills/bill-sequence.md)

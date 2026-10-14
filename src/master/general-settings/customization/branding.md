@@ -18,7 +18,7 @@ The **Logo & Favicon** section has these fields. Leave a field empty to keep the
 - **_Light Logo:_** Shown on light backgrounds. It replaces the default logo.
 - **_Dark Logo:_** Shown when dark mode is on.
 - **_Favicon:_** The icon in the browser tab.
-- **_Logo Height:_** A CSS height, for example `2rem` or `40px`. The hint in the field is `2rem`.
+- **_Logo Height:_** A size such as `40px`. A larger number makes the logo taller.
 
 Each upload accepts image files only.
 
