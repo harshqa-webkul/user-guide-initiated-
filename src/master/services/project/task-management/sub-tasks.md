@@ -4,10 +4,14 @@ A sub-task is a smaller task that belongs to a parent task. Use it when one task
 
 > **In simple words:** A sub-task is a task inside a task. Its hours add up on the parent.
 
-Open the parent task and click **Sub Tasks** in the sub navigation.
+Open the parent task and click **Sub Tasks** in the links at the top of the page.
 
 ::: warning Prerequisite
 The parent task must exist and its project needs task stages. See [Task stages and states](task-stages-and-states.md).
+:::
+
+::: info
+The time totals need **Enable Timesheets**. See [Timesheet settings](../../timesheets/timesheet-settings.md).
 :::
 
 ## Create a sub-task
@@ -22,17 +26,15 @@ The example adds **Draft email copy** under **Prepare launch announcement**.
 
    <ImagePopup src="/images1/project/tk_sub_task_modal.png" alt="Add Sub Task form with values copied from the parent task" />
 
-3. Check the values copied from the parent.
+3. The form opens with values copied from the parent. Type **Draft email copy** in **Title**. Set **Allocated Hours** to 6. Change any copied value if needed.
 
    - **_Stage:_** The first stage of the project, **New**.
    - **_State:_** **In Progress**.
    - **_Project:_**, **_Milestone:_**, **_Customer:_** and **_Assignees:_** The same as the parent.
 
-4. Enter the **Title**, for example **Draft email copy**. Set **Allocated Hours** to 6. Change any copied value if needed.
-
    <ImagePopup src="/images1/project/tk_sub_task_filled.png" alt="Sub task form filled with title Draft email copy and allocated hours 6" />
 
-5. Click **Create**. The sub-task appears in the table.
+4. Click **Create**. The sub-task appears in the table. Check `Project → Tasks`: the sub-task is not in the main list. Only the parent shows.
 
    <ImagePopup src="/images1/project/tk_sub_task_created.png" alt="Sub Tasks tab listing Draft email copy" />
 
@@ -49,7 +51,7 @@ Log time on the sub-task like on any task. On the parent, scroll down the **View
 | **Total Time Spent** | The two added together |
 | **Remaining Time** | Allocated hours minus the total |
 
-In **Migrate CMS content**, allocated 20 hours, the sub-tasks **Export legacy articles** and **Import and re-format media** hold 6 hours each. Those 12 hours count toward the parent. With 13 hours on the task itself, the totals are 13 hours, 12 hours, 25 hours and minus 5 hours remaining.
+**Migrate CMS content** has 20 allocated hours. People logged 13 hours on it. Its two sub-tasks, **Export legacy articles** and **Import and re-format media**, hold 6 hours each. Those 12 hours count toward the parent. The totals are 13 hours, 12 hours, 25 hours and minus 5 hours remaining.
 
 <ImagePopup src="/images1/project/tk_parent_timesheets_totals.png" alt="Timesheets tab of Migrate CMS content with Time Spent 13, Time Spent on Subtasks 12, Total Time Spent 25 and Remaining Time minus 5" />
 
