@@ -8,6 +8,8 @@ Open `Inventory → Configurations → Warehouse Management → Warehouses`, the
 
 ## Settings
 
+One step is the default. If you only want to keep it, you need no setting. You turn on the options below only to see the **Manufacturing** radio and change it.
+
 The **Manufacturing** radio sits in the **Resupply Management** fieldset of the warehouse form. It shows only when the Manufacturing app is installed and **Multi Steps Routes** is on.
 
 1. Go to `Inventory → Settings → Manage Warehouses`.

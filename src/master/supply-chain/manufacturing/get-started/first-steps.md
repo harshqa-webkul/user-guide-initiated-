@@ -10,6 +10,10 @@ BoM  →  MO (Draft)  →  Confirm  →  Plan  →  Work orders  →  Produce Al
 
 The example builds the **Business Laptop**. **Work Orders** is on, so the recipe has two operations. The components are in stock.
 
+::: info Before you start
+This tutorial needs a product, its components in stock, a bill of materials with two operations and two work centers. Create them first in [Basic setup](../basic-setup/index.md) and [Work centers](../advanced-configuration/work-centers.md). Turn on **Work Orders** in [Manufacturing settings](manufacturing-settings.md). Use your own products if the names differ.
+:::
+
 ## Step 1: Check the bill of materials
 
 The bill of materials (BoM) is the recipe. It lists what one laptop needs.
