@@ -34,6 +34,9 @@ The example is **Monthly lubrication, Hydraulic Press 200T**. It must happen onc
 - **_Repeat Every:_** Required. A whole number of at least 1.
 - **Unit:** **Days**, **Weeks**, **Months** or **Years**. The default is **Weeks**.
 - **Forever:** The request repeats without an end. This is the default.
+- **Until:** the other choice of this list.
+
+To stop a repeating request, open the latest copy, click **Edit**, untick **Recurrent** and click **Save changes**.
 
 ## What happens when you close it
 
@@ -49,7 +52,7 @@ The request repeats when you save it in a stage with the **Done** flag, such as 
 | Step | Scheduled Date |
 | --- | --- |
 | First request, scheduled | 20 Oct 2026 09:00 |
-| You save it in **Repaired** | |
+| You save it in **Repaired** | A copy is created |
 | Copy appears in **New Request** | 20 Nov 2026 09:00 |
 | You save the copy in **Repaired**, and the next copy appears | 20 Dec 2026 09:00 |
 

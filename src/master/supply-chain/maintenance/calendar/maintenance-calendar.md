@@ -12,8 +12,8 @@ Only requests with a **Scheduled Date** show up. Stages and teams are set up in 
 
 ## Open the calendar
 
-1. Click **Maintenance** in the top menu.
-2. Click **Maintenance Calendar** in the left menu.
+1. Click **Maintenance** in the top bar.
+2. Click **Maintenance Calendar** in the **Maintenance** menu.
 
 The calendar opens in the **Month** view. Weeks start on Monday.
 

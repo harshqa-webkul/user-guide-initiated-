@@ -10,9 +10,13 @@ Think of the tutorial as a map. Each step gives a short instruction and links to
 Setup (1-3)  →  Equipment (4)  →  Request (5-7)  →  Calendar (8)  →  Preventive (9)
 ```
 
+::: info Before you start
+This tutorial uses a technician named Linda Ndlovu, a user named Sales Admin and a vendor named Consolidated Components. Use your own users and vendor if these do not exist. Create users in [Manage users](../../../general-settings/users/manage-users.md) and vendors in [Contacts](../../../getting-started/contacts/contacts.md).
+:::
+
 ## 1. Check the stages and the team
 
-Open `Maintenance → Configurations → Stages`. The list shows **New Request**, **In Progress**, **Repaired** and **Scrap**. **Repaired** and **Scrap** have a green tick under **Done**. Then open `Teams`. The team **Internal Maintenance** is there.
+Open `Maintenance → Configurations → Stages`. The list shows **New Request**, **In Progress**, **Repaired** and **Scrap**. **Repaired** and **Scrap** have a green tick under **Done**. Then open `Maintenance → Configurations → Teams`. The team **Internal Maintenance** is there.
 
 <ImagePopup src="/images1/maintenance/ft_check_stages.png" alt="Maintenance Stages list showing New Request, In Progress, Repaired and Scrap, with green Done ticks on Repaired and Scrap" />
 
@@ -74,7 +78,7 @@ The press is leaking oil. Open `Maintenance → Maintenance Requests` and click 
 - **_Request:_** `Hydraulic press oil leak`
 - **_Equipment:_** `Hydraulic Press 200T`
 
-When you pick the equipment, Aureus fills **Category**, **Team**, **Responsible** and **Company** for you. **Request Date** stays on today. Leave **Maintenance Type** on **Corrective**.
+When you pick the equipment, Aureus fills **Category**, **Team**, **Responsible** and **Company** for you. **Request Date** stays on today. Leave **Maintenance Type** on **Corrective**. Do not click **Create** yet. Go on to step 6.
 
 <ImagePopup src="/images1/maintenance/ft_request_equipment.png" alt="Maintenance request form with Hydraulic press oil leak and Hydraulic Press 200T, Category Packaging Machines, Team Electrical Maintenance Team and Responsible Linda Ndlovu filled" />
 
@@ -85,9 +89,9 @@ When you pick the equipment, Aureus fills **Category**, **Team**, **Responsible*
 In the **Settings** card on the right, set:
 
 - **_Responsible:_** `Linda Ndlovu`
-- **_Scheduled Date:_** tomorrow, `Oct 14, 2026 09:00`
+- **_Scheduled Date:_** a date in the near future, for example `Oct 14, 2026 09:00`
 - **_Duration:_** `02:00`
-- **_Priority:_** `2`
+- **_Priority:_** `2`. Use 0 for normal work and 1 to 3 for work that needs attention first.
 
 Click **Create**. The notification **Maintenance request created** appears and the request opens on its view page in the stage **New Request**.
 

@@ -31,11 +31,11 @@ In this example you add **Hydraulic Press 200T**.
 
 3. Fill in the supplier and product details. All fields are typed, except where noted.
 
-   - **_Vendor:_** The supplier. Pick `Consolidated Components`.
+   - **_Vendor:_** The supplier. Pick a company from your contacts, for example `Consolidated Components`.
    - **_Vendor Reference:_** The supplier's code for the item. Type `VR-7781`.
    - **_Model:_** Type `HP-200`.
    - **_Serial Number:_** Type `HP-200-2026-001`. Use it to search for the equipment later.
-   - **_Effective Date:_** Required. The date shown is today. Hover over the tooltip icon to read: "Used as the starting point for calculating Mean Time Between Failure."
+   - **_Effective Date:_** Required. The date shown is today. Enter the day the equipment started working, usually the purchase or install date. Hover over the tooltip icon to read: "Used as the starting point for calculating Mean Time Between Failure."
 
    <ImagePopup src="/images1/maintenance/eq_form_product_tooltip.png" alt="Effective Date field with its tooltip open, explaining the starting point for Mean Time Between Failure" />
    - **_Cost:_** The purchase cost. Type `18500`.
@@ -64,7 +64,7 @@ The **Technician** repairs the equipment. The **Owner** uses it. The Owner also 
 
 5. Fill in the last section.
 
-   - **_Expected Mean Time Between Failure:_** The expected number of days between failures. Type `90`.
+   - **_Expected Mean Time Between Failure:_** Optional. The expected number of days between failures. Type `90` for a break about every three months.
 
    <ImagePopup src="/images1/maintenance/eq_form_maintenance.png" alt="Maintenance section with Expected Mean Time Between Failure set to 90 days" />
 

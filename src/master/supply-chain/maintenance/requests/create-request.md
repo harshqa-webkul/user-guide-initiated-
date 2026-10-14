@@ -41,7 +41,7 @@ The **Hydraulic Press 200T** leaks oil. You raise a corrective request for it.
 ### Settings card
 
 6. Check the **Settings** card on the right. Equipment filled **Team** and **Responsible**.
-7. Set **Scheduled Date** to tomorrow at 09:00 (**Oct 14, 2026 09:00:00**). Set **Duration** to **02:00**. Set **Priority** to **2**.
+7. Set **Scheduled Date** to a near future date at 09:00, for example **Oct 14, 2026 09:00**. Set **Duration** to **02:00**. Set **Priority** to **2**.
 
 <ImagePopup src="/images1/maintenance/req_create_settings.png" alt="Settings card with Team Electrical Maintenance Team, Responsible Linda Ndlovu, Scheduled Date Oct 14, 2026 09:00:00, Duration 02:00 and Priority 2" />
 
@@ -49,7 +49,7 @@ The **Hydraulic Press 200T** leaks oil. You raise a corrective request for it.
 - **_Responsible:_** The technician. Filled from the equipment. Example: **Linda Ndlovu**. Without equipment it is you.
 - **_Scheduled Date:_** When the work should start. Requests with a date show on the [calendar](../calendar/maintenance-calendar.md).
 - **_Duration:_** How long the job takes, as hours and minutes (`hh:mm`). Example: `02:00`.
-- **_Priority:_** A number from 0 to 3. The default is 0. Requests above 0 appear in the **High-priority** tab.
+- **_Priority:_** A number from 0 to 3. The default is 0. Use 0 for normal work and 1 to 3 for work that needs attention first. Any value above 0 appears in the **High-priority** tab.
 - **_Company:_** Required. The default is your company.
 
 ### Notes tab

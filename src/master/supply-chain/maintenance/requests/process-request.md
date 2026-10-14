@@ -12,14 +12,20 @@ Create the request first. See [Create a maintenance request](create-request.md).
 
 ## Move a request through the stages
 
-The request page has two tabs at the top: **View** and **Edit**. The **View** tab shows the stage bar but is read only. Use the **Edit** tab to change the stage.
+The request page has two tabs at the top: **View** and **Edit**.
+
+::: warning
+On the **View** tab the stage bar does nothing when clicked. Open the **Edit** tab, click a stage, then click **Save changes**.
+:::
 
 1. Open the **Edit** tab of **Hydraulic press oil leak**.
-2. Click **In Progress** in the stage bar. The stage does not save by itself. Click **Save changes**. The notification **Maintenance request updated** appears with the text "The maintenance request has been updated successfully." You stay on the **Edit** page with the new stage highlighted.
+2. Click **In Progress** in the stage bar.
+3. Click **Save changes**. The stage does not save by itself.
+4. The notification **Maintenance request updated** appears. You stay on the **Edit** page with the new stage highlighted.
 
 <ImagePopup src="/images1/maintenance/req_process_in_progress.png" alt="Edit page of Hydraulic press oil leak with In Progress highlighted in the stage bar" />
 
-3. When the work is done, click **Repaired**. Click **Save changes**.
+5. When the work is done, click **Repaired**. Click **Save changes**.
 
 <ImagePopup src="/images1/maintenance/req_process_repaired.png" alt="Edit page of Hydraulic press oil leak with Repaired highlighted in the stage bar" />
 

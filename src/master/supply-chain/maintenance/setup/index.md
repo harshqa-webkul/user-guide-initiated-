@@ -4,7 +4,7 @@ Setup is the small amount of work you do before the first request. You define wh
 
 > **In simple words:** Setup answers three questions: who fixes things, what kinds of equipment do we have, and what are the steps of a job.
 
-Open `Maintenance → Configurations`. The left menu lists **Stages**, **Teams** and **Categories**.
+Open `Maintenance → Configurations`. The **Configurations** menu lists **Stages**, **Teams** and **Categories**.
 
 ## How the three records relate
 

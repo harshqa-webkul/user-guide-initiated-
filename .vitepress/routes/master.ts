@@ -527,6 +527,7 @@ const routes = [
           {
             text: 'Calendar',
             collapsed: true,
+            link: '/master/supply-chain/maintenance/calendar/',
             items: [
               { text: 'Maintenance Calendar', link: '/master/supply-chain/maintenance/calendar/maintenance-calendar' },
             ]
