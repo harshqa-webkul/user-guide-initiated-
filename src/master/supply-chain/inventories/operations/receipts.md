@@ -69,7 +69,7 @@ If you receive less than the demand, a window asks about a backorder. See [Backo
 
 ## Multi-step warehouses
 
-The dev warehouse uses three steps. After **WH/IN/12** is done, the goods are not in stock yet. **Next Transfer** opens the follow-up documents: **WH/QC** (quality control) and then **WH/STOR** (storage to **WH/Stock**). Validate each one in turn.
+The example warehouse uses three steps. After **WH/IN/12** is done, the goods are not in stock yet. **Next Transfer** opens the follow-up documents: **WH/QC** (quality control) and then **WH/STOR** (storage to **WH/Stock**). Validate each one in turn.
 
 With one step, goods go straight to **WH/Stock** and no extra document appears. See [One-step flow](../routes/one-step-flow.md), [Two-step flow](../routes/two-step-flow.md) and [Three-step flow](../routes/three-step-flow.md).
 

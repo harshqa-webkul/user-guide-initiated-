@@ -13,7 +13,7 @@ Stock always sits somewhere. Aureus describes "somewhere" with four building blo
 | **Operation type** | A kind of job, such as a receipt or a delivery. It sets the document prefix and the default from and to locations. | **Receipts**, prefix **IN** |
 | **Storage category** | A rule set for a location: how much weight, packages or products it may hold. | A pallet rack with a 500 kg limit |
 
-The tree below shows the dev warehouse after you choose three-step reception and delivery.
+The tree below shows the example warehouse after you choose three-step reception and delivery.
 
 ```text
 Physical Locations

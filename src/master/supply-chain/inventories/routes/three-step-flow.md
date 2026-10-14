@@ -10,7 +10,7 @@ The three step flow is the most controlled setup. Receipts pass through quality 
 - You pack orders at a packing bench.
 - You want a clear audit trail for every handover.
 
-The dev warehouse **WH** is set to three steps for incoming and outgoing shipments.
+The example warehouse **WH** is set to three steps for incoming and outgoing shipments.
 
 ## Set it in the warehouse
 

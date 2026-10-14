@@ -345,6 +345,17 @@ const routes = [
             ]
           },
           {
+            text: 'Warehouses and Locations',
+            collapsed: true,
+            link: '/master/supply-chain/inventories/warehouses/',
+            items: [
+              { text: 'Warehouses', link: '/master/supply-chain/inventories/warehouses/warehouses' },
+              { text: 'Locations', link: '/master/supply-chain/inventories/warehouses/locations' },
+              { text: 'Operation Types', link: '/master/supply-chain/inventories/warehouses/operation-types' },
+              { text: 'Storage Categories', link: '/master/supply-chain/inventories/warehouses/storage-categories' },
+            ]
+          },
+          {
             text: 'Products',
             collapsed: true,
             link: '/master/supply-chain/inventories/products/',
@@ -362,17 +373,6 @@ const routes = [
             items: [
               { text: 'Lots and Serial Numbers', link: '/master/supply-chain/inventories/tracking/lots-and-serial-numbers' },
               { text: 'Packages', link: '/master/supply-chain/inventories/tracking/packages' },
-            ]
-          },
-          {
-            text: 'Warehouses and Locations',
-            collapsed: true,
-            link: '/master/supply-chain/inventories/warehouses/',
-            items: [
-              { text: 'Warehouses', link: '/master/supply-chain/inventories/warehouses/warehouses' },
-              { text: 'Locations', link: '/master/supply-chain/inventories/warehouses/locations' },
-              { text: 'Operation Types', link: '/master/supply-chain/inventories/warehouses/operation-types' },
-              { text: 'Storage Categories', link: '/master/supply-chain/inventories/warehouses/storage-categories' },
             ]
           },
           {

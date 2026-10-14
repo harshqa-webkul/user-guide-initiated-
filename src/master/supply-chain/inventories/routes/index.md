@@ -20,7 +20,7 @@ Pull works backwards from demand. A customer order asks `Partners/Customers` for
 
 ## Standard routes
 
-Each warehouse creates its routes from the step choices in the warehouse form. In the dev warehouse **WH** these routes exist:
+Each warehouse creates its routes from the step choices in the warehouse form. In the example warehouse **WH** these routes exist:
 
 - **Receive in 3 steps (Input + Quality + Stock)**
 - **Deliver in 3 steps (Pick + Pack + Ship)**
@@ -43,7 +43,7 @@ The one-step flow works with no extra setting. To choose two or three steps, swi
 | Two steps | Vendor → Input → Stock | Stock → Output → Customer |
 | Three steps | Vendor → Input → Quality Control → Stock | Stock → Packing Zone → Output → Customer |
 
-In the dev warehouse the locations and operation types are:
+In the example warehouse the locations and operation types are:
 
 | Step | Operation type | Prefix | From → To |
 | --- | --- | --- | --- |

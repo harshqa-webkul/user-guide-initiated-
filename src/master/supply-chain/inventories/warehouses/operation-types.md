@@ -21,7 +21,7 @@ The list shows only **Name**, **Company** and **Warehouse**, 10 rows per page (1
 
 ## The 14 ready-made types
 
-Your dev warehouse has these types. For all of them the reservation method is **At Confirm** and the move type is **As soon as possible**.
+The example warehouse has these types. For all of them the reservation method is **At Confirm** and the move type is **As soon as possible**.
 
 | Name | Type | Prefix | Backorder | From to |
 |---|---|---|---|---|

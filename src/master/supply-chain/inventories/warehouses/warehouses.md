@@ -14,7 +14,7 @@ The **Settings** block on the warehouse form needs a setting turned on.
 2. Turn on **Multi Steps Routes**.
 3. Click **Save changes**.
 
-Turn on **Locations** in the same page. See [Inventory settings](../get-started/inventory-settings.md).
+Turn on **Locations** on the same page. Creating a new warehouse also turns it on. See [Inventory settings](../get-started/inventory-settings.md).
 
 ## Overview
 
@@ -74,7 +74,7 @@ The default for both lists is **One step**, as the create form shows. Extra step
 A third fieldset, **Resupply Management**, appears when the Manufacturing app is installed. Its **Manufacturing** radio sets how many steps manufacturing uses. See [Manufacturing orders](../../manufacturing/workflows/manufacturing-orders.md).
 
 ::: tip
-The dev warehouse uses three steps for reception, delivery and manufacturing. That is why you see documents such as **WH/PICK**, **WH/PACK** and **WH/QC**. See [Three-step flow](../routes/three-step-flow.md).
+The example warehouse uses three steps for reception, delivery and manufacturing. That is why you see documents such as **WH/PICK**, **WH/PACK** and **WH/QC**. See [Three-step flow](../routes/three-step-flow.md).
 :::
 
 ## View a warehouse

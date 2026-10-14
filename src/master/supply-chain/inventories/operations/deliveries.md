@@ -35,7 +35,7 @@ Sales order **SO/4** sells 8 **Ergonomic Office Chair** and 50 dozens of **Vitam
 
 - **_Delivery Address:_** The customer. The order fills it in.
 - **_Operation Type:_** Required. Usually **My Company: Delivery Orders**.
-- **_Source Location:_** Required. The default is **WH/Output**.
+- **_Source Location:_** Required. With one step, goods leave **WH/Stock**. With three steps, the delivery takes them from **WH/Output** after Pick and Pack.
 - **_Responsible_**, **_Scheduled At_** and **_Source Document_** work as on a receipt.
 
 To start by hand, click **New Delivery**, fill the customer and the lines, then click **Create**. You can also click **Create & create another** or **Cancel**.
@@ -56,7 +56,7 @@ If you validate with nothing reserved, Aureus shows **No quantities are reserved
 
 ## Behind the scenes
 
-Validation moves stock from your outgoing location to **Partners/Customers**. The prefix is **OUT**, such as **WH/OUT/42**. In the dev warehouse the chain is **WH/PICK** from **WH/Stock** to **WH/Packing Zone**, **WH/PACK** to **WH/Output**, and **WH/OUT** to the customer. For **SO/3** these are **WH/PICK/1**, **WH/PACK/41** and **WH/OUT/42**. See [Three-step flow](../routes/three-step-flow.md).
+Validation moves stock from your outgoing location to **Partners/Customers**. The prefix is **OUT**, such as **WH/OUT/42**. In the example warehouse the chain is **WH/PICK** from **WH/Stock** to **WH/Packing Zone**, **WH/PACK** to **WH/Output**, and **WH/OUT** to the customer. For **SO/3** these are **WH/PICK/1**, **WH/PACK/41** and **WH/OUT/42**. See [Three-step flow](../routes/three-step-flow.md).
 
 ## Actions and statuses
 
@@ -64,7 +64,7 @@ Validation moves stock from your outgoing location to **Partners/Customers**. Th
 - **Check Availability:** reserves stock on a **Waiting** delivery.
 - **Validate:** ships the goods and sets **Done**.
 - **Cancel:** stops the delivery after you confirm.
-- **Print** and **Delete:** shown while the delivery is not **Done**.
+- **Print:** always shown. **Delete:** shown while the delivery is not **Done**.
 - **Return:** brings goods back after **Done**. See [Backorders and returns](backorders-and-returns.md).
 
 ## See also
