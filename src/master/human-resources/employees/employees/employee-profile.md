@@ -1,6 +1,6 @@
 # Employee profile
 
-The profile is the read-only page of one employee. It shows the top block and four tabs, so you can see a person's details at a glance. From here you edit the record, manage skills and resumé lines, and talk about the employee in Chatter.
+The profile is the read-only page of one employee. It shows the top block and four tabs, so you can see a person's details at a glance. From here you edit the record, manage skills and resume lines, and talk about the employee in Chatter.
 
 > **In simple words:** The profile is the page you read. The edit page is the page you change.
 
@@ -11,7 +11,7 @@ Open `Employees → Employees`, then click **View** on a card.
 Two buttons sit in the page header.
 
 - **Chatter:** a blue icon with a count. It opens the message panel.
-- **Delete:** a red button. A window titled with the employee name asks **Are you sure you would like to do this?** with **Cancel** and a red **Delete** button. The employee then moves to the **Archived** tab. See [Leaving the company](leaving-the-company.md).
+- **Delete:** a red button. It does not erase the employee. It moves the record to the **Archived** tab, where you can restore it. A window titled with the employee name asks **Are you sure you would like to do this?** with **Cancel** and a red **Delete** button. The employee then moves to the **Archived** tab. See [Leaving the company](leaving-the-company.md).
 
 The top block shows **Name**, **Job Title**, the photo, **Work Email**, **Department**, **Work Mobile**, **Job Position**, **Work Phone**, **Manager**, **Employee Tags** and **Coach**. Empty values show a dash.
 
@@ -19,12 +19,12 @@ The top block shows **Name**, **Job Title**, the photo, **Work Email**, **Depart
 
 ## The four tabs
 
-- **Resumé:** the left card lists resume lines, such as Experience and Education. Each line shows the dates (for example **01/2020 - 12/2024**), title and description. The right card lists skills with a level badge and a percentage bar. See [Skills and resumé](skills-and-resume.md).
+- **Resume:** the left card lists resume lines, such as Experience and Education. Each line shows the dates (for example **01/2020 - 12/2024**), title and description. The right card lists skills with a level badge and a percentage bar. See [Skills and resume](skills-and-resume.md).
 - **Work Information:** **Location**, **Approvers**, **Schedule** and **Organization Details**.
 - **Private Information:** **Private Contact**, **Emergency Contact**, **Work Permit** and **Citizenship**.
 - **Settings:** **Employee Settings** (active status, flexible work, related user and departure details), **Additional Information** and **Attendance/Point of Sale**.
 
-<ImagePopup src="/images1/employees/emp_profile_resume_tab.png" alt="Resumé tab with resume lines on the left and skills on the right" />
+<ImagePopup src="/images1/employees/emp_profile_resume_tab.png" alt="Resume tab with resume lines on the left and skills on the right" />
 
 <ImagePopup src="/images1/employees/emp_profile_work_tab.png" alt="Work Information tab showing location, approvers, schedule and company" />
 
@@ -34,7 +34,7 @@ A row of links sits under the title.
 
 - **View:** this page.
 - **Edit:** the form with all fields.
-- **Manage Skills:** the skills table. See [Skills and resumé](skills-and-resume.md).
+- **Manage Skills:** the skills table. See [Skills and resume](skills-and-resume.md).
 - **Manage Resumes:** the resume lines table.
 
 ## Edit and save
@@ -64,6 +64,6 @@ Icon buttons open attachments, followers and a filter. See [Chatter](../../../ge
 ## See also
 
 - [Add an employee](add-employee.md)
-- [Skills and resumé](skills-and-resume.md)
+- [Skills and resume](skills-and-resume.md)
 - [Employee list](employee-list.md)
 - [Leaving the company](leaving-the-company.md)

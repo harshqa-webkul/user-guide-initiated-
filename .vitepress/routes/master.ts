@@ -552,25 +552,7 @@ const routes = [
               { text: 'First Steps', link: '/master/human-resources/employees/get-started/first-steps' },
             ]
           },
-          {
-            text: 'Employees',
-            collapsed: true,
-            link: '/master/human-resources/employees/employees/',
-            items: [
-              { text: 'Add an Employee', link: '/master/human-resources/employees/employees/add-employee' },
-              { text: 'Employee Profile', link: '/master/human-resources/employees/employees/employee-profile' },
-              { text: 'Employee List', link: '/master/human-resources/employees/employees/employee-list' },
-              { text: 'Skills and Resume', link: '/master/human-resources/employees/employees/skills-and-resume' },
-              { text: 'Leaving the Company', link: '/master/human-resources/employees/employees/leaving-the-company' },
-            ]
-          },
-          {
-            text: 'Departments',
-            collapsed: true,
-            items: [
-              { text: 'Departments', link: '/master/human-resources/employees/departments/departments' },
-            ]
-          },
+          { text: 'Departments', link: '/master/human-resources/employees/departments/departments' },
           {
             text: 'Setup',
             collapsed: true,
@@ -583,6 +565,18 @@ const routes = [
               { text: 'Departure Reasons', link: '/master/human-resources/employees/setup/departure-reasons' },
               { text: 'Skill Types', link: '/master/human-resources/employees/setup/skill-types' },
               { text: 'Activity Plans', link: '/master/human-resources/employees/setup/activity-plans' },
+            ]
+          },
+          {
+            text: 'Employees',
+            collapsed: true,
+            link: '/master/human-resources/employees/employees/',
+            items: [
+              { text: 'Add an Employee', link: '/master/human-resources/employees/employees/add-employee' },
+              { text: 'Employee Profile', link: '/master/human-resources/employees/employees/employee-profile' },
+              { text: 'Employee List', link: '/master/human-resources/employees/employees/employee-list' },
+              { text: 'Skills and Resume', link: '/master/human-resources/employees/employees/skills-and-resume' },
+              { text: 'Leaving the Company', link: '/master/human-resources/employees/employees/leaving-the-company' },
             ]
           },
           {

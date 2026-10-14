@@ -1,6 +1,6 @@
 # Leaving the company
 
-When someone leaves, you record why and when, and you take them out of the active list. You do not need to erase the record. Keeping it preserves history such as skills, resumé and notes.
+When someone leaves, you record why and when, and you take them out of the active list. You do not need to erase the record. Keeping it preserves history such as skills, resume and notes.
 
 > **In simple words:** Note the reason and date, switch the employee off, and keep the file.
 
@@ -15,13 +15,22 @@ When someone leaves, you record why and when, and you take them out of the activ
 5. Turn **Active Employee** off.
 6. Click **Save changes**.
 
-Example: Priya resigns. Choose **Resigned**, pick the last working day as **Departure Date**, and write the note.
+Example: a test employee called Test Leaver resigns. Choose **Resigned**, pick the last working day as **Departure Date**, and write the note.
 
 <ImagePopup src="/images1/employees/emp_leave_settings.png" alt="Settings tab with Departure Reason Resigned, Departure Date and Departure Description" />
 
 The reasons come from [Departure reasons](../setup/departure-reasons.md). The plus button next to the field adds a new one.
 
 If you clear **Departure Reason**, the date and description fields hide again.
+
+## Two steps, two results
+
+| Step | Result |
+| --- | --- |
+| Departure details and **Active Employee** off | The record shows that the person left. The details are saved. |
+| **Delete** on the profile | The record moves to the **Archived** tab. Nothing is erased. |
+
+You can do both. Record the departure first, then archive.
 
 ## What Active Employee means
 
@@ -38,7 +47,7 @@ On the **Archived** tab, each card shows the name, job title, **View**, **Edit**
 <ImagePopup src="/images1/employees/emp_leave_archived.png" alt="Archived tab showing the Test Leaver card with the View, Edit and Restore actions" />
 
 ::: tip
-Archive an employee instead of keeping them on the **Default** tab. The record stays safe and you can restore it.
+Archive an employee who has left. The person leaves the **Default** tab but stays on record, and you can restore it.
 :::
 
 ## Restore

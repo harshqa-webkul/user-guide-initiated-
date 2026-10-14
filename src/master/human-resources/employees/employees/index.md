@@ -4,6 +4,10 @@ An employee record is the single place where Aureus keeps everything about one p
 
 > **In simple words:** An employee record is the file you keep for each team member.
 
+::: info Employee or user?
+An employee is the HR file of a person. A user is a login to Aureus. One person can have both. Link them with **Related User**.
+:::
+
 Open `Employees → Employees`.
 
 ::: info Prerequisite
@@ -18,7 +22,7 @@ One record is split into small parts. Each part has its own page in this guide.
 - **Work Information:** work address and location, approvers, working hours, time zone, company and colour. See [Add an employee](add-employee.md).
 - **Private Information:** home address, emergency contact, family status, education, citizenship and work permit.
 - **Settings:** active status, related user, departure reason, language, notes, Badge ID and PIN.
-- **Skills and resumé:** what the person can do and where they worked or studied. See [Skills and resumé](skills-and-resume.md).
+- **Skills and resume:** what the person can do and where they worked or studied. See [Skills and resume](skills-and-resume.md).
 
 Each part is saved on the same record. You fill them on the form, and you read them on the profile page.
 
@@ -29,7 +33,7 @@ Each part is saved on the same record. You fill them on the form, and you read t
 | Create a new employee | [Add an employee](add-employee.md) |
 | Read or change a record | [Employee profile](employee-profile.md) |
 | Find, filter and group employees | [Employee list](employee-list.md) |
-| Record skills and past experience | [Skills and resumé](skills-and-resume.md) |
+| Record skills and past experience | [Skills and resume](skills-and-resume.md) |
 | Record a departure | [Leaving the company](leaving-the-company.md) |
 
 ## How employees link to other records

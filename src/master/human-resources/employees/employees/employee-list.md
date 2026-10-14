@@ -28,9 +28,7 @@ Each card shows, from top to bottom:
 - **Archived:** employees you deleted. They stay stored and can be restored.
 - **Newly Hired:** employees created in the last month.
 
-The counts depend on who you are. Say your user is linked to the employee Sarah Mitchell. **My Team** then shows the people whose **Manager** is you, which is 9 employees. Someone managed by another employee, such as Robert Diaz under Rachel Kim, is not listed. **My Department** shows people in Sarah's department, which is only Sarah (Management).
-
-In the sample data the counts are **Default** 11, **My Team** 9, **My Department** 1, **Archived** 1 and **Newly Hired** 1. **Newly Hired** shows Priya Sharma. **Archived** shows Test Leaver, whose card has a clock icon, **View**, **Edit** and **Restore**.
+The number on each tab shows how many employees it holds. It depends on your data and on who you are. Say your user is linked to the employee Sarah Mitchell. **My Team** then shows the people whose **Manager** is Sarah. **My Department** shows people in Sarah's department. **Newly Hired** shows Priya Sharma after you follow the tutorial. **Archived** cards have a clock icon, **View**, **Edit** and **Restore**.
 
 ::: info
 If your user has no linked employee, **My Team** and **My Department** are empty. Set **Related User** on the employee. See [Add an employee](add-employee.md).
@@ -55,7 +53,7 @@ Click the funnel button. The **Filters** panel opens. The panel has three button
 Three simple filters are drop-down lists, set to **All** at first.
 
 - **Skills:** employees who have the chosen skill.
-- **Resumes:** employees with the chosen resume line.
+- **Resumes:** employees who have the chosen resume line, for example a job title you added.
 - **Timezone:** employees in the chosen time zone.
 
 ### Rules

@@ -9,7 +9,7 @@ This group gets you from an empty company structure to a complete employee profi
 1. Create a department.
 2. Create a job position inside that department.
 3. Add an employee who uses both.
-4. Add private details, a skill and two resumé lines.
+4. Add private details, a skill and two resume lines.
 5. Find the employee on the list.
 
 ## Pages in this group

@@ -1,4 +1,4 @@
-# Skills and resumé
+# Skills and resume
 
 Skills say what a person can do. Resume lines say where they have worked and studied. Both are kept on the employee record, so you can search for the right person later and see their background on the profile.
 
@@ -63,13 +63,13 @@ Example: Type **Experience**, Title **Stock Controller at Metro Traders**, 2020 
 
 ## How the profile shows them
 
-On the profile, open the **Resumé** tab.
+On the profile, open the **Resume** tab.
 
 - The left card lists the resume lines.
 - Each line shows its dates as **01/2020 - 12/2024**, title and description. A line with no end date shows **Present** as the end.
 - The right card lists skills with a level badge and bar.
 
-<ImagePopup src="/images1/employees/emp_resume_tab_result.png" alt="Resumé tab of Priya Sharma with Experience and Education lines and the Communication skill" />
+<ImagePopup src="/images1/employees/emp_resume_tab_result.png" alt="Resume tab of Priya Sharma with Experience and Education lines and the Communication skill" />
 
 ## Skills across the company
 

@@ -20,7 +20,7 @@ There is no create button and no row action. You can only read, search, filter a
 
 The report lists skill records, not employees.
 
-- **Default:** every skill record. The sample data has 17. The report has four tabs in all.
+- **Default:** every skill record. The report has four tabs in all.
 - **With Skill:** the same list of records as **Default**.
 - **Without Skill:** empty, with the message **No Skills**.
 - **Archived:** empty unless you have archived records.
@@ -63,4 +63,4 @@ The report is not stored separately. It reads the skills on each employee. When 
 
 - [Skills and resume](../employees/skills-and-resume.md)
 - [Skill types](../setup/skill-types.md)
-- [Departments](../departments/departments.md)
+- [Employee list](../employees/employee-list.md)
