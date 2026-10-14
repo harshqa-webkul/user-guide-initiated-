@@ -1,6 +1,6 @@
 # Mandatory days
 
-A mandatory day is a date or range when the company expects everyone to be at work, such as a quarter close. You record it so people can see it. It has a colour, a name and two dates.
+A mandatory day is a date or range when the company expects everyone to be at work, such as a quarter close. You record it so people can see it. It has a colour, a name and two dates. The menu calls it **Mandatory Holidays**. The page calls it **Mandatory Days**.
 
 > **In simple words:** A mandatory day is a day everyone is expected to work, kept in a list.
 
@@ -40,6 +40,8 @@ This example adds **Quarter Close Day**.
 Open the **Holidays** window on `Time Off → My Time → Dashboard`. The **Mandatory Holidays** section lists each mandatory day with its company and its start and end date and time.
 
 <ImagePopup src="/images1/time-off/to_set_mandatory_window.png" alt="Holidays panel with the end of the public holiday list and the Mandatory Holidays section showing Company Anniversary" />
+
+A mandatory day does not block a request. **Duration** skips Saturdays and Sundays only.
 
 ## Edit or delete
 

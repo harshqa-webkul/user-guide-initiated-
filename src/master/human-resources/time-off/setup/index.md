@@ -16,7 +16,7 @@ Setup tells Aureus what kinds of leave exist and which dates are special. You do
 
 A leave type is a rule book for requests. Choose it on every request and every allocation. It decides who approves and whether days must be given first.
 
-Public holidays and mandatory days are lists of dates. They are informational. Staff see them in the **Holidays** window on `Time Off → My Time → Dashboard`.
+Public holidays and mandatory days are lists of dates. Staff see them in the **Holidays** window on `Time Off → My Time → Dashboard`. They do not change the **Duration** of a request. **Duration** skips Saturdays and Sundays only.
 
 ::: info Order
 Create leave types first. Allocations and requests need them. Add holidays and mandatory days whenever you like.
@@ -25,13 +25,12 @@ Create leave types first. Allocations and requests need them. Add holidays and m
 ## Seeded data
 
 - Seven leave types, such as **Paid Time Off** and **Sick Time Off**.
-- Thirteen public holidays for 2025.
-- One mandatory day, **Company Anniversary**.
+- A few public holidays and one mandatory day, **Company Anniversary**. Sample dates may be from a past year.
 
 ## Typical setup order
 
 1. Review the seven leave types and edit or add yours.
-2. Add your public holidays.
+2. Add the public holidays of the current year.
 3. Add mandatory days if you use them.
 4. Give days to people. See [Allocations](../allocations/index.md).
 

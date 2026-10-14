@@ -4,10 +4,10 @@ A time off request asks for one or more days away from work. You choose the leav
 
 > **In simple words:** Pick the type and dates, check the duration, and save. The request waits as **To Approve**.
 
-Menu: `Time Off → My Time → Dashboard` (click **New Time Off**), or `Time Off → My Time → My Time off` (click **New My Time off**). Managers can also use `Time Off → Management → Time off` and click **New Time off**.
+Menu: `Time Off → My Time → Dashboard` (click **New Time Off**), or `Time Off → My Time → My Time off` (click **New My Time off**, the name the app uses). Managers can also use `Time Off → Management → Time off` and click **New Time off**.
 
 ::: info Before you start
-- The [time off type](../setup/time-off-types.md) exists.
+- The [leave type](../setup/time-off-types.md) exists.
 - If that type requires an allocation, the employee has an approved balance. See [Allocations](../allocations/index.md).
 :::
 
@@ -38,7 +38,7 @@ Use **Create & create another** to save and open a blank form. Click **Cancel** 
 - **_Department Name:_** Required in Management. It fills in from the employee when you choose **Employee Name**.
 - **_Time Off Type:_** Required. The kind of leave, for example **Paid Time Off** or **Sick Time Off**.
 - **_Request Date From:_** Required. The first day away.
-- **_To Date:_** Required, unless **Half Day** is on. The last day away. On the full page form it unlocks after you pick **Request Date From**.
+- **_To Date:_** Required, unless **Half Day** is on. The last day away. On the Management form (a full page, not a window) it unlocks after you pick **Request Date From**.
 - **_Half Day:_** A toggle. Turn it on for one half day.
 - **_Period:_** Required when **Half Day** is on. Choose **Morning** or **Afternoon**. In Management it starts on **Morning**. In the My Time window you choose it yourself.
 - **_Duration:_** Read only. Aureus calculates it from your dates.
@@ -83,12 +83,18 @@ Create the [allocation](../allocations/index.md) first. Then Priya's 2 day reque
 
 ## Actions and statuses
 
+The window title says **Create Leave**. It creates a time off request.
+
 A saved request is **To Approve**. A **Time Off created** message confirms it. A manager then uses [Manage requests](manage-requests.md) to approve or refuse it. If you have no employee record, Aureus asks you to add one to your profile first.
+
+## Change or delete a request
+
+Open `Time Off → My Time → My Time off`. Open the three-dot menu on the row. Click **Edit** to change it or **Delete** to remove it. A deleted request no longer lowers your balance.
 
 ## See also
 
 - [Time off requests](index.md)
 - [My Time](my-time.md)
 - [Manage requests](manage-requests.md)
-- [Time off types](../setup/time-off-types.md)
+- [Leave types](../setup/time-off-types.md)
 - [Allocations](../allocations/index.md)

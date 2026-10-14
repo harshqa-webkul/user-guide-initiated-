@@ -652,9 +652,18 @@ const routes = [
             collapsed: true,
             link: '/master/human-resources/time-off/setup/',
             items: [
-              { text: 'Time Off Types', link: '/master/human-resources/time-off/setup/time-off-types' },
+              { text: 'Leave Types', link: '/master/human-resources/time-off/setup/time-off-types' },
               { text: 'Public Holidays', link: '/master/human-resources/time-off/setup/public-holidays' },
               { text: 'Mandatory Days', link: '/master/human-resources/time-off/setup/mandatory-days' },
+            ]
+          },
+          {
+            text: 'Allocations',
+            collapsed: true,
+            link: '/master/human-resources/time-off/allocations/',
+            items: [
+              { text: 'My Allocation', link: '/master/human-resources/time-off/allocations/my-allocation' },
+              { text: 'Manage Allocations', link: '/master/human-resources/time-off/allocations/manage-allocations' },
             ]
           },
           {
@@ -666,15 +675,6 @@ const routes = [
               { text: 'My Time', link: '/master/human-resources/time-off/requests/my-time' },
               { text: 'Manage Requests', link: '/master/human-resources/time-off/requests/manage-requests' },
               { text: 'Overview Calendar', link: '/master/human-resources/time-off/requests/overview-calendar' },
-            ]
-          },
-          {
-            text: 'Allocations',
-            collapsed: true,
-            link: '/master/human-resources/time-off/allocations/',
-            items: [
-              { text: 'My Allocation', link: '/master/human-resources/time-off/allocations/my-allocation' },
-              { text: 'Manage Allocations', link: '/master/human-resources/time-off/allocations/manage-allocations' },
             ]
           },
           {

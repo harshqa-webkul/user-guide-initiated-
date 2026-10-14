@@ -1,8 +1,8 @@
-# Time off
+# Time Off
 
-Time Off lets your people ask for leave and lets managers approve it. It keeps a balance of days for each person and shows every request on a calendar. You define the kinds of leave, such as **Paid Time Off** or **Sick Time Off**, and decide which ones need days given up front.
+Time Off lets your people ask for leave and lets managers approve it. It keeps a balance of days for each person. It shows every request on a calendar. You define the kinds of leave, such as **Paid Time Off** or **Sick Time Off**.
 
-> **In simple words:** Time Off is where staff ask for days away from work and managers say yes or no.
+> **In simple words:** Staff ask for days off. Managers say yes or no.
 
 Open the **Time Off** app from the main menu. The top bar shows five menus.
 
@@ -22,8 +22,17 @@ Leave types and holidays  >  Allocation (if needed)  >  Request
 ```
 
 ::: info Allocation first
-A leave type set to **Requires Allocation: Yes** needs days before anyone can ask for it. A type set to **No Limit** has no balance to run out of.
+An allocation is a number of days given to one person. Aureus checks the person's approved days when you save a request. With no approved allocation for that type, the request is denied. This applies to every seeded leave type, including **Sick Time Off**. See [Allocations](allocations/index.md).
 :::
+
+## Who approves
+
+Two settings name the approvers.
+
+- **Employee's Approver:** the user named in the **Time Off** field on the employee form, under **Work Information**.
+- **Approval:** a setting on each leave type. It records whether the Employee's Approver, a Time Off Officer, both or nobody should approve. See [Leave types](setup/time-off-types.md).
+
+On `Time Off → Management → Time off`, the **Approve** button shows on every request that is not yet approved. One click sets the status to **Approved**.
 
 ## The five menus
 
@@ -35,21 +44,21 @@ A leave type set to **Requires Allocation: Yes** needs days before anyone can as
 | **Reporting** | A list of requests grouped by employee | **By Employees** |
 | **Configuration** | Leave types, public holidays and mandatory days | **Leave Types**, **Public Holidays**, **Mandatory Holidays** |
 
-The **Configuration** sidebar also holds other entries. This guide covers the three above. The page title for **Mandatory Holidays** is **Mandatory Days**.
+The menu **Mandatory Holidays** opens a page titled **Mandatory Days**. This guide calls them mandatory days.
 
 ## Leave types that come with the app
 
 Seven leave types are ready to use.
 
-- **Paid Time Off:** needs an allocation.
-- **Sick Time Off:** no limit.
-- **Compensatory Days:** no limit.
-- **Unpaid:** no limit.
-- **Parental Leaves:** needs an allocation. Employees can ask for extra days.
-- **Training Time Off:** needs an allocation.
-- **Extra Hours:** no limit.
+- **Paid Time Off:** **Requires Allocation** is **Yes**.
+- **Sick Time Off:** **Requires Allocation** is **No Limit**.
+- **Compensatory Days:** **No Limit**.
+- **Unpaid:** **No Limit**.
+- **Parental Leaves:** **Yes**. Employees can ask for extra days.
+- **Training Time Off:** **Yes**.
+- **Extra Hours:** **No Limit**.
 
-Sample data also gives ten employees 20 days of **Paid Time Off** for 2026. See [Leave types](setup/time-off-types.md) for every setting.
+Sample data may also hold allocations, for example 20 days of **Paid Time Off** for 2026. See [Leave types](setup/time-off-types.md) for every setting.
 
 ## Relation to Employees
 
@@ -59,8 +68,8 @@ Time Off works on employees. A person needs an employee record before they can r
 
 - New to Time Off? Follow [First steps](get-started/first-steps.md).
 - Learn the settings in [Setup](setup/index.md).
-- Learn requests in [Requests](requests/index.md).
 - Learn allocations in [Allocations](allocations/index.md).
+- Learn requests in [Requests](requests/index.md).
 - See the grouped list in [By Employees](reporting/by-employees.md).
 
 ## See also

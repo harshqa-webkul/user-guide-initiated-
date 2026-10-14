@@ -1,13 +1,13 @@
 # Time off allocations
 
-An allocation is a balance of days that you grant to an employee for one leave type. An allocation is the stock of days that requests spend. Without an approved allocation for a type, the employee cannot request that leave.
+An allocation is a balance of days that you grant to an employee for one leave type. Requests spend these days. Without an approved allocation for a type, Aureus denies the request. This holds for every leave type.
 
 > **In simple words:** An allocation says "this person may take this many days of this leave type". Requests spend the days.
 
 Open `Time Off → My Time → My Allocation` to see your own allocations. Open `Time Off → Management → Allocation` to manage everyone's.
 
 ::: info Before you start
-Check the leave type in [Time off types](../setup/time-off-types.md). Set up the allocation before the first request of that type.
+Check the leave type in [Leave types](../setup/time-off-types.md). Set up the allocation before the first request of that type.
 :::
 
 ## How the balance works
@@ -41,16 +41,16 @@ An allocation moves through these statuses.
 2. **Approved**: the days count in the balance.
 3. **Refused**: the allocation is rejected and adds nothing.
 
-A refused allocation can go back to **To Approve** with **Mark as Ready to Confirm**. See [Manage allocations](manage-allocations.md).
+A refused allocation can go back to **To Approve** with **Mark as Ready to Confirm**. That is the button name in the app for sending it back for a new decision. See [Manage allocations](manage-allocations.md).
 
 ::: tip
-Give each employee a yearly allocation at the start of the year. Use a clear name, for example **Paid Time Off 2026**.
+Give each employee a yearly allocation at the start of the year. Create one allocation per employee. Use a clear name, for example **Paid Time Off 2026**.
 :::
 
 ## See also
 
 - [My allocation](my-allocation.md)
 - [Manage allocations](manage-allocations.md)
-- [Time off types](../setup/time-off-types.md)
+- [Leave types](../setup/time-off-types.md)
 - [Requests](../requests/index.md)
 - [By Employees report](../reporting/by-employees.md)

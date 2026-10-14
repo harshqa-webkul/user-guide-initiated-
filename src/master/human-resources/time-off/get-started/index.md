@@ -11,7 +11,7 @@ This section gets you from an empty module to a working leave flow. You check a 
 ## Before you start
 
 ::: info Prerequisite
-You need at least one employee linked to your user. Sample data links **Sarah Mitchell** to the admin user. For Priya, first follow [First steps with Employees](../../employees/get-started/first-steps.md).
+You need at least one employee linked to your user. The **Related User** field on the employee form makes the link. See [Add an employee](../../employees/employees/add-employee.md). Sample data links **Sarah Mitchell** to the admin user. For Priya, first follow [First steps with Employees](../../employees/get-started/first-steps.md).
 :::
 
 ## What you will learn
@@ -21,6 +21,8 @@ You need at least one employee linked to your user. Sample data links **Sarah Mi
 3. Where a manager approves or refuses.
 4. Why a request can be denied before it is saved.
 5. How an allocation gives a person days.
+6. How a half day works.
+7. How the **Overview** calendar shows requests.
 
 ## After the tutorial
 
