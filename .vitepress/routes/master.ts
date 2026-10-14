@@ -736,9 +736,9 @@ const routes = [
         collapsed: true,
         link: '/master/services/timesheets/',
         items: [
+          { text: 'Timesheet Settings', link: '/master/services/timesheets/timesheet-settings' },
           { text: 'Log Time', link: '/master/services/timesheets/log-time' },
-          { text: 'Timesheet List and Filters', link: '/master/services/timesheets/timesheet-list-and-filters' },
-          { text: 'Timesheet Settings', link: '/master/services/timesheets/timesheet-settings' }
+          { text: 'Timesheet List and Filters', link: '/master/services/timesheets/timesheet-list-and-filters' }
         ]
       },
     ]

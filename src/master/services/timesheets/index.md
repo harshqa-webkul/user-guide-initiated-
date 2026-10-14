@@ -4,6 +4,8 @@ A timesheet entry records time one person spent on one task of a project. Every 
 
 > **In simple words:** A timesheet is a diary of who worked on what, and for how long. Aureus does the sums.
 
+Use timesheets when you bill by the hour or compare planned and real effort. Skip them if you only need a task list. They are optional.
+
 Open `Project → Timesheets` from the top bar of the Project app.
 
 ::: info Before you start
@@ -12,7 +14,7 @@ Turn on **Enable Timesheets** and, for each project, **Allow Timesheets**. See [
 
 ## How hours roll up into a task
 
-Each time you save or delete an entry, Aureus recalculates the task it belongs to. If that task is a sub task, the parent task is recalculated too.
+Each time you save or delete an entry, Aureus recalculates the task it belongs to. A sub-task is a smaller task inside a task. See [Sub tasks](../project/task-management/sub-tasks.md). If the task is a sub-task, the parent task is recalculated too.
 
 | Task value | What it means |
 | --- | --- |
@@ -25,7 +27,7 @@ Each time you save or delete an entry, Aureus recalculates the task it belongs t
 
 ### Example
 
-The task **Migrate CMS content** in **Website Revamp** has 20 allocated hours. People logged 10 hours on it. Ava Lewis then logs 3 more hours. Its sub tasks **Export legacy articles** and **Import and re-format media** have 6 hours each.
+The task **Migrate CMS content** in **Website Revamp** has 20 allocated hours. People logged 10 hours on it. Ava Lewis then logs 3 more hours with [Log time](log-time.md). Its sub tasks **Export legacy articles** and **Import and re-format media** have 6 hours each.
 
 - **Time Spent** is 13 hours.
 - **Time Spent on Subtasks** is 12 hours.
@@ -41,9 +43,9 @@ If **Allocated Hours** is empty or 0, **Progress** stays at 0. Set the hours on 
 
 | Page | What it covers |
 | --- | --- |
+| [Timesheet settings](timesheet-settings.md) | Do this first: switches, allocated hours, summary rows and progress colours |
 | [Log time](log-time.md) | Add, edit and delete entries from the Timesheets page or from a task |
 | [Timesheet list and filters](timesheet-list-and-filters.md) | Columns, the total row, grouping, filters and bulk delete |
-| [Timesheet settings](timesheet-settings.md) | Switches, allocated hours, summary rows and progress colours |
 
 ## Suggested order
 
