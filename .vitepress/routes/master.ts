@@ -304,6 +304,20 @@ const routes = [
             ]
           },
           {
+            text: 'Orders',
+            collapsed: true,
+            link: '/master/supply-chain/purchase/orders/',
+            items: [
+              { text: 'Requests for Quotation', link: '/master/supply-chain/purchase/orders/quotations' },
+              { text: 'Purchase Orders', link: '/master/supply-chain/purchase/orders/purchase-orders' },
+              { text: 'Vendor Bills', link: '/master/supply-chain/purchase/orders/vendor-bills' },
+              { text: 'Purchase Agreements', link: '/master/supply-chain/purchase/orders/purchase-agreements' },
+              { text: 'Blanket Orders', link: '/master/supply-chain/purchase/orders/blanket-orders' },
+              { text: 'Purchase Templates', link: '/master/supply-chain/purchase/orders/purchase-templates' },
+              { text: 'Vendor Portal', link: '/master/supply-chain/purchase/orders/vendor-portal' },
+            ]
+          },
+          {
             text: 'Products',
             collapsed: true,
             link: '/master/supply-chain/purchase/products/',
@@ -311,19 +325,6 @@ const routes = [
               { text: 'Configure a Product', link: '/master/supply-chain/purchase/products/configure-product' },
               { text: 'Vendor Price Lists', link: '/master/supply-chain/purchase/products/vendor-price-lists' },
               { text: 'Product Configuration', link: '/master/supply-chain/purchase/products/product-configuration' },
-            ]
-          },
-          {
-            text: 'Manage Deals',
-            collapsed: true,
-            link: '/master/supply-chain/purchase/orders/',
-            items: [
-              { text: 'Requests for Quotation', link: '/master/supply-chain/purchase/orders/quotations' },
-              { text: 'Vendor Portal', link: '/master/supply-chain/purchase/orders/vendor-portal' },
-              { text: 'Purchase Orders', link: '/master/supply-chain/purchase/orders/purchase-orders' },
-              { text: 'Vendor Bills', link: '/master/supply-chain/purchase/orders/vendor-bills' },
-              { text: 'Blanket Orders', link: '/master/supply-chain/purchase/orders/blanket-orders' },
-              { text: 'Purchase Templates', link: '/master/supply-chain/purchase/orders/purchase-templates' },
             ]
           },
         ]

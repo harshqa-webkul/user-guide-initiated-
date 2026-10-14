@@ -6,7 +6,7 @@ A vendor price list records what each vendor charges for a product. You can stor
 
 You can reach the same rows in two places.
 
-1. `Purchase → Configurations → Vendor Price Lists` shows every row for every product. The page title is **Product Suppliers**.
+1. `Purchase → Configurations → Vendor Price Lists` shows every row for every product. The page header shows **Product Suppliers**. It is the same list.
 2. The **Vendors** tab of a product shows only the rows for that product.
 
 No setting is needed. The menu is always there.

@@ -1,12 +1,12 @@
-# Manage deals
+# Orders
 
-Deals are the heart of Purchase. An order is the document you build to buy goods from a vendor. It starts as a request for quotation (RFQ), becomes a purchase order when you confirm it, and ends as a received and billed deal.
+Orders are the heart of Purchase. An order is the document you build to buy goods from a vendor. It starts as a request for quotation (RFQ), becomes a purchase order when you confirm it, and ends as a received and billed order.
 
 > **In simple words:** One document, one life. You draft it, send it, confirm it, receive the goods and pay the bill.
 
 Open `Purchase → Orders`. The menu shows **Request for Quotation**, **Purchase Orders**, **Purchase Agreements** and **Vendors**.
 
-## The deal flow
+## The order flow
 
 ```text
 RFQ → RFQ Sent → Purchase Order → Locked

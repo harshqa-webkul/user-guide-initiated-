@@ -97,6 +97,8 @@ The receipt becomes **Done** and stock goes up. See [Receipts](../../inventories
 
 <ImagePopup src="/images1/purchase/first_bill_created.png" alt="Manage PO/00012 Bills page listing the new vendor bill with its total and payment state" />
 
+The bill is a draft. Open it in Finance, click **Confirm**, then register the payment.
+
 **Behind the scenes:** The bill uses received minus billed quantity. Open it in Finance to post and pay. See [Vendor bills](../orders/vendor-bills.md) and [Create a vendor bill](../../../finance/vendor-bills/create-bill.md).
 
 ## What you learned
