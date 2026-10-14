@@ -62,5 +62,5 @@ An applicant that is no longer active appears under the **Archived** tab of the 
 ## See also
 
 - [Recruitment dashboard](../dashboard/recruitment-dashboard.md)
-- [Chatter](../../../getting-started/chatter/introduction.md)
+- [Chatter](../../../getting-started/chatter.md)
 - [Search, filter and group](../../../getting-started/search-filter-group.md)

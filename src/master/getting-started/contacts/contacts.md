@@ -1,93 +1,93 @@
 # Contacts
 
-The **Contacts** plugin in **AureusERP** helps you manage all types of business contacts in one place including customers, vendors, users, and companies. It centralizes contact management and allows you to store important details like addresses, communication info, company affiliations, and more.
+A contact is a person or a company you deal with. Customers, vendors and your own company are all contacts. Aureus keeps each contact once, with its phone, email, tax number and addresses. Other modules, such as Sales and Purchase, pick people from this list.
 
-## Contact Creation
+> **In simple words:** Contacts is your address book. Add a person or a company once and use it everywhere.
 
-### Steps to Create a Contact
+Open `Contacts → Contacts`.
 
-1. Navigate to **`Contacts → Contacts → Create Contact`** as shown in the below image.
+::: info Before you start
+The Contacts plugin must be installed. See [Plugins](../../general-settings/plugins.md). Create [titles, tags and industries](configurations.md) first if you want to pick them on the form.
+:::
 
-  <ImagePopup src="/images1/contacts/navigate_create_contact.png" alt="Create Contact" />
+## Overview
 
-2. Fill out the form with the following details:
+The page opens on the contact list. Tabs filter it: **Individuals**, **Companies**, **Employees**, **Customers**, **Vendors** and **Archived**. The list shows one card per contact. A card shows the name, the company, the job title, the email, the phone and the tags. Use the search box to find a contact. Group the cards by **Account Type**, **Company**, **Title**, **Job Title** or **Industry**. The filter panel lets you narrow the list by fields such as **Name**, **Email**, **Job Title**, **Website** and **Tax ID**.
 
-   ### General Section
+Each card has **View**, **Edit** and **Delete**. A clock icon schedules an activity.
 
-   - **_Individual or Company:_** Toggle between an individual or company. If you select **Company**, the **Company** field will hide to avoid duplication.
-   - **_Name:_** Full name of the person or primary contact.
-   - **_Company:_** Choose or create a company if the contact is affiliated with a business.
-   - **_Tax ID:_** Enter the Tax Identification Number for legal or invoicing purposes.
-   - **_Job Title:_** Job role or designation.
-   - **_Phone:_** Landline or office phone number.
-   - **_Mobile:_** Personal or direct contact number.
-   - **_Email:_** Email address for communication.
-   - **_Website:_** Enter the contact's or company's official website.
-   - **_Title:_** Prefix such as Mr., Mrs., Dr., etc.
-   - **_Tags:_** Labels or categories to organize contacts better.
-   - **_Address:_** Fill in full address details including street, city, zip code, state, and country.
+## Create a contact
 
-  <ImagePopup src="/images1/contacts/general_contact.png" alt="General Contact" />
+1. Open `Contacts → Contacts` and click **Create Contact**.
 
-   ### Sales and Purchase Section
+<ImagePopup src="/images1/contacts/navigate_create_contact.png" alt="Contacts menu with the Contacts list and the Create Contact button" />
 
-   - **Sales Subsection**
+2. Fill in the **General** section.
 
-     - **_Responsible:_** Assign a user who manages this contact (e.g., account manager).
+- **_Individual or Company:_** Choose **Company** for a business. Choose **Individual** for a person. Only a person can belong to a company, so the **Company** field shows for **Individual**.
+- **_Name:_** Required. The full name of the person or the business.
+- **_Company:_** The business this person works for. Pick one, or create it from the field.
+- **_Tax ID:_** The tax number of the contact, for example `29ABCDE1234F1Z5`.
+- **_Job Title:_** The role of the person, for example `Purchase Manager`.
+- **_Phone_ and _Mobile:_** The office number and the direct number.
+- **_Email_ and _Website:_** How to reach the contact.
+- **_Title:_** A prefix such as `Dr.` or `Mr.`. See [Configurations](configurations.md).
+- **_Tags:_** Labels such as `VIP` or `Supplier`. You can create a tag from the field.
+- **_Address:_** Street, city, zip code, state and country.
 
-   - **Others Subsection**
+<ImagePopup src="/images1/contacts/general_contact.png" alt="General section of the contact form with name, tax ID, phone, email, title, tags and address" />
 
-     - **_Company ID:_** Internal tracking code or reference.
-     - **_Reference:_** Optional code for cross-referencing.
-     - **_Industry:_** Select the business sector this contact belongs to.
+3. Open the **Sales and Purchases** tab if you need it.
 
-  <ImagePopup src="/images1/contacts/others_contact.png" alt="General Contact" />
+- **_Responsible:_** The user who looks after this contact, for example the account manager.
+- **_Company ID:_** The registration number of the company, for example `CMP-0042`.
+- **_Reference:_** Your own code for the contact, for example the ID in an old system.
+- **_Industry:_** The business sector of the contact. See [Configurations](configurations.md).
 
-3. Action Buttons:
+<ImagePopup src="/images1/contacts/others_contact.png" alt="Sales and Purchases tab with Responsible, Company ID, Reference and Industry" />
 
-- **_Create:_** Save and finish creating the contact.
-- **_Create & Create Another:_** Save and open a new contact form.
-- **_Cancel:_** Exit without saving.
+4. Click **Create**. Click **Create & create another** to save and open a blank form. Click **Cancel** to leave without saving.
 
-## After Creating a Contact
+Aureus opens the contact on its **View** page.
 
-Click **Create** to save the contact. You'll be redirected to the **View Partner** page.
+<ImagePopup src="/images1/contacts/view_contact.png" alt="View page of a contact with its details and the Contacts and Addresses tabs" />
 
-<ImagePopup src="/images1/contacts/view_contact.png" alt="View Contact" />
+## Add people to a company
 
-### Edit Partner
+A company often has several people you talk to. Add them to the company contact.
 
-You can edit or update any of the contact's information by clicking the **Edit Partner** button. This is helpful for future updates or correcting data.
+1. Open the company contact. Open its **Contacts** tab.
+2. Click **Add Contact**. A window opens with the same fields as the main form.
+3. Fill in the person, for example a billing contact, and save.
 
-## Manage Contacts Tab
+<ImagePopup src="/images1/contacts/manage_contacts.png" alt="Contacts tab of a company with the Add Contact window" />
 
-- Go to the **Contacts** tab on the View Partner page.
-- Click **Add Contact** to open a modal form.
-- The modal includes similar fields as the main contact creation page.
+## Add an address
 
-This allows you to:
+A contact can have several addresses, for example one to bill and one to deliver to.
 
-- Add multiple representatives or staff members for a business contact.
-- Store different contact roles (salesperson, support, billing, etc.).
+1. Open the contact. Open its **Addresses** tab.
+2. Click **Add Address**. The tab is called **Addresses**.
+3. Choose the **Types** value: **Permanent**, **Present**, **Invoice**, **Delivery** or **Other**.
+4. Fill in the name, email, phone, mobile and the full address. Save.
 
-<ImagePopup src="/images1/contacts/manage_contacts.png" alt="Manage Contacts" />
+<ImagePopup src="/images1/contacts/address_tab.png" alt="Addresses tab with the Add Address window and the address type list" />
 
-> 📌 **Use Case:** Useful for organizations that need to store multiple points of contact under one company.
+## Actions and statuses
 
-## Manage Addresses Tab
+- **Edit:** opens the same form. Change values and click **Save changes**.
+- **Delete:** archives the contact. It moves to the **Archived** tab.
+- **Restore:** brings an archived contact back.
+- **Force delete:** removes the contact for good. It fails if other records still use the contact.
+- **Chatter:** the button on the **View** page. Use it for messages, notes and activities. See [Chatter](../chatter.md).
 
-- Go to the **Address** tab on the View Partner page.
-- Click **Add Address** to open a modal form.
+::: warning
+**Force delete** cannot be undone. Use **Delete** if you may need the contact again.
+:::
 
-### Address Modal Includes:
+## See also
 
-- **_Types:_** Choose the address type—Permanent, Present, Invoice, Delivery, or Other.
-- **_Fields:_** Fill in details like name, email, phone, mobile, and complete address.
-
-<ImagePopup src="/images1/contacts/address_tab.png" alt="Manage Address" />
-
-This structure ensures that all address-related information is properly categorized and easily accessible.
-
-## Summary
-
-The **Contacts Plugin** in AureusERP offers a unified system for managing all business relationships customers, vendors, or internal users. With sections for general info, contacts, and addresses, it's easy to keep data organized and up-to-date.
+- [Contacts configurations](configurations.md)
+- [Chatter](../chatter.md)
+- [Search, filter and group](../search-filter-group.md)
+- [Portal access](../../general-settings/users/portal-access.md)

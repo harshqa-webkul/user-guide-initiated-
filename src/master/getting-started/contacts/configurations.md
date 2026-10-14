@@ -1,118 +1,105 @@
-# Contacts Plugin Configuration
+# Contacts configurations
 
-The **Contacts Plugin** in **AureusERP** allows you to manage all your customers, vendors, and their related details in one place. To make contact creation and management more efficient, it comes with several configurable options. These options help standardize entries and speed up the data input process during contact creation.
+Configurations are small lists that fill the drop-down fields on the contact form. They are tags, titles, industries, banks and bank accounts. You create each value once and pick it on any contact.
 
-This guide explains the key configurations available in the Contacts plugin and how to create them.
+> **In simple words:** Create these lists first. Then the contact form has choices ready.
 
-## Tags Configuration
+Open `Contacts → Configurations`.
 
-> **Why it's used:** Tags are useful for categorizing contacts based on custom labels like "VIP", "Supplier", "Lead", etc.
+## Tags
 
-### Steps to Create a New Tag:
+A tag is a coloured label such as `VIP`, `Supplier` or `Lead`. It helps you group and find contacts.
 
-1. Navigate to **`Contacts → Configurations → Tags → New Tag`** as shown in the below image.
+1. Open `Contacts → Configurations → Tags` and click **New Tag**.
 
-   <ImagePopup src="/images1/contacts/navigate_config_tags.png" alt="Config Contact" />
+<ImagePopup src="/images1/contacts/navigate_config_tags.png" alt="Contacts configurations menu with the Tags page and the New Tag button" />
 
-2. A modal form appears with the following fields:
+2. Fill in the window.
 
-   - **_Name:_** Enter the name of the tag (e.g., Supplier, Important Client).
-   - **_Color:_** Choose a color for better visual distinction on contact records.
+- **_Name:_** Required. For example `Supplier`.
+- **_Color:_** A colour that makes the tag easy to spot.
 
-3. Click **Create** to save the tag.
+3. Click **Create**.
 
-<ImagePopup src="/images1/contacts/generate_tag.png" alt="Config Contact" />
+<ImagePopup src="/images1/contacts/generate_tag.png" alt="Create Tags window with the name Supplier and a colour" />
 
-## Titles Configuration
+## Titles
 
-> **Why it's used:** Titles are prefixes like Mr., Ms., Dr., etc., that help identify or address a contact respectfully.
+A title is a prefix before a name, such as `Dr.` or `Mr.`.
 
-### Steps to Create a New Title:
+1. Open `Contacts → Configurations → Titles` and click **New Title**.
 
-1. Navigate to **`Contacts → Configurations → Titles → New Title`** as shown in the below image.
+<ImagePopup src="/images1/contacts/navigate_config_titles.png" alt="Contacts configurations menu with the Titles page and the New Title button" />
 
-   <ImagePopup src="/images1/contacts/navigate_config_titles.png" alt="Config Contact" />
+2. Fill in the window.
 
-2. A modal form opens with these fields:
+- **_Name:_** The full word, for example `Doctor`.
+- **_Short Name:_** The abbreviation, for example `Dr.`.
 
-   - **_Name:_** Full title (e.g., Doctor, Mister).
-   - **_Short Name:_** Abbreviation (e.g., Dr., Mr.).
+3. Click **Create**.
 
-3. Click **Create** to add the title to your system.
+<ImagePopup src="/images1/contacts/generate_title.png" alt="Create Titles window with the name Doctor and the short name Dr." />
 
-<ImagePopup src="/images1/contacts/generate_title.png" alt="Config Contact" />
+## Industries
 
-## Industry Configuration
+An industry is the business sector of a company, such as retail or healthcare.
 
-> **Why it's used:** Industries help classify companies based on their business domain (e.g., IT, Retail, Healthcare).
+1. Open `Contacts → Configurations → Industry` and click **New Industry**.
 
-### Steps to Create a New Industry:
+<ImagePopup src="/images1/contacts/navigate_config_industry.png" alt="Contacts configurations menu with the Industry page and the New Industry button" />
 
-1. Navigate to **`Contacts → Configurations → Industry → New Industry`** as shown in the below image.
+2. Fill in the window.
 
-   <ImagePopup src="/images1/contacts/navigate_config_industry.png" alt="Config Contact" />
+- **_Name:_** The short name, for example `IT`.
+- **_Full Name:_** The complete name, for example `Information Technology`.
 
-2. A modal form appears with:
+3. Click **Create**.
 
-   - **_Name:_** Short name or abbreviation of the industry.
-   - **_Full Name:_** Complete description of the industry.
+<ImagePopup src="/images1/contacts/generate_industry.png" alt="Create Industry window with the name IT and the full name Information Technology" />
 
-3. Click **Create** to save.
+## Banks
 
-<ImagePopup src="/images1/contacts/generate_industry.png" alt="Config Contact" />
+A bank is a financial institution. Create it once, then link bank accounts to it.
 
-## Banks Configuration
+1. Open `Contacts → Configurations → Banks` and click **New Bank**.
 
-> **Why it's used:** Banks are useful to store bank details when associating them with contacts or during payment operations.
+<ImagePopup src="/images1/contacts/navigate_config_banks.png" alt="Contacts configurations menu with the Banks page and the New Bank button" />
 
-### Steps to Create a New Bank:
+2. Fill in the **General** section.
 
-1. Navigate to **`Contacts → Configurations → Banks → New Bank`** as shown in the below image.
+- **_Name:_** The bank name, for example `State Bank`.
+- **_Bank Identifier Code:_** The code that identifies the bank, such as the SWIFT or BIC code.
+- **_Email_ and _Phone:_** How to reach the bank.
 
-   <ImagePopup src="/images1/contacts/navigate_config_banks.png" alt="Config Contact" />
+3. Fill in the **Address** section: **Country**, **State**, **Street**, **City** and **Zip**.
+4. Click **Create**.
 
-2. A form with the following sections appears:
+<ImagePopup src="/images1/contacts/generate_bank.png" alt="Create Bank form with name, identifier code, email, phone and address" />
 
-   ### General Section
+## Bank accounts
 
-   - **_Name:_** Bank name (e.g., ICICI, HDFC).
-   - **_Bank Identifier Code:_** Unique identifier for the bank (like SWIFT/BIC).
-   - **_Email:_** Official contact email of the bank.
-   - **_Phone:_** Contact number of the bank.
+A bank account is one account number at a bank. It belongs to a contact, called the account holder.
 
-   ### Address Section
+1. Open `Contacts → Configurations → Bank Accounts` and click **New Bank Account**.
 
-   - **_Country:_** Country where the bank is located.
-   - **_State:_** State/Province.
-   - **_Street:_** Street name or number.
-   - **_City:_** City name.
-   - **_Zip:_** Postal/ZIP code.
+<ImagePopup src="/images1/contacts/navigate_config_bank_accounts.png" alt="Contacts configurations menu with the Bank Accounts page and the New Bank Account button" />
 
-3. Click **Create** to add the bank.
+2. Fill in the window.
 
-<ImagePopup src="/images1/contacts/generate_bank.png" alt="Config Contact" />
+- **_Account Number:_** The full number, for example `1234567890`.
+- **_Can Send Money:_** Turn it on if you can pay out from this account.
+- **_Bank:_** The bank this account belongs to.
+- **_Account Holder:_** The contact who owns the account.
 
-## Bank Accounts Configuration
+3. Click **Create**.
 
-> **Why it's used:** Bank accounts are linked to contacts or companies for financial transactions.
+<ImagePopup src="/images1/contacts/generate_bank_account.png" alt="Create Bank Account window with account number, bank and account holder" />
 
-### Steps to Create a New Bank Account:
+## Actions and statuses
 
-1. Navigate to **`Contacts → Configurations → Bank Accounts → New Bank Account`** as shown in the below image.
+Each list has **Edit** and **Delete** on its rows. Click **Edit** to change a value. Click **Delete** to remove it.
 
-   <ImagePopup src="/images1/contacts/navigate_config_bank_accounts.png" alt="Config Contact" />
+## See also
 
-2. A modal form appears with these fields:
-
-   - **_Account Number:_** Enter the full bank account number.
-   - **_Can Send Money:_** Toggle ON if the account can be used for outgoing payments.
-   - **_Bank:_** Select the bank this account belongs to.
-   - **_Account Holder:_** Name of the account holder.
-
-3. Click **Create** to save the new bank account.
-
-<ImagePopup src="/images1/contacts/generate_bank_account.png" alt="Config Contact" />
-
-## Summary
-
-The **Contacts Plugin** in **AureusERP** offers a unified system for managing all business relationships customers, vendors, or internal users. With sections for general info, contacts, and addresses, it's easy to keep data organized and up-to-date.
+- [Contacts](contacts.md)
+- [Search, filter and group](../search-filter-group.md)

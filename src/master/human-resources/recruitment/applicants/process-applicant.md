@@ -108,7 +108,7 @@ An ongoing applicant shows no status.
 
 ## Chatter and activities
 
-The chatter button in the header opens **Chatter** with **Send Message**, **Log Note** and **Schedule Activity**. Use it for talks with the team and follow-up tasks. The clock icon on a list row opens the same activity action. See [Chatter](../../../getting-started/chatter/introduction.md), [Log a note](../../../getting-started/chatter/actions/log-note.md) and [Schedule an activity](../../../getting-started/chatter/actions/activity.md).
+The chatter button in the header opens **Chatter** with **Send Message**, **Log Note** and **Schedule Activity**. Use it for talks with the team and follow-up tasks. The clock icon on a list row opens the same activity action. See [Chatter](../../../getting-started/chatter.md), [Log a note](../../../getting-started/chatter.md) and [Schedule an activity](../../../getting-started/activities.md).
 
 ## Skills
 

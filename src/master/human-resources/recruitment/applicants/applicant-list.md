@@ -81,7 +81,7 @@ See [Search, filter and group](../../../getting-started/search-filter-group.md) 
 
 ## Row actions
 
-The kebab menu on a row has **View**, **Edit** and **Delete**. The clock icon opens the activity action. See [Schedule an activity](../../../getting-started/chatter/actions/activity.md). Use the checkboxes to select several rows.
+The kebab menu on a row has **View**, **Edit** and **Delete**. The clock icon opens the activity action. See [Schedule an activity](../../../getting-started/activities.md). Use the checkboxes to select several rows.
 
 <ImagePopup src="/images1/recruitment/applicants_list_row_actions.png" alt="Row menu opened from the three dots beside Rahul Verma with View, Edit and Delete" />
 

@@ -4,18 +4,18 @@ const routes = [
     collapsed: false,
     items: [
       { text: 'Introduction', link: '/master/Introduction' },
-      { text: 'Stages', link: '/master/getting-started/stages' },
-      { text: 'Chatter', link: '/master/getting-started/chatter' },
-      { text: 'Activities', link: '/master/getting-started/activities' },
-      { text: 'Search, Filter and Group', link: '/master/getting-started/search-filter-group' },
       {
         text: 'Contacts',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Contacts', link: '/master/getting-started/contacts/contacts' },
           { text: 'Configurations', link: '/master/getting-started/contacts/configurations' },
         ]
       },
+      { text: 'Search, Filter and Group', link: '/master/getting-started/search-filter-group' },
+      { text: 'Chatter', link: '/master/getting-started/chatter' },
+      { text: 'Activities', link: '/master/getting-started/activities' },
+      { text: 'Stages', link: '/master/getting-started/stages' },
     ]
   },
   {
