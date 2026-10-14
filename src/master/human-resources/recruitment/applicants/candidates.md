@@ -8,9 +8,9 @@ Open `Recruitments → Applications → Candidates`.
 
 ## Overview
 
-The page lists candidates as cards. Use **Sort by** to order them by **Full Name**. Group them by **Manager**. Each card has **View**, **Edit** and **Delete**.
+The page lists candidates as cards. Each card shows the name, the star rating and the actions **View**, **Edit** and **Delete**. A clock icon opens the activity action. Use **Sort by** to order the cards by **Full Name**. Use **Group by** to group them by **Manager**.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/candidates_list.png | Candidates page with cards for each candidate and the New Candidate button -->
+<ImagePopup src="/images1/recruitment/candidates_list.png" alt="Candidates page with the New Candidate button and a grid of candidate cards, each with stars and View, Edit and Delete" />
 
 ## Create a candidate
 
@@ -27,28 +27,31 @@ You can also create a candidate while [adding an applicant](add-applicant.md).
 - **_Phone Number:_** The contact number.
 - **_LinkedIn Profile:_** The link to the person's profile.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/candidate_create_basic.png | Create Candidate form with the Basic Information section filled for Rahul Verma -->
+<ImagePopup src="/images1/recruitment/candidate_create_basic.png" alt="Basic Information section of the Create Candidate form filled with Rahul Verma, his email, phone number and LinkedIn profile" />
 
 ### Additional Details
 
 3. Add the rest if you know it.
 
 - **_Degree:_** The highest degree. Create options in [Tags and degrees](../setup/tags-degrees.md).
-- **_Tags:_** Labels that describe the person.
+- **_Tags:_** Labels that describe the person. You can pick several.
 - **_Manager:_** The user who looks after this candidate.
-- **_Availability Date:_** When the person can start.
-- **_Status:_** A toggle for an active candidate.
-- **_Evaluation:_** A star rating.
+- **_Availability Date:_** When the person can start. Pick a day in the calendar.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/candidate_create_additional.png | Additional Details section with degree, tags, manager, availability date, status and evaluation filled in -->
+The **Status** card beside the form has two more items:
+
+- **_Status:_** A toggle for an active candidate. It is on by default.
+- **_Evaluation:_** Shows the star rating. A new candidate starts with no stars.
+
+<ImagePopup src="/images1/recruitment/candidate_create_additional.png" alt="Create Candidate form with Basic Information and Additional Details filled in (degree Bachelor, tag Warehouse Management, manager ERP Admin, availability date) and the Status card with the active toggle and stars" />
 
 4. Click **Create**, or **Create & create another** to add more.
 
 ## Skills
 
-Open a candidate and use the **Skills** table, or the **Manage Skills** tab. Click **Add Skill** to record a skill. Each row shows **Skill Type**, **Skill**, **Skill Level** and **Level Percent**. Use the row actions to view, edit or delete a skill. Skill types are set up in the employee settings.
+Open a candidate and use the **Skills** table, or the **Manage Skills** tab. Click **Add Skill** to open **Create Candidate Skill**. Choose a **Skill Type**, then a **Skill** and a **Skill Level**. Click **Create**. Each row shows **Skill Type**, **Skill**, **Skill Level** and **Level Percent**. The **Skill Level** shows as a label and the **Level Percent** as a bar. **Created By** shows who added the skill. Use the row actions **View**, **Edit** and **Delete** to manage a skill. Skill types are set up in the employee settings.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/candidate_skills_table.png | Skills table of a candidate with Skill Type, Skill, Skill Level and Level Percent columns and the Add Skill button -->
+<ImagePopup src="/images1/recruitment/candidate_skills_table.png" alt="Manage Ben Foster Skills page with the View, Edit and Manage Skills tabs, the Add Skill button and a table row with Soft Skills, Persuasion, Intermediate, 50.00% and ERP Admin" />
 
 ## Actions
 

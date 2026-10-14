@@ -4,7 +4,7 @@ Stages are the steps of your hiring process. Every applicant sits in one stage a
 
 > **In simple words:** A stage is one step in your hiring process, such as First Interview or Contract Signed.
 
-Open `Recruitments → Configuration → Stages`.
+Open `Recruitments → Configuration → Stages`. In the left menu, **Stages** sits under the group **Job Positions**.
 
 ::: info Prerequisite
 Job positions are optional on a stage. If you want to link them, create them first. See [Job positions](../job-positions/job-positions.md).
@@ -12,22 +12,22 @@ Job positions are optional on a stage. If you want to link them, create them fir
 
 ## Overview
 
-The list shows the columns **Stage Name**, **Job Positions**, **Default Stage**, **Folded** and **Hired Stage**. Yes and No tell you each flag. The list shows the last stage first. The stage bar on an applicant shows the true order from left to right: **New**, **First Interview**, **Initial Qualification**, **Second Interview**, **Document Verification**, **Contract Proposal**, **Contract Signed**.
+The list shows the columns **Stage Name**, **Job Positions**, **Default Stage**, **Folded** and **Hired Stage**. Each flag shows as an icon. A green tick means yes. A red cross means no. The list shows the last stage first. **New** is the default stage. **New** and **First Interview** are folded. **Contract Signed** is the hired stage. The stage bar on an applicant shows the true order from left to right: **New**, **First Interview**, **Initial Qualification**, **Second Interview**, **Document Verification**, **Contract Proposal**, **Contract Signed**.
 
 Drag a row to change the order. Use the filter to find a stage by name or job position. Group the list by name or label.
 
-<ImagePopup src="/images1/recruitment/set_stages_list.png" alt="Stages list with columns Stage Name, Job Positions, Default Stage, Folded and Hired Stage" />
+<ImagePopup src="/images1/recruitment/set_stages_list.png" alt="Stages list with the Job Positions badges and the Default Stage, Folded and Hired Stage columns showing green ticks and red crosses" />
 
 ## Create a stage
 
 This example adds a stage named **Background Check**.
 
-1. Open `Recruitments → Configuration → Stages`.
-2. Click **New Stage**. A full page opens.
+1. Open `Recruitments → Configuration → Stages`. In the left menu, **Stages** sits under the group **Job Positions**.
+2. Click **New Stage**. A full page titled **Create Stages** opens.
 3. Fill in the fields below.
 4. Click **Create**.
 
-<ImagePopup src="/images1/recruitment/set_stage_create_form.png" alt="Create Stage form filled for Background Check with the three tooltip labels and the Hired Stage toggle off" />
+<ImagePopup src="/images1/recruitment/set_stage_create_form.png" alt="Create Stages form filled for Background Check with the three tooltip labels, Warehouse Supervisor as job position and the Folded, Hired Stage and Default Stage toggles off" />
 
 ### General Information
 
@@ -46,7 +46,8 @@ You can rename them per stage. For example, use **Waiting for documents** in a v
 
 ### Additional Information
 
-- **_Job Positions:_** link the stage to the positions that use it.
+- **_Job Positions:_** link the stage to the positions that use it. The sample stages are linked to the ten older positions, not to **Warehouse Supervisor**.
+- **_Folded:_** a toggle. It starts off.
 - **_Hired Stage:_** a toggle. When on, an applicant who enters this stage is marked **Hired**.
 - **_Default Stage:_** a toggle. When on, new applicants start in this stage.
 
@@ -58,9 +59,9 @@ In the sample data, **New** is the default stage and **Contract Signed** is the 
 
 Each row has **View**, **Edit** and **Delete**. Use the select boxes to delete many rows at once. Move the applicants out of a stage before you delete it.
 
-On the view page you also see **Sequence Order**, the position of the stage in the pipeline.
+The view page is titled **View Stages**. It has **Edit** and **Delete** buttons at the top right. It also shows **Sequence Order**, the position of the stage in the pipeline.
 
-<ImagePopup src="/images1/recruitment/set_stage_view.png" alt="View page of a stage with the tooltip labels and the Sequence Order" />
+<ImagePopup src="/images1/recruitment/set_stage_view.png" alt="View Stages page for First Interview with Sequence Order 1 and the Gray, Red and Green labels" />
 
 ## Behind the scenes
 

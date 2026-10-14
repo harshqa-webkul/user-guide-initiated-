@@ -14,9 +14,9 @@ Stages are the steps every applicant passes through.
 
 1. Open `Recruitments → Configuration → Stages`.
 2. Read the **Stage Name** column. The list shows the last stage first. The applicant screen shows the real order: **New**, **First Interview**, **Initial Qualification**, **Second Interview**, **Document Verification**, **Contract Proposal**, **Contract Signed**.
-3. Find **Contract Signed**. Its **Hired Stage** column says **Yes**. An applicant who reaches this stage counts as hired.
+3. Find **Contract Signed**. Its **Hired Stage** column shows a green tick. An applicant who reaches this stage counts as hired.
 
-<ImagePopup src="/images1/recruitment/gs_stages_list.png" alt="Stages list with Contract Signed marked Yes in the Hired Stage column" />
+<ImagePopup src="/images1/recruitment/gs_stages_list.png" alt="Stages list with a green tick in the Hired Stage column for Contract Signed and red crosses for the other stages" />
 
 See [Stages](../setup/stages.md) to add or change them.
 
@@ -26,7 +26,7 @@ See [Stages](../setup/stages.md) to add or change them.
 2. Go to page 2 of the cards, or type **Warehouse Supervisor** in the search box.
 3. Read the card. The blue button shows how many applicants are in the **New** stage. The three dots menu shows **To Recruitment** and **Applications**.
 
-<ImagePopup src="/images1/recruitment/gs_jobpos_card.png" alt="Job position card for Warehouse Supervisor with the New Applications button and the three dots menu" />
+<ImagePopup src="/images1/recruitment/gs_jobpos_card.png" alt="Warehouse Supervisor card with Sarah Mitchell and My Company, the 1 New Applications button and the open menu showing 2 To Recruitment and 1 Applications" />
 
 See [Job positions](../job-positions/job-positions.md) for the card details.
 
@@ -34,26 +34,26 @@ See [Job positions](../job-positions/job-positions.md) for the card details.
 
 1. Open `Recruitments → Applications → Applicants`.
 2. Click **New Applicant**. A **Create Applicant** window opens.
-3. Open the **Candidate** field and use the create option to add a new person.
+3. Click the **+** button beside the **Candidate** field to add a new person.
 4. Type **Rahul Verma** as **Full Name**. Add the email **rahul.verma@example.com** and a phone number.
-5. Save the candidate, then click **Create**.
+5. Click **Create** in the candidate form. Choose **Rahul Verma** in the **Candidate** field, then click **Create**.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_new_applicant_modal.png | Create Applicant window with the Candidate field open and the new candidate form filled for Rahul Verma -->
+<ImagePopup src="/images1/recruitment/gs_new_applicant_modal.png" alt="Candidate form opened from the Create Applicant window, filled for Rahul Verma" />
 
 The edit page of the applicant opens. The applicant starts in the stage **New**, because that stage is the default.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_applicant_new_stage.png | Edit Applicant page for Rahul Verma with the stage bar showing New -->
+<ImagePopup src="/images1/recruitment/gs_applicant_new_stage.png" alt="Edit Applicant header and stage bar with New highlighted in blue" />
 
 ## Step 4: Fill in the applicant
 
 1. Set **Job Positions** to **Warehouse Supervisor**.
-2. Set **Recruiter** to **ERP Admin** and add an **Interviewer**.
-3. Add a **Tags** value, a **Degree** and an **Availability Date**.
+2. Set **Recruiter** to **ERP Admin**. You can also pick an **Interviewer**.
+3. Add a **Tags** value, a **Degree**, an **Availability Date** and the **Department**.
 4. Enter **Expected Salary** **40000**.
 5. Choose **Source** and **Medium**, for example **LinkedIn**.
-6. Click the stars to rate the applicant. Click **Save changes**.
+6. Click **Save changes**. Then click the stars to rate the applicant. The rating saves at once.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_applicant_filled.png | Edit Applicant form for Rahul Verma filled with job position, recruiter, tags, degree, salary, source and medium -->
+<ImagePopup src="/images1/recruitment/gs_applicant_filled.png" alt="Edit Applicant form for Rahul Verma with job position, recruiter, interviewer, tags, degree, department, salary, source, medium and two stars filled in" />
 
 Each field is explained in [Add an applicant](../applicants/add-applicant.md).
 
@@ -61,36 +61,40 @@ Each field is explained in [Add an applicant](../applicants/add-applicant.md).
 
 The state tells your team how an applicant is doing inside a stage.
 
-1. Click the **State** icon button in the page header.
+1. Click the round **State** icon button in the page header.
 2. Choose **Ready for next stage** and click **Submit**.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_state_modal.png | State window with In Progress, Ready for next stage and Blocked options -->
+<ImagePopup src="/images1/recruitment/gs_state_modal.png" alt="State window with Ready for next stage selected next to In Progress and Blocked" />
 
-3. Click **First Interview** in the stage bar. The stage changes at once.
+3. Click **First Interview** in the stage bar. The stage saves at once.
 4. Keep clicking the next stage as the hiring goes on, up to **Contract Proposal**.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_stage_first_interview.png | Stage bar with First Interview selected for Rahul Verma -->
+<ImagePopup src="/images1/recruitment/gs_stage_first_interview.png" alt="Stage bar with First Interview highlighted in blue and the State and Go to Employee icon buttons in the header" />
 
 ::: tip
-Moving to a new stage resets the state to **In Progress**.
+Clicking another stage resets the state to **In Progress**.
 :::
 
 ## Step 6: Hire the applicant
 
 1. Click **Contract Signed** in the stage bar.
-2. Check the **Application status** pill. It now says **Hired**.
+2. Check the **Application status** pill. It now says **Hired**. The **Edit** page also shows a read only **Hired Date**.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_stage_contract_signed.png | Stage bar on Contract Signed with the Hired status pill -->
+<ImagePopup src="/images1/recruitment/gs_stage_contract_signed.png" alt="Edit Applicant page with Contract Signed highlighted, the Hired status pill and the Hired Date" />
 
-## Step 7: Create the employee
+## Step 7: Open the employee
 
-1. Click **Create Employee** in the page header.
-2. The employee page opens. Review the profile and save it.
-3. Go back to the applicant. The button is now **Go to Employee**. Click it to open the profile.
+1. Look at the page header. **Create Employee** is hidden for a hired applicant. The **Go to Employee** icon button takes its place.
+2. Click **Go to Employee**. The employee profile of Rahul opens. It holds his work email, work mobile and job position.
+3. Add the rest of the details on the employee.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_create_employee.png | Applicant header with the Create Employee button before hiring is finished -->
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_employee_created.png | New employee profile for Rahul Verma opened from the applicant -->
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_go_to_employee.png | Hired applicant header with the Go to Employee icon button -->
+<ImagePopup src="/images1/recruitment/gs_go_to_employee.png" alt="Header of a hired applicant with the Go to Employee icon button and its tooltip" />
+
+<ImagePopup src="/images1/recruitment/gs_employee_created.png" alt="Employee profile of Rahul Verma with his work email, work mobile and the job position Warehouse Supervisor" />
+
+Before an applicant is hired, the header shows **Create Employee**. Use it to create the employee early.
+
+<ImagePopup src="/images1/recruitment/gs_create_employee.png" alt="Header of an applicant who is not hired yet with the Create Employee, Delete and Refuse buttons" />
 
 See [Employee profile](../../employees/employees/employee-profile.md) for what to fill in next.
 
@@ -99,18 +103,18 @@ See [Employee profile](../../employees/employees/employee-profile.md) for what t
 Add a second applicant, **Meera Nair**, for **Warehouse Supervisor** the same way.
 
 1. Open Meera's applicant page and click **Refuse**.
-2. Choose the reason **Refused by applicant: salary**.
+2. Click the reason **Refused by applicant: salary**.
 3. Leave **Notify** on. **Email To** shows her email address. Click **Submit**.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_refuse_modal.png | Refuse Reason window with Refused by applicant: salary chosen, Notify on and Email To filled -->
+<ImagePopup src="/images1/recruitment/gs_refuse_modal.png" alt="Refuse Reason window with Refused by applicant: salary chosen, Notify on and Email To showing meera.nair@example.com" />
 
-4. Check the applicant. The status is **Refused** and the stage bar is hidden.
+4. Check the applicant. The status is **Refused**, the stage bar is hidden and the header shows **Restore**.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_refused_applicant.png | Refused applicant page for Meera Nair with the Restore button -->
+<ImagePopup src="/images1/recruitment/gs_refused_applicant.png" alt="Meera Nair applicant page after refusing, with the Refused status, no stage bar and the Restore button" />
 
-5. To bring her back, click **Restore** and confirm.
+5. To bring her back, click **Restore** and click **Confirm**.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_restore_confirm.png | Restore confirmation window for Meera Nair -->
+<ImagePopup src="/images1/recruitment/gs_restore_confirm.png" alt="Restore Applicant from refuse window with the Cancel and Confirm buttons" />
 
 See [Refuse and reopen](../applicants/refuse-and-reopen.md) for the details.
 
@@ -120,7 +124,7 @@ See [Refuse and reopen](../applicants/refuse-and-reopen.md) for the details.
 2. The list is grouped by stage. Find the group of each applicant.
 3. Open the three dots menu and apply the **Hired** view to see hired people.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/gs_applicant_list.png | Applicants list grouped by stage showing Rahul Verma and Meera Nair -->
+<ImagePopup src="/images1/recruitment/gs_applicant_list.png" alt="Applicants list grouped by stage with Rahul Verma under Contract Signed and Meera Nair under New" />
 
 ## See also
 

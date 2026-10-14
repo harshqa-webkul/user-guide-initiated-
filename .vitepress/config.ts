@@ -94,7 +94,7 @@ export default defineConfig({
 
     editLink: {
       pattern:
-        'https://github.com/aureuserp/dev-docs/blob/master/src/:path',
+        'https://github.com/aureuserp/user-guide/edit/main/src/:path',
       text: 'Edit this page on GitHub'
     },
 

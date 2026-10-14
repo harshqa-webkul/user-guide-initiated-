@@ -39,7 +39,7 @@ You choose tags in the **Tags** field of the applicant form. A candidate has tag
 
 ### Overview
 
-The list has one column, **Name**. The sample data holds 24 degrees, for example **Bachelor**, **Master**, **Doctoral Degree** and **Chartered Accountant (CA)**.
+The list has one column, **Name**. The sample data holds 24 degrees, for example **Chartered Accountant (CA)** and degrees in human resources and finance. Use the page controls to see all of them. Degrees such as **Bachelor** and **Master** are on later pages.
 
 <ImagePopup src="/images1/recruitment/set_degrees_list.png" alt="Degrees list with the Name column" />
 
