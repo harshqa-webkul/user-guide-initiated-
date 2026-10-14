@@ -10,6 +10,10 @@ Open `Recruitments → Configuration → Tags` or `Recruitments → Configuratio
 None. Both lists come with sample data.
 :::
 
+::: info
+These tags are for applicants and candidates. Employee tags are a separate list.
+:::
+
 ## Tags
 
 ### Overview

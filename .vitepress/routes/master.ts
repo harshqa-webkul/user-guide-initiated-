@@ -614,11 +614,11 @@ const routes = [
             collapsed: true,
             link: '/master/human-resources/recruitment/applicants/',
             items: [
+              { text: 'Candidates', link: '/master/human-resources/recruitment/applicants/candidates' },
               { text: 'Add an applicant', link: '/master/human-resources/recruitment/applicants/add-applicant' },
               { text: 'Process an applicant', link: '/master/human-resources/recruitment/applicants/process-applicant' },
               { text: 'Refuse and reopen', link: '/master/human-resources/recruitment/applicants/refuse-and-reopen' },
-              { text: 'Applicant list', link: '/master/human-resources/recruitment/applicants/applicant-list' },
-              { text: 'Candidates', link: '/master/human-resources/recruitment/applicants/candidates' }
+              { text: 'Applicant list', link: '/master/human-resources/recruitment/applicants/applicant-list' }
             ]
           },
           {

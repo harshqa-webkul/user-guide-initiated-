@@ -27,7 +27,7 @@ Rahul Verma applies for **Warehouse Supervisor**. You follow him from **New** to
 <ImagePopup src="/images1/recruitment/applicant_general_information.png" alt="General Information card with Rahul Verma, Warehouse Supervisor, recruiter ERP Admin, interviewer HR Admin and a tag filled in" />
 
 - **_Candidate name:_** Required. Choose the candidate. **Emails**, **Phone** and **Linkedin Profile** load from the candidate.
-- **_Job Positions:_** The job applied for. The first time you choose one, Aureus puts the applicant in the first default stage. Later changes copy the recruiter, interviewers and department from the position.
+- **_Job Positions:_** The job applied for. The first time you choose one, Aureus puts the applicant in the first default stage. Later changes copy the recruiter, interviewers and department from the position. This replaces values you typed before.
 - **_Hired Date:_** Read only. It appears once the applicant is hired.
 - **_Recruiter:_** The person who owns this application.
 - **_Interviewer:_** One or more users who interview the person. The **+** button beside the field creates a user.
@@ -54,17 +54,17 @@ Rahul Verma applies for **Warehouse Supervisor**. You follow him from **New** to
 
 ### Rate the applicant
 
-8. Click a star at the top of **General Information**. Hover over a star to see its rating, for example **Evaluation: Very Good**. The rating saves at once. Click the active star again to clear it.
+1. Click a star at the top of **General Information**. Hover over a star to see its rating, for example **Evaluation: Very Good**. The rating saves at once. Click the active star again to clear it.
 
 <ImagePopup src="/images1/recruitment/applicant_stars.png" alt="Three star rating at the top of General Information with two stars selected" />
 
 ### Move through the stages
 
-9. Click the next stage on the bar, for example **First Interview**. The change saves at once, without **Save changes**. You can click any stage, forward or back.
+1. Click the next stage on the bar, for example **First Interview**. The change saves at once, without **Save changes**. You can click any stage, forward or back.
 
 <ImagePopup src="/images1/recruitment/applicant_stage_stepper.png" alt="Stage bar with First Interview highlighted in blue after Rahul Verma moved from New" />
 
-10. Click the round **State** icon button in the header. Its tooltip shows the current state. Choose **In Progress**, **Ready for next stage** or **Blocked**, then click **Submit**. A notification says **Applicant state updated**.
+2. Click the round **State** icon button in the header. Its tooltip shows the current state. Choose **In Progress**, **Ready for next stage** or **Blocked**, then click **Submit**. A notification says **Applicant state updated**.
 
 <ImagePopup src="/images1/recruitment/applicant_state_modal.png" alt="State window with In Progress, Ready for next stage and Blocked options and the Submit button" />
 
@@ -76,15 +76,15 @@ A **Blocked** applicant disappears from the applicant list. Set the state back t
 
 ### Hire the applicant
 
-11. Click **Contract Signed** on the stage bar. This stage is a **Hired Stage**. Aureus sets the **Application status** to **Hired**. On the **Edit** page a read only **Hired Date** appears beside it.
+1. Click **Contract Signed** on the stage bar. This stage is a **Hired Stage**. Aureus sets the **Application status** to **Hired**. On the **Edit** page a read only **Hired Date** appears beside it.
 
 <ImagePopup src="/images1/recruitment/applicant_hired_stage.png" alt="Edit Applicant page with Contract Signed highlighted, the Hired status pill and the Hired Date" />
 
-12. While the applicant is not hired and has no employee, the header shows **Create Employee**. Click it to create the employee from the applicant. Once the applicant is hired, **Create Employee** is hidden and the **Go to Employee** icon takes its place.
+2. While the applicant is not hired and has no employee, the header shows **Create Employee**. Click it to create the employee from the applicant. Once the applicant is hired, **Create Employee** is hidden and the **Go to Employee** icon takes its place.
 
 <ImagePopup src="/images1/recruitment/applicant_create_employee_button.png" alt="Header of an applicant who is not hired yet with the Create Employee button" />
 
-13. Click the **Go to Employee** icon. The employee profile opens. It already holds the work email, the work mobile and the job position of the applicant. Add the rest on the employee. See [Add an employee](../../employees/employees/add-employee.md).
+3. Click the **Go to Employee** icon. The employee profile opens. It already holds the work email, the work mobile and the job position of the applicant. Add the rest on the employee. See [Add an employee](../../employees/employees/add-employee.md).
 
 <ImagePopup src="/images1/recruitment/applicant_go_to_employee.png" alt="Header of a hired applicant with the Go to Employee icon button and its tooltip" />
 
@@ -96,8 +96,15 @@ If you click another stage that is not a hired stage, the applicant is no longer
 - **Go to Employee:** opens the linked employee. It replaces **Create Employee**.
 - **Refuse:** turns the applicant down. See [Refuse and reopen](refuse-and-reopen.md).
 - **Restore:** brings a refused applicant back.
-- **Delete:** removes the applicant.
-- **Application status:** **Hired**, **Refused** or **Archived**. An ongoing applicant shows no status.
+- **Delete:** removes the applicant. Use **Refuse** to keep the record and the reason.
+
+| Application status | When it shows |
+| --- | --- |
+| **Hired** | The applicant reached a hired stage. |
+| **Refused** | You refused the applicant with a reason. |
+| **Archived** | The applicant is inactive. A tab in the list shows these. |
+
+An ongoing applicant shows no status.
 
 ## Chatter and activities
 

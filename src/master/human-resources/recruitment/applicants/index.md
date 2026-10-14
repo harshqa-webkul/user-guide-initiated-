@@ -35,7 +35,7 @@ The applicant is still in the process. A small **State** tells you how they are 
 
 - **In Progress:** you are working on them. This is the default.
 - **Ready for next stage:** the work in this stage is done.
-- **Blocked:** something stops the process. Blocked applicants no longer show in the main applicant list.
+- **Blocked:** something stops the process. Blocked applicants no longer show in the main applicant list. To find them, apply the **Blocked** view in the [applicant list](applicant-list.md).
 
 These three names are the defaults. A stage can use its own labels. See [Stages](../setup/stages.md).
 
@@ -49,7 +49,7 @@ You turned the applicant down and gave a reason. The page shows **Refused**. You
 
 ### Archived
 
-An applicant that is no longer active appears under the **Archived** tab of the list.
+An applicant that is no longer active appears under the **Archived** tab of the list. Refusing an applicant makes it inactive, so refused applicants show there too.
 
 ## Pages in this section
 

@@ -22,7 +22,7 @@ This group takes you through one full hiring, from an open job position to a new
 ## Before you start
 
 ::: info Prerequisite
-You need access to the **Recruitments** app. The stages, the refuse reasons and the job position **Warehouse Supervisor** (department **Operations**) already exist in the sample data.
+You need access to the **Recruitments** app. The stages and refuse reasons exist in the sample data. Create the job position **Warehouse Supervisor** (department **Operations**) in [Job positions](../job-positions/job-positions.md) if you do not have it.
 :::
 
 ## Where to go next

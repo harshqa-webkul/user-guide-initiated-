@@ -46,7 +46,7 @@ Sample mediums are **Phone**, **Direct**, **Email**, **Banner**, **X**, **Facebo
 
 ## Where they are used
 
-The applicant form has a **Source & Medium** section with a **Source** field and a **Medium** field. Pick one value from each. For Rahul Verma, you could choose **LinkedIn** as the source and **Email** as the medium.
+The applicant form has a **Source & Medium** section with a **Source** field and a **Medium** field. Pick one value from each. For Rahul Verma, you could choose **Referral** as the source and **Email** as the medium.
 
 ::: info
 Sources and mediums are shared records. Other apps that track campaigns read the same lists.

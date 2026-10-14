@@ -2,10 +2,12 @@
 
 This tutorial follows one applicant from first contact to employee. You check the setup, add the applicant, move him through the stages and create his employee profile. Then you refuse a second applicant and bring her back. The example is a hire for the job position **Warehouse Supervisor**.
 
-> **In simple words:** An applicant is a person who applies for a job. You move that person through stages until you hire or refuse them.
+> **In simple words:** You move each applicant through stages until you hire or refuse them.
+
+Two words matter here. A **candidate** is the person, with name and contact details. An **applicant** is that person applying for one job. You create the candidate first.
 
 ::: info Prerequisite
-The stages and the job position **Warehouse Supervisor** exist in the sample data. You need a user to act as recruiter. This tutorial uses **ERP Admin**.
+The stages exist in the sample data. The job position **Warehouse Supervisor** exists if you followed [First steps with Employees](../../employees/get-started/first-steps.md). If not, create it in [Job positions](../job-positions/job-positions.md). You need a user to act as recruiter. This tutorial uses **ERP Admin**, or use any user in your system.
 :::
 
 ## Step 1: Check the stages
@@ -13,7 +15,14 @@ The stages and the job position **Warehouse Supervisor** exist in the sample dat
 Stages are the steps every applicant passes through.
 
 1. Open `Recruitments → Configuration → Stages`.
-2. Read the **Stage Name** column. The list shows the last stage first. The applicant screen shows the real order: **New**, **First Interview**, **Initial Qualification**, **Second Interview**, **Document Verification**, **Contract Proposal**, **Contract Signed**.
+2. Read the **Stage Name** column. The list may show the stages in a different order. The stage bar on an applicant uses this order:
+   1. **New**
+   2. **First Interview**
+   3. **Initial Qualification**
+   4. **Second Interview**
+   5. **Document Verification**
+   6. **Contract Proposal**
+   7. **Contract Signed**
 3. Find **Contract Signed**. Its **Hired Stage** column shows a green tick. An applicant who reaches this stage counts as hired.
 
 <ImagePopup src="/images1/recruitment/gs_stages_list.png" alt="Stages list with a green tick in the Hired Stage column for Contract Signed and red crosses for the other stages" />
@@ -23,7 +32,7 @@ See [Stages](../setup/stages.md) to add or change them.
 ## Step 2: Check the job position
 
 1. Open `Recruitments → Applications → Job Positions`.
-2. Go to page 2 of the cards, or type **Warehouse Supervisor** in the search box.
+2. Type **Warehouse Supervisor** in the search box.
 3. Read the card. The blue button shows how many applicants are in the **New** stage. The three dots menu shows **To Recruitment** and **Applications**.
 
 <ImagePopup src="/images1/recruitment/gs_jobpos_card.png" alt="Warehouse Supervisor card with Sarah Mitchell and My Company, the 1 New Applications button and the open menu showing 2 To Recruitment and 1 Applications" />
@@ -48,9 +57,9 @@ The edit page of the applicant opens. The applicant starts in the stage **New**,
 
 1. Set **Job Positions** to **Warehouse Supervisor**.
 2. Set **Recruiter** to **ERP Admin**. You can also pick an **Interviewer**.
-3. Add a **Tags** value, a **Degree**, an **Availability Date** and the **Department**.
+3. Add a **Tags** value such as `Warehouse Management`, a **Degree** such as `Bachelor`, an **Availability Date** two weeks from today and the **Department** `Operations`.
 4. Enter **Expected Salary** **40000**.
-5. Choose **Source** and **Medium**, for example **LinkedIn**.
+5. Choose **Source** `Referral` and **Medium** `Email`, or any pair from your lists.
 6. Click **Save changes**. Then click the stars to rate the applicant. The rating saves at once.
 
 <ImagePopup src="/images1/recruitment/gs_applicant_filled.png" alt="Edit Applicant form for Rahul Verma with job position, recruiter, interviewer, tags, degree, department, salary, source, medium and two stars filled in" />
@@ -73,6 +82,8 @@ The state tells your team how an applicant is doing inside a stage.
 
 ::: tip
 Clicking another stage resets the state to **In Progress**.
+
+A stage is a step of hiring. The state is how the applicant is doing inside that step. The status is the end result: **Hired** or **Refused**.
 :::
 
 ## Step 6: Hire the applicant
@@ -100,7 +111,7 @@ See [Employee profile](../../employees/employees/employee-profile.md) for what t
 
 ## Step 8: Refuse and restore an applicant
 
-Add a second applicant, **Meera Nair**, for **Warehouse Supervisor** the same way.
+Add a second applicant the same way. Use the full name `Meera Nair`, the email `meera.nair@example.com` and the job position **Warehouse Supervisor**.
 
 1. Open Meera's applicant page and click **Refuse**.
 2. Click the reason **Refused by applicant: salary**.

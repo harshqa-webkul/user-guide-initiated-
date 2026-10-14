@@ -38,7 +38,7 @@ Click the three dots next to the tabs. The **Views** menu lists **Favorite Views
 - **Directly Available**, **Created Recently** and **Stage Updated Recently**: extra views you can apply. The last two list recent applicants.
 
 ::: info
-A view shows rows only when applicants match it. For example, **My Applicants** lists applicants whose recruiter is you. In the sample data, **Refused** and **Directly Available** show no rows.
+A view shows rows only when applicants match it. For example, **My Applicants** lists applicants whose recruiter is you.
 :::
 
 The **Views** menu also has **Add New** and **Reset** at the top.
@@ -55,13 +55,13 @@ The **Views** menu also has **Add New** and **Reset** at the top.
 - **Last Stage**
 - **Refuse Reason**
 
-Choose `-` for no grouping. Set the direction to **Ascending** or **Descending**.
+Choose the dash option (`-`) for no grouping. Set the direction to **Ascending** or **Descending**.
 
 <ImagePopup src="/images1/recruitment/applicants_list_group_by.png" alt="Group by selector showing the options Stage, Job Position, Candidate Name, Responsible, Creation Date, Hired Date, Last Stage and Refuse Reason, next to the Ascending selector" />
 
 ## Columns
 
-Three columns show at first: **Partner Name**, **Applied On** and **Job Position**. Click the column icon. A **Columns** panel opens with a checkbox for each column. Tick the ones you want, then click **Apply columns**. **Reset** restores the default columns. You can add:
+Three columns show at first: **Partner Name**, **Applied On** and **Job Position**. **Partner Name** is the candidate's full name. Click the column icon. A **Columns** panel opens with a checkbox for each column. Tick the ones you want, then click **Apply columns**. **Reset** restores the default columns. You can add:
 
 **Stage**, **Candidate Name**, **Application Status**, **Refuse Reason**, **Evaluation**, **Tags**, **Email**, **Recruiter**, **Interviewer**, **Phone**, **Medium**, **Source**, **Expected Salary** and **Availability Date**.
 

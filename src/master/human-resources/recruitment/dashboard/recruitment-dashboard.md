@@ -4,7 +4,7 @@ The dashboard gives you a quick count of your hiring. It shows active job positi
 
 > **In simple words:** The dashboard shows your hiring numbers at a glance.
 
-Open the top menu group **Dashboard** and click **Recruitment**. The page title is **Dashboard**.
+Open `Dashboard → Recruitment` in the main menu. The page title is **Dashboard**.
 
 ::: info Prerequisite
 The numbers come from applicants. Add some first. See [Add an applicant](../applicants/add-applicant.md).
@@ -18,7 +18,7 @@ The filter bar sits at the top. It has six fields. All start empty, except **Sta
 - **Departments:** a list of departments.
 - **Companies:** a list of companies.
 - **Stages:** a list of recruitment stages.
-- **Status:** choose **All**, **Ongoing**, **Hired**, **Refused** or **Archived**. The default is **All**.
+- **Status:** choose **All**, **Ongoing**, **Hired**, **Refused** or **Archived**. The default is **All**. **Archived** means inactive applicants. Refused applicants are inactive too.
 - **Date Range:** a period. It starts as the current calendar year.
 
 Aureus remembers your **Status** choice during your session. Set it back to **All** when you want the full picture.
@@ -31,7 +31,7 @@ Three cards sit under the title **Job Position Overview**. Each card also shows 
 
 - **Active Job Applications:** the number of active job positions created in the date range.
 - **Total Applications:** the number of applicants created in the date range.
-- **Hired Candidates:** the number of applicants who have a closing date, which means they were hired.
+- **Hired Candidates:** the number of applicants who reached a hired stage and have a **Hired Date**.
 
 <ImagePopup src="/images1/recruitment/dash_stat_cards.png" alt="Three stat cards: Active Job Applications, Total Applications and Hired Candidates" />
 

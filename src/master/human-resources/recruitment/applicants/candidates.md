@@ -35,7 +35,7 @@ You can also create a candidate while [adding an applicant](add-applicant.md).
 
 - **_Degree:_** The highest degree. Create options in [Tags and degrees](../setup/tags-degrees.md).
 - **_Tags:_** Labels that describe the person. You can pick several.
-- **_Manager:_** The user who looks after this candidate.
+- **_Manager:_** The Aureus user who owns this candidate record. It is not the employee's manager.
 - **_Availability Date:_** When the person can start. Pick a day in the calendar.
 
 The **Status** card beside the form has two more items:

@@ -7,7 +7,7 @@ An applicant records that one person applied for one job. You create it by choos
 Open `Recruitments → Applications → Applicants` and click **New Applicant**.
 
 ::: info Before you start
-Create the [job position](../job-positions/job-positions.md) the person applies for. You choose it on the applicant page after you create the record.
+Create the [job position](../job-positions/job-positions.md) the person applies for. You choose it on the applicant page after you create the record. A candidate is the person. See [Candidates](candidates.md).
 :::
 
 ## Worked example
@@ -41,7 +41,11 @@ Rahul Verma applies for **Warehouse Supervisor**. He is not in Aureus yet, so yo
 
 - **_Candidate:_** Required. Choose an existing candidate from the list, or click the **+** button to create one. The candidate form is described in [Candidates](candidates.md).
 
-Everything else lives on the applicant page: [job position](process-applicant.md#details-you-fill-in), recruiter, interviewers, tags, salary and source.
+Everything else lives on the applicant page. Fill in next:
+
+- The [job position](process-applicant.md#details-you-fill-in).
+- The recruiter and interviewers.
+- Tags, salary, source and medium.
 
 ::: tip
 Search the candidate list before you create a new one. One person should have one candidate record.

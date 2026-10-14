@@ -33,7 +33,7 @@ Type in the search box to find a card. Use **Sort by** to order cards by **Name*
 
 Follow these steps for the example position **Warehouse Supervisor**.
 
-1. Find the card. Search for it if it is not on the first page.
+1. Find the card. Type its name in the search box.
 2. Click **New Applications** to see applicants waiting in **New**.
 3. Open the three dots menu.
 4. Click **Applications** to see all its applicants, or **To Recruitment** to edit the target.
@@ -51,7 +51,7 @@ The cards page has no create button. Use the setup page.
 
 <ImagePopup src="/images1/recruitment/jp_create_form.png" alt="Employment Information card filled for Warehouse Supervisor in Operations with Sarah Mitchell as manager, ERP Admin as recruiter and HR Admin as interviewer" />
 
-This example creates **Warehouse Supervisor** in **Operations**. A sample record with this name already exists, but it has fewer details filled in than the form shown here.
+This example creates **Warehouse Supervisor** in **Operations**. If a position with this name already exists, open it and click **Edit** instead of creating a copy. [Employees](../../employees/setup/job-positions.md) uses the same records.
 
 ### Employment Information
 
@@ -88,7 +88,7 @@ Turn **Status** on before you save. A new position starts with **Status** off.
 
 Click **View** on a position in the list. The page is titled **View Job Position**. It shows the same details. The **Workforce Planning** card holds **Expected Employees**, **Current Employees**, **Recruitment Target**, **Employment Type**, **Status** and **Expected Skills**. **Date From** and **Date To** sit in a card above it. The descriptions sit in a card titled **Job Description**. Click **Edit** to change them.
 
-The sample **Warehouse Supervisor** record is in **Operations** and **My Company**. It is **Full-Time** and its **Status** shows a green tick. Its description reads "Leads the warehouse team and keeps stock records accurate." Its **Manager**, **Recruiter**, **Interviewers**, **Job Location**, **Industry** and dates are empty. The card on the cards page shows **Sarah Mitchell**, because the manager comes from the department.
+On the cards page, the manager shown on a card comes from the department when the position has no manager of its own.
 
 <ImagePopup src="/images1/recruitment/jp_view_page.png" alt="View Job Position page for Warehouse Supervisor with Employment Information, Job Description, Date From, Date To and Workforce Planning cards" />
 

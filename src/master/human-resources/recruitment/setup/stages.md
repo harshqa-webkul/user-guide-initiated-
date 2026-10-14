@@ -4,7 +4,7 @@ Stages are the steps of your hiring process. Every applicant sits in one stage a
 
 > **In simple words:** A stage is one step in your hiring process, such as First Interview or Contract Signed.
 
-Open `Recruitments → Configuration → Stages`. In the left menu, **Stages** sits under the group **Job Positions**.
+Open `Recruitments → Configuration → Stages`.
 
 ::: info Prerequisite
 Job positions are optional on a stage. If you want to link them, create them first. See [Job positions](../job-positions/job-positions.md).
@@ -12,7 +12,7 @@ Job positions are optional on a stage. If you want to link them, create them fir
 
 ## Overview
 
-The list shows the columns **Stage Name**, **Job Positions**, **Default Stage**, **Folded** and **Hired Stage**. Each flag shows as an icon. A green tick means yes. A red cross means no. The list shows the last stage first. **New** is the default stage. **New** and **First Interview** are folded. **Contract Signed** is the hired stage. The stage bar on an applicant shows the true order from left to right: **New**, **First Interview**, **Initial Qualification**, **Second Interview**, **Document Verification**, **Contract Proposal**, **Contract Signed**.
+The list shows the columns **Stage Name**, **Job Positions**, **Default Stage**, **Folded** and **Hired Stage**. Each flag shows as an icon. A green tick means yes. A red cross means no. **New** is the default stage. **Contract Signed** is the hired stage. The stage bar on an applicant shows the order from left to right: **New**, **First Interview**, **Initial Qualification**, **Second Interview**, **Document Verification**, **Contract Proposal**, **Contract Signed**.
 
 Drag a row to change the order. Use the filter to find a stage by name or job position. Group the list by name or label.
 
@@ -22,7 +22,7 @@ Drag a row to change the order. Use the filter to find a stage by name or job po
 
 This example adds a stage named **Background Check**.
 
-1. Open `Recruitments → Configuration → Stages`. In the left menu, **Stages** sits under the group **Job Positions**.
+1. Open `Recruitments → Configuration → Stages`.
 2. Click **New Stage**. A full page titled **Create Stages** opens.
 3. Fill in the fields below.
 4. Click **Create**.
@@ -46,7 +46,7 @@ You can rename them per stage. For example, use **Waiting for documents** in a v
 
 ### Additional Information
 
-- **_Job Positions:_** link the stage to the positions that use it. The sample stages are linked to the ten older positions, not to **Warehouse Supervisor**.
+- **_Job Positions:_** link the stage to the positions that use it.
 - **_Folded:_** a toggle. It starts off.
 - **_Hired Stage:_** a toggle. When on, an applicant who enters this stage is marked **Hired**.
 - **_Default Stage:_** a toggle. When on, new applicants start in this stage.
