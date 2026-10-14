@@ -1,6 +1,6 @@
 # Publish and draft
 
-Every page is either a draft or published. A draft is visible only to you in the admin. A published page is visible to everyone on your website. This lets you write and review without showing unfinished work.
+Every page is either a draft or published. A draft is visible in the admin to every user who can open Pages. A published page is visible to everyone on your website. This lets you write and review without showing unfinished work.
 
 > **In simple words:** Draft means hidden. Published means live. **Publish** and **Set as Draft** switch between the two.
 
@@ -70,7 +70,7 @@ Every list and form has a **Locale** switcher. It offers English, Arabic, Spanis
 
 1. Choose a language in the **Locale** switcher.
 2. Enter the **Title**, **Content** and SEO fields in that language.
-3. Click **Save**.
+3. Click **Save changes**.
 
 <ImagePopup src="/images1/website/page_locale_switcher.png" alt="Page edit header with the Locale switcher at the top right" />
 

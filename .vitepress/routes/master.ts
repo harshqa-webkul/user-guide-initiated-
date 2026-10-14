@@ -758,6 +758,14 @@ const routes = [
         ]
       },
       {
+        text: 'Settings',
+        collapsed: true,
+        link: '/master/website/settings/',
+        items: [
+          { text: 'Manage Contacts', link: '/master/website/settings/manage-contacts' },
+        ]
+      },
+      {
         text: 'Pages',
         collapsed: true,
         link: '/master/website/pages/',
@@ -780,16 +788,8 @@ const routes = [
         collapsed: true,
         link: '/master/website/customers/',
         items: [
-          { text: 'Customers', link: '/master/website/customers/customers' },
+          { text: 'Customer List', link: '/master/website/customers/customers' },
           { text: 'Portal and Sign In', link: '/master/website/customers/portal-and-sign-in' },
-        ]
-      },
-      {
-        text: 'Settings',
-        collapsed: true,
-        link: '/master/website/settings/',
-        items: [
-          { text: 'Manage Contacts', link: '/master/website/settings/manage-contacts' },
         ]
       },
     ]

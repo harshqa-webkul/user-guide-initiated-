@@ -25,7 +25,7 @@ Open `Website → Blog Posts`.
 
 ## Create a blog post
 
-Scenario: write **Cloud ERP: Why Small Teams Are Switching** in the category **The Knowledge Vault** with the tag **Tech Savy Blogs**.
+Scenario: write **Cloud ERP: Why Small Teams Are Switching** in the category **The Knowledge Vault** with the tag **Learn and Grow**.
 
 1. Open `Website → Blog Posts` and click **New Post**.
 
@@ -37,7 +37,7 @@ Scenario: write **Cloud ERP: Why Small Teams Are Switching** in the category **T
 
 - **_Title:_** Required. The headline, for example `Cloud ERP: Why Small Teams Are Switching`.
 - **_Slug:_** Built from the title. Aureus locks it after you save. It becomes the post address.
-- **_Sub Title:_** A short line that explains the post.
+- **_Sub Title:_** A short line that explains the post. It shows under the headline.
 - **_Content:_** Required. The article body. Use the editor for headings, lists and links.
 - **_Banner:_** The main picture. Upload an image file.
 
@@ -58,21 +58,17 @@ Scenario: write **Cloud ERP: Why Small Teams Are Switching** in the category **T
 4. Open **Settings**.
 
 - **_Category:_** Required. Pick one, for example **The Knowledge Vault**.
-- **_Tags:_** Pick one or more, for example **Tech Savy Blogs**. Type to search.
+- **_Tags:_** Pick one or more, for example **Learn and Grow**. Type to search.
 
 <ImagePopup src="/images1/website/post_form_settings.png" alt="Settings section with Category The Knowledge Vault and tag Learn and Grow selected" />
 
 You do not choose the author. Aureus uses the user who is logged in.
 
-### Create a tag on the spot
+::: tip Create a tag on the spot
+If the tag does not exist, use the create option in the **Tags** field. Enter a **Name** and pick a **Color**. Save the small form and the new tag is selected.
 
-If the tag does not exist, add it without leaving the form.
-
-1. In **Tags**, use the create option in the field.
-2. Enter a **Name**. Pick a **Color**.
-3. Save the small form. The new tag is now selected.
-
-<ImagePopup src="/images1/website/post_inline_tag.png" alt="Inline create tag modal with Name and Color fields filled" />
+<ImagePopup src="/images1/website/post_inline_tag.png" alt="Inline create tag window with Name and Color fields filled" />
+:::
 
 5. Click **Create**. **Create & create another** saves and opens a blank form. **Cancel** leaves without saving.
 

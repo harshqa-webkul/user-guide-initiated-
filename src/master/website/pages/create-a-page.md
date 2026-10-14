@@ -37,6 +37,9 @@ Scenario: add a page called **Our Team** to the top menu and the footer.
 
 ### SEO
 
+SEO means search engine optimisation. These fields tell search engines what your page is about. You can leave them empty.
+
+
 3. Open the **SEO** section. These fields help search engines describe your page.
 
 - **_Meta Title:_** A short headline for search results.
@@ -49,7 +52,7 @@ Scenario: add a page called **Our Team** to the top menu and the footer.
 
 4. Open the **Settings** section and choose where the link appears.
 
-- **_Is Visible Header Menu:_** Turn on to show the link in the top bar.
+- **_Is Visible Header Menu:_** Turn on to show the link in the site header.
 - **_Is Visible Footer Menu:_** Turn on to list the page under **Useful Links** in the footer.
 
 <ImagePopup src="/images1/website/page_form_settings.png" alt="Settings section with both Is Visible Header Menu and Is Visible Footer Menu switched on" />
@@ -77,7 +80,7 @@ Write short paragraphs. Visitors skim web pages.
 
 After you publish, the page opens at `/pages/our-team`. The title and content fill the main area. If you turned on **Is Visible Header Menu**, the title appears in the top bar next to **Blog**. If you turned on **Is Visible Footer Menu**, it appears under **Useful Links** in the footer.
 
-<ImagePopup src="/images1/website/page_public.png" alt="Public page /pages/our-team in a browser with Our Team in the top bar and content shown" />
+<ImagePopup src="/images1/website/page_public.png" alt="Public page /pages/our-team in a browser with Our Team in the site header and content shown" />
 
 ## Edit a page
 

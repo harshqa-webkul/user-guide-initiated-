@@ -1,6 +1,6 @@
 # Customers
 
-Website customers are the people who use your public site. Each one is a record in the same partner list that Contacts uses. The Website app does not keep a second list. It adds a place to see who can sign in, and a sign-in and register page for visitors.
+Website customers are the people who use your public site. Each one is a record in the same contacts list that Contacts uses. The Website app does not keep a second list. It adds a place to see who can sign in, and a sign-in and register page for visitors.
 
 > **In simple words:** A website customer is a contact. Website only adds the sign-in part.
 
@@ -10,7 +10,7 @@ Open `Website → Customers`.
 
 | Question | Answer |
 | --- | --- |
-| Where is the data stored? | In the partner records, shared with Contacts, Sales, Purchase and Invoices. |
+| Where is the data stored? | In the contact records, shared with Contacts, Sales, Purchase and Invoices. |
 | What happens if I edit a customer here? | The change shows in Contacts and everywhere else. |
 | What does Website add? | The **Portal Access** badge and filter, the **Customer Portal** section, and the public **Register** and **Login** pages. |
 | Who can sign in? | Only contacts with portal access. |

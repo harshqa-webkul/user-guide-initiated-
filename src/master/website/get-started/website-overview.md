@@ -1,6 +1,6 @@
 # Website overview
 
-The Website app has one top bar with a few menus and a dashboard. Each menu controls one part of your public site. This page shows every menu, the dashboard and a map from admin option to public result.
+The Website app has one admin menu bar with a few menus and a dashboard. Each menu controls one part of your public site. This page shows every menu, the dashboard and a map from admin option to public result.
 
 > **In simple words:** Know which admin menu changes which part of the site, and you will never hunt for a setting.
 
@@ -21,7 +21,7 @@ Open the app from the app switcher, then choose **Website**. No setting turns We
 | **Configurations** | `Website → Configurations` | Manage **Categories** and **Tags**. See [Categories and tags](../blog/categories-and-tags.md) |
 | **Settings** | `Website → Settings → Manage Contacts` | Set email, phone and social links. See [Manage contacts](../settings/manage-contacts.md) |
 
-<ImagePopup src="/images1/website/ov_top_bar.png" alt="Website app top bar showing Blog Posts, Pages, Customers, Configurations and Settings menus" />
+<ImagePopup src="/images1/website/ov_top_bar.png" alt="Website app menu bar showing Blog Posts, Pages, Customers, Configurations and Settings menus" />
 
 Every list and form has a **Locale** switcher with English, Arabic, Spanish, Portuguese (Brazil) and French. Titles, content and meta fields can be translated.
 
@@ -74,7 +74,7 @@ This is the map. Each row names an admin option and the part of the public site 
 | **Blog list** (`/blog`) | Published posts, categories and tags | `Website → Blog Posts`, `Configurations` |
 | **Footer Contact Us** | **Email** and **Phone** | `Website → Settings → Manage Contacts` |
 | **Footer Follow Us** icons | Social links | `Website → Settings → Manage Contacts` |
-| **Language list** | The built in languages, shown in the top bar | Fixed |
+| **Language list** | The built in languages, shown in the site header | Fixed |
 | **Login and Register** | Customer accounts | [Portal and sign in](../customers/portal-and-sign-in.md) |
 
 ```text
@@ -90,9 +90,9 @@ A page must be published to appear. A draft page gives a not found error to visi
 
 ## What the visitor sees
 
-The top bar shows Home, your header pages, Blog, a search box, a language list, **Login** and **Register**. The footer shows a short fixed description, **Useful Links**, **Contact Us**, **Follow Us** and a copyright line.
+The site header shows Home, your header pages, Blog, a search box, a language list, **Login** and **Register**. The footer shows a short fixed description, **Useful Links**, **Contact Us**, **Follow Us** and a copyright line.
 
-<ImagePopup src="/images1/website/site_top_bar_footer.png" alt="Public home page with the top bar: Home, header pages, Blog, search, language list, Login and Register" />
+<ImagePopup src="/images1/website/site_top_bar_footer.png" alt="Public home page with the site header: Home, header pages, Blog, search, language list, Login and Register" />
 
 ## See also
 

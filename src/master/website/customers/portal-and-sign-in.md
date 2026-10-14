@@ -1,6 +1,6 @@
 # Portal and sign-in
 
-Visitors can create an account on your public site and sign in later. The account is a contact in your partner list. On the admin side you see who has access, and you can grant, change or remove it.
+Visitors can create an account on your public site and sign in later. The account is a contact in your contacts list. On the admin side you see who has access, and you can grant, change or remove it.
 
 > **In simple words:** Visitors register and sign in on the site. You watch and control access from the contact.
 
@@ -12,13 +12,13 @@ Portal actions need the customer portal, which comes with the **Website** plugin
 
 ## What a visitor does
 
-All four pages are on the public site. The top bar has **Login** and **Register** links.
+All four pages are on the public site. The site header has **Login** and **Register** links.
 
 ### Register
 
 Address: `/register`.
 
-1. Click **Register** in the top bar.
+1. Click **Register** in the site header.
 2. Enter **Name**, **Email address**, **Password** and **Confirm password**. All four are required.
 3. Click **Create account**.
 
@@ -30,7 +30,7 @@ The visitor is now a contact. If a visitor already has an account, the **Log in*
 
 Address: `/login`.
 
-1. Click **Login** in the top bar.
+1. Click **Login** in the site header.
 2. Enter **Email address** and **Password**. Both are required.
 3. Tick **Remember me** to stay signed in.
 4. Click **Sign in**.
@@ -57,9 +57,20 @@ The link in the reset email opens the **Reset password** page.
 2. Enter **New password** and **Confirm new password**.
 3. Click **Reset password**.
 
-<!-- TODO-SCREENSHOT: /images1/website/portal_reset.png | Reset password page with the new password fields filled -->
+The page shows the **Email address** and the two password fields.
 
 The link from **Grant Portal Access** works the same way, so a new customer uses it to choose a first password.
+
+## Grant access to a contact
+
+::: warning
+Outgoing email must be set up first. Without it the contact never gets the link.
+:::
+
+1. Open `Website → Customers` and open the contact.
+2. Open the **Portal Access** menu in the header.
+3. Click **Grant Portal Access**.
+4. The page shows **Portal Access: Granted**. The contact receives an email with a link to choose a password.
 
 ## What you see as admin
 

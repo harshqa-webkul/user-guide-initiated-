@@ -11,7 +11,7 @@ Set contacts  →  Build pages  →  Write blog posts  →  Publish  →  Custom
 
 ## What a visitor sees
 
-Your site is served at its own address, with the home page at `/`.
+Your site is served at the address of Aureus without `/admin`, with the home page at `/`. Open it in a new browser tab.
 
 | Public address | What the visitor sees |
 | --- | --- |
@@ -20,10 +20,10 @@ Your site is served at its own address, with the home page at `/`.
 | `/blog` | The list of published posts, with category pills, tags and search |
 | `/login` and `/register` | Sign in and create account forms for customers |
 
-Every public page shares a top bar and a footer. The top bar shows Home, the pages you marked for the header menu, and Blog. The footer shows Useful Links, your contact details and Follow Us icons. See the [Website overview](get-started/website-overview.md) for a full map of what each admin option controls.
+Every public page shares a site header and a footer. The site header shows Home, the pages you marked for the header menu, and Blog. The footer shows Useful Links, your contact details and Follow Us icons. See the [Website overview](get-started/website-overview.md) for a full map of what each admin option controls.
 
 ::: info
-**Blog Posts** and **Configurations** (Categories and Tags) need the **Blogs** plugin. Customer portal actions need the customer portal. Without the Blogs plugin you still manage pages, contacts and customers.
+**Blog Posts** and **Configurations** (Categories and Tags) need the **Blogs** plugin. Customer portal actions come with the **Website** plugin. If **Blog Posts** is missing from the menu, the Blogs plugin is not installed. Install it from [Plugins](../general-settings/plugins.md). Without the Blogs plugin you still manage pages, contacts and customers.
 :::
 
 ## Where to go next
