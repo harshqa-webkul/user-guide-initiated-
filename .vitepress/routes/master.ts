@@ -152,25 +152,16 @@ const routes = [
         link: '/master/sales/sales/',
         items: [
           {
-            text: 'Quotations and Orders',
+            text: 'Configuration',
             collapsed: true,
-            link: '/master/sales/sales/quotations-orders/',
+            link: '/master/sales/sales/configuration/',
             items: [
-              { text: 'Create a Quotation', link: '/master/sales/sales/quotations-orders/create-quotation' },
-              { text: 'Optional Products', link: '/master/sales/sales/quotations-orders/optional-products' },
-              { text: 'Send and Confirm a Quotation', link: '/master/sales/sales/quotations-orders/send-and-confirm-quotation' },
-              { text: 'Manage Orders', link: '/master/sales/sales/quotations-orders/manage-orders' },
-              { text: 'Manage Customers', link: '/master/sales/sales/quotations-orders/manage-customers' },
-            ]
-          },
-          {
-            text: 'Invoicing',
-            collapsed: true,
-            link: '/master/sales/sales/invoicing/',
-            items: [
-              { text: 'Invoicing Policies', link: '/master/sales/sales/invoicing/invoicing-policies' },
-              { text: 'Order to Invoice', link: '/master/sales/sales/invoicing/order-to-invoice' },
-              { text: 'Order to Upsell', link: '/master/sales/sales/invoicing/order-to-upsell' },
+              { text: 'Settings', link: '/master/sales/sales/configuration/settings' },
+              { text: 'Product Categories', link: '/master/sales/sales/configuration/product-categories' },
+              { text: 'Product Attributes', link: '/master/sales/sales/configuration/product-attributes' },
+              { text: 'Packagings', link: '/master/sales/sales/configuration/packagings' },
+              { text: 'Tags', link: '/master/sales/sales/configuration/tags' },
+              { text: 'UOM Categories', link: '/master/sales/sales/configuration/uom-categories' },
             ]
           },
           {
@@ -186,16 +177,25 @@ const routes = [
             ]
           },
           {
-            text: 'Configuration',
+            text: 'Quotations and Orders',
             collapsed: true,
-            link: '/master/sales/sales/configuration/',
+            link: '/master/sales/sales/quotations-orders/',
             items: [
-              { text: 'Settings', link: '/master/sales/sales/configuration/settings' },
-              { text: 'Product Categories', link: '/master/sales/sales/configuration/product-categories' },
-              { text: 'Product Attributes', link: '/master/sales/sales/configuration/product-attributes' },
-              { text: 'Packagings', link: '/master/sales/sales/configuration/packagings' },
-              { text: 'Tags', link: '/master/sales/sales/configuration/tags' },
-              { text: 'UOM Categories', link: '/master/sales/sales/configuration/uom-categories' },
+              { text: 'Manage Customers', link: '/master/sales/sales/quotations-orders/manage-customers' },
+              { text: 'Create a Quotation', link: '/master/sales/sales/quotations-orders/create-quotation' },
+              { text: 'Optional Products', link: '/master/sales/sales/quotations-orders/optional-products' },
+              { text: 'Send and Confirm a Quotation', link: '/master/sales/sales/quotations-orders/send-and-confirm-quotation' },
+              { text: 'Manage Orders', link: '/master/sales/sales/quotations-orders/manage-orders' },
+            ]
+          },
+          {
+            text: 'Invoicing',
+            collapsed: true,
+            link: '/master/sales/sales/invoicing/',
+            items: [
+              { text: 'Invoicing Policies', link: '/master/sales/sales/invoicing/invoicing-policies' },
+              { text: 'Order to Invoice', link: '/master/sales/sales/invoicing/order-to-invoice' },
+              { text: 'Order to Upsell', link: '/master/sales/sales/invoicing/order-to-upsell' },
             ]
           },
         ]

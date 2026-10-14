@@ -6,16 +6,16 @@ This group covers the first half of the sales story: your customers, the offers 
 
 ## The flow
 
-Here is one sale from start to finish. Brightway Offices wants 10 office chairs.
+Here is one sale from start to finish. Azure Interiors wants 5 Camping Hammocks and 10 Smart LED Desk Lamps.
 
-1. **Customer.** You add Brightway Offices as a customer. See [Manage customers](./manage-customers.md).
-2. **Quotation.** You create a quotation for 10 chairs with prices and a payment term. See [Create a quotation](./create-quotation.md).
-3. **Send.** You email the quotation to Brightway. See [Send and confirm a quotation](./send-and-confirm-quotation.md).
-4. **Confirm.** Brightway agrees, so you confirm the quotation.
+1. **Customer.** You add Azure Interiors as a customer. See [Manage customers](./manage-customers.md).
+2. **Quotation.** You create a quotation for the hammocks and lamps with prices and a payment term. See [Create a quotation](./create-quotation.md).
+3. **Send.** You email the quotation to Azure Interiors. See [Send and confirm a quotation](./send-and-confirm-quotation.md).
+4. **Confirm.** Azure Interiors agrees, so you confirm the quotation.
 5. **Order.** The quotation is now a sales order. You follow it on [Manage orders](./manage-orders.md).
-6. **Delivery.** The warehouse ships the chairs.
+6. **Delivery.** The warehouse ships the goods.
 7. **Invoice.** You create the invoice from the order. See [Invoicing](../invoicing/index.md).
-8. **Payment.** Brightway pays, and you record the payment against the invoice.
+8. **Payment.** Azure Interiors pays, and you record the payment against the invoice.
 
 ## Payment
 
