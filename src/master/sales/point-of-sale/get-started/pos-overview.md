@@ -14,7 +14,7 @@ Open the **Point of Sale** app. The top menu has six entries.
 
 The **Dashboard** shows one card for each register. A card tells you the register name, its type (restaurant or retail) and whether a session is open. Click **Continue Selling** to go back to an open session. Click **Open Register** to start a new one.
 
-Below the cards you find filters (**Terminals**, **Date Range**, **Products**, **POS Categories**, **Salespersons**, **Customers**). The figures **Open Sessions**, **Orders**, **Revenue** and **Failed Operations** follow those filters. A **Top Products** chart sits underneath. See [Dashboard](../reporting/dashboard.md).
+A second screen shows filters (**Terminals**, **Date Range**, **Products**, **POS Categories**, **Salespersons**, **Customers**), the figures **Open Sessions**, **Orders**, **Revenue** and **Failed Operations**, and a **Top Products** chart. See [Dashboard](../reporting/dashboard.md).
 
 ### Orders
 

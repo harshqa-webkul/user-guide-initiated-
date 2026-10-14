@@ -216,6 +216,27 @@ const routes = [
             ]
           },
           {
+            text: 'Payments Setup',
+            collapsed: true,
+            link: '/master/sales/point-of-sale/payments-setup/',
+            items: [
+              { text: 'Payment Methods', link: '/master/sales/point-of-sale/payments-setup/payment-methods' },
+              { text: 'Coins and Bills', link: '/master/sales/point-of-sale/payments-setup/coins-and-bills' },
+              { text: 'Preparation Printers', link: '/master/sales/point-of-sale/payments-setup/preparation-printers' },
+              { text: 'Floors and Notes', link: '/master/sales/point-of-sale/payments-setup/restaurant-floors-and-notes' },
+            ]
+          },
+          {
+            text: 'Products and Pricing',
+            collapsed: true,
+            link: '/master/sales/point-of-sale/products-pricing/',
+            items: [
+              { text: 'Products', link: '/master/sales/point-of-sale/products-pricing/products' },
+              { text: 'Categories and Attributes', link: '/master/sales/point-of-sale/products-pricing/categories-and-attributes' },
+              { text: 'Pricing and Taxes', link: '/master/sales/point-of-sale/products-pricing/pricing-and-taxes' },
+            ]
+          },
+          {
             text: 'Sessions',
             collapsed: true,
             link: '/master/sales/point-of-sale/sessions/',
@@ -247,27 +268,6 @@ const routes = [
               { text: 'Orders', link: '/master/sales/point-of-sale/orders-payments/orders' },
               { text: 'Payments', link: '/master/sales/point-of-sale/orders-payments/payments' },
               { text: 'Customers', link: '/master/sales/point-of-sale/orders-payments/customers' },
-            ]
-          },
-          {
-            text: 'Products and Pricing',
-            collapsed: true,
-            link: '/master/sales/point-of-sale/products-pricing/',
-            items: [
-              { text: 'Products', link: '/master/sales/point-of-sale/products-pricing/products' },
-              { text: 'Categories and Attributes', link: '/master/sales/point-of-sale/products-pricing/categories-and-attributes' },
-              { text: 'Pricing and Taxes', link: '/master/sales/point-of-sale/products-pricing/pricing-and-taxes' },
-            ]
-          },
-          {
-            text: 'Payments Setup',
-            collapsed: true,
-            link: '/master/sales/point-of-sale/payments-setup/',
-            items: [
-              { text: 'Payment Methods', link: '/master/sales/point-of-sale/payments-setup/payment-methods' },
-              { text: 'Coins and Bills', link: '/master/sales/point-of-sale/payments-setup/coins-and-bills' },
-              { text: 'Preparation Printers', link: '/master/sales/point-of-sale/payments-setup/preparation-printers' },
-              { text: 'Floors and Notes', link: '/master/sales/point-of-sale/payments-setup/restaurant-floors-and-notes' },
             ]
           },
           {
