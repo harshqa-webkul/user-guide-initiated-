@@ -27,7 +27,7 @@ A refund is a bill you reverse with the **Refund** button. Its number depends on
 - If the journal has **Dedicated Credit Note Sequence** on, refunds use their own counter. Their prefix gets an `R`, so you see `RBILL/2026/00006`.
 - If the toggle is off, refunds share the counter of the bills.
 
-Set this toggle in `Accounting → Configurations → Journals`. Open the **Vendor Bills** journal and find it under **Accounting Information**. See [Journals](../get-started/journals.md).
+Set this toggle in `Accounting → Configurations → Accounting → Journals`. Open the **Vendor Bills** journal and find it under **Accounting Information**. See [Journals](../get-started/journals.md).
 
 ## See and change the sequence
 
@@ -47,7 +47,7 @@ On the edit form you can change the **Name**, **Prefix**, **Suffix**, **Number P
 - You can only raise **Next Number**. You cannot lower it.
 - Aureus checks this so two bills never share a number.
 - To skip numbers, enter a higher value. The next bill uses it.
-- To start again from 1, delete the sequence. Aureus rebuilds it from the highest number that exists.
+- Deleting the sequence does not restart at 1. Aureus rebuilds it after the highest number that exists.
 
 ::: warning
 Do not lower a counter to reuse numbers. Posted bills keep their numbers, and gaps in a series are normal.

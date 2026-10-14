@@ -6,7 +6,7 @@ A vendor bill is the invoice your supplier sends you. You enter it in Aureus so 
 
 Open the list with `Invoices → Vendors → Bills` or `Accounting → Vendors → Bills`. Both apps show the same screen.
 
-In this page we use one example. The vendor **FreshFoods Wholesale** sends a bill for 200 kg of Wheat Flour at $40.00 per kg.
+In this page we use one example. The vendor **FreshFoods Wholesale** sends a bill for 200 kg of Wheat Flour at $40.00 per kg. Other pages follow a larger bill, **BILL/2026/4**, for the same vendor. The steps are the same.
 
 ## The bill list
 

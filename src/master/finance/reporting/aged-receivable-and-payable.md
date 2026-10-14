@@ -44,7 +44,7 @@ Example. As of Oct 12, 2026 the report shows one partner.
 | --- | --- | --- |
 | Azure Interiors | 1,207.50 | 1,207.50 |
 
-Invoice INV/2026/1 has no due date, so Aureus counts it as not late. The amount sits in **At Date**. If it had a due date of Sep 1, 2026, it would sit in **31-60**.
+Invoice INV/2026/1 is not late yet, so the amount sits in **At Date**. If its due date were Sep 1, 2026, it would sit in **31-60**.
 
 Aged Payable on the same date shows the message "No receivables found for the selected criteria." The only bill is paid.
 

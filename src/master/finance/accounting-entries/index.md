@@ -11,6 +11,10 @@ These screens exist in the Accounting app only. Open them from `Accounting → J
 - **Journal entry:** One record with a number, a date, a journal and a status. Example: `INV/2026/1`.
 - **Journal item:** One line of an entry. It names an account, a partner, a label, and an amount in **Debit** or **Credit**.
 
+::: info Debit and credit
+**Debit** and **Credit** are the two sides of an entry. Money that comes in or an asset that grows is a debit. Money that goes out or a debt that grows is a credit. The two sides always match.
+:::
+
 Every entry holds two or more items. The total debit should equal the total credit. That is the rule of double entry.
 
 ## How documents create entries

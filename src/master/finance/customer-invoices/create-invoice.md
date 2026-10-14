@@ -6,6 +6,10 @@ An invoice asks a customer to pay for what you sold. It lists the products, the 
 
 You use invoices every time you sell something and want to be paid. If the sale started in the **Sales** app, create the invoice from the order instead. See [Order to invoice](../../sales/sales/invoicing/order-to-invoice.md).
 
+::: info About the example
+This page builds a small invoice for 4 Camping Hammocks ($299.00). Other pages in this guide follow a larger invoice, **INV/2026/1**, for the same customer. The steps are the same.
+:::
+
 Open the invoice list with `Invoices → Customers → Invoices` or `Accounting → Customers → Invoices`. Both apps show the same screen.
 
 In this page we use one example. The customer **Azure Interiors** buys 4 Camping Hammocks and must pay in 30 days.

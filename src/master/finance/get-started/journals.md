@@ -57,7 +57,7 @@ The list shows **Name**, **Type**, **Code**, **Currency** and **Created By**. Th
 
 - **_Dedicated Credit Note Sequence:_** Sale and Purchase journals only. Turn on to number credit notes separately from invoices.
 - **_Dedicated Payment Sequence:_** Bank, Cash and Credit Card journals only. Turn on to number payments separately from other entries.
-- **_Sort:_** A short code for the journal, such as `MBNK`. It shows in the **Code** column of the journal list.
+- **_Sort:_** The short code of the journal, such as `MBNK`. The form calls it **Sort**. The list shows it in the **Code** column.
 - **_Currency:_** An active currency for the journal. Leave it empty to use the company currency. On Bank, Cash and Credit Card journals, changing it resets the payment lines to the default manual method.
 - **_Color:_** A colour for the journal.
 - **_Default Account:_** The account used for the journal's main lines. Required.
