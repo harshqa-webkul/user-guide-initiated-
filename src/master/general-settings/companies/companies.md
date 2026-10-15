@@ -1,6 +1,6 @@
 # Companies
 
-A **company** is a legal entity that you run in Aureus ERP. Each company has its own details, address, currency, logo and optional branches. Users are given access to companies, and records are kept per company. You manage companies from the **Companies** tab of the Settings app.
+A **company** is a legal entity that you run in Aureus ERP. Each company has its own details, address, currency, logo and optional branches. Users are given access to companies, and records are kept per company. Your system starts with one company. Add another for a separate legal entity. Add a branch for a site that reports to a company. You manage companies from the **Companies** tab of the Settings app.
 
 > **In simple words:** A company holds the identity of your business: name, address, currency, logo and branches.
 
@@ -40,9 +40,9 @@ Use the filters **Status** and **Country** to narrow the list. You can also grou
 ### Company Information
 
 - **_Company Name:_** The name. It must be unique. Required.
-- **_Registration Number:_** The legal registration number.
-- **_Company ID:_** A unique identifier for the company.
-- **_Tax ID:_** The tax number. It must be unique.
+- **_Registration Number:_** The number in the government register, for example `U12345KA2010PTC000001`.
+- **_Company ID:_** Your own code for the company, for example `CMP-001`.
+- **_Tax ID:_** The tax number, for example `29ABCDE1234F1Z5`. It must be unique.
 - **_Website:_** The web address. It must be a valid URL and unique.
 
 ### Address Information
@@ -58,7 +58,7 @@ Use the filters **Status** and **Country** to narrow the list. You can also grou
 
 ### Additional Information
 
-- **_Default Currency:_** The currency of the company. Required. Use the plus icon to create a currency with **Currency Name**, **Currency Full Name**, **Currency Symbol**, **Currency ISO Numeric**, **Currency Decimal Places**, **Currency Rounding** and **Currency Status**.
+- **_Default Currency:_** The currency of this company's books. Required. The system-wide **Base Currency** is set in [Manage currency](./currency.md). Use the plus icon to create a currency with **Currency Name**, **Currency Full Name**, **Currency Symbol**, **Currency ISO Numeric**, **Currency Decimal Places**, **Currency Rounding** and **Currency Status**.
 - **_Company Foundation Date:_** The date the company was founded.
 
 Your installed modules or custom fields may add more fields here. See [Custom fields](../customization/custom-fields.md).
@@ -72,8 +72,8 @@ Your installed modules or custom fields may add more fields here. See [Custom fi
 
 ### Contact Information
 
-- **_Phone Number:_** The main phone.
-- **_Phone Number:_** The mobile phone. The form uses this label twice, once for each field.
+- **_Phone Number_** (first field): The main phone.
+- **_Phone Number_** (second field): The mobile phone. The form uses this label twice.
 - **_Email Address:_** The company email.
 
 ## Add a branch
@@ -81,7 +81,7 @@ Your installed modules or custom fields may add more fields here. See [Custom fi
 A branch is a company that belongs to another company. You add it on the parent company.
 
 1. Open a company and scroll to the **Branches** table.
-2. Click the create button.
+2. Click **New Branch**, or the create button of the table.
 
    <ImagePopup src="/images1/general-settings/company_branch_form.png" alt="Branch form with the General Information, Address Information and Contact Information tabs" />
 

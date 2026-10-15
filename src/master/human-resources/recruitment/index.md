@@ -2,13 +2,22 @@
 
 The Recruitment app helps you fill open roles. You keep each role as a job position, record every person who applies, and move each applicant through hiring stages. When someone is hired, you turn the applicant into an employee with one button. If someone is not a fit, you refuse the application with a reason and can reopen it later.
 
-> **In simple words:** Recruitment is the place where you track who applied for which job and how far each person has got.
+> **In simple words:** Recruitment tracks who applied for which job and how far each person has got.
 
-Open the **Recruitment** app from the main menu for the dashboard. Open **Recruitments** for the daily work. It has two tabs: **Applications** and **Configuration**.
+## Four words you will see
+
+- **Candidate:** the person, with contact details and skills.
+- **Applicant:** that person applying for one job position.
+- **Stage:** a step of hiring, such as **First Interview**.
+- **Status:** the result. An applicant is **Hired** or **Refused**, or has no status while still ongoing.
+
+## Where to click
+
+In the main menu, **Dashboard → Recruitment** opens the dashboard. **Recruitments** is the menu for daily work. It has two tabs: **Applications** and **Configuration**.
 
 ## How an applicant moves through Aureus
 
-Follow these steps in order the first time.
+Follow these steps in order the first time. Read [Setup](setup/index.md) if you want to change the sample stages.
 
 1. Define the job position, for example **Warehouse Supervisor**.
 2. An applicant arrives. You add the person and link the job position.
@@ -41,9 +50,9 @@ The [first steps tutorial](get-started/first-steps.md) follows one applicant, **
 | Record | What you will find |
 | --- | --- |
 | Stages | New, First Interview, Initial Qualification, Second Interview, Document Verification, Contract Proposal, Contract Signed |
-| Refuse reasons | Seven, such as **Duplicate** and **Refused by applicant: salary** |
-| Job positions | 14, including **Warehouse Supervisor** and **Software Engineer** |
-| Applicants | Seven sample applicants, for example **Chloe Dubois** (Hired) |
+| Refuse reasons | Several, such as **Duplicate** and **Refused by applicant: salary** |
+| Job positions | Sample positions such as **Software Engineer** |
+| Applicants | A few sample applicants |
 | Tags, degrees, sources, mediums | Ready-made lists for the applicant form |
 
 ## Pages in this module

@@ -17,7 +17,7 @@ The list opens on the **My Equipment** tab. It shows only items where you are th
 - **Default:** All active equipment.
 - **My Equipment:** Items where you are the Owner. This tab is selected when the page opens.
 - **Assigned:** Items that have an Owner.
-- **Unassigned:** Items with no Owner.
+- **Unassigned:** Items with no Owner. Owner is not the same as Technician.
 - **Archived:** Items you archived.
 
 <ImagePopup src="/images1/maintenance/eq_list_tabs.png" alt="Equipment list tab bar with Default, My Equipment, Assigned, Unassigned and Archived" />
@@ -64,15 +64,19 @@ Click a row to open its **View** page. Each row has these actions:
 
 Archiving hides equipment that you no longer use, but keeps its history.
 
-1. On the **Hydraulic Press 200T** row, click **Delete**.
-2. A window titled "Delete Hydraulic Press 200T" asks "Are you sure you would like to do this?". Click **Delete**. Click **Cancel** to stop.
+::: warning Use a test item
+Create a test item first, for example `Old Forklift`. Do not archive **Hydraulic Press 200T**. The other pages need it.
+:::
+
+1. On the row of the equipment, click **Delete**.
+2. A window titled with the equipment name, for example "Delete Old Forklift", asks "Are you sure you would like to do this?". Click **Delete**. Click **Cancel** to stop.
 3. Open the **Archived** tab. The item is listed there.
 
 <ImagePopup src="/images1/maintenance/eq_list_archived.png" alt="Archived tab showing the single archived equipment, Hydraulic Press 200T, with Restore and Force delete links in its row" />
 
 On the **Archived** tab, each row shows two links:
 
-- **Restore:** Opens a window titled "Restore Hydraulic Press 200T" with **Cancel** and **Restore**. After you confirm, the message "Equipment restored" appears with "The equipment has been restored successfully."
+- **Restore:** Opens a window titled with the equipment name and with **Cancel** and **Restore**. After you confirm, the message "Equipment restored" appears with "The equipment has been restored successfully."
 - **Force delete:** Removes the item for good. The message "Equipment deleted" appears.
 
 ::: warning

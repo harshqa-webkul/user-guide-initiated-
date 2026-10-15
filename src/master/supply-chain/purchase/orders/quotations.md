@@ -41,11 +41,11 @@ Scenario: you need 20 **SSD 512GB** from **FreshFoods Wholesale**.
 - **_Vendor:_** Required. Pick the supplier. Create one in [Contacts](../../../getting-started/contacts/contacts.md) first if needed.
 - **_Vendor Reference:_** The vendor's own quote or order number. It helps match their delivery note.
 - **_Agreement:_** Link a blanket order or template. Shown only with **Purchase Agreements** on.
-- **_Currency:_** Required. The default is **USD**.
-- **_Confirmation Date:_** Appears after the order is sent. It shows when you confirmed.
+- **_Currency:_** Required. It defaults to your company currency.
+- **_Confirmation Date:_** Aureus fills it in when you click **Confirm Order**.
 - **_Order Deadline:_** Required. The last day the vendor can accept.
 - **_Expected Arrival:_** The date you want the goods.
-- **_Deliver To:_** Required with Inventory. The receiving operation, such as **My Company: Receipts**.
+- **_Deliver To:_** Required with Inventory. The warehouse receipt type that receives the goods, such as **My Company: Receipts**. Keep the default for one warehouse.
 
 3. Open the **Products** tab and click **Add Product**.
 

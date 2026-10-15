@@ -8,7 +8,7 @@ Open `Time Off → Management → Allocation`.
 
 ::: info Before you start
 - The employee exists. See [Employees](../../employees/employees/add-employee.md).
-- The leave type exists. See [Time off types](../setup/time-off-types.md).
+- The leave type exists. See [Leave types](../setup/time-off-types.md).
 :::
 
 ## Overview
@@ -16,13 +16,13 @@ Open `Time Off → Management → Allocation`.
 The page is titled **Allocations**. It opens on the **Waiting For Me** tab.
 
 - **Tabs:** **Default**, **Waiting For Me**, **Second Approval** and **Approved**.
-- **Kebab menu (three dots):** preset views **Currently Valid**, **My Team**, **My Department** and **Refused**.
+- **Three-dot menu next to the tabs:** preset views **Currently Valid**, **My Team**, **My Department** and **Refused**.
 - **_Columns:_** **Employee**, **Time Off Type**, **Amount**, **Allocation Type**, **Status**.
 - **Group by:** **Employee Name**, **Time Off Type**, **Allocation Type**, **Status**, **Start Date**.
 
-Click **Default** to see every allocation. A row opens the **View** page. With 25 rows per page, all 14 allocations show.
+Click **Default** to see every allocation. A row opens the **View** page.
 
-<ImagePopup src="/images1/time-off/alloc_mgt_list.png" alt="Allocations list on the Default tab with 14 rows and columns Employee, Time Off Type, Amount, Allocation Type and Status, including Priya Sharma with 12.0000 Paid Time Off and 5.0000 Sick Time Off" />
+<ImagePopup src="/images1/time-off/alloc_mgt_list.png" alt="Allocations list on the Default tab with all rows and columns Employee, Time Off Type, Amount, Allocation Type and Status, including Priya Sharma with 12.0000 Paid Time Off and 5.0000 Sick Time Off" />
 
 ## Create an allocation
 
@@ -60,12 +60,14 @@ Priya Sharma has no days yet. Give her 12 days of **Paid Time Off**.
 
 ## Approve the allocation
 
-11. Open `Time Off → Management → Allocation`. Click the **Default** tab.
-12. Click the three-dot icon on the row of Priya Sharma. Click **Approve**.
+New allocations start as **To Approve**. Approve the allocation so the days count.
+
+1. Open `Time Off → Management → Allocation`. Click the **Default** tab.
+2. Click the three-dot icon on the row of Priya Sharma. Click **Approve**.
 
 <ImagePopup src="/images1/time-off/alloc_mgt_row_actions.png" alt="Row menu on the Priya Sharma allocation, 12.0000, To Approve, with View, Edit, Delete, Approve and Refuse in that order" />
 
-13. Check that the **Status** column shows **Approved**.
+3. Check that the **Status** column shows **Approved**.
 
 <ImagePopup src="/images1/time-off/alloc_mgt_approved.png" alt="Allocations list filtered by Priya showing Priya Sharma, Paid Time Off, 12.0000, Regular, status Approved" />
 
@@ -79,7 +81,7 @@ The days now count. Priya can request leave of this type. The [My Time](../reque
 
 The row menu lists them in this order: **View**, **Edit**, **Delete**, **Approve**, **Refuse**.
 
-The **View** and **Edit** pages show a **State** bar with **To Approve** and **Approved**. The edit page header can show **Approved**, **Refuse** and **Mark as Ready to Confirm**. **Mark as Ready to Confirm** returns a refused allocation to **To Approve**. **Refuse** is hidden once an allocation is refused.
+The **View** and **Edit** pages show a **State** bar with **To Approve** and **Approved**. The edit page header can show **Approved**, **Refuse** and **Mark as Ready to Confirm**. Use the row menu for the quickest approval. **Mark as Ready to Confirm** returns a refused allocation to **To Approve**. **Refuse** is hidden once an allocation is refused.
 
 ::: warning
 Only approved allocations add to the balance. Refuse an allocation if it was entered by mistake, or delete it.
@@ -90,5 +92,5 @@ Only approved allocations add to the balance. Refuse an allocation if it was ent
 - [Time off allocations](index.md)
 - [My allocation](my-allocation.md)
 - [Manage requests](../requests/manage-requests.md)
-- [Time off types](../setup/time-off-types.md)
+- [Leave types](../setup/time-off-types.md)
 - [By Employees report](../reporting/by-employees.md)

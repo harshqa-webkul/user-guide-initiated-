@@ -4,7 +4,7 @@ Setup holds the lists that feed the applicant form and the hiring flow. You set 
 
 > **In simple words:** Setup is where you define stages, reasons, tags and other choices that applicants use.
 
-Open `Recruitments → Configuration`. The menu on the left lists every setup page.
+Open `Recruitments → Configuration`. The menu on the left lists every setup page. Start with the four pages written for Recruitment below.
 
 ## Pages written for Recruitment
 
@@ -17,7 +17,7 @@ Open `Recruitments → Configuration`. The menu on the left lists every setup pa
 
 ## Pages shared with Employees
 
-These records live in the same Configuration menu. Other apps use them too, so they are explained in the Employees guide.
+These records live in the same Configuration menu. Other apps use them too, so some are explained in the Employees guide.
 
 | Page | Why Recruitment needs it |
 | --- | --- |

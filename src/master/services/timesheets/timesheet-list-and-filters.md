@@ -25,7 +25,7 @@ Click the column toggle in the table toolbar to show **Created At** and **Update
 
 ### Time Spent shows hours and minutes
 
-You type decimal hours, but the list shows hours and minutes.
+You type decimal hours, but the list shows hours and minutes. The format is hours:minutes, so `3:0` is 3 hours and 0 minutes.
 
 | Typed | Shown |
 | --- | --- |
@@ -83,11 +83,13 @@ To see Ava Lewis's hours on **Website Revamp** in October 2026:
 
 For more on these tools, see [Search, filter and group records](../../getting-started/search-filter-group.md).
 
-## Edit or delete a row
+## Actions and statuses
+
+### Edit or delete a row
 
 Use **Edit** or **Delete** at the end of a row. See [Log time](log-time.md).
 
-## Delete several entries
+### Delete several entries
 
 1. Tick the boxes at the start of the rows.
 2. Click the bulk **Delete** action.

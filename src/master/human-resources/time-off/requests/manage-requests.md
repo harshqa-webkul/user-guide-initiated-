@@ -52,7 +52,7 @@ Priya Sharma asked for 1 day of Sick Time Off on 26 October.
 
 <ImagePopup src="/images1/time-off/manage_refused_row.png" alt="Time Offs list filtered by Priya with the Paid Time Off request To Approve and the Sick Time Off request for 2026-10-26, 1 working day, Status Refused" />
 
-A refused request does not use any balance.
+A refused request does not use any balance. Refuse does not ask for a reason. To explain the decision, open the request **View** page and write in **Chatter**.
 
 ## Row actions
 
@@ -62,7 +62,7 @@ Open the three-dot menu on a row to use these.
 - **Refuse:** hidden when the request is already **Refused**.
 - **View:** opens the read only page.
 - **Edit:** opens the form.
-- **Delete:** removes the request.
+- **Delete:** removes the request. Its days no longer count against the balance.
 
 Clicking a row also opens **View**. The **View** and **Edit** pages have no **Approve** or **Refuse** button, so use the list.
 

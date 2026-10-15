@@ -1,5 +1,7 @@
 # Timesheet settings
 
+Do this page first. Nothing can be logged until the settings are on.
+
 Timesheets work through three layers of switches and numbers. A global switch turns the feature on, a project switch lets that project take time, and **Allocated Hours** sets the plan. After this, Aureus shows spent time, remaining time and progress on every task.
 
 > **In simple words:** Switch it on once, allow it per project, set the planned hours, and the task totals follow.
@@ -73,7 +75,7 @@ Aureus recalculates the task after every entry you add, edit or delete.
 4. It divides the total by **Allocated Hours** to get **Progress**.
 5. If the task is a sub task, it does the same for the parent.
 
-The parent updates one level up. If you move a task to another project, its entries move with it.
+The parent updates one level up.
 
 ::: tip
 Set **Allocated Hours** before people log time. A task with no planned hours has no **Remaining Time** and 0 **Progress**.

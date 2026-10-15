@@ -7,7 +7,7 @@ Adding an employee creates the record that every other HR task depends on. You e
 Open `Employees → Employees → New Employee`.
 
 ::: info Prerequisite
-The lists on this form come from other pages. Create a [department](../departments/departments.md), a [job position](../setup/job-positions.md), [tags](../setup/tags.md) and a [work location](../setup/work-locations.md) first if you need new ones. Skills are added after saving. See [Skills and resumé](skills-and-resume.md).
+The lists on this form come from other pages. Create a [department](../departments/departments.md), a [job position](../setup/job-positions.md), [tags](../setup/tags.md) and a [work location](../setup/work-locations.md) first if you need new ones. Skills are added after saving. See [Skills and resume](skills-and-resume.md).
 :::
 
 Only **Name** is required. Every other field is optional. Fields do not fill each other. For example, choosing a **Department** does not fill **Manager**, **Coach** or **Job Position**.
@@ -27,6 +27,16 @@ The top block stays visible above all tabs.
 - **_Manager:_** The person this employee reports to.
 - **_Employee Tags:_** Pick several tags. The plus button creates a tag.
 - **_Coach:_** A person who guides the employee, often during the first months.
+
+::: info Who is who
+| Field | Who it is |
+| --- | --- |
+| **Manager** | The employee this person reports to. |
+| **Coach** | An employee who guides this person. |
+| **Time Off** (approver) | The user who approves leave in the Time Off app. |
+| **Attendance Manager** | The user who manages attendance records. |
+| **Related User** | The login of this person. |
+:::
 
 ## Tab: Work Information
 
@@ -87,7 +97,7 @@ Fill **Visa Number**, **Work Permit No**, **Visa Expiration** and **Work Permit 
 ### Employment Status
 
 - **_Active Employee:_** On by default. Turn it off when the person has left. See [Leaving the company](leaving-the-company.md).
-- **_Flexible Work Arrangement_** and **_Fully Flexible Schedule_:** Off by default. Turn them on for staff with flexible hours.
+- **_Flexible Work Arrangement_** and **_Fully Flexible Schedule_:** Off by default. Turn them on for staff with flexible hours. Leave them off if you do not use flexible hours.
 - **_Work Permit Scheduled Activity:_** Off by default.
 - **_Related User:_** The login of this employee. Users that already belong to another employee are greyed out. Click the plus button to create a user. The **Create User** window opens with **Name** and **Email** filled from the employee.
 - **_Departure Reason:_** Leave empty for current staff.
@@ -131,13 +141,13 @@ Priya is the new Warehouse Supervisor in the Operations department.
 
 <ImagePopup src="/images1/employees/emp_add_settings_tab.png" alt="Settings tab with Active Employee turned on" />
 
-12. Click **Create**. A **Employee created** notification says **The employee has been created successfully.** Aureus opens the profile with the **Resumé** tab open. It is empty at first.
+12. Click **Create**. An **Employee created** notification says **The employee has been created successfully.** Aureus opens the profile with the **Resume** tab open. It is empty at first.
 
-<ImagePopup src="/images1/employees/emp_add_saved.png" alt="Profile page of Priya Sharma after saving, with the empty Resumé tab open" />
+<ImagePopup src="/images1/employees/emp_add_saved.png" alt="Profile page of Priya Sharma after saving, with the empty Resume tab open" />
 
 ## Create, Create and create another, Cancel
 
-- **Create:** saves the employee and opens the profile page on the **Resumé** tab.
+- **Create:** saves the employee and opens the profile page on the **Resume** tab.
 - **Create & create another:** saves and opens a blank form. Use it for batch entry.
 - **Cancel:** leaves without saving.
 
@@ -152,6 +162,6 @@ Related User needs a user to exist first. Create one in [Manage users](../../../
 ## See also
 
 - [Employee profile](employee-profile.md)
-- [Skills and resumé](skills-and-resume.md)
+- [Skills and resume](skills-and-resume.md)
 - [Employee list](employee-list.md)
 - [Departments](../departments/departments.md)

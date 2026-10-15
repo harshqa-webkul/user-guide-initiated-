@@ -12,7 +12,7 @@ Your user needs an employee record. Create it in [Employees](../../employees/ind
 
 ## Balance cards
 
-The **Time Off Analysis** block shows one card per leave type that has **Show on Dashboard** turned on. Each card has the type name, your balance and **Valid until** with the end of the current year, for example **Valid until 2026-12-31**. Cards use the colour of the leave type.
+The **Time Off Analysis** block shows one card per leave type that has **Show on Dashboard** turned on. Each card has the type name, your balance and **Valid until** with the end of the current year, for example **Valid until 2026-12-31**. **Valid until** always shows the end of the current year. Cards use the colour of the leave type.
 
 Sarah Mitchell has **Paid Time Off 20.0** and **0.0** for the other types.
 
@@ -20,7 +20,7 @@ Sarah Mitchell has **Paid Time Off 20.0** and **0.0** for the other types.
 
 The last card, **Pending Requests**, counts your requests that are **To Approve**. It carries the line **Time Off Requests**. A request that waits for approval adds 1 here and also lowers the balance of its type at once.
 
-Choose which types appear in [Time off types](../setup/time-off-types.md) with **Show on Dashboard**.
+Choose which types appear in [Leave types](../setup/time-off-types.md) with **Show on Dashboard**.
 
 ## Calendar
 
@@ -63,7 +63,7 @@ Click an event on the calendar. The **View** window has the subtitle **View Time
 
 Open `Time Off → My Time → My Time off`. The page is titled **My Time Offs**. Click **New My Time off** to start a request.
 
-The list shows requests from all employees, including the new ones from this guide.
+The list shows the requests of all employees, not only yours.
 
 - **Columns:** **Employee**, **Time Off Type**, **Description**, **Date From**, **Date To**, **Duration**, **Status**.
 - **Group by:** Employee, Time Off Type, Status, Start Date, End Date.

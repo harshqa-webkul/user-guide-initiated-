@@ -85,7 +85,7 @@ See [Produce and consume](../workflows/produce-and-consume.md).
 
 ## BoM Overview
 
-Open a BoM and click **Overview**. Choose **Quantity** and **Variant** filters. The page shows **Free to Use**, **On Hand** and **Total Cost**. The table lists each component with **Quantity**, **Lead Time**, **Route**, **BoM Cost** and **Product Cost**, plus operation minutes. For BOM-MC-LAPTOP the unit cost is $19,395.29.
+Open a BoM and click **Overview**. Choose **Quantity** and **Variant** filters. The page shows **Free to Use**, **On Hand** and **Total Cost**. The table lists each component with **Quantity**, **Lead Time**, **Route**, **BoM Cost** and **Product Cost**, plus operation minutes. The unit cost depends on current product costs. A worked cost example is on [Manufacturing order costs](manufacturing-order-costs.md).
 
 <ImagePopup src="/images1/manufacturing/bom_overview.png" alt="BoM Overview page for BOM-MC-LAPTOP showing components, Operations rows and Unit Cost" />
 

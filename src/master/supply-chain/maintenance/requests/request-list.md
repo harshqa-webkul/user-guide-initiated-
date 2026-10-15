@@ -22,9 +22,7 @@ When the page opens, the **To Do** tab is selected.
 - **Done:** requests in a Done stage, such as **Repaired** or **Scrap**.
 - **High-priority:** requests with a **Priority** above 0, whatever their stage. A **Repaired** request with priority above 0 still appears here.
 
-Example counts: **Default** 5, **My Maintenances** 0, **To Do** 3, **Done** 2 and **High-priority** 3.
-
-**CNC machine spindle vibration** (**In Progress**, priority 1) shows in **To Do** and **High-priority**. **Hydraulic press oil leak** (priority 2) moves to **Done** after it is **Repaired**. It also stays in **High-priority**, because that tab only checks the **Priority** value.
+Example: **Hydraulic press oil leak** (priority 2) moves to **Done** after it is **Repaired**. It also stays in **High-priority**, because that tab only checks the **Priority** value.
 
 ## More views
 

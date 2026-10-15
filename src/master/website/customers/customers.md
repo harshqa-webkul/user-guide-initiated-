@@ -1,6 +1,6 @@
 # Website customers
 
-The **Customers** page lists every partner record, so you can see your website customers next to your other contacts. You can search them, filter them by portal access, and open one to edit its details or addresses. A customer here is the same record you see in Contacts.
+The **Customers** page lists every contact record, so you can see your website customers next to your other contacts. You can search them, filter them by portal access, and open one to edit its details or addresses. A customer here is the same record you see in Contacts.
 
 > **In simple words:** This is your contact list, opened from the Website app, with a view of who can sign in.
 
@@ -78,7 +78,7 @@ Open a customer to find these pages.
 
 ## Actions and statuses
 
-- **Create Contact:** Saves a new partner.
+- **Create Contact:** Saves a new contact.
 - **Edit:** Changes any detail. The change shows in Contacts too.
 - **Delete:** Moves the contact to **Archived**.
 - **Portal Access** menu: Grants, changes or removes sign-in. See [Portal and sign-in](./portal-and-sign-in.md).

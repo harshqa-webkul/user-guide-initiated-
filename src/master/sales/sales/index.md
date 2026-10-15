@@ -6,6 +6,10 @@ Everything follows one flow: a **customer** receives a **quotation**, the quotat
 
 > **In simple words:** Sales is where you quote, sell and invoice.
 
+## Where to start
+
+Set up in this order: [Configuration](./configuration/index.md), then [Products and prices](./products-prices/index.md), then [Quotations and orders](./quotations-orders/index.md) (add the customer first), then [Invoicing](./invoicing/index.md).
+
 ## How the module is organised
 
 ### Quotations and orders

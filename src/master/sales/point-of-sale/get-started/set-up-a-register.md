@@ -4,6 +4,10 @@ A register is one till, such as the counter of a shop or the floor of a restaura
 
 > **In simple words:** A register is a till with its own rules. Fill in its form once, then sell.
 
+::: warning Minimum to open your first session
+A register needs a receivable account, at least one payment method, a cash journal and tax accounts. A missing item stops the session from opening.
+:::
+
 Before you start, create the items the register needs: [payment methods](../payments-setup/payment-methods.md), [coins and bills](../payments-setup/coins-and-bills.md) and, for a restaurant, [floors](../payments-setup/restaurant-floors-and-notes.md).
 
 ## The register list

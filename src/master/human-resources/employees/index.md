@@ -2,17 +2,17 @@
 
 The Employees app is the people directory of your company. It holds one profile for every person who works for you: name, job, department, manager, contact details, skills and work history. Other apps read these profiles. Time Off asks who a person's approver is. Recruitment turns a hired applicant into an employee.
 
-> **In simple words:** Employees is the single place where you keep who works for you, where they sit in the company and what they can do.
+> **In simple words:** Employees is where you keep who works for you and where they sit.
 
 Open the **Employees** app from the main menu. The top menu shows **Employees**, **Departments**, **Reportings** and **Configurations**.
 
 ## How an employee moves through Aureus
 
-Follow these steps in order the first time.
+Follow these steps in order the first time. The sidebar follows the screens, not this order. Read Departments and Setup before Add an employee.
 
 1. Set up the places people belong to: departments and job positions.
 2. Add the employee with the basic profile.
-3. Build the profile with work details, private details, skills and resumé lines.
+3. Build the profile with work details, private details, skills and resume lines.
 4. Keep the list tidy with search, tabs, filters and groups.
 5. Record the departure when the person leaves.
 
@@ -20,7 +20,7 @@ Follow these steps in order the first time.
 Departments      Job positions
       \              /
        v            v
-     Add employee  ──►  Skills + Resumé  ──►  Employee list  ──►  Departure
+     Add employee  ──►  Skills + Resume  ──►  Employee list  ──►  Departure
 ```
 
 ::: tip Start here
@@ -33,7 +33,7 @@ The [first steps tutorial](get-started/first-steps.md) walks through all five st
 | --- | --- |
 | **Employees** | The list of people as cards. Open a card to see or edit the profile. |
 | **Departments** | Your company structure, shown as cards. A department can have a parent, a manager and its own list of employees. |
-| **Reportings** | A read-only report of skills per employee. |
+| **Reportings** | A read-only report of skills per employee. This guide calls the group Reporting. |
 | **Configurations** | The lists that feed the forms: **Activity Plans**, **Departure Reasons**, **Tags**, **Work Locations**, **Skill Types**, **Employment Types** and **Job Positions**. |
 
 Inside **Configurations**, the left menu has three parts. **Activity Plans** stands alone. **Employee** holds Departure Reasons, Tags, Work Locations and Skill Types. **Recruitment** holds Employment Types and Job Positions.

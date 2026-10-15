@@ -1,6 +1,6 @@
 # Website settings
 
-Settings hold the details that appear on every page of your public site. Today this group has one page, Manage Contacts. It stores your email, phone number and social media links. The footer of your site shows them.
+Settings hold the details that appear on every page of your public site. This group holds the Manage Contacts page. It stores your email, phone number and social media links. The footer of your site shows them.
 
 > **In simple words:** Type your contact details once and every page footer shows them.
 

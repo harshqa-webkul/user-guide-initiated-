@@ -14,6 +14,7 @@ How strict Aureus is about extra or missing components is set on the bill of mat
 | --- | --- |
 | **Allowed** | No warning. Consumed amounts are accepted as typed. |
 | **Allowed with warning** | The **Consumption Warning** window opens if amounts differ. This is the default for a new BoM. |
+| **Blocked** | The same window opens. Use it for recipes where amounts should not change. |
 
 ## Produce All
 

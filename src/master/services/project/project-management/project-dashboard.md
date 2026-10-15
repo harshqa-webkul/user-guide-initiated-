@@ -38,7 +38,7 @@ Three numbers sit at the top.
 - **Total Hours Spent:** logged time.
 - **Total Time Remaining:** allocated time not yet used.
 
-Each number shows a percent change against the previous period. The numbers refresh by themselves every few seconds.
+Each number shows a percent change against the previous period. The numbers refresh by themselves every 15 seconds.
 
 ### Tasks by stage
 

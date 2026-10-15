@@ -1,6 +1,6 @@
 # First steps with Employees
 
-This tutorial takes you through the whole Employees flow with one example. You create a department, a job position and an employee. Then you add private details, a skill and two resumé lines. At the end you find the employee on the list.
+This tutorial takes you through the whole Employees flow with one example. You create a department, a job position and an employee. Then you add private details, a skill and two resume lines. At the end you find the employee on the list.
 
 > **In simple words:** You will add a new warehouse supervisor, Priya Sharma, from nothing to a full profile.
 
@@ -22,7 +22,7 @@ A department groups employees and gives them a manager. Create it first so the j
 - **_Parent Department:_** Leave empty. Use it only for a sub-team.
 - **_Manager:_** Choose **Sarah Mitchell**.
 - **_Company:_** Fills with **My Company**.
-- **_Color:_** Optional. Leave it empty. The card then shows no colour.
+- **_Color:_** Optional. Leave it empty. A colour only marks the department in its organization tree.
 
 <ImagePopup src="/images1/employees/emp_fs_department_form.png" alt="Create Department page filled with Operations, manager Sarah Mitchell and company My Company" />
 
@@ -44,7 +44,7 @@ A job position is a role that exists in your company, such as an open or filled 
 - **_Department:_** Choose **Operations**.
 - **_Company:_** Fills with **My Company**.
 - **_Job Description:_** Type `Leads the warehouse team and keeps stock records accurate.`
-- **_Recruitment Target:_** Type `2`.
+- **_Recruitment Target:_** Type `2`. It is how many people you plan to hire for this role. Recruitment uses it.
 - **_Employment Type:_** Choose **Full-Time**.
 - **_Status:_** Turn it on.
 
@@ -52,9 +52,9 @@ A job position is a role that exists in your company, such as an open or filled 
 
 4. Click **Create**.
 
-The form also shows read-only **No of employee** and **Expected employees** in the right-hand panel. You do not fill them in.
+The form also shows read-only **No of employee** and **Expected employees** in the right-hand panel. Aureus calculates them. You do not fill them in.
 
-See [Job positions](../setup/job-positions.md) for every field.
+See [Job positions](../setup/job-positions.md) for every field. This tutorial lists only the fields that matter. Other pages give the full field lists.
 
 ## Step 3: Add the employee
 
@@ -107,7 +107,7 @@ Open the **Private Information** tab. Fill a few fields to see how it works.
 
 <ImagePopup src="/images1/employees/emp_fs_private_tab.png" alt="Private Information tab with city Pune, country India, emergency contact Anil Sharma and education Bachelor in Logistics" />
 
-3. Click **Create**. A **Employee created** notification says **The employee has been created successfully.** Aureus opens the employee on the **View** page with the **Resumé** tab open. It is empty at first.
+3. Click **Create**. An **Employee created** notification says **The employee has been created successfully.** Aureus opens the employee on the **View** page with the **Resume** tab open. It is empty at first.
 
 **Behind the scenes:** The Settings tab keeps **Active Employee** on, so Priya counts as a current employee. See [Add an employee](../employees/add-employee.md) for all three tabs.
 
@@ -127,9 +127,9 @@ Skills sit on a separate page of the employee.
 
 4. Click **Create**. A **Skill created** notification says **The skill has been created successfully.**
 
-**Behind the scenes:** The skill and level lists change when you change the skill type. The level carries a percentage, shown on the profile as a bar. See [Skills and resumé](../employees/skills-and-resume.md).
+**Behind the scenes:** The skill and level lists change when you change the skill type. The level carries a percentage, shown on the profile as a bar. See [Skills and resume](../employees/skills-and-resume.md).
 
-## Step 5: Add two resumé lines
+## Step 5: Add two resume lines
 
 1. Click **Manage Resumes**, then **Add Resume**.
 2. Fill in the first line.
@@ -138,7 +138,7 @@ Skills sit on a separate page of the employee.
 - **_Type:_** Choose **Experience**.
 - **_Start Date:_** Required. Pick 1 January 2020 in the date picker. You cannot type the date.
 - **_End Date:_** Pick 31 December 2024.
-- **_Display Type:_** Required. Keep **Classic**.
+- **_Display Type:_** Required. Keep **Classic**. It only sets how the line looks on the profile.
 
 <ImagePopup src="/images1/employees/emp_fs_resume_modal.png" alt="Create Employee Resume window for Stock Controller at Metro Traders with type Experience" />
 
@@ -150,9 +150,9 @@ The **Manage Resumes** table shows the columns **Title**, **Start Date**, **End 
 
 <ImagePopup src="/images1/employees/emp_fs_resume_list.png" alt="Manage Resumes table showing the Stock Controller and B.Com lines for Priya Sharma with title, dates and display type columns" />
 
-Open the **View** page and its **Resumé** tab. The resumé lines and the skill now show side by side. The tab shows dates as **01/2020 - 12/2024**.
+Open the **View** page and its **Resume** tab. The resume lines and the skill now show side by side. The tab shows dates as **01/2020 - 12/2024**.
 
-<ImagePopup src="/images1/employees/emp_fs_profile.png" alt="Priya Sharma profile Resumé tab with two resume lines and the Communication skill at 50 percent" />
+<ImagePopup src="/images1/employees/emp_fs_profile.png" alt="Priya Sharma profile Resume tab with two resume lines and the Communication skill at 50 percent" />
 
 ## Step 6: Find Priya on the list
 
@@ -161,7 +161,7 @@ Open the **View** page and its **Resumé** tab. The resumé lines and the skill 
 
 <ImagePopup src="/images1/employees/emp_fs_list_search.png" alt="Employees list searched for Priya showing only the Priya Sharma card" />
 
-3. Clear the search and click the **My Team** tab. It shows the people whose manager is you. If you are signed in as the user linked to **Sarah Mitchell**, Priya is on it.
+3. Clear the search and click the **My Team** tab. It shows the people whose manager is you. If you are signed in as the user linked to **Sarah Mitchell**, Priya is on it. If the tab is empty, your user is not linked to an employee. See **Related User** in [Add an employee](../employees/add-employee.md).
 
 <ImagePopup src="/images1/employees/emp_fs_my_team.png" alt="Employees list on the My Team tab including the Priya Sharma card" />
 
@@ -179,7 +179,7 @@ See [Employee list](../employees/employee-list.md) for tabs, filters and groups.
 | Job position | Warehouse Supervisor |
 | Employee | Priya Sharma |
 | Skill | Soft Skills, Communication, Intermediate |
-| Resumé | Experience and Education lines |
+| Resume | Experience and Education lines |
 
 ## See also
 

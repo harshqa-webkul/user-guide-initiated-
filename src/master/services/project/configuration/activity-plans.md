@@ -24,7 +24,7 @@ The example creates a plan named **Launch follow-up**.
 
    <ImagePopup src="/images1/project/cf_activity_plan_form.png" alt="Activity plan form with name Launch follow-up and Status on" />
 
-3. Click **Create**. The plan is saved and shows in the list. Click **Edit** on its row to add steps.
+3. Click **Create**. The plan is saved and shows in the list. A plan with no steps schedules nothing, so click **Edit** on its row to add steps.
 
 ## Add activity templates
 
@@ -36,7 +36,7 @@ Fill in the sections of the form.
 
 ### Activity Details
 
-- **_Activity Type:_** (required) The kind of activity, such as a call or an email.
+- **_Activity Type:_** (required) The kind of activity, such as a call or an email. See [Activities](../../../getting-started/activities.md).
 - **_Summary:_** A short title for the step.
 - **_Note:_** More detail for the person who does it.
 

@@ -34,7 +34,7 @@ The page then reloads and shows the normal settings form.
 
 ## What it creates
 
-Aureus copies the accounting set-up of a **template company** into your company. The template is the default company from your general settings. If none is set, it is the first company created in the system.
+Aureus copies the accounting set-up of a **template company** into your company. A template company is the company that already holds your chart of accounts, journals and taxes. The template is the default company from your general settings (see [Companies](../../general-settings/companies/companies.md)). If none is set, it is the first company created in the system.
 
 The copy includes:
 

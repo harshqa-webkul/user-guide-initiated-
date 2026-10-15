@@ -2,21 +2,22 @@
 
 Project helps your team plan work, split it into tasks, track time and see progress in one place. A project holds the goal, the people, the dates and the tasks. Everything else in the module supports that.
 
-> **In simple words:** Switch on the features you need, create a project, add tasks, log hours and watch the dashboard.
+> **In simple words:** Switch on the features you need, create a project, add tasks, log hours and read the dashboard.
 
-Open `Project` in the main menu. You see **Projects**, **Tasks**, **Timesheets**, **Configurations** and **Settings**. The **Dashboard** group has a **Project** page.
+Open **Project** from the main menu. The top bar shows **Projects**, **Tasks**, **Timesheets**, **Configurations** and **Settings**. The **Dashboard** menu group is separate. It holds a **Project** page.
 
 ## The flow
 
-Follow these steps once. Later you only repeat steps 4 to 7.
+Follow these steps once. Later you only repeat steps 5 to 8.
 
 1. **Settings.** Choose which features you use: project stages, milestones and timesheets. See [Project settings](get-started/project-settings.md).
-2. **Stages and tags.** Add project stages and tags. Add task stages for each project. See [Project stages and milestones](project-management/project-stages-and-milestones.md) and [Tags](configuration/tags.md).
+2. **Stages and tags.** Add project stages and tags. See [Project stages and milestones](project-management/project-stages-and-milestones.md) and [Tags](configuration/tags.md).
 3. **Project.** Create the project with a customer, a manager and dates. See [Create a project](project-management/create-project.md).
-4. **Milestones.** Mark the key points of the project, such as **Phase 1 Complete** and **Go Live**.
-5. **Tasks.** Break the work into tasks and sub tasks. See [Task management](task-management/index.md).
-6. **Time.** Log the hours people spend. See [Timesheets](../timesheets/index.md).
-7. **Dashboard.** Read the totals by stage, state, person and project. See [Project dashboard](project-management/project-dashboard.md).
+4. **Task stages.** Add the task stages of that project. See [Task stages and states](task-management/task-stages-and-states.md).
+5. **Milestones.** Mark the key points of the project, such as **Phase 1 Complete** and **Go Live**. See [Project stages and milestones](project-management/project-stages-and-milestones.md).
+6. **Tasks.** Break the work into tasks and sub-tasks. See [Task management](task-management/index.md).
+7. **Time.** Log the hours people spend. See [Timesheets](../timesheets/index.md).
+8. **Dashboard.** Read the totals by stage, state, person and project. See [Project dashboard](project-management/project-dashboard.md).
 
 ::: info Three kinds of "stage" and "state"
 A **project stage** is the phase of a whole project, such as **In Progress**. A **task stage** is a column of one project, such as **Review**. A task **State** says how the task itself stands, such as **Approved**. They are separate. See [Task stages and states](task-management/task-stages-and-states.md).

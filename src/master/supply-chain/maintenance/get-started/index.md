@@ -35,6 +35,10 @@ The tutorial uses one machine, a **Hydraulic Press 200T**, from beginning to end
 - Learn each setup record in depth in [Setup](../setup/index.md).
 - See the whole module in the [Maintenance overview](../index.md).
 
+::: info Users and a vendor
+The tutorial names a technician and a supplier. See [Manage users](../../../general-settings/users/manage-users.md).
+:::
+
 ## See also
 
 - [Maintenance overview](../index.md)

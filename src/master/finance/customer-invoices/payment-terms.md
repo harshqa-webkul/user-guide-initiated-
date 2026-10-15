@@ -37,7 +37,7 @@ A term has one or more due terms. Each due term says how much is due and when. C
   - **Days After:** Counts the days from the invoice date.
   - **Days After End of Month:** Counts the days from the end of the invoice month.
   - **Days After End of Next Month:** Counts the days from the end of the month after the invoice month.
-  - **Days End of Month No The:** Adds the days, then moves to a set day of the next month. Use **Days on the next month** to give that day. Enter 0 to land on the end of the month.
+  - **Days End of Month No The:** Adds the days to the invoice date. Then the due date moves to a fixed day of the next month. Use **Days on the next month** to give that day. Enter 0 to land on the end of the month. This is the label as the app shows it.
 - **_Days:_** How many days to add.
 - **_Days on the next month:_** The day of the next month, such as 10. It is hidden at first. Use the column toggle to show it.
 

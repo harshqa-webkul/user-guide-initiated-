@@ -16,7 +16,7 @@ Invoicing turns a confirmed sales order into a customer invoice. The **To Invoic
 The **To Invoice** menu has two pages. Both list sales orders, filtered by their invoice status.
 
 - **Orders To Invoice:** Orders that are ready to be invoiced.
-- **Orders To Upsell:** Orders where the invoice status is **Up Selling**.
+- **Orders To Upsell:** Orders where the invoice status is **Upselling Opportunity**. This happens when you delivered more than the customer ordered.
 
 ## In this group
 

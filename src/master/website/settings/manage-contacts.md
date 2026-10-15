@@ -10,7 +10,7 @@ Open it from `Website → Settings → Manage Contacts`.
 
 ## Contact details
 
-### Contacts
+### Email and phone
 
 **_Email:_** The address shown under **Contact Us** in the footer. Visitors click it to write to you.
 

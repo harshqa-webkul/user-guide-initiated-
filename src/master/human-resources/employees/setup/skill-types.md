@@ -26,6 +26,8 @@ This example makes a new type called **Warehouse Skills**. Aureus already includ
 - **_Color:_** Pick a colour from the list: **Danger**, **Gray**, **Info**, **Success** or **Warning**. For example, **Success** is green and **Danger** is red. A colour dot shows next to each name.
 - **_Status:_** On by default. Switch it off to hide the type from new choices.
 
+A new type starts empty. After you create it, add skills and levels in the sections below.
+
 <ImagePopup src="/images1/employees/set_skilltype_form.png" alt="Create Skill Types window with the name Warehouse Skills, a colour and Status on, with Create and Cancel buttons" />
 
 4. Click **Create**.

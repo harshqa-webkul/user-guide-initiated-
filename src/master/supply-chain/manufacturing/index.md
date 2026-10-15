@@ -4,7 +4,19 @@ Manufacturing turns components into finished products. You describe the recipe o
 
 > **In simple words:** Write the recipe, order a build, do the work, get finished goods in stock.
 
-Open the app from the top bar: `Manufacturing`. It has four menus: **Operations**, **Products**, **Configurations** and **Settings**.
+Open the app from the top bar: `Manufacturing`. It has four menus: **Operations**, **Products**, **Configurations** and **Settings**. The **Work Orders** page appears under **Operations** only after you turn on **Work Orders** in settings.
+
+## Key terms
+
+| Term | Meaning |
+| --- | --- |
+| **Bill of materials (BoM)** | The recipe: which components make one finished product. |
+| **Component** | A product you use up to build another product. |
+| **Manufacturing order (MO)** | One request to build a number of units. |
+| **Operation** | One step of the recipe, such as assembly or packing. |
+| **Work center** | A machine or station that does an operation. |
+| **Work order** | An operation of one MO, to be done at a work center. |
+| **Lot or serial number** | A number that identifies a batch or a single unit. |
 
 ## The whole flow
 
@@ -12,6 +24,8 @@ Open the app from the top bar: `Manufacturing`. It has four menus: **Operations*
 Product + Bill of Materials  →  Warehouse steps  →  Manufacturing order (Draft)
         →  Confirm  →  Plan  →  Work orders  →  Produce All  →  Done
 ```
+
+Plan and Work orders apply only when **Work Orders** is on. Warehouse steps are a one-time setup.
 
 | Stage | What happens | Page |
 | --- | --- | --- |

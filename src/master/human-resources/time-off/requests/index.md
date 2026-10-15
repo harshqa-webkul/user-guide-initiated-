@@ -2,7 +2,7 @@
 
 A time off request is how an employee asks for days away from work, such as a holiday or a sick day. The request names the leave type, the dates and, if needed, a short reason. A manager then approves or refuses it. Aureus keeps the balance up to date and shows approved and pending days on the calendars.
 
-> **In simple words:** You ask for days off, someone with access to Management says yes or no, and the status tells everyone the outcome.
+> **In simple words:** You ask for days off. A manager says yes or no. The status shows the answer.
 
 Menu: `Time Off → My Time`, `Time Off → Overview` and `Time Off → Management → Time off`.
 
@@ -28,7 +28,11 @@ Approved   Refused
 | **Approved** | The days are granted. | A manager clicks **Approve** in the three-dot row menu of `Management → Time off`. |
 | **Refused** | The days are not granted. | A manager clicks **Refuse** in the same menu. |
 
-The list also shows a fourth label, **Second Approval**, as a status name. You do not need it for the steps in this guide.
+The list also shows a fourth label, **Second Approval**. It appears as a tab and a status name. The row action then reads **Validate** instead of **Approve**. Both buttons set the status to **Approved** in one click.
+
+::: tip Change or delete
+Edit or delete a request from its row menu. A deleted request no longer lowers the balance. A refused request does not either.
+:::
 
 ## Pages in this group
 
@@ -41,13 +45,13 @@ The list also shows a fourth label, **Second Approval**, as a status name. You d
 
 ## Running example
 
-The guide follows the same people from page to page.
+The next pages follow two people.
 
-- **Sarah Mitchell** asks for 3 days of **Paid Time Off** for a family function. A manager approves it.
-- **Priya Sharma** asks for **Paid Time Off**, but she has no allocation yet, so Aureus denies it. After she gets an allocation, her request is accepted. Her **Sick Time Off** request, once she has an allocation for it, is refused by a manager.
+- **Sarah Mitchell** asks for 3 days of **Paid Time Off**. A manager approves it.
+- **Priya Sharma** has no allocation, so Aureus denies her first request. After she gets days, it is accepted.
 
 ## See also
 
-- [Time off types](../setup/time-off-types.md)
+- [Leave types](../setup/time-off-types.md)
 - [Allocations](../allocations/index.md)
 - [Employees](../../employees/index.md)

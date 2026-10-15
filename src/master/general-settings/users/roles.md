@@ -13,14 +13,18 @@ Open `Settings → Roles` to see the list of roles.
 The list has these columns:
 
 - **_Name:_** The role name.
-- **_Guard Name:_** The access channel of the role.
+- **_Guard Name:_** **Web** is for people who sign in through the browser. **Sanctum** is for software connections (API). If unsure, keep **Web**.
 - **_Permissions:_** A badge with the number of permissions in the role.
 - **_Updated At:_** The last change date.
+
+::: info Role or Resource Permission?
+A role controls screens and actions. **Resource Permission** on the user controls whose records the user sees. See [Users](./users.md).
+:::
 
 ## Create a role
 
 1. Go to `Settings → Roles`.
-2. Click the create button at the top right.
+2. Click **New Role** at the top right.
 
    <ImagePopup src="/images1/general-settings/role_create_form.png" alt="New role form with the name Regional Sales Manager, the Web guard and the permission tabs" />
 

@@ -34,7 +34,7 @@ Some menus and fields appear only after you turn on a setting. Go to `Purchase â
 | **Packagings** | **Manage Products** | **Packagings** menu and packaging columns |
 
 ::: info
-Receipts need the Inventory app. Without it, an order still works, but no receipt is planned.
+Receipts need the Inventory app. Without it, an order still works, but no receipt is planned. Vendor bills need the Invoices or Accounting app and a purchase journal.
 :::
 
 ## Where to go next

@@ -15,7 +15,7 @@ Open `Maintenance → Configurations → Stages`.
 | **New Request** | No | A problem is reported. Work has not started |
 | **In Progress** | No | A technician is working on it |
 | **Repaired** | Yes | The job is finished |
-| **Scrap** | Yes | The equipment cannot be fixed and is written off |
+| **Scrap** | Yes | The equipment cannot be fixed and is you stop using it |
 
 <ImagePopup src="/images1/maintenance/set_stages_list.png" alt="Maintenance Stages list with New Request, In Progress, Repaired and Scrap, with green Done ticks on Repaired and Scrap" />
 

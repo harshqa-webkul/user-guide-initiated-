@@ -1,6 +1,6 @@
 # By Employees report
 
-The By Employees report lists time off requests grouped by employee. Use it to see who is away, for how long, and which requests still wait for a decision. It helps managers compare the leave taken across the team.
+The By Employees report lists time off requests grouped by employee. Use it to read each person's requests in one place. See the dates, the length and which requests still wait for a decision.
 
 > **In simple words:** One list of requests, with each employee's requests gathered under their name.
 
@@ -27,7 +27,7 @@ The page is titled **By Employees**. It groups rows by **Employee** by default. 
 ## Tabs, grouping and search
 
 1. Click a tab to filter the list. The tabs are **Default**, **Waiting For Me**, **Second Approval** and **Approved**. The report opens on **Waiting For Me**.
-2. Click **Default** to see all requests.
+2. Click **Default** to see all requests. The report opens on **Waiting For Me**, so it hides approved and refused requests until you click **Default**.
 3. Open **Group by** to change the grouping. Choose **Employee**, **Time Off Type**, **Status**, **Start Date** or **End Date**. Use the **Group direction** list to switch between **Ascending** and **Descending**.
 4. Type in the search box to find an employee or a request.
 
@@ -36,7 +36,7 @@ The page is titled **By Employees**. It groups rows by **Employee** by default. 
 Use a row to **View** or **Edit** the request. Approve and refuse requests in [Manage requests](../requests/manage-requests.md).
 
 ::: tip
-Group by **Time Off Type** to see how much of each leave type your team uses.
+Group by **Time Off Type** to see which leave types your team uses. To check a balance, open the cards on [My Time](../requests/my-time.md).
 :::
 
 ## See also

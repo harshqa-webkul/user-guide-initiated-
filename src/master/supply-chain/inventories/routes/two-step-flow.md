@@ -33,7 +33,7 @@ Needs `Inventory → Settings → Manage Warehouses → Multi Steps Routes` and 
 | Delivery | Pick | WH/PICK | WH/Stock → WH/Output |
 | Delivery | Delivery Orders | WH/OUT | WH/Output → Partners/Customers |
 
-The second document appears when you validate the first. The prefixes are the ones used in the dev warehouse.
+The second document appears when you validate the first. The prefixes are the ones used in the example warehouse.
 
 ## Example: receiving
 
@@ -44,9 +44,9 @@ You receive 15 SSD 512GB from Consolidated Components.
 3. Open it from `Inventory → Operations → Transfers → Internal Transfers`.
 4. Click **Validate**. The SSDs move to `WH/Stock`.
 
-The screenshot shows a finished storage transfer, WH/STOR/37, from the three-step dev warehouse. It moves goods from `WH/Quality Control` to `WH/Stock`. In the two-step flow the same kind of document moves goods from `WH/Input` to `WH/Stock`.
+The screenshot shows a finished storage transfer, WH/STOR/37, from the three-step example warehouse. It moves goods from `WH/Quality Control` to `WH/Stock`. In the two-step flow the same kind of document moves goods from `WH/Input` to `WH/Stock`.
 
-<ImagePopup src="/images1/inventory/route_two_step_storage.png" alt="Storage transfer WH/STOR/37 in Done state moving Laptop Chassis and LCD Screen 14-inch from WH/Quality Control to WH/Stock, taken from the three-step dev warehouse" />
+<ImagePopup src="/images1/inventory/route_two_step_storage.png" alt="Storage transfer WH/STOR/37 in Done state moving Laptop Chassis and LCD Screen 14-inch from WH/Quality Control to WH/Stock, taken from the three-step example warehouse" />
 
 On a finished receipt, the **Next Transfer** button jumps to the follow-up document.
 

@@ -38,7 +38,7 @@ Active currencies are listed first. You can search, sort, group by **Name**, **S
 
 ### Create or edit a currency
 
-1. Click the create button, or open a row and click **Edit**.
+1. Click **New Currency**, or open a row and click **Edit**.
 2. Fill in **Currency Information**:
    - **_Currency Name:_** The official name. Required.
    - **_Currency Symbol:_** The sign, for example `$`.

@@ -4,7 +4,7 @@ This tutorial walks through the whole leave flow with one example. You check a b
 
 > **In simple words:** You will book leave for Sarah Mitchell, then set up and test leave for Priya Sharma.
 
-Each step ends with a short note on what Aureus does behind the scenes. Links point to the pages that explain each screen.
+Each step ends with a short note on what Aureus does behind the scenes. Links point to the pages that explain each screen. The dates are in 2026. If they are in the past, pick any future Monday to Wednesday.
 
 ::: info Prerequisite
 Sarah Mitchell is the employee of the admin user, and she has 20 days of **Paid Time Off**. Priya Sharma is the employee from [First steps with Employees](../../employees/get-started/first-steps.md). Sample data includes the seven leave types.
@@ -13,7 +13,7 @@ Sarah Mitchell is the employee of the admin user, and she has 20 days of **Paid 
 ## The map
 
 ```text
-Check balance  >  Request 3 days  >  Approve  >  Balance stays 17
+Check balance  >  Request 3 days  >  Approve  >  Check balance again (17)
 Priya: request denied  >  Allocation  >  Approve  >  Request accepted
 Sick allocation  >  Refuse a Sick Time Off request  >  Half day  >  Calendar
 ```
@@ -46,7 +46,7 @@ The **Duration** line reads `3 working days`.
 
 <ImagePopup src="/images1/time-off/to_fs_request_calendar.png" alt="My Time calendar for October 2026 with a Paid Time Off bar titled Paid Time Off ERP Admin (3d) from 19 to 21 October" />
 
-The bar title is the leave type, then the name of the logged in user, then the length. Here the user is **ERP Admin**, so the title reads `Paid Time Off ERP Admin (3d)`.
+The bar title is the leave type, then the name of the logged in user, then the length. You are signed in as the user **ERP Admin**, whose employee is Sarah Mitchell. So the title reads `Paid Time Off ERP Admin (3d)`.
 
 4. Open `Time Off → My Time → Dashboard` again. The **Paid Time Off** card already shows `17.0` and **Pending Requests** shows `1`.
 
@@ -64,7 +64,7 @@ The bar title is the leave type, then the name of the logged in user, then the l
 The list opens on the tab **Waiting For Me**. Click **Default** to see every request.
 :::
 
-## Step 4: See the balance stays 17
+## Step 4: Check the balance again
 
 1. Open `Time Off → My Time → Dashboard`.
 2. The **Paid Time Off** card still shows `17.0`. **Pending Requests** is back to `0`.
@@ -91,7 +91,7 @@ Priya has no **Paid Time Off** allocation yet. Try to book two days for her.
 
 <ImagePopup src="/images1/time-off/to_fs_priya_denied.png" alt="Leave Request Denied notification saying You do not have any allocated leave for Paid Time Off" />
 
-**Behind the scenes:** A type with **Requires Allocation: Yes** needs approved days first. See [Time off types](../setup/time-off-types.md).
+**Behind the scenes:** A type with **Requires Allocation: Yes** needs approved days first. See [Leave types](../setup/time-off-types.md).
 
 ## Step 6: Allocate days to Priya
 
@@ -102,7 +102,7 @@ Priya has no **Paid Time Off** allocation yet. Try to book two days for her.
 - **_Name:_** Type `Paid Time Off 2026`.
 - **_Time Off Type:_** Choose **Paid Time Off**.
 - **_Employee Name:_** Choose **Priya Sharma**.
-- **_Allocation Type:_** Keep **Regular**.
+- **_Allocation Type:_** Keep **Regular**. It means a fixed number of days.
 - **_Date From:_** Pick 1 October 2026. Leave **Date To** empty. It shows **No Limit**.
 - **_Allocation:_** Type `12`.
 - **_Reason:_** Type `Annual leave 2026`.
@@ -123,18 +123,21 @@ Priya has no **Paid Time Off** allocation yet. Try to book two days for her.
 
 <ImagePopup src="/images1/time-off/to_fs_priya_accepted.png" alt="Management Time Offs list filtered by Priya showing Paid Time Off, Annual leave request, 2026-10-22 to 2026-10-23, 2 working days, To Approve" />
 
-## Step 8: Refuse a Sick Time Off request
+## Step 8: Allocate Sick Time Off
 
 Sick Time Off also needs an allocation before Aureus accepts a request. Without one, you see `You do not have any allocated leave for Sick Time Off.`
 
-1. Create a **Sick Time Off** allocation for Priya as in Step 6. Type `5` in **Allocation** and approve it.
-2. Open `Time Off → Management → Time off` and click **New Time off**. Choose **Priya Sharma** and **Sick Time Off**.
-3. Pick 26 October 2026 for both dates. Type `Fever` in **Description**. Click **Create**. **Duration** reads `1 working day`.
-4. Click the three-dot icon on its row and click **Refuse**. A **Time Off refused** message appears. The badge shows **Refused**.
+Create a **Sick Time Off** allocation for Priya as in Step 6. Type `5` in **Allocation** and approve it.
+
+## Step 9: Refuse a Sick Time Off request
+
+1. Open `Time Off → Management → Time off` and click **New Time off**. Choose **Priya Sharma** and **Sick Time Off**.
+2. Pick 26 October 2026 for both dates. Type `Fever` in **Description**. Click **Create**. **Duration** reads `1 working day`.
+3. Click the three-dot icon on its row and click **Refuse**. A **Time Off refused** message appears. The badge shows **Refused**.
 
 <ImagePopup src="/images1/time-off/to_fs_refused.png" alt="Management list filtered by Priya with the Paid Time Off request To Approve and the Sick Time Off request for 26 October with status Refused" />
 
-## Step 9: Book a half day
+## Step 10: Book a half day
 
 1. Open `Time Off → Management → Time off` and click **New Time off**.
 2. Choose **Priya Sharma**. **Department Name** shows **Operations**. Choose **Sick Time Off**.
@@ -145,7 +148,7 @@ Sick Time Off also needs an allocation before Aureus accepts a request. Without 
 
 5. Click **Create**. In the list, the **Date To** cell of a half day is empty.
 
-## Step 10: See the calendar
+## Step 11: See the calendar
 
 1. Open `Time Off → Overview`. A calendar of the whole year opens.
 2. Find the coloured bars. Each bar is a request, coloured by leave type.

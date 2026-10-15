@@ -8,6 +8,10 @@ This tutorial walks one product through the whole cycle. You check the warehouse
 Warehouse  →  Product  →  Receive (PO)  →  Stock report  →  Deliver (SO)  →  Stock drops
 ```
 
+::: info Before you start
+This tutorial uses a purchase order and a sales order. Install the Purchase and Sales apps, and create a vendor and a customer. The example warehouse **My Company** (short name **WH**) uses three steps for incoming and outgoing shipments. A new install starts with one step, so you will see fewer documents. Turn on **Locations** and **Multi Steps Routes** in `Inventory → Settings → Manage Warehouses` to match. See [Inventory settings](inventory-settings.md).
+:::
+
 ## Step 1: Check the warehouse and locations
 
 1. Go to `Inventory → Configurations → Warehouses`.
@@ -16,7 +20,7 @@ Warehouse  →  Product  →  Receive (PO)  →  Stock report  →  Deliver (SO)
 
 <ImagePopup src="/images1/inventory/ft_warehouse_view.png" alt="Warehouse My Company open with Incoming and Outgoing Shipments set to Three steps" />
 
-4. Go to `Inventory → Configurations → Locations` and find **WH/Stock**.
+4. Go to `Inventory → Configurations → Locations` and find **WH/Stock**. The menu shows only when **Locations** is on.
 
 <ImagePopup src="/images1/inventory/ft_locations_list.png" alt="Locations list on the All tab showing WH/Stock, WH/Input, WH/Output and Partners/Vendors" />
 

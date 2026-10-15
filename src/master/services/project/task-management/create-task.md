@@ -8,6 +8,8 @@ Open `Project → Tasks`, then click **New Task**.
 
 ::: warning Prerequisite
 The project must already have task stages. The stage bar stays empty until you pick a project, and you cannot save without a stage. Add stages first. See [Task stages and states](task-stages-and-states.md).
+
+In short: open `Project → Configurations → Task Stages`, click **New Task Stage**, and add **New**, **In Progress**, **Review** and **Done** for **Website Revamp**.
 :::
 
 ## Create a task
@@ -18,7 +20,7 @@ The example creates **Prepare launch announcement** in the project **Website Rev
 
    <ImagePopup src="/images1/project/tk_new_task_button.png" alt="Tasks list with the New Task button" />
 
-2. Click **Website Revamp** in the **Project** field. The stage bar now lists the stages of that project. The first one, **New**, is selected for you.
+2. Open the **Project** field and choose **Website Revamp**. The stage bar now lists the stages of that project. The first one, **New**, is selected for you.
 
    <ImagePopup src="/images1/project/tk_form_project_stage.png" alt="Create Task form with project Website Revamp and the stage bar showing New selected" />
 
@@ -27,7 +29,7 @@ The example creates **Prepare launch announcement** in the project **Website Rev
 3. Fill in the fields of the **General** section.
 
    - **_Title:_** (required) Name the work, for example **Prepare launch announcement**.
-   - **_State:_** (required) Choose how the work is going. The default is **In Progress**. See [Task stages and states](task-stages-and-states.md).
+   - **_State:_** (required) Choose how the work is going. The default is **In Progress**. Leave it for a new task. It is not the stage bar above the form. See [Task stages and states](task-stages-and-states.md).
    - **_Tags:_** Pick one or more labels, for example **Client Work**. You can create a new tag from here. See [Tags](../configuration/tags.md).
    - **_Description:_** Add details, links or a checklist.
 
@@ -39,7 +41,7 @@ The example creates **Prepare launch announcement** in the project **Website Rev
 
    - **_Project:_** The project that owns the task. Leave it empty to make a private task.
    - **_Milestone:_** The target this task helps to reach, for example **Go Live**. It shows only when **Enable Milestones** is on and the project has **Allow Milestones** on.
-   - **_Customer:_** Fills in from the project. You can change it.
+   - **_Customer:_** Fills in from the project. Change it when one task is for a different customer.
    - **_Assignees:_** One or more users who do the work, for example **Ava Lewis**.
    - **_Deadline:_** The date and time the task is due, for example 21 Sep 2026.
    - **_Allocated Hours:_** The planned effort, for example 10. It shows only when **Enable Timesheets** is on. Use decimals, so 1.5 means 1 hour 30 minutes.
@@ -75,7 +77,7 @@ Click a task to open its view page. The page shows these parts:
 - **Time Tracking:** allocated time, time spent, time remaining and progress.
 - **Statistics:** number of sub-tasks and timesheet entries.
 
-The sub navigation at the top has **View**, **Edit** and **Sub Tasks**. **Edit** opens the same form. Scroll to the bottom of the **View** page to find the **Timesheets** and **Sub Tasks** tabs. The **Timesheets** tab shows when timesheets are on for the project, or for a private task.
+The links at the top of the page are **View**, **Edit** and **Sub Tasks**. **Sub Tasks** opens a full page. The tab at the bottom of the **View** page shows the same list. See [Sub tasks](sub-tasks.md). **Edit** opens the same form. Scroll to the bottom of the **View** page to find the **Timesheets** tab. The **Timesheets** tab shows when timesheets are on for the project, or for a private task.
 
 <ImagePopup src="/images1/project/tk_view_page.png" alt="Task view page with the sub navigation View, Edit and Sub Tasks" />
 

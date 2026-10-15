@@ -7,7 +7,7 @@ My Allocation lists the day balances granted to you and lets you ask for more da
 Open `Time Off → My Time → My Allocation`.
 
 ::: info Before you start
-The leave type must exist. See [Time off types](../setup/time-off-types.md). Your user also needs a linked employee.
+The leave type must exist. See [Leave types](../setup/time-off-types.md). Your user also needs a linked employee.
 :::
 
 ## Overview
@@ -15,7 +15,7 @@ The leave type must exist. See [Time off types](../setup/time-off-types.md). You
 The page is titled **My Allocations**. Each row shows one allocation.
 
 - **_Time Off Type:_** The kind of leave, for example **Paid Time Off**.
-- **_Amount:_** The number of days, for example `20.0000`.
+- **_Amount:_** The number of days, for example `20.0000`. The form calls this field **Allocation**.
 - **_Allocation Type:_** Shows **Regular**.
 - **_Status:_** **To Approve**, **Approved** or **Refused**.
 
@@ -33,8 +33,8 @@ Use **Group by** to group rows by **Employee Name**, **Time Off Type**, **Alloca
 
 ### Allocation details
 
-3. Type a **Name**. Write **Annual leave 2026 top-up**.
-4. Choose a **Time Off Type**. Choose **Paid Time Off**.
+3. Type a **Name**. Type `Annual leave 2026 top-up`.
+4. Choose a **Time Off Type**, for example **Paid Time Off**.
 5. Leave **Allocation Type** on **Regular**.
 
 - **_Name:_** Required. A short label for the allocation.
@@ -51,8 +51,8 @@ Use **Group by** to group rows by **Employee Name**, **Time Off Type**, **Alloca
 
 ### Days and reason
 
-8. Type the number of days in **Allocation**. The field shows **Number of Days**. Write **5**.
-9. Explain the request in **Reason**. Write **Extra days for a family trip**.
+8. Type the number of days in **Allocation**. The field shows **Number of Days**. Type `5`.
+9. Explain the request in **Reason**. Type `Extra days for a family trip`.
 
 - **_Allocation:_** Required. The number of days. The default is 0.
 - **_Reason:_** Optional. Tell the approver why you need the days.
@@ -63,7 +63,7 @@ Use **Group by** to group rows by **Employee Name**, **Time Off Type**, **Alloca
 
 ## Actions and statuses
 
-A new allocation gets the status **To Approve**. It adds nothing to your balance yet. When a manager approves it in [Manage allocations](manage-allocations.md), the status becomes **Approved**. The days then count on your balance card.
+A new allocation gets the status **To Approve**. It adds nothing to your balance yet. A manager approves it in [Manage allocations](manage-allocations.md). Then the status becomes **Approved**. The days then count on your balance card.
 
 A manager can also refuse it. A refused allocation never adds days.
 
@@ -76,4 +76,4 @@ Your user must be linked to an employee. Without one, Aureus asks you to contact
 - [Time off allocations](index.md)
 - [Manage allocations](manage-allocations.md)
 - [My Time dashboard](../requests/my-time.md)
-- [Time off types](../setup/time-off-types.md)
+- [Leave types](../setup/time-off-types.md)

@@ -38,7 +38,7 @@ The tabs above the list are saved filters:
 - **_Default:_** All orders.
 - **_My Orders:_** Orders where you are the sales person.
 - **_To Invoice:_** Orders with the invoice status **To Invoice**. Start here when you bill.
-- **_Up Selling:_** Orders with the **Upselling Opportunity** invoice status. See [Sell more to the same customer](../invoicing/order-to-upsell.md).
+- **_Up Selling:_** Orders with the **Upselling Opportunity** invoice status. These are orders where more was delivered than ordered. See [Sell more to the same customer](../invoicing/order-to-upsell.md).
 - **_Archived:_** Deleted orders.
 
 ### Search, group and filter

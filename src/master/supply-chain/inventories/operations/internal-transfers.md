@@ -38,7 +38,7 @@ The state becomes **Done** and the hammocks now sit in **WH/Packing Zone**.
 
 ## Automatic internal transfers
 
-Warehouses with extra steps create internal documents for you. The dev warehouse produces **WH/PICK**, **WH/PACK**, **WH/QC**, **WH/STOR**, **WH/PC** and **WH/SFP** records. They behave like any internal transfer. Open them from the same list. Click **Next Transfer** on a done document to jump to the one that follows.
+Warehouses with extra steps create internal documents for you. The example warehouse produces **WH/PICK**, **WH/PACK**, **WH/QC**, **WH/STOR**, **WH/PC** and **WH/SFP** records. They behave like any internal transfer. Open them from the same list. Click **Next Transfer** on a done document to jump to the one that follows.
 
 ::: info
 Moving stock never changes the total on hand. Use [Inventory adjustments](../adjustments/inventory-adjustments.md) to change quantities.

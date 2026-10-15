@@ -4,6 +4,17 @@ Point of Sale (POS) is the module you use at the till. It lets a cashier ring up
 
 > **In simple words:** POS is your cash register. You set it up once, open it each day, sell, and close it at night.
 
+## Words used in this guide
+
+| Word | Meaning |
+| --- | --- |
+| **Point of Sale (POS)** | The module as a whole. |
+| **Register** | One till, with its own rules. Also called a terminal. |
+| **Session** | One shift of selling on a register. |
+| **Cashier terminal** | The till screen where the cashier sells. |
+
+Amounts in this guide have no currency sign. They use the register currency.
+
 ## The two parts of POS
 
 POS has two screens that work together.
@@ -19,7 +30,7 @@ You open the terminal from the admin **Dashboard**. Click **Open Register** on a
 
 Follow these stages in order. Each one has its own page.
 
-1. **Set up a register.** Create a register, choose its payment methods, journals, prices and receipt text. See [Set up a register](get-started/set-up-a-register.md).
+1. **Set up a register.** First create payment methods and coins and bills, and make your products available. See [Payments setup](payments-setup/index.md) and [Products and pricing](products-pricing/index.md). Then create the register, choose its payment methods, journals, prices and receipt text. See [Set up a register](get-started/set-up-a-register.md).
 2. **Open a session.** A session is one shift of selling. Count the cash in the drawer and start. See [Open a register](sessions/open-register.md).
 3. **Sell.** Add products to an order, pick a customer, add notes. In a restaurant, start from a table. See [Take an order](selling/take-an-order.md).
 4. **Pay and print the receipt.** Choose a payment method, enter the amount and validate. See [Pay and receipt](selling/pay-and-receipt.md).

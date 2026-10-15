@@ -46,7 +46,6 @@ Click **Edit** on a row to change it. Click **Delete** to remove it.
 
 - The **Job Positions** form has an **Employment Type** field. See [Job positions](job-positions.md).
 - You can filter job positions by employment type.
-- On the employee list, you can group employees by **Employment Type**.
 
 ## See also
 

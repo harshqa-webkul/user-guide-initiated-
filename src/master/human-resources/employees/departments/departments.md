@@ -27,7 +27,7 @@ Each card has a checkbox and **View**, **Edit** and **Delete** links.
 
 ## Create a department
 
-This example creates the **Operations** department, managed by Sarah Mitchell. If it already exists in your data, nothing else changes when you follow the steps.
+This example creates the **Operations** department, managed by Sarah Mitchell. Skip this step if **Operations** already exists.
 
 1. Open `Employees → Departments`.
 2. Click **New Department**. A full page opens.
@@ -40,7 +40,7 @@ This example creates the **Operations** department, managed by Sarah Mitchell. I
 - **_Parent Department:_** Optional. Pick the department that contains this one. Leave it empty for a top level department.
 - **_Manager:_** Optional. Pick **Sarah Mitchell**.
 - **_Company:_** Fills with your company. Change it only if you run several companies.
-- **_Color:_** Optional. Leave it blank for Operations. Pick a colour from the circle picker. It is blank by default. A colour marks the department in the organization tree. The card does not show it.
+- **_Color:_** Optional. Leave it blank for Operations. Pick a colour from the circle picker. It is blank by default. A colour marks the department in the organization tree. The card does not show it, but the **View** tab shows the swatch.
 
 <ImagePopup src="/images1/employees/dep_create_form.png" alt="Create Department form titled General Information, filled with Operations as name and Sarah Mitchell as manager, with Create, Create & create another and Cancel" />
 
@@ -71,7 +71,7 @@ For example, Quality Check Department sits under Research & Development. Its pag
 <ImagePopup src="/images1/employees/dep_view_tree.png" alt="Department Organization tree showing Research & Development with Quality Check Department below it" />
 
 ::: info
-Treat the member counts as a hint only. They may not match the list on the **Manage Employees** tab. A top level department such as Operations shows no tree.
+The member count is a quick hint. Open the **Manage Employees** tab for the exact list. A top level department such as Operations shows no tree.
 :::
 
 ## Manage the employees of a department

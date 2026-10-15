@@ -4,6 +4,8 @@ A quotation is the offer you send to a customer before they buy. It lists what y
 
 > **In simple words:** A quotation is a draft order. You can change it freely until the customer agrees.
 
+Create the customer and the products first. See [Manage customers](./manage-customers.md) and [Manage products](../products-prices/manage-products.md). Customer and product names in this guide are sample names.
+
 Throughout this page we use one example. Your customer **Azure Interiors** asks for 5 Camping Hammocks. You will build the quotation for them step by step.
 
 ## Settings that change this page
@@ -178,7 +180,7 @@ A quotation does not take payment. Payment comes later, on the invoice. The step
 
 To follow the money on an order, open it and click the **Invoices** tab. It shows each invoice with its **Payment State** and **Amount Due**. See [Manage orders](./manage-orders.md).
 
-**Example:** Azure Interiors pays with **Immediate Payment**. Their invoice for $603.75 is due on the invoice date. When they pay, you register the payment and **Amount Due** drops to zero.
+**Example:** Azure Interiors pays with **Immediate Payment**. Their invoice is due on the invoice date. When they pay, you register the payment and **Amount Due** drops to zero.
 
 ## Actions and statuses
 

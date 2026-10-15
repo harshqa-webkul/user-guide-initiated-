@@ -25,8 +25,8 @@ The pages in this module follow one example. The category is **Packaging Machine
 
 | Page | What you learn |
 | --- | --- |
-| [Add equipment](./add-equipment.md) | Fill in every field of the equipment form and save it. |
-| [Manage equipment](./manage-equipment.md) | Use the list tabs, filters, grouping and search. Archive, restore and delete equipment. |
+| [Add equipment](add-equipment.md) | Fill in every field of the equipment form and save it. |
+| [Manage equipment](manage-equipment.md) | Use the list tabs, filters, grouping and search. Archive, restore and delete equipment. |
 
 ## See also
 

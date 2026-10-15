@@ -16,48 +16,44 @@ Meera Nair applied for **Warehouse Supervisor**. She declined because of the pay
 
 1. Open Meera's applicant page. Click **Refuse** in the header.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/refuse_button_header.png | Applicant page for Meera Nair with the Refuse button in the header -->
+<ImagePopup src="/images1/recruitment/refuse_button_header.png" alt="Applicant page header for Meera Nair with the Refuse button" />
 
-2. The **Refuse Reason** window opens. It shows the reasons as buttons. Choose **Refused by applicant: salary**.
+2. The **Refuse Reason** window opens. It shows the seven reasons as buttons. Click **Refused by applicant: salary**. The button turns blue.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/refuse_modal_reasons.png | Refuse Reason window listing the refuse reasons with none selected -->
+<ImagePopup src="/images1/recruitment/refuse_modal_reasons.png" alt="Refuse Reason window listing the seven refuse reasons with none selected" />
 
-3. After you choose a reason, two fields appear. **Notify** is on by default. **Email To** holds the candidate's email address.
+3. After you choose a reason, **Notify** and **Email To** appear. **Notify** is on by default. **Email To** holds the candidate's email address.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/refuse_modal_notify.png | Refuse Reason window with Refused by applicant: salary selected, the Notify toggle on and Email To showing Meera's email -->
+<ImagePopup src="/images1/recruitment/refuse_modal_notify.png" alt="Refuse Reason window with Refused by applicant: salary selected, the Notify toggle on and Email To showing meera.nair@example.com" />
 
-- **_Refuse reason:_** Required. Pick one button. **Submit** does nothing until you pick one.
-- **_Notify:_** On by default. When it is on, Aureus sends the candidate an email based on the reason's template.
-- **_Email To:_** Shows only when **Notify** is on. It starts with the candidate's email address. You can change it.
+- **_Refuse reason:_** Required. Pick one button.
+- **_Notify:_** On by default. It controls whether the candidate gets an email about the refusal. The refusal and the reason are recorded either way.
+- **_Email To:_** Shows only when **Notify** is on. It starts with the candidate's email address. You can type another address.
 
-4. Turn **Notify** off if you do not want to send a message. Click **Submit**.
+4. Turn **Notify** off if you do not want to send a message. **Email To** then disappears. Click **Submit**.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/refuse_after_submit.png | Meera Nair applicant page after refusing, with the Refused status and the stage bar hidden -->
+<ImagePopup src="/images1/recruitment/refuse_after_submit.png" alt="Meera Nair applicant page after refusing, with the Refused status and no stage bar" />
 
 ## What happens after you refuse
 
 - The **Application status** shows **Refused**.
 - The stage bar is hidden.
 - The applicant becomes inactive and shows under the **Archived** tab of the [applicant list](applicant-list.md).
-- The header now offers **Restore** instead of **Refuse**.
+- The header now offers **Restore** instead of **Refuse**. **Create Employee** and **Delete** stay.
 
-Each reason uses one of two email templates, **Applicant Refuse** or **Applicant Not Interested**. You choose the template in [Refuse reasons](../setup/refuse-reasons.md).
+Each reason has an email template, **Applicant Refuse** or **Applicant Not Interested**. You choose it in [Refuse reasons](../setup/refuse-reasons.md).
 
 ## Reopen the applicant
 
-5. Open Meera's applicant page. Click **Restore** in the header.
+1. Aureus calls reopening **Restore**. Open Meera's applicant page. Click **Restore** in the header.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/restore_button_header.png | Refused applicant page with the Restore button in the header -->
+<ImagePopup src="/images1/recruitment/restore_button_header.png" alt="Refused applicant page header with the Restore button" />
 
-6. Confirm in the window that opens.
+2. A window titled **Restore Applicant from refuse** asks **Are you sure you would like to do this?** Click **Confirm**.
 
-<!-- TODO-SCREENSHOT: /images1/recruitment/restore_confirm.png | Restore confirmation window for Meera Nair -->
+<ImagePopup src="/images1/recruitment/restore_confirm.png" alt="Restore Applicant from refuse window with the Cancel and Confirm buttons" />
 
-Aureus reopens the application. Meera is back in the process and you can click a stage again.
-
-::: tip
-The button is called **Restore**. It is the way to reopen a refused application.
-:::
+Aureus reopens the application. The stage bar comes back and you can click a stage again.
 
 ## Actions and statuses
 

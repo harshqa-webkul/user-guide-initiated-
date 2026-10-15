@@ -6,6 +6,10 @@ A project groups the tasks, people, dates and hours of one job. The project list
 
 Open `Project → Projects`.
 
+::: info About the example
+This page creates a second project, **Customer Portal Launch**, so the pictures show a fresh form. The rest of the guide uses **Website Revamp**. Create both if you want to follow every page.
+:::
+
 ::: info Before you start
 - Add [project stages](project-stages-and-milestones.md) if **Enable Project Stages** is on.
 - Create the customer in [Contacts](../../../getting-started/contacts/contacts.md).
@@ -27,7 +31,7 @@ Projects appear as cards, not as a table. Each card shows the name, the customer
 
 ### Group by, filters and search
 
-Group the cards by **Stage**, **Project Manager**, **Customer** or **Created At**. Use the search box to find a project by name. Open the filter panel to narrow the list by fields such as **Name**, **Visibility**, **Start Date**, **End Date**, **Allow Timesheets**, **Allow Milestones**, **Stage**, **Customer**, **Project Manager** and **Tags**.
+Group the cards by **Stage**, **Project Manager**, **Customer** or **Created At**. Use the search box to find a project by name. Open the filter panel to narrow the list. You can filter by **Name**, **Visibility**, dates, **Stage**, **Customer**, **Project Manager** and **Tags**.
 
 <ImagePopup src="/images1/project/pj_list_filters.png" alt="Filters panel of the project list with the Add rule menu listing Name, Visibility, Start Date, End Date, Stage, Customer and more" />
 
@@ -58,28 +62,32 @@ Group the cards by **Stage**, **Project Manager**, **Customer** or **Created At*
 4. Choose **ERP Admin** as **Project Manager**.
 5. Choose **Azure Interiors** as **Customer**.
 6. Set **Start Date** to 03 Aug 2026 and **End Date** to 31 Oct 2026.
-7. Enter **80** in **Allocated Hours**.
+7. If you switched on **Enable Timesheets**, enter **80** in **Allocated Hours**. Otherwise the field is hidden.
+8. Pick the tag **Client Work** in **Tags**.
 
 <ImagePopup src="/images1/project/pj_create_additional.png" alt="Additional Information card with Project Manager ERP Admin, Customer Azure Interiors, dates 03 Aug 2026 to 31 Oct 2026 and Allocated Hours 80" />
 
-- **_Project Manager:_** The user who runs the project. You can add a user from the field.
-- **_Customer:_** The company or person the work is for. You can add one from the field.
+- **_Project Manager:_** The user who runs the project. Click the plus icon in the field to add a user.
+- **_Customer:_** The company or person the work is for. Click the plus icon in the field to create a contact without leaving the form.
 - **_Start Date_ and _End Date:_** Fill both or neither. The end date cannot be before the start date.
 - **_Allocated Hours:_** The planned hours. Use decimals: 1.5 means 1 hour 30 minutes. Shown only when **Enable Timesheets** is on.
 - **_Tags:_** Labels from [Tags](../configuration/tags.md). You can create a tag here.
-- **_Company:_** The company that owns the project.
+- **_Company:_** The company that owns the project. It matters when you run more than one company in Aureus.
 
 ### Settings
 
-8. Check the **Settings** card on the right.
+9. In the **Settings** card on the right, leave **Visibility** on **Internal**. Switch on **Allow Timesheets** and **Allow Milestones**.
 
-- **_Visibility:_** **Private** for invited internal users only. **Internal** for all internal users (default). **Public** for invited portal users and all internal users.
+- **_Visibility:_** 
+    - **Private** for invited internal users only. 
+    - **Internal** for all internal users (default). An internal user is a person with an Aureus login. A portal user is a customer with portal access. See [Portal access](../../../general-settings/users/portal-access.md).
+    - **Public** for invited portal users and all internal users. 
 - **_Allow Timesheets:_** Lets people log hours on the project tasks. Needs **Enable Timesheets**.
 - **_Allow Milestones:_** Lets you add milestones. Needs **Enable Milestones**. It is on by default.
 
 <ImagePopup src="/images1/project/pj_create_settings.png" alt="Settings card with Visibility Internal, Allow Timesheets on and Allow Milestones on" />
 
-9. Click **Create**. Click **Create & create another** to start a new form. Click **Cancel** to leave.
+10. Click **Create**. Click **Create & create another** to start a new form. Click **Cancel** to leave.
 
 <ImagePopup src="/images1/project/pj_create_filled.png" alt="Completed Create Project form for Customer Portal Launch ready to save" />
 
@@ -95,6 +103,8 @@ The page shows these sections:
 - **Additional Information:** manager, customer, timeline, allocated and remaining hours, current stage and tags.
 - **Statistics:** **Total Tasks** and **Milestones Progress**.
 - **Project Settings:** visibility and what is enabled.
+
+Below the sections, the **Task Stages** and **Milestones** tabs list the stages and milestones of this project.
 
 Use the **Chatter** button for messages, followers and activities. See [Chatter](../../../getting-started/chatter.md).
 

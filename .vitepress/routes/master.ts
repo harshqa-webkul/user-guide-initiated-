@@ -4,18 +4,18 @@ const routes = [
     collapsed: false,
     items: [
       { text: 'Introduction', link: '/master/Introduction' },
-      { text: 'Stages', link: '/master/getting-started/stages' },
-      { text: 'Chatter', link: '/master/getting-started/chatter' },
-      { text: 'Activities', link: '/master/getting-started/activities' },
-      { text: 'Search, Filter and Group', link: '/master/getting-started/search-filter-group' },
       {
         text: 'Contacts',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Contacts', link: '/master/getting-started/contacts/contacts' },
           { text: 'Configurations', link: '/master/getting-started/contacts/configurations' },
         ]
       },
+      { text: 'Search, Filter and Group', link: '/master/getting-started/search-filter-group' },
+      { text: 'Chatter', link: '/master/getting-started/chatter' },
+      { text: 'Activities', link: '/master/getting-started/activities' },
+      { text: 'Stages', link: '/master/getting-started/stages' },
     ]
   },
   {
@@ -28,8 +28,8 @@ const routes = [
         text: 'Companies',
         collapsed: true,
         items: [
-          { text: 'Companies', link: '/master/general-settings/companies/companies' },
           { text: 'Currency', link: '/master/general-settings/companies/currency' },
+          { text: 'Companies', link: '/master/general-settings/companies/companies' },
           { text: 'Multi-Company', link: '/master/general-settings/companies/multi-company' },
         ]
       },
@@ -37,10 +37,10 @@ const routes = [
         text: 'Users',
         collapsed: true,
         items: [
-          { text: 'Manage Users', link: '/master/general-settings/users/manage-users' },
-          { text: 'Users', link: '/master/general-settings/users/users' },
           { text: 'Roles', link: '/master/general-settings/users/roles' },
           { text: 'Teams', link: '/master/general-settings/users/teams' },
+          { text: 'Manage Users', link: '/master/general-settings/users/manage-users' },
+          { text: 'Users', link: '/master/general-settings/users/users' },
           { text: 'Portal Access', link: '/master/general-settings/users/portal-access' },
           { text: 'Your Profile', link: '/master/general-settings/users/profile' },
           { text: 'Two-Factor Authentication', link: '/master/general-settings/users/two-factor-authentication' },
@@ -152,25 +152,16 @@ const routes = [
         link: '/master/sales/sales/',
         items: [
           {
-            text: 'Quotations and Orders',
+            text: 'Configuration',
             collapsed: true,
-            link: '/master/sales/sales/quotations-orders/',
+            link: '/master/sales/sales/configuration/',
             items: [
-              { text: 'Create a Quotation', link: '/master/sales/sales/quotations-orders/create-quotation' },
-              { text: 'Optional Products', link: '/master/sales/sales/quotations-orders/optional-products' },
-              { text: 'Send and Confirm a Quotation', link: '/master/sales/sales/quotations-orders/send-and-confirm-quotation' },
-              { text: 'Manage Orders', link: '/master/sales/sales/quotations-orders/manage-orders' },
-              { text: 'Manage Customers', link: '/master/sales/sales/quotations-orders/manage-customers' },
-            ]
-          },
-          {
-            text: 'Invoicing',
-            collapsed: true,
-            link: '/master/sales/sales/invoicing/',
-            items: [
-              { text: 'Invoicing Policies', link: '/master/sales/sales/invoicing/invoicing-policies' },
-              { text: 'Order to Invoice', link: '/master/sales/sales/invoicing/order-to-invoice' },
-              { text: 'Order to Upsell', link: '/master/sales/sales/invoicing/order-to-upsell' },
+              { text: 'Settings', link: '/master/sales/sales/configuration/settings' },
+              { text: 'Product Categories', link: '/master/sales/sales/configuration/product-categories' },
+              { text: 'Product Attributes', link: '/master/sales/sales/configuration/product-attributes' },
+              { text: 'Packagings', link: '/master/sales/sales/configuration/packagings' },
+              { text: 'Tags', link: '/master/sales/sales/configuration/tags' },
+              { text: 'UOM Categories', link: '/master/sales/sales/configuration/uom-categories' },
             ]
           },
           {
@@ -186,16 +177,25 @@ const routes = [
             ]
           },
           {
-            text: 'Configuration',
+            text: 'Quotations and Orders',
             collapsed: true,
-            link: '/master/sales/sales/configuration/',
+            link: '/master/sales/sales/quotations-orders/',
             items: [
-              { text: 'Settings', link: '/master/sales/sales/configuration/settings' },
-              { text: 'Product Categories', link: '/master/sales/sales/configuration/product-categories' },
-              { text: 'Product Attributes', link: '/master/sales/sales/configuration/product-attributes' },
-              { text: 'Packagings', link: '/master/sales/sales/configuration/packagings' },
-              { text: 'Tags', link: '/master/sales/sales/configuration/tags' },
-              { text: 'UOM Categories', link: '/master/sales/sales/configuration/uom-categories' },
+              { text: 'Manage Customers', link: '/master/sales/sales/quotations-orders/manage-customers' },
+              { text: 'Create a Quotation', link: '/master/sales/sales/quotations-orders/create-quotation' },
+              { text: 'Optional Products', link: '/master/sales/sales/quotations-orders/optional-products' },
+              { text: 'Send and Confirm a Quotation', link: '/master/sales/sales/quotations-orders/send-and-confirm-quotation' },
+              { text: 'Manage Orders', link: '/master/sales/sales/quotations-orders/manage-orders' },
+            ]
+          },
+          {
+            text: 'Invoicing',
+            collapsed: true,
+            link: '/master/sales/sales/invoicing/',
+            items: [
+              { text: 'Invoicing Policies', link: '/master/sales/sales/invoicing/invoicing-policies' },
+              { text: 'Order to Invoice', link: '/master/sales/sales/invoicing/order-to-invoice' },
+              { text: 'Order to Upsell', link: '/master/sales/sales/invoicing/order-to-upsell' },
             ]
           },
         ]
@@ -213,6 +213,27 @@ const routes = [
               { text: 'POS Overview', link: '/master/sales/point-of-sale/get-started/pos-overview' },
               { text: 'Set Up a Register', link: '/master/sales/point-of-sale/get-started/set-up-a-register' },
               { text: 'POS Settings', link: '/master/sales/point-of-sale/get-started/pos-settings' },
+            ]
+          },
+          {
+            text: 'Payments Setup',
+            collapsed: true,
+            link: '/master/sales/point-of-sale/payments-setup/',
+            items: [
+              { text: 'Payment Methods', link: '/master/sales/point-of-sale/payments-setup/payment-methods' },
+              { text: 'Coins and Bills', link: '/master/sales/point-of-sale/payments-setup/coins-and-bills' },
+              { text: 'Preparation Printers', link: '/master/sales/point-of-sale/payments-setup/preparation-printers' },
+              { text: 'Floors and Notes', link: '/master/sales/point-of-sale/payments-setup/restaurant-floors-and-notes' },
+            ]
+          },
+          {
+            text: 'Products and Pricing',
+            collapsed: true,
+            link: '/master/sales/point-of-sale/products-pricing/',
+            items: [
+              { text: 'Products', link: '/master/sales/point-of-sale/products-pricing/products' },
+              { text: 'Categories and Attributes', link: '/master/sales/point-of-sale/products-pricing/categories-and-attributes' },
+              { text: 'Pricing and Taxes', link: '/master/sales/point-of-sale/products-pricing/pricing-and-taxes' },
             ]
           },
           {
@@ -250,27 +271,6 @@ const routes = [
             ]
           },
           {
-            text: 'Products and Pricing',
-            collapsed: true,
-            link: '/master/sales/point-of-sale/products-pricing/',
-            items: [
-              { text: 'Products', link: '/master/sales/point-of-sale/products-pricing/products' },
-              { text: 'Categories and Attributes', link: '/master/sales/point-of-sale/products-pricing/categories-and-attributes' },
-              { text: 'Pricing and Taxes', link: '/master/sales/point-of-sale/products-pricing/pricing-and-taxes' },
-            ]
-          },
-          {
-            text: 'Payments Setup',
-            collapsed: true,
-            link: '/master/sales/point-of-sale/payments-setup/',
-            items: [
-              { text: 'Payment Methods', link: '/master/sales/point-of-sale/payments-setup/payment-methods' },
-              { text: 'Coins and Bills', link: '/master/sales/point-of-sale/payments-setup/coins-and-bills' },
-              { text: 'Preparation Printers', link: '/master/sales/point-of-sale/payments-setup/preparation-printers' },
-              { text: 'Floors and Notes', link: '/master/sales/point-of-sale/payments-setup/restaurant-floors-and-notes' },
-            ]
-          },
-          {
             text: 'Reporting',
             collapsed: true,
             link: '/master/sales/point-of-sale/reporting/',
@@ -304,6 +304,20 @@ const routes = [
             ]
           },
           {
+            text: 'Orders',
+            collapsed: true,
+            link: '/master/supply-chain/purchase/orders/',
+            items: [
+              { text: 'Requests for Quotation', link: '/master/supply-chain/purchase/orders/quotations' },
+              { text: 'Purchase Orders', link: '/master/supply-chain/purchase/orders/purchase-orders' },
+              { text: 'Vendor Bills', link: '/master/supply-chain/purchase/orders/vendor-bills' },
+              { text: 'Purchase Agreements', link: '/master/supply-chain/purchase/orders/purchase-agreements' },
+              { text: 'Blanket Orders', link: '/master/supply-chain/purchase/orders/blanket-orders' },
+              { text: 'Purchase Templates', link: '/master/supply-chain/purchase/orders/purchase-templates' },
+              { text: 'Vendor Portal', link: '/master/supply-chain/purchase/orders/vendor-portal' },
+            ]
+          },
+          {
             text: 'Products',
             collapsed: true,
             link: '/master/supply-chain/purchase/products/',
@@ -311,19 +325,6 @@ const routes = [
               { text: 'Configure a Product', link: '/master/supply-chain/purchase/products/configure-product' },
               { text: 'Vendor Price Lists', link: '/master/supply-chain/purchase/products/vendor-price-lists' },
               { text: 'Product Configuration', link: '/master/supply-chain/purchase/products/product-configuration' },
-            ]
-          },
-          {
-            text: 'Manage Deals',
-            collapsed: true,
-            link: '/master/supply-chain/purchase/orders/',
-            items: [
-              { text: 'Requests for Quotation', link: '/master/supply-chain/purchase/orders/quotations' },
-              { text: 'Vendor Portal', link: '/master/supply-chain/purchase/orders/vendor-portal' },
-              { text: 'Purchase Orders', link: '/master/supply-chain/purchase/orders/purchase-orders' },
-              { text: 'Vendor Bills', link: '/master/supply-chain/purchase/orders/vendor-bills' },
-              { text: 'Blanket Orders', link: '/master/supply-chain/purchase/orders/blanket-orders' },
-              { text: 'Purchase Templates', link: '/master/supply-chain/purchase/orders/purchase-templates' },
             ]
           },
         ]
@@ -344,6 +345,17 @@ const routes = [
             ]
           },
           {
+            text: 'Warehouses and Locations',
+            collapsed: true,
+            link: '/master/supply-chain/inventories/warehouses/',
+            items: [
+              { text: 'Warehouses', link: '/master/supply-chain/inventories/warehouses/warehouses' },
+              { text: 'Locations', link: '/master/supply-chain/inventories/warehouses/locations' },
+              { text: 'Operation Types', link: '/master/supply-chain/inventories/warehouses/operation-types' },
+              { text: 'Storage Categories', link: '/master/supply-chain/inventories/warehouses/storage-categories' },
+            ]
+          },
+          {
             text: 'Products',
             collapsed: true,
             link: '/master/supply-chain/inventories/products/',
@@ -361,17 +373,6 @@ const routes = [
             items: [
               { text: 'Lots and Serial Numbers', link: '/master/supply-chain/inventories/tracking/lots-and-serial-numbers' },
               { text: 'Packages', link: '/master/supply-chain/inventories/tracking/packages' },
-            ]
-          },
-          {
-            text: 'Warehouses and Locations',
-            collapsed: true,
-            link: '/master/supply-chain/inventories/warehouses/',
-            items: [
-              { text: 'Warehouses', link: '/master/supply-chain/inventories/warehouses/warehouses' },
-              { text: 'Locations', link: '/master/supply-chain/inventories/warehouses/locations' },
-              { text: 'Operation Types', link: '/master/supply-chain/inventories/warehouses/operation-types' },
-              { text: 'Storage Categories', link: '/master/supply-chain/inventories/warehouses/storage-categories' },
             ]
           },
           {
@@ -527,6 +528,7 @@ const routes = [
           {
             text: 'Calendar',
             collapsed: true,
+            link: '/master/supply-chain/maintenance/calendar/',
             items: [
               { text: 'Maintenance Calendar', link: '/master/supply-chain/maintenance/calendar/maintenance-calendar' },
             ]
@@ -552,25 +554,7 @@ const routes = [
               { text: 'First Steps', link: '/master/human-resources/employees/get-started/first-steps' },
             ]
           },
-          {
-            text: 'Employees',
-            collapsed: true,
-            link: '/master/human-resources/employees/employees/',
-            items: [
-              { text: 'Add an Employee', link: '/master/human-resources/employees/employees/add-employee' },
-              { text: 'Employee Profile', link: '/master/human-resources/employees/employees/employee-profile' },
-              { text: 'Employee List', link: '/master/human-resources/employees/employees/employee-list' },
-              { text: 'Skills and Resume', link: '/master/human-resources/employees/employees/skills-and-resume' },
-              { text: 'Leaving the Company', link: '/master/human-resources/employees/employees/leaving-the-company' },
-            ]
-          },
-          {
-            text: 'Departments',
-            collapsed: true,
-            items: [
-              { text: 'Departments', link: '/master/human-resources/employees/departments/departments' },
-            ]
-          },
+          { text: 'Departments', link: '/master/human-resources/employees/departments/departments' },
           {
             text: 'Setup',
             collapsed: true,
@@ -583,6 +567,18 @@ const routes = [
               { text: 'Departure Reasons', link: '/master/human-resources/employees/setup/departure-reasons' },
               { text: 'Skill Types', link: '/master/human-resources/employees/setup/skill-types' },
               { text: 'Activity Plans', link: '/master/human-resources/employees/setup/activity-plans' },
+            ]
+          },
+          {
+            text: 'Employees',
+            collapsed: true,
+            link: '/master/human-resources/employees/employees/',
+            items: [
+              { text: 'Add an Employee', link: '/master/human-resources/employees/employees/add-employee' },
+              { text: 'Employee Profile', link: '/master/human-resources/employees/employees/employee-profile' },
+              { text: 'Employee List', link: '/master/human-resources/employees/employees/employee-list' },
+              { text: 'Skills and Resume', link: '/master/human-resources/employees/employees/skills-and-resume' },
+              { text: 'Leaving the Company', link: '/master/human-resources/employees/employees/leaving-the-company' },
             ]
           },
           {
@@ -614,11 +610,11 @@ const routes = [
             collapsed: true,
             link: '/master/human-resources/recruitment/applicants/',
             items: [
+              { text: 'Candidates', link: '/master/human-resources/recruitment/applicants/candidates' },
               { text: 'Add an applicant', link: '/master/human-resources/recruitment/applicants/add-applicant' },
               { text: 'Process an applicant', link: '/master/human-resources/recruitment/applicants/process-applicant' },
               { text: 'Refuse and reopen', link: '/master/human-resources/recruitment/applicants/refuse-and-reopen' },
-              { text: 'Applicant list', link: '/master/human-resources/recruitment/applicants/applicant-list' },
-              { text: 'Candidates', link: '/master/human-resources/recruitment/applicants/candidates' }
+              { text: 'Applicant list', link: '/master/human-resources/recruitment/applicants/applicant-list' }
             ]
           },
           {
@@ -652,9 +648,18 @@ const routes = [
             collapsed: true,
             link: '/master/human-resources/time-off/setup/',
             items: [
-              { text: 'Time Off Types', link: '/master/human-resources/time-off/setup/time-off-types' },
+              { text: 'Leave Types', link: '/master/human-resources/time-off/setup/time-off-types' },
               { text: 'Public Holidays', link: '/master/human-resources/time-off/setup/public-holidays' },
               { text: 'Mandatory Days', link: '/master/human-resources/time-off/setup/mandatory-days' },
+            ]
+          },
+          {
+            text: 'Allocations',
+            collapsed: true,
+            link: '/master/human-resources/time-off/allocations/',
+            items: [
+              { text: 'My Allocation', link: '/master/human-resources/time-off/allocations/my-allocation' },
+              { text: 'Manage Allocations', link: '/master/human-resources/time-off/allocations/manage-allocations' },
             ]
           },
           {
@@ -666,15 +671,6 @@ const routes = [
               { text: 'My Time', link: '/master/human-resources/time-off/requests/my-time' },
               { text: 'Manage Requests', link: '/master/human-resources/time-off/requests/manage-requests' },
               { text: 'Overview Calendar', link: '/master/human-resources/time-off/requests/overview-calendar' },
-            ]
-          },
-          {
-            text: 'Allocations',
-            collapsed: true,
-            link: '/master/human-resources/time-off/allocations/',
-            items: [
-              { text: 'My Allocation', link: '/master/human-resources/time-off/allocations/my-allocation' },
-              { text: 'Manage Allocations', link: '/master/human-resources/time-off/allocations/manage-allocations' },
             ]
           },
           {
@@ -742,9 +738,9 @@ const routes = [
         collapsed: true,
         link: '/master/services/timesheets/',
         items: [
+          { text: 'Timesheet Settings', link: '/master/services/timesheets/timesheet-settings' },
           { text: 'Log Time', link: '/master/services/timesheets/log-time' },
-          { text: 'Timesheet List and Filters', link: '/master/services/timesheets/timesheet-list-and-filters' },
-          { text: 'Timesheet Settings', link: '/master/services/timesheets/timesheet-settings' }
+          { text: 'Timesheet List and Filters', link: '/master/services/timesheets/timesheet-list-and-filters' }
         ]
       },
     ]
@@ -761,6 +757,14 @@ const routes = [
         items: [
           { text: 'Website Overview', link: '/master/website/get-started/website-overview' },
           { text: 'First Steps', link: '/master/website/get-started/first-steps' },
+        ]
+      },
+      {
+        text: 'Settings',
+        collapsed: true,
+        link: '/master/website/settings/',
+        items: [
+          { text: 'Manage Contacts', link: '/master/website/settings/manage-contacts' },
         ]
       },
       {
@@ -786,16 +790,8 @@ const routes = [
         collapsed: true,
         link: '/master/website/customers/',
         items: [
-          { text: 'Customers', link: '/master/website/customers/customers' },
+          { text: 'Customer List', link: '/master/website/customers/customers' },
           { text: 'Portal and Sign In', link: '/master/website/customers/portal-and-sign-in' },
-        ]
-      },
-      {
-        text: 'Settings',
-        collapsed: true,
-        link: '/master/website/settings/',
-        items: [
-          { text: 'Manage Contacts', link: '/master/website/settings/manage-contacts' },
         ]
       },
     ]

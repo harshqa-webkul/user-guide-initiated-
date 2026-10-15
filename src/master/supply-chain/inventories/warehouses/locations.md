@@ -78,6 +78,7 @@ Stock in a child counts toward its parent. A location of type **View** is only a
 - **_Location Type:_** Required. The default is **Internal Location**.
 - **_Company:_** Your current company.
 - **_Storage Category:_** Limits what the place can hold. Click **+** next to it to create a category on the spot. See [Storage categories](storage-categories.md).
+
 The card also has three toggles:
 
 - **_Is a Scrap Location?_** Marks a place for scrapped or damaged goods.

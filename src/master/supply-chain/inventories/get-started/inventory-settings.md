@@ -38,7 +38,7 @@ The day and month fill the default **Scheduled At** date on count lines, for exa
 - **Multi Steps Routes:** Use your own routes to move products between steps and warehouses. Turns on **Routes** and **Rules**, and shows the **Settings** block on a warehouse where you pick one, two or three steps.
 
 ::: warning
-You cannot turn off the multi location option when you have more than one warehouse. Save shows a warning and keeps it on.
+You cannot turn off **Locations** when you have more than one warehouse. Save shows a warning and keeps it on.
 :::
 
 ## Manage Traceability

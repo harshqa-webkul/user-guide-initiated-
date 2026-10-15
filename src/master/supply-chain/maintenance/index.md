@@ -23,7 +23,7 @@ Every job follows the same path. Read it once, then use the tutorial to try it.
 **The preventive loop.** Some work repeats, such as a monthly oil change. Create a **Preventive** request and tick **Recurrent**. When you save it in a done stage, Aureus opens the next copy for you, so the care never gets forgotten.
 
 ::: tip
-New to the module? Follow [First steps](get-started/first-steps.md). It takes you from an empty setup to a repaired machine in about ten steps.
+New to the module? Follow [First steps](get-started/first-steps.md). It takes you from an empty setup to a repaired machine in nine steps.
 :::
 
 ## Menus

@@ -79,11 +79,11 @@ You see "Post published". The author is you. See [Blog posts](../blog/blog-posts
 
 ## Step 6: Check the public site
 
-1. Open your site address `/`. Check the welcome text and the footer.
-2. Find **Our Team** in the top bar. Click it.
+1. Open your site in a new browser tab. Use the address of Aureus without `/admin`, for example `https://your-domain/`. Check the welcome text and the footer.
+2. Find **Our Team** in the site header. Click it.
 3. Click **Blog**. Find your post. Click its category pill.
 
-<ImagePopup src="/images1/website/first_public_site.png" alt="Public home page showing Our Team in the top bar and the new footer details" />
+<ImagePopup src="/images1/website/first_public_site.png" alt="Public home page showing Our Team in the site header and the new footer details" />
 
 <ImagePopup src="/images1/website/first_public_blog.png" alt="Public /blog page listing the Cloud ERP post with category pill and tag" />
 
@@ -93,7 +93,7 @@ You see "Post published". The author is you. See [Blog posts](../blog/blog-posts
 | --- | --- |
 | Saved **Manage Contacts** | Footer **Contact Us** and **Follow Us** |
 | Edited **Home** | The page at `/` |
-| Turned on **Is Visible Header Menu** and published | **Our Team** in the top bar |
+| Turned on **Is Visible Header Menu** and published | **Our Team** in the site header |
 | Published a post | New entry on `/blog` |
 
 ## What you learned

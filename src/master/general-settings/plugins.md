@@ -1,6 +1,6 @@
 # Plugins
 
-A **plugin** is a module of Aureus ERP, such as Sales, Inventory or Accounting. The plugin manager lists every module and lets an administrator install or uninstall it. You install only the modules your business uses.
+A **plugin** is a module of Aureus ERP, such as Sales, Inventory or Accounting. The plugin manager lists every module and lets an administrator install or uninstall it. You install only the modules your business uses. Your administrator usually installs plugins once. You need this page when you add a new module.
 
 > **In simple words:** Plugins are the building blocks of the ERP. You switch each block on by installing it.
 

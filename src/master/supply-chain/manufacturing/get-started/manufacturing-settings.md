@@ -16,7 +16,7 @@ You can reach the same page in two ways:
 ## Manage Operations
 
 - **_Work Orders:_** Turn on to run operations at work centers. The help text reads "Execute operations at designated work centers." A **Configure work centers** link appears next to it.
-- **_Work Order Dependencies:_** Turn on to set the order in which work orders run. The help text reads "Set the sequence in which work orders should be processed. Enable this feature from the Miscellaneous tab of each BoM."
+- **_Work Order Dependencies:_** Turn on to set the order in which work orders run. The help text reads "Set the sequence in which work orders should be processed." The order follows the sequence of the operations on the bill of materials.
 
 Click **Save Changes** after you change a toggle.
 

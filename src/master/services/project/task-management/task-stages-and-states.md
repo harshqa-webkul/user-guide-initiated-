@@ -37,7 +37,7 @@ Add task stages before you create the first task. The stage bar on the task form
 
 3. Click **Create**. Repeat for **New**, **In Progress** and **Done**.
 
-You can also add stages from the **Task Stages** tab of a project. The **Project** field is then hidden.
+You can also add stages from the **Task Stages** tab on the project page. The **Project** field is then hidden.
 
 Drag the rows to change the order. The first stage is the default for new tasks. The row menu has **Edit**, **Delete**, **Restore** and **Force delete**.
 
@@ -52,6 +52,8 @@ Choose one State on every task. The default is **In Progress**.
 | **Approved** | Blue | The work is accepted |
 | **Cancelled** | Red | The task will not be done |
 | **Done** | Green | The work is finished |
+
+Approved and Done differ only by name. Use **Approved** when someone has accepted the result. Use **Done** when the work is finished.
 
 <ImagePopup src="/images1/project/tk_state_buttons.png" alt="State buttons on the task form with In Progress selected" />
 

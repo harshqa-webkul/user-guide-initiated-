@@ -6,8 +6,12 @@ Logging time means adding a timesheet entry. You do it from the Timesheets page,
 
 Open `Project → Timesheets`.
 
-::: warning Prerequisite
-**Enable Timesheets** must be on, and the project needs **Allow Timesheets**. See [Timesheet settings](timesheet-settings.md). The project also needs at least one task.
+::: warning Prerequisites
+- **Enable Timesheets** is on.
+- The project has **Allow Timesheets**.
+- The project has at least one task.
+
+See [Timesheet settings](timesheet-settings.md).
 :::
 
 ## Add a timesheet from the Timesheets page
@@ -20,11 +24,11 @@ Open `Project → Timesheets`.
 3. Fill in the form.
 
 - **_Date:_** The day the work was done. Required.
-- **_Employee:_** The person who did the work. Required. This list holds user accounts. Choose it yourself.
+- **_Employee:_** The person who did the work. Required. The list shows users with an Aureus login, not records from the Employees app. It does not fill in by itself, so choose your own name when you log your own time.
 - **_Project:_** The project the work belongs to. Required. Only projects of your company are listed.
 - **_Task:_** The task that received the work. Required. Choose a project first, because the list shows only tasks of that project.
 - **_Description:_** A short note on what was done.
-- **_Time Spent:_** Hours as a decimal number. Required.
+- **_Time Spent:_** Hours as a decimal number. Required. It cannot be below 0.
 
 <ImagePopup src="/images1/timesheets/ts_add_timesheet_form.png" alt="Add Timesheet form filled for Website Revamp and Migrate CMS content" />
 
@@ -55,7 +59,7 @@ Ava Lewis imported 40 articles on 14 Oct 2026. Enter these values:
 - **_Description:_** Imported 40 articles
 - **_Time Spent:_** 3
 
-Aureus sets the **Creator** to you. This is useful when you log time for someone else.
+Aureus sets the **Creator** to you. This is useful when you log time for someone else. You can group or filter by **Creator** in the [list](timesheet-list-and-filters.md).
 
 ## See the time on a task
 
@@ -68,9 +72,21 @@ Every task shows its entries in a **Timesheets** tab. Use it to check the time o
 
 The tab lists **Date**, **Employee**, **Description** and **Time Spent**. Rows at the bottom show the totals. See [Timesheet settings](timesheet-settings.md).
 
+### Add a timesheet from the task
+
+1. In the **Timesheets** tab, click **Add Timesheet**.
+2. Fill in **Date**, **Employee**, **Description** and **Time Spent**. There is no **Project** or **Task** field. Aureus takes them from the task.
+3. Click **Create**. The totals on the task update.
+
 ::: info
 The **Timesheets** tab appears only when **Enable Timesheets** is on and the project has **Allow Timesheets**. A task with no project also shows it.
 :::
+
+## See your own time
+
+On the Timesheets page, click the **My Timesheets** tab. It shows only entries where **Employee** is you. A number on the tab counts those entries.
+
+<ImagePopup src="/images1/timesheets/ts_my_timesheets_tab.png" alt="My Timesheets tab showing only the logged in user's entries" />
 
 ## Edit an entry
 
@@ -86,12 +102,6 @@ Task totals are recalculated after the save.
 2. Confirm. A message confirms the timesheet was deleted.
 
 Task totals are recalculated after the delete. To remove many entries at once, see [Timesheet list and filters](timesheet-list-and-filters.md).
-
-## See your own time
-
-On the Timesheets page, click the **My Timesheets** tab. It shows only entries where **Employee** is you. A number on the tab counts those entries.
-
-<ImagePopup src="/images1/timesheets/ts_my_timesheets_tab.png" alt="My Timesheets tab showing only the logged in user's entries" />
 
 ## Actions and statuses
 

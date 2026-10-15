@@ -29,20 +29,24 @@ This example creates a type for study leave.
 
 1. Open `Time Off → Configuration → Leave Types`.
 2. Click **New Leave Type**. A full page opens.
-3. Fill in the three cards, then click **Create**.
+3. Fill in the three cards below.
 
 ### General Information
 
 - **_Title:_** Required. The name people see, for example `Study Leave`.
 - **_Approval:_** Who must approve a request. The default is **By Time Off Officer**.
-- **_Requires Allocation:_** Choose **Yes** or **No Limit**. The default is **No Limit**.
+- **_Requires Allocation:_** Choose **Yes** or **No Limit**. The default is **No Limit**. **Yes** shows the allocation settings below. **No Limit** hides them. Aureus still checks approved days when a request is saved.
 
 **Approval** has four options.
 
 - **No Validation**
 - **By Time Off Officer**
-- **By Employee's Approver**
+- **By Employee's Approver:** the approver named on the employee form.
 - **By Employee's Approver and Time Off Officer**
+
+::: info
+The choice records your policy for the leave type. On `Time Off → Management → Time off`, the **Approve** button shows on every request that is not yet approved.
+:::
 
 <ImagePopup src="/images1/time-off/to_set_type_general.png" alt="General Information card of the Create Leave Type page with Title Study Leave and Requires Allocation set to No Limit" />
 
@@ -56,7 +60,7 @@ Choose **Yes**. Two more fields appear.
 <ImagePopup src="/images1/time-off/to_set_type_yes.png" alt="Create Leave Type page with Requires Allocation set to Yes showing Employee Requests and allocation Approval" />
 
 ::: tip
-The first **Approval** is for requests. The second is for allocations. They have the same label.
+The first **Approval** is for requests. In this guide it is the request approval. The second is for allocations, shown in the list as **Allocation Approval**. They have the same label on the form.
 :::
 
 ### Display Option
@@ -66,15 +70,15 @@ The first **Approval** is for requests. The second is for allocations. They have
 ### Configuration
 
 - **_Notified Time Off Officers:_** Pick users from a searchable list. It is empty by default.
-- **_Take Time Off In:_** How a request is counted. The default is **Day**. **Half Day** is also available.
-- **_Public Holiday Included:_** Toggle, off by default.
-- **_Allow to Attach Supporting Document:_** Toggle, off by default.
+- **_Take Time Off In:_** The unit of the type. The default is **Day**. **Half Day** is also available.
+- **_Public Holiday Included:_** Toggle, off by default. Public holidays do not change **Duration** in the request form.
+- **_Allow to Attach Supporting Document:_** Toggle, off by default. Turn it on for types that need proof, such as a doctor's note.
 - **_Show on Dashboard:_** Toggle, off by default. When on, the type gets a balance card on `Time Off → My Time → Dashboard`.
 - **_Kind of Time Off:_** **Absence** (default) or **Worked Time**.
 
 With **Requires Allocation** set to **Yes**, two more settings appear.
 
-- **_Allow Negative Cap:_** Toggle, off by default.
+- **_Allow Negative Cap:_** Toggle, off by default. Use it with **Max Negative Cap**.
 - **_Max Negative Cap:_** Required number, default `0`. It shows only when **Allow Negative Cap** is on.
 
 <ImagePopup src="/images1/time-off/to_set_type_config.png" alt="Display Option and Configuration cards with Color #2f72cc, Notified Time Off Officers HR Admin, Take Time Off In Day, only Show on Dashboard switched on and Kind of Time Off Absence" />
