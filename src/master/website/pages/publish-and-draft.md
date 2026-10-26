@@ -56,12 +56,12 @@ In Aureus, **Delete** on a page moves it to the **Archived** tab. It is not gone
 1. Click **Delete** on the row, or on the edit page. Aureus shows **Page deleted**.
 2. Open the **Archived** tab to find the page.
 3. Click **Restore** to bring it back. Aureus shows **Page restored**.
-4. Click **Force Delete** to remove it for good.
+4. Click **Force delete** to remove it for good.
 
-<ImagePopup src="/images1/website/page_archived_tab.png" alt="Pages list on the Archived tab with one archived page and Restore and Force Delete actions visible" />
+<ImagePopup src="/images1/website/page_archived_tab.png" alt="Pages list on the Archived tab with one archived page and Restore and Force delete actions visible" />
 
 ::: warning
-**Force Delete** cannot be undone.
+**Force delete** cannot be undone.
 :::
 
 ## Translate a page

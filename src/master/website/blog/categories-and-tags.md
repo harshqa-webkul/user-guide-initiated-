@@ -18,7 +18,7 @@ Open `Website → Configurations → Categories`.
 
 - **Tabs:** **All**, **Archived**.
 - **Columns:** name and **Created At**.
-- **Row actions:** **Edit**, **Delete**. The **Archived** tab offers **Restore** and **Force Delete**.
+- **Row actions:** **Edit**, **Delete**. The **Archived** tab offers **Restore** and **Force delete**.
 
 ### Create a category
 

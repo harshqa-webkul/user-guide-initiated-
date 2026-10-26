@@ -11,17 +11,17 @@ Install an authenticator app on your phone. Any app that makes 6-digit time-base
 ## Turn on two-factor authentication
 
 1. Open your [profile](./profile.md).
-2. In the **Authenticator app** section, click **Set up**. The status shows **Disabled** until you finish.
+2. In the **Two-factor authentication (2FA)** card, click **Set up** under **Authenticator app**. The status shows **Disabled** until you finish.
 3. Scan the QR code with your authenticator app. If you cannot scan it, enter the code shown under the picture by hand.
 4. Enter the 6-digit code that the app shows.
-5. Click **Enable authenticator app**.
+5. Enter your **Current password**, then click **Next**.
 6. Save your **recovery codes** in a safe place. Aureus shows them only once.
 
 The status changes to **Enabled**.
 
-<ImagePopup src="/images1/general-settings/two_factor_section.png" alt="Authenticator app section on the profile page, status Disabled with the Set up button" />
+<ImagePopup src="/images1/general-settings/two_factor_section.png" alt="Two-factor authentication (2FA) card on the profile page, status Disabled with the Set up button" />
 
-<ImagePopup src="/images1/general-settings/two_factor_setup_modal.png" alt="Set up authenticator app window with QR code and 6-digit code field" />
+<ImagePopup src="/images1/general-settings/two_factor_setup_modal.png" alt="Set up authenticator app window with the QR code, the 6-digit code boxes and the Current password field filled in" />
 
 <!-- TODO-SCREENSHOT: /images1/general-settings/two_factor_recovery_codes.png | recovery codes shown after enabling -->
 

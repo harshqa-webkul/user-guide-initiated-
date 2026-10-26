@@ -43,9 +43,9 @@ A row of links sits under the title.
 2. Change any field. The form is the same as in [Add an employee](add-employee.md).
 3. Scroll to the bottom. **Save changes** and **Cancel** sit below the tab content. Click **Save changes**, or **Cancel** to discard.
 
-The **Manage Skills** and **Manage Resumes** links repeat under the form.
+The **Manage Skills** and **Manage Resumes** tables also appear under the form.
 
-<ImagePopup src="/images1/employees/emp_profile_edit.png" alt="Whole edit page of Priya Sharma as one tall image, with Save changes and Cancel at the very bottom below the tab content and the Manage Skills and Manage Resumes pills under the form" />
+<ImagePopup src="/images1/employees/emp_profile_edit.png" alt="Whole edit page of Priya Sharma as one tall image, with Save changes and Cancel below the tab content and the Manage Skills and Manage Resumes tabs under the form" />
 
 Saving also updates the employee's contact.
 

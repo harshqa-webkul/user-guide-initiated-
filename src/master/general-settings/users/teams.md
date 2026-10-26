@@ -8,7 +8,7 @@ A **team** is a named group of users. Teams matter when a user has the **Group**
 
 Open `Settings → Teams` to see the list of teams.
 
-<ImagePopup src="/images1/general-settings/teams_list.png" alt="Team list with Name and Created By columns and the New Team button" />
+<ImagePopup src="/images1/general-settings/teams_list.png" alt="Team list with Name and Created By columns, the View and Edit links and the New team button" />
 
 The list has these columns:
 
@@ -18,9 +18,9 @@ The list has these columns:
 ## Create a team
 
 1. Go to `Settings → Teams`.
-2. Click **New Team** (the plus icon button at the top right).
+2. Click **New team** at the top right.
 
-   <ImagePopup src="/images1/general-settings/team_create_modal.png" alt="New team modal with the Name field" />
+   <ImagePopup src="/images1/general-settings/team_create_modal.png" alt="Create Team window with the Name field filled in" />
 
 3. Fill in the form:
 

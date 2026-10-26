@@ -16,9 +16,9 @@ The **Locations** menu appears only when **Locations** is on.
 
 ## Overview
 
-The list shows the **Location** (full path), **Type**, **Storage Category** and **Company**. The list opens on the **Internal** tab. Tabs above it filter by type: **All** (18), **Internal** (9), **Customer** (1), **Production** (1), **Vendor** (1) and **Archived** (2). You can group by **Warehouse**, **Type**, **Created At** or **Updated At**.
+The list shows the **Location** (full path), **Type**, **Storage Category** and **Company**. The list opens on the **Internal** tab. Tabs above it filter by type: **All** (19), **Internal** (10), **Customer** (1), **Production** (1), **Vendor** (1) and **Archived** (2). You can group by **Warehouse**, **Type**, **Created At** or **Updated At**.
 
-<ImagePopup src="/images1/inventory/loc_list.png" alt="Locations list on the Internal tab, with tabs All, Internal, Customer, Production, Vendor and Archived" />
+<ImagePopup src="/images1/inventory/loc_list.png" alt="Locations list on the Internal tab searched for WH/, with tabs All, Internal, Customer, Production, Vendor and Archived" />
 
 ## Parent and child locations
 

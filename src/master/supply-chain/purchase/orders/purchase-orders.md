@@ -15,7 +15,7 @@ Two options in `Purchase → Settings → Manage Orders` change what happens on 
 
 ## Overview
 
-<ImagePopup src="/images1/purchase/po_list.png" alt="Purchase Orders list showing PO/3, PO/4 and PO/5" />
+<ImagePopup src="/images1/purchase/po_list.png" alt="Purchase Orders list with tabs and rows in the Purchase Order state" />
 
 The list shows orders in the **Purchase Order** and **Locked** states only.
 
@@ -29,7 +29,7 @@ Scenario: open **PO/3** from Consolidated Components, with 15 **SSD 512GB** and 
 
 1. Open the RFQ and click **Confirm Order**.
 
-<ImagePopup src="/images1/purchase/po_confirm.png" alt="RFQ with the Confirm Order button highlighted" />
+<ImagePopup src="/images1/purchase/po_confirm.png" alt="RFQ PO/00013 with the Confirm Order button highlighted" />
 
 2. The state bar moves to **Purchase Order**. The **Confirmation Date** is filled.
 3. The **Receipts** tab shows a new receipt, **WH/IN/11**. See [Receipts](../../inventories/operations/receipts.md).
@@ -66,7 +66,7 @@ Locking protects a confirmed order from edits.
 - Click **Lock** on a **Purchase Order**. It becomes **Locked**.
 - Click **Unlock** on a **Locked** order. It returns to **Purchase Order**.
 
-<ImagePopup src="/images1/purchase/po_locked.png" alt="Locked order showing Unlock and Create Bill buttons" />
+<ImagePopup src="/images1/purchase/po_locked.png" alt="Locked order PO/00011 showing Unlock and Create Bill buttons" />
 
 ## Cancel an order
 
@@ -75,7 +75,7 @@ Click **Cancel**. The state becomes **Canceled** and planned receipts are cancel
 - **The order cannot be canceled since they have receipts that are already done.** Return the goods first.
 - **The order cannot be canceled. You must first cancel their related vendor bills.** Cancel the bills, then try again.
 
-<ImagePopup src="/images1/purchase/po_cancel_refused.png" alt="Notification refusing to cancel because a receipt is already done" />
+<ImagePopup src="/images1/purchase/po_cancel_refused.png" alt="Notification Cannot cancel order because a receipt is already done" />
 
 ## Set to Draft
 

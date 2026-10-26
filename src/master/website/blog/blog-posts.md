@@ -21,7 +21,7 @@ Open `Website → Blog Posts`.
 - **Group by:** **Category**, **Author**, **Created At**.
 - **Filters:** **Is Published**, **Author**, **Created By**, **Category**, **Tags**.
 
-<ImagePopup src="/images1/website/post_filters.png" alt="Blog Posts list with the filter panel open showing Author, Category and Tags filters" />
+<ImagePopup src="/images1/website/post_filters.png" alt="Blog Posts list with the filter panel open showing Is Published, Author, Created By, Category and Tags filters" />
 
 ## Create a blog post
 

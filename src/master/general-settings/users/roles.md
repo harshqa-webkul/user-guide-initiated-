@@ -61,7 +61,7 @@ Under **Resources**, each screen has its own box of checkboxes. The permission t
 Some screens may show other permissions. Only the ones the screen supports appear.
 
 ::: tip
-Each checkbox group has a search box and a select-all control. Use them to work faster.
+Each checkbox group has a **Select all** link. Click it to tick every box of that screen.
 :::
 
 ::: warning

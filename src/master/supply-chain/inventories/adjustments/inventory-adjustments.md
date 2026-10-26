@@ -47,14 +47,14 @@ You can also show **Storage Category**, **Product Category**, **Available Quanti
 
 ## Count an existing row
 
-The company counts Camping Hammock at `WH/Stock`. The system says 110.
+The company counts Camping Hammock at `WH/Stock`. The system says 106.
 
 1. Open `Inventory → Operations → Adjustments → Quantities`.
 2. Search for **Camping Hammock**.
 3. Click the **Counted Quantity** box on the `WH/Stock` row.
-4. Type **108** and leave the box. A message says **Quantity updated**.
+4. Type **104** and leave the box. The row shows **Change saved.**
 
-<ImagePopup src="/images1/inventory/adj_counted_quantity.png" alt="Camping Hammock row in WH/Stock with Counted Quantity 108 and Difference -2" />
+<ImagePopup src="/images1/inventory/adj_counted_quantity.png" alt="Camping Hammock row in WH/Stock with Counted Quantity 104 and Difference -2" />
 
 The **Difference** now reads -2. The row also appears in the **To Apply** tab.
 
@@ -62,8 +62,8 @@ The **Difference** now reads -2. The row also appears in the **To Apply** tab.
 
 Two row actions appear once a count exists.
 
-1. Click **Apply** to write the count into stock. A message says **Quantity changes applied**. On hand becomes 108.
-2. Click **Clear** to throw the count away instead. A message says **Quantity changes cleared**. On hand stays 110.
+1. Click **Apply** to write the count into stock. A message says **Quantity changes applied**. On hand becomes 104.
+2. Click **Clear** to throw the count away instead. A message says **Quantity changes cleared**. On hand stays 106.
 
 <ImagePopup src="/images1/inventory/adj_apply_clear.png" alt="Row actions Apply and Clear on the Camping Hammock row in the To Apply tab" />
 

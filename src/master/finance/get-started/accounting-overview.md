@@ -63,7 +63,7 @@ Sale and purchase cards show a bar chart of the amounts still due, grouped by du
 
 ## Example
 
-In the sample data, the **Customer Invoices** card shows **1 To Validate** with 2,024.00 (the draft invoice for Lumber Wholesale Inc), **1 Unpaid** with 1,207.50 (INV/2026/1 for Azure Interiors) and **1 To Pay** with 1,207.50. The green bar sits in **This Week** because that invoice is not yet due.
+In the sample data, the **Customer Invoices** card shows the number of draft invoices under **To Validate**, the invoices still unpaid under **Unpaid**, the overdue ones under **Late** and the amount waiting for payment under **To Pay**. The bars in the chart group the open amounts by due date, from **Overdue** to **Not Due**.
 
 ::: tip
 Use the numbers as shortcuts. Click **To Validate** each morning to confirm drafts, and **Late** to chase customers.

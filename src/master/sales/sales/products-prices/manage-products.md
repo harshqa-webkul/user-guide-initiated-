@@ -26,10 +26,11 @@ Go to `Sales → Products`. The list has these views:
 - **Favorites:** Products you marked as favorite.
 - **Archived:** Archived products.
 - **Inventory Management** and **Components:** Extra views for stock and component products.
+- **POS:** Products that can be sold in Point of Sale.
 
 The list shows **Favorite**, **Images**, **Name**, **Variants**, **Reference**, **Tags**, **Price**, **Cost**, **On Hand** and **Forecasted**. Use **Group by** for **Type**, **Category** or **Created At**.
 
-<ImagePopup src="/images1/sales/products_list.png" alt="Products list with the Default, Goods, Services, Favorites and Archived views and the New Product button" />
+<ImagePopup src="/images1/sales/products_list.png" alt="Products list with the Default, Goods, Services, Favorites, Archived, Inventory Management, Components and POS views and the New Product button" />
 
 ## Create a product
 

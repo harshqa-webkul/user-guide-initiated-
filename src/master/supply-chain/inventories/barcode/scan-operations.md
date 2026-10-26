@@ -9,10 +9,10 @@ Open `Barcode → Barcode App → Inventory Operations`. See [Barcode app](index
 ## Find the transfer
 
 1. Click an operation card, for example **Receipts**.
-2. The **Transfers** list shows reference, partner and status, for example WH/IN/11 Consolidated Components Ready.
+2. The **Transfers** list shows reference, partner and status, for example WH/IN/00018 Consolidated Components Ready.
 3. Click a row, or type the reference in the **Search...** box and click **Open**.
 
-<ImagePopup src="/images1/inventory/bc_transfers.png" alt="Barcode Transfers list showing WH/IN/11 Consolidated Components in Ready state" />
+<ImagePopup src="/images1/inventory/bc_transfers.png" alt="Barcode Transfers list showing WH/IN/00018 and WH/IN/00016 Consolidated Components in Ready state" />
 
 If nothing matches you see **No active operation found for this barcode.**
 
@@ -22,9 +22,9 @@ The title is the transfer reference. A **MOVES** section shows one card per line
 
 - **Scan box:** type or scan a barcode, then click **Submit scan**.
 - **Pencil icon:** edit the counted quantity.
-- **Quick button**, for example **+15:** sets the count to the full demand.
+- **Quick button**, for example **+10:** sets the count to the full demand.
 
-<ImagePopup src="/images1/inventory/bc_operation.png" alt="Barcode screen for WH/IN/11 with SSD 512GB progress 0 / 15 Units and the Validate and Cancel buttons" />
+<ImagePopup src="/images1/inventory/bc_operation.png" alt="Barcode screen for WH/IN/00018 with SSD 512GB progress 0 / 10 Units and the Validate and Cancel buttons" />
 
 ## What a scan matches
 
@@ -39,7 +39,7 @@ A message **Action completed.** returns you to the list. The buttons are hidden 
 
 ## Example
 
-For WH/IN/11, scan the SSD 512GB barcode 15 times, or click **+15**, then **Validate**. Stock updates the same as validating on the desktop. See [Receipts](../operations/receipts.md).
+For WH/IN/00018, scan the SSD 512GB barcode 10 times, or click **+10**, then **Validate**. Stock updates the same as validating on the desktop. See [Receipts](../operations/receipts.md).
 
 ## See also
 

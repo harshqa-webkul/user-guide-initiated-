@@ -78,7 +78,7 @@ The press is leaking oil. Open `Maintenance → Maintenance Requests` and click 
 - **_Request:_** `Hydraulic press oil leak`
 - **_Equipment:_** `Hydraulic Press 200T`
 
-When you pick the equipment, Aureus fills **Category**, **Team**, **Responsible** and **Company** for you. **Request Date** stays on today. Leave **Maintenance Type** on **Corrective**. Do not click **Create** yet. Go on to step 6.
+When you pick the equipment, Aureus fills **Category**, **Team**, **Responsible** and **Company** for you. **Request Date** takes the date of the equipment. Leave **Maintenance Type** on **Corrective**. Do not click **Create** yet. Go on to step 6.
 
 <ImagePopup src="/images1/maintenance/ft_request_equipment.png" alt="Maintenance request form with Hydraulic press oil leak and Hydraulic Press 200T, Category Packaging Machines, Team Electrical Maintenance Team and Responsible Linda Ndlovu filled" />
 
@@ -129,7 +129,7 @@ Fixing faults is not enough. Create a second request to look after the press bef
 
 Open the request, click **Edit**, choose **Repaired** and click **Save changes**. Aureus creates a copy in **New Request**, scheduled one month after the original: **Nov 20, 2026 09:00**.
 
-<ImagePopup src="/images1/maintenance/ft_preventive_copy.png" alt="Request list showing the Repaired Monthly lubrication request and its new copy in New Request scheduled Nov 20, 2026 09:00" />
+<ImagePopup src="/images1/maintenance/ft_preventive_copy.png" alt="Request list searched for Monthly lubrication, showing the Repaired request and its new copy in New Request" />
 
 **Behind the scenes:** the copy keeps the time and duration, and it also creates an activity for the responsible person, so it shows up in their to-do list. See [Preventive maintenance](../requests/preventive-maintenance.md).
 

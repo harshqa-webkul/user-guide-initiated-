@@ -18,7 +18,7 @@ Both share one form and one list. Choose **Blanket Order** in **Agreement Type**
 
 The list shows these columns: **Agreement**, **Vendor**, **Agreement Type**, **Buyer**, **Company**, **Valid From**, **Valid Until**, **Reference** and **Status**.
 
-<ImagePopup src="/images1/purchase/agr_list.png" alt="Purchase Agreements list with one confirmed blanket order for FreshFoods Wholesale" />
+<ImagePopup src="/images1/purchase/agr_list.png" alt="Purchase Agreements list with tabs and one blanket order for FreshFoods Wholesale" />
 
 | Tab | Shows |
 | --- | --- |
@@ -87,7 +87,7 @@ Draft  >  Confirmed  >  Closed
 | **Print** | Downloads a PDF of the agreement. |
 | **Delete** | Removes the agreement. |
 
-<ImagePopup src="/images1/purchase/agr_confirmed.png" alt="Confirmed purchase agreement with Close, Cancel and Print buttons in the header" />
+<ImagePopup src="/images1/purchase/agr_confirmed.png" alt="Confirmed purchase agreement BO/1 with the Confirmed step of the state bar active" />
 
 Without a line, **Confirm** shows **Unable to confirm purchase agreement**. Add a product line first.
 
@@ -103,7 +103,7 @@ The **Agreement** field shows on the RFQ form only when **Purchase Agreements** 
 2. If the vendor has a confirmed agreement that is valid today, Aureus fills **Agreement**, the product lines and the **Currency** for you.
 3. To choose another one, open the **Agreement** list. It offers confirmed agreements only.
 
-<ImagePopup src="/images1/purchase/agr_rfq_filled.png" alt="RFQ for FreshFoods Wholesale with Agreement filled and the SSD 512GB line copied in" />
+<ImagePopup src="/images1/purchase/agr_rfq_filled.png" alt="RFQ for FreshFoods Wholesale with Agreement BO/1 filled and the SSD 512GB line copied in" />
 
 Lines copied from an agreement keep the agreed unit price.
 

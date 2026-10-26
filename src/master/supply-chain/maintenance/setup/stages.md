@@ -38,7 +38,7 @@ A request counts as closed when its stage has **Done** switched on. Then:
 - **_Name:_** Required. For example `Waiting for Parts`.
 - **_Done:_** Switch on only if the job is finished at this stage. It starts off.
 
-<ImagePopup src="/images1/maintenance/set_stage_form.png" alt="New Stage window with the name Waiting for Parts and the Done toggle off" />
+<ImagePopup src="/images1/maintenance/set_stage_form.png" alt="Create Maintenance Stage window with the name Waiting for Parts and the Done toggle off" />
 
 4. Click **Create**.
 

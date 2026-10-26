@@ -21,7 +21,7 @@ The tabs at the top filter the cards by kind of operation.
 
 Each card is one operation type. The heading is a link to the list of that operation. The small grey text under it is the warehouse.
 
-<ImagePopup src="/images1/inventory/ov_card_closeup.png" alt="Close-up of the Receipts card showing 1 To Receive, 1 Late and 1 Operations links" />
+<ImagePopup src="/images1/inventory/ov_card_closeup.png" alt="Close-up of the Receipts card showing 3 To Receive, 3 Late and 6 Operations links" />
 
 | Item | Meaning |
 | --- | --- |

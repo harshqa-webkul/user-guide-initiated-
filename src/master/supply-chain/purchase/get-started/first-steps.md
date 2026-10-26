@@ -18,7 +18,7 @@ A vendor is a contact you buy from. You keep their name, email and address once,
 2. Enter the name **FreshFoods Wholesale** and an email address.
 3. Click **Create**.
 
-<ImagePopup src="/images1/purchase/first_vendor.png" alt="New vendor form for FreshFoods Wholesale with name and email filled" />
+<ImagePopup src="/images1/purchase/first_vendor.png" alt="New vendor form for the company FreshFoods Wholesale with tax ID, phone, email, website and address filled" />
 
 **Behind the scenes:** A vendor is a normal contact. Master data steps are in [Contacts](../../../getting-started/contacts/contacts.md). See also [Vendors](../../../getting-started/contacts/contacts.md).
 
@@ -27,12 +27,12 @@ A vendor is a contact you buy from. You keep their name, email and address once,
 1. Go to `Purchase → Products → Products` and click **New Product**.
 2. Enter the **Name** **SSD 512GB** and set **Type** to Goods. Fill **Price** and **Cost**, then click **Create**.
 
-<ImagePopup src="/images1/purchase/first_product.png" alt="New product form for SSD 512GB with Type Goods and Cost filled" />
+<ImagePopup src="/images1/purchase/first_product.png" alt="New product form for SSD 512GB with Type Goods, reference, price and cost filled" />
 
 3. Open the product and click **Vendors** in the switcher at the top.
 4. Click **Add Vendor Price**. Choose **FreshFoods Wholesale**, enter **Unit Price** 3500 and click **Create**.
 
-<ImagePopup src="/images1/purchase/first_vendor_price.png" alt="Add Vendor Price window with FreshFoods Wholesale, minimum quantity 1 and unit price 3500" />
+<ImagePopup src="/images1/purchase/first_vendor_price.png" alt="Create Product Supplier window with FreshFoods Wholesale, quantity 1 and unit price 3500" />
 
 **Behind the scenes:** This row fills the price on an order line later. See [Configure a product](../products/configure-product.md) and [Vendor price lists](../products/vendor-price-lists.md).
 
@@ -84,9 +84,9 @@ The status becomes **Purchase Order**. With approval on and a total above the mi
 ## Step 7: Receive the goods
 
 1. Open the order and click **Receipts** in the switcher at the top.
-2. Open the receipt, for example **WH/IN/00022**, and click **Validate**.
+2. Open the receipt, for example **WH/IN/00018**, and click **Validate**.
 
-<ImagePopup src="/images1/purchase/first_receipt_validate.png" alt="Receipt WH/IN/00022 in Ready status with the Validate button" />
+<ImagePopup src="/images1/purchase/first_receipt_validate.png" alt="Receipt WH/IN/00018 in Ready status with the Validate button highlighted" />
 
 The receipt becomes **Done** and stock goes up. See [Receipts](../../inventories/operations/receipts.md).
 

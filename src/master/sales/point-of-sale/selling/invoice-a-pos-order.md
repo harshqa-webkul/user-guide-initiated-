@@ -33,7 +33,7 @@ If there is no customer, the terminal shows "Customer required" and asks you to 
 
 A notice says **Invoice created**. The order status changes to **Invoiced** and the **Invoice** button turns grey.
 
-<ImagePopup src="/images1/pos/invoice_created_status.png" alt="Orders list with TNE/00001 showing the status Invoiced and the Invoice button disabled" />
+<ImagePopup src="/images1/pos/invoice_created_status.png" alt="Terminal Orders page with an order showing the status Invoiced and a Print invoice button" />
 
 ## Find the invoice
 

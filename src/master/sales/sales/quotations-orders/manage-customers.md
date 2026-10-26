@@ -50,13 +50,14 @@ Example: your company sells office furniture. A new client, Brightway Offices, a
 
 <ImagePopup src="/images1/sales/customer_create_general.png" alt="Create Customer page, General section filled in" />
 
-### Sales and Purchase
+### Sales and Purchases
 
 This section sets the defaults that Aureus copies onto a new quotation for this customer.
 
 **Sales**
 
-- **_Sales Person:_** The team member who looks after this customer. Pick yourself, for example.
+- **_Responsible:_** The team member who looks after this customer. Pick yourself, for example.
+- **_Price List:_** The price list Aureus uses for this customer. It shows only when **Price Lists** is on.
 - **_Payment Terms:_** When the customer must pay after you invoice. For example, "30 Days" means payment is due 30 days after the invoice date. You can change it on each quotation. To create new terms, see [Payment terms](../../../finance/customer-invoices/payment-terms.md).
 - **_Payment Method:_** How the customer usually pays, such as bank transfer.
 
@@ -77,7 +78,7 @@ Fill this only if you also buy from this customer.
 - **_Reference:_** Another code, such as a customer number.
 - **_Industry:_** The business sector. You can group the list by it.
 
-<ImagePopup src="/images1/sales/customer_create_sales.png" alt="Sales and Purchases tab with Responsible, Payment Terms and Payment Method filled in" />
+<ImagePopup src="/images1/sales/customer_create_sales.png" alt="Sales and Purchases tab with Responsible, Payment Terms, Payment Method and Price List filled in" />
 
 ### Invoicing
 
@@ -85,6 +86,11 @@ Fill this only if you also buy from this customer.
 
 - **_Invoice Sending Method:_** How invoices reach this customer: **Download**, **Email** or **Post**.
 - **_eInvoice Format:_** The electronic invoice format to use, if your customer needs one.
+
+**Accounting Entries**
+
+- **_Account Receivable:_** The account used for what the customer owes you. It is filled for you.
+- **_Account Payable:_** The account used for what you owe the customer. It is filled for you.
 
 **Automation**
 

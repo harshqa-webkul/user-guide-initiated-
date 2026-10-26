@@ -68,7 +68,7 @@ Products without a PoS category still sell. Cashiers find them with search inste
 3. Fill in the **Inventory** section if you track stock. Choose **Track Inventory**, then **Track By** unique serial number, lots or quantity.
 4. In **Point of Sale**, switch on **Available in POS** and pick **PoS Product Categories**.
 
-<ImagePopup src="/images1/pos/product_form_new.png" alt="New product form for Butter Chicken with Type Goods, Price 450, Product taxes and Available in POS on" />
+<ImagePopup src="/images1/pos/product_form_new.png" alt="New product form for Butter Chicken with Type Goods, Price 450, Cost 180 and Product taxes" />
 
 5. Click **Create**.
 

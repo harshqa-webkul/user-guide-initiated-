@@ -85,7 +85,7 @@ The answer does not change the status. The order stays **RFQ Sent**. You still d
 
 If the vendor accepted, click **Confirm Order**. The order becomes a **Purchase Order** and the receipt is planned. See [Purchase orders](purchase-orders.md).
 
-<ImagePopup src="/images1/purchase/vp_confirm_order.png" alt="Order confirmed notification and the order in Purchase Order status with Create Bill, Lock and Cancel buttons" />
+<ImagePopup src="/images1/purchase/vp_confirm_order.png" alt="Purchase order PO/00014 in Purchase Order status with Create Bill, Lock and Cancel buttons" />
 
 If the vendor declined, you can cancel the RFQ, edit it and send it again, or call the vendor.
 

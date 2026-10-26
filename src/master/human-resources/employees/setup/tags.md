@@ -14,7 +14,7 @@ None. The sample data has 14 tags: Sales, Trainer, Employee, Consultant, Managem
 
 The list has no tabs. Columns are **Name** and **Color**. The colour shows as a small swatch. Use the search box to find a tag.
 
-<ImagePopup src="/images1/employees/set_tags_list.png" alt="Tags list with the Name and Color columns showing tags such as Operations and Senior" />
+<ImagePopup src="/images1/employees/set_tags_list.png" alt="Tags list with the Name and Color columns showing tags such as Sales, Employee and Operations" />
 
 ## Create a tag
 

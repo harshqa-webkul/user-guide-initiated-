@@ -53,11 +53,11 @@ This walk-through uses the same order in all three step pages, so you can compar
 3. Click **Create**. The order is in **Draft**.
 4. Click **Confirm**. The state becomes **Confirmed**.
 
-<ImagePopup src="/images1/manufacturing/step1_mo_confirmed.png" alt="MO view of a Confirmed order on a 1-step warehouse, header buttons visible; crop to the header and form" />
+<ImagePopup src="/images1/manufacturing/step1_mo_confirmed.png" alt="View page of a Confirmed manufacturing order with its header buttons and General section" />
 
 5. Open the **Transfers** sub page. The list is empty, because 1 step creates no pick transfer.
 
-<ImagePopup src="/images1/manufacturing/step1_transfers_empty.png" alt="Transfers sub page of the MO on a 1-step warehouse showing 'No records'" />
+<ImagePopup src="/images1/manufacturing/step1_transfers_empty.png" alt="Transfers sub page of a manufacturing order with no linked transfers, showing 'No operations'" />
 
 6. Click **Produce All**. The state becomes **Done**.
 

@@ -66,7 +66,7 @@ Click the paper clip icon to add files to the record without writing a message.
 
 The number on the icon shows how many files the record has. Files already on the record are not uploaded again.
 
-<!-- TODO-SCREENSHOT: /images1/getting-started/chatter_files.png | Attachments window opened from the paper clip icon, with a file added -->
+<ImagePopup src="/images1/getting-started/chatter_files.png" alt="Attachments window with one file added and the Upload and Cancel buttons" />
 
 ## Followers
 
@@ -102,12 +102,6 @@ When a record has a long history, use the funnel icon to find an entry.
 3. Click **Apply filters**, or **Cancel** to close the window.
 
 <ImagePopup src="/images1/getting-started/chatter_filters.png" alt="Filters window with Search, Type, Date, Sort by and Pinned only" />
-
-## Delete a message
-
-You can delete an entry you wrote. Open the menu of the entry and choose **Delete Message**.
-
-<!-- TODO-SCREENSHOT: /images1/getting-started/chatter_delete_message.png | menu of a message showing Delete Message -->
 
 ## See also
 

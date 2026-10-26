@@ -6,18 +6,18 @@ A delivery records goods that leave for a customer. When you validate it, the qu
 
 Open `Inventory → Operations → Transfers → Deliveries`.
 
-## Worked scenario: ship SO/4
+## Worked scenario: ship SO/3
 
-Sales order **SO/4** sells 8 **Ergonomic Office Chair** and 50 dozens of **Vitamin C Tablets 500mg**.
+Sales order **SO/3** sells 3 **Digital Drawing Tablet** and 6 **Stay Warm Electric Warm Blankets**.
 
 1. Confirm the sales order. See [Manage orders](../../../sales/sales/quotations-orders/manage-orders.md).
-2. Open the order. Click **Deliveries** in the switcher at the top to open the sub page **Manage SO/4 Deliveries**. It lists the delivery documents with **Source Document** **SO/4**.
+2. Open the order. Click **Deliveries** in the switcher at the top to open the sub page **Manage SO/3 Deliveries**. It lists the delivery documents with **Source Document** **SO/3**.
 
-<ImagePopup src="/images1/inventory/delv_from_so.png" alt="Manage SO/4 Deliveries sub page listing the delivery documents for sales order SO/4" />
+<ImagePopup src="/images1/inventory/delv_from_so.png" alt="Manage SO/3 Deliveries sub page listing the delivery documents for sales order SO/3" />
 
 3. Open the delivery from `Inventory → Operations → Transfers → Deliveries`.
 
-<ImagePopup src="/images1/inventory/delv_list.png" alt="Deliveries list showing WH/OUT/4 and WH/OUT/42" />
+<ImagePopup src="/images1/inventory/delv_list.png" alt="Deliveries list searched for WH/OUT with Ready and Done deliveries" />
 
 4. If the state is **Draft**, click **Mark as Todo**. With no stock in the source location (for example **WH/Output**), the state becomes **Waiting** and the buttons are **Check Availability**, **Validate**, **Cancel**, **Print** and **Delete**. Click **Check Availability** to reserve stock. With stock available (for example in **WH/Stock**), the state goes straight to **Ready**.
 5. Check the **Operations** table. **Demand** is what the customer ordered. A **Ready** delivery has no **Check Availability** button.
@@ -27,7 +27,7 @@ Sales order **SO/4** sells 8 **Ergonomic Office Chair** and 50 dozens of **Vitam
 6. Turn on **Picked** or fill **Quantity** for what you hand to the carrier. Click **Save changes** if you edited the lines.
 7. Click **Validate**. The state becomes **Done**. Only **Return** and **Print** remain.
 
-<ImagePopup src="/images1/inventory/delv_done.png" alt="Delivery WH/OUT/4 in Done state with contact My Company and only the Return and Print buttons" />
+<ImagePopup src="/images1/inventory/delv_done.png" alt="Delivery WH/OUT/42 in Done state with contact My Company and only the Return and Print buttons" />
 
 8. Open the sales order. The **Delivered** column now shows the quantities.
 

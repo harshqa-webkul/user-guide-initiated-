@@ -6,34 +6,34 @@ A receipt records goods that arrive from a vendor. When you validate it, the qua
 
 Open `Inventory → Operations → Transfers → Receipts`.
 
-## Worked scenario: receive PO/3
+## Worked scenario: receive PO/00014
 
-Consolidated Components sent the goods of purchase order **PO/3**: 15 **SSD 512GB** and 10 **Laptop Battery**.
+Consolidated Components sent the goods of purchase order **PO/00014**: 10 **Smart LED Desk Lamp**.
 
 1. Confirm the purchase order. See [Purchase orders](../../purchase/orders/purchase-orders.md).
-2. Open `Inventory → Operations → Transfers → Receipts`. The receipt **WH/IN/11** is in the list with **Source Document** **PO/3**.
+2. Open `Inventory → Operations → Transfers → Receipts`. The receipt **WH/IN/00024** is in the list with **Source Document** **PO/00014**.
 
-<ImagePopup src="/images1/inventory/rcpt_list_ready.png" alt="Receipts list showing WH/IN/11 with source document PO/3 in Ready state" />
+<ImagePopup src="/images1/inventory/rcpt_list_ready.png" alt="Receipts list on the Ready tab showing WH/IN/00024 with source document PO/00014" />
 
-You can also reach it from the order. Open the purchase order. The switcher at the top shows **View**, **Edit**, **Vendor Bills** and **Receipts**. Click **Receipts** to open the sub page **Manage PO/3 Receipts**.
+You can also reach it from the order. Open the purchase order. The switcher at the top shows **View**, **Edit**, **Vendor Bills** and **Receipts**. Click **Receipts** to open the sub page **Manage PO/00014 Receipts**.
 
-<ImagePopup src="/images1/inventory/rcpt_from_po.png" alt="Manage PO/3 Receipts sub page of purchase order PO/3 listing WH/IN/11" />
+<ImagePopup src="/images1/inventory/rcpt_from_po.png" alt="Manage PO/00014 Receipts sub page of purchase order PO/00014 listing WH/IN/00024" />
 
-3. Click **WH/IN/11**. The state bar shows **Draft**, **Waiting**, **Ready**, **Done** and **Canceled**, and **Ready** is highlighted.
+3. Click **WH/IN/00024**. The state bar shows **Draft**, **Waiting**, **Ready**, **Done** and **Canceled**, and **Ready** is highlighted.
 4. Check the **Operations** tab. The **Demand** column is what you ordered.
 
-<ImagePopup src="/images1/inventory/rcpt_view_ready.png" alt="Receipt WH/IN/11 Operations tab with SSD 512GB demand 15 and Laptop Battery demand 10" />
+<ImagePopup src="/images1/inventory/rcpt_view_ready.png" alt="Receipt WH/IN/00024 in Ready state with the Operations tab showing Smart LED Desk Lamp demand 10" />
 
 5. Count the goods. If the truck matches, open the **Edit** tab of the **View** / **Edit** / **Moves** switcher. Turn on the **Picked** toggle on each line, or set **Quantity**. Click **Save changes**.
 6. Click **Validate**.
 
-<ImagePopup src="/images1/inventory/rcpt_validate.png" alt="Receipt WH/IN/11 with the blue Validate button highlighted" />
+<ImagePopup src="/images1/inventory/rcpt_validate.png" alt="Receipt WH/IN/00024 header with the blue Validate button and the state bar on Ready" />
 
-7. The state changes to **Done**. The **Return**, **Print** and **Next Transfer** buttons replace **Validate**. The screenshot below shows **WH/IN/12**, a receipt that is **Done**, while **WH/IN/11** is still **Ready**.
+7. The state changes to **Done**. The **Return**, **Print** and **Next Transfer** buttons replace **Validate**. The screenshot below shows **WH/IN/12**, a receipt that is **Done**, while **WH/IN/00024** is still **Ready** in the steps above.
 
 <ImagePopup src="/images1/inventory/rcpt_done.png" alt="Receipt WH/IN/12 in Done state with Return, Print and Next Transfer buttons" />
 
-8. Check stock. Open `Inventory → Reporting` and search **SSD 512GB**. See [Stock report](../reporting/stock-report.md).
+8. Check stock. Open `Inventory → Reporting` and search **Smart LED Desk Lamp**. See [Stock report](../reporting/stock-report.md).
 
 ## Fields
 
@@ -44,7 +44,7 @@ On the **Edit** page:
 - **_Destination Location:_** Required. The default is **WH/Input**.
 - **_Responsible:_** The person in charge. The default is you.
 - **_Scheduled At:_** The expected arrival. Setting it here applies it to all lines.
-- **_Source Document:_** The order number, such as **PO/3**.
+- **_Source Document:_** The order number, such as **PO/00014**.
 - **Description** (**Note** tab): Free text for the team.
 
 Table columns: **_Product_**, **Packaging**, **_Demand_**, **_Quantity_**, **_Unit_**, **Picked**. Click **Add to moves** to add a line.
@@ -63,7 +63,7 @@ If the product tracks lots or serial numbers, Aureus asks you to supply them bef
 
 ## Behind the scenes
 
-Validation moves stock from **Partners/Vendors** to the destination, here **WH/Input**. The document name uses the **IN** prefix, such as **WH/IN/11**. The state goes from **Ready** to **Done**. The **Received** column on the purchase order updates.
+Validation moves stock from **Partners/Vendors** to the destination, here **WH/Input**. The document name uses the **IN** prefix, such as **WH/IN/00024**. The state goes from **Ready** to **Done**. The **Received** column on the purchase order updates.
 
 If you receive less than the demand, a window asks about a backorder. See [Backorders and returns](backorders-and-returns.md).
 

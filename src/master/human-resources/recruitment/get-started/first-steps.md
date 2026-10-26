@@ -35,7 +35,7 @@ See [Stages](../setup/stages.md) to add or change them.
 2. Type **Warehouse Supervisor** in the search box.
 3. Read the card. The blue button shows how many applicants are in the **New** stage. The three dots menu shows **To Recruitment** and **Applications**.
 
-<ImagePopup src="/images1/recruitment/gs_jobpos_card.png" alt="Warehouse Supervisor card with Sarah Mitchell and My Company, the 1 New Applications button and the open menu showing 2 To Recruitment and 1 Applications" />
+<ImagePopup src="/images1/recruitment/gs_jobpos_card.png" alt="Warehouse Supervisor card with Sarah Mitchell and My Company, the 1 New Applications button and the open menu showing 2 To Recruitment and 2 Applications" />
 
 See [Job positions](../job-positions/job-positions.md) for the card details.
 
@@ -78,7 +78,7 @@ The state tells your team how an applicant is doing inside a stage.
 3. Click **First Interview** in the stage bar. The stage saves at once.
 4. Keep clicking the next stage as the hiring goes on, up to **Contract Proposal**.
 
-<ImagePopup src="/images1/recruitment/gs_stage_first_interview.png" alt="Stage bar with First Interview highlighted in blue and the State and Go to Employee icon buttons in the header" />
+<ImagePopup src="/images1/recruitment/gs_stage_first_interview.png" alt="Stage bar with First Interview highlighted in blue and the State icon button and the Create Employee button in the header" />
 
 ::: tip
 Clicking another stage resets the state to **In Progress**.
@@ -125,7 +125,7 @@ Add a second applicant the same way. Use the full name `Meera Nair`, the email `
 
 5. To bring her back, click **Restore** and click **Confirm**.
 
-<ImagePopup src="/images1/recruitment/gs_restore_confirm.png" alt="Restore Applicant from refuse window with the Cancel and Confirm buttons" />
+<ImagePopup src="/images1/recruitment/gs_restore_confirm.png" alt="Reopen Applicant window with the Cancel and Confirm buttons" />
 
 See [Refuse and reopen](../applicants/refuse-and-reopen.md) for the details.
 

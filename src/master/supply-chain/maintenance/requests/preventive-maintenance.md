@@ -58,7 +58,7 @@ The request repeats when you save it in a stage with the **Done** flag, such as 
 
 The new date is the old **Scheduled Date** plus the interval, not today plus the interval. Closing late does not shift the cycle.
 
-<ImagePopup src="/images1/maintenance/prev_copy_created.png" alt="Request list showing the Repaired Monthly lubrication request for 20 Oct 2026 and its new copy in New Request for 20 Nov 2026" />
+<ImagePopup src="/images1/maintenance/prev_copy_created.png" alt="Request list searched for Monthly lubrication, showing the Repaired request and its new copy in New Request" />
 
 ## Behind the scenes
 

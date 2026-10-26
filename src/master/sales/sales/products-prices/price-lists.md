@@ -43,7 +43,7 @@ The first rule that matches a product decides its price. More specific rules win
 1. Under **Price Rules**, click **Add Rule**.
 2. Fill in the rule window:
 
-   - **_Apply To:_** Choose **All Products**, **Category**, **Product** or **Variant**. Then choose the category, product or variant.
+   - **_Apply To:_** Choose **Product** or **Category**. Then choose the product or category.
    - **_Min Qty:_** Set the smallest quantity for the rule.
    - **_Validity Period_** and **_End Date:_** Set when the rule is active.
    - **_Price Type:_** Choose **Fixed Price**, **Discount** or **Formula**.
@@ -54,7 +54,7 @@ The first rule that matches a product decides its price. More specific rules win
    - **Discount:** Enter the **Discount** percentage and choose what it is based on. Use a negative value to apply a mark-up.
    - **Formula:** Choose the **Based price**: **Sales Price**, **Cost** or **Other Price List**. Then set **Discount** or **Markup**, **Round off to**, **Extra Fee**, **Min. Margin** and **Max. Margin**.
 
-4. Save the rule.
+4. Click **Submit** to add the rule.
 
 The rules table shows **Apply On**, **Applies To**, **Min. Quantity**, **Compute Price**, **Price** and **Period**. Click **Edit Rule** on a row to change it.
 
@@ -62,7 +62,7 @@ The rules table shows **Apply On**, **Applies To**, **Min. Quantity**, **Compute
 To end prices at 9.99, set **Round off to** 10.00 and set **Extra Fee** to -0.01.
 :::
 
-<ImagePopup src="/images1/sales/pricelist_rule_window.png" alt="Add Rule window with product, fixed price, minimum quantity and validity dates" />
+<ImagePopup src="/images1/sales/pricelist_rule_window.png" alt="Add Rule window with Camping Hammock, fixed price 5395, minimum quantity 1 and validity dates" />
 
 ## Use a price list on a quotation
 

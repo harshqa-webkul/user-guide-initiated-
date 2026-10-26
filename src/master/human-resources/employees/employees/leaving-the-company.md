@@ -17,7 +17,7 @@ When someone leaves, you record why and when, and you take them out of the activ
 
 Example: a test employee called Test Leaver resigns. Choose **Resigned**, pick the last working day as **Departure Date**, and write the note.
 
-<ImagePopup src="/images1/employees/emp_leave_settings.png" alt="Settings tab with Departure Reason Resigned, Departure Date and Departure Description" />
+<ImagePopup src="/images1/employees/emp_leave_settings.png" alt="Settings tab of the edit form with Departure Reason Resigned, a Departure Date and a Departure Description filled in" />
 
 The reasons come from [Departure reasons](../setup/departure-reasons.md). The plus button next to the field adds a new one.
 
@@ -40,7 +40,7 @@ You can do both. Record the departure first, then archive.
 
 Click **Delete** on the profile. A window asks **Are you sure you would like to do this?** Click the red **Delete** button to confirm. The employee moves to the **Archived** tab of the [Employee list](employee-list.md). The record is kept, not erased.
 
-<ImagePopup src="/images1/employees/emp_leave_confirm.png" alt="Delete Test Leaver window asking Are you sure you would like to do this, with Cancel and a red Delete button" />
+<ImagePopup src="/images1/employees/emp_leave_confirm.png" alt="Delete window titled with the employee name, asking Are you sure you would like to do this, with Cancel and a red Delete button" />
 
 On the **Archived** tab, each card shows the name, job title, **View**, **Edit** and **Restore**. There is no **Delete** on an archived card.
 

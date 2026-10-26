@@ -17,7 +17,7 @@ Rahul Verma applies for **Warehouse Supervisor**. You follow him from **New** to
 
 ### Details you fill in
 
-1. Open Rahul's applicant page in edit mode. The **New** stage is blue on the stage bar.
+1. Open Rahul's applicant page in edit mode. The stage bar shows the current stage in blue.
 
 <ImagePopup src="/images1/recruitment/applicant_edit_overview.png" alt="Edit Applicant page for Rahul Verma showing the stage bar, General Information card and the right column cards" />
 

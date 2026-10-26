@@ -6,10 +6,10 @@ Your **profile** holds your own account details: your name, photo, email, langua
 
 ## Open your profile
 
-1. Click your name in the top bar.
-2. Click your name again in the menu that opens.
+1. Click your picture at the right end of the top bar.
+2. Click your name in the menu that opens.
 
-<ImagePopup src="/images1/general-settings/profile_menu.png" alt="Top bar user menu showing the user's name" />
+<ImagePopup src="/images1/general-settings/profile_menu.png" alt="Top bar user menu open, showing the theme buttons, the version, your name and Sign out" />
 
 ## Update your details
 
@@ -22,11 +22,11 @@ In **Profile Information**:
 
 Click **Save Changes**.
 
-<ImagePopup src="/images1/general-settings/profile_page.png" alt="Profile page with Profile Information, Update Password and Authenticator app sections" />
+<ImagePopup src="/images1/general-settings/profile_page.png" alt="Profile page with the Profile Information section, the Update Password button and the Two-factor authentication card" />
 
 ## Change your password
 
-In **Update Password**:
+Click **Update Password** at the top right of the page. A window opens.
 
 1. Enter your **Current Password**.
 2. Enter a **New Password**. Choose a long password that is hard to guess.
@@ -37,7 +37,7 @@ The new password must be different from the current one. After the change, you a
 
 ## Add a second step to sign in
 
-The same page has an **Authenticator app** section that adds a second step to your sign-in. See [Two-factor authentication](./two-factor-authentication.md).
+The same page has a **Two-factor authentication (2FA)** card with an **Authenticator app** entry that adds a second step to your sign-in. See [Two-factor authentication](./two-factor-authentication.md).
 
 ## See also
 

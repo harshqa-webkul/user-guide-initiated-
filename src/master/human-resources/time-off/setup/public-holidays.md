@@ -41,7 +41,7 @@ Click **Create & create another** to add several holidays in a row.
 
 ## Where holidays show
 
-Open `Time Off → My Time → Dashboard`. Click the round blue icon button next to **New Time Off**. A **Holidays** panel slides in from the right with two sections: **Public Holidays** and **Mandatory Holidays**. Each public holiday shows its name, a grey **N/A** line and its date or date range. Scroll down to see **Mandatory Holidays**.
+Open `Time Off → My Time → Dashboard`. Click the round blue icon button next to **New Time Off**. A **Holidays** panel slides in from the right with two sections: **Public Holidays** and **Mandatory Holidays**. Each public holiday shows its name and its date or date range. Scroll down to see **Mandatory Holidays**.
 
 <ImagePopup src="/images1/time-off/to_set_holidays_window.png" alt="Holidays window on My Time with the Public Holidays section listing names and dates" />
 

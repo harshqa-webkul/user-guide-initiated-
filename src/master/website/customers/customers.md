@@ -8,7 +8,7 @@ Open `Website → Customers`.
 
 ## Overview
 
-<ImagePopup src="/images1/website/cust_list.png" alt="Website → Customers list, Default tab, rows such as Ben Foster and Grace Liu with the Portal Access badge visible, tabs row and Create Contact button" />
+<ImagePopup src="/images1/website/cust_list.png" alt="Website → Customers list, Default tab, rows such as Nina Patel with the Portal Access badge visible, tabs row and Create Contact button" />
 
 - **Button:** **Create Contact**.
 - **Tabs:** **Default**, **Individuals**, **Companies**, **Employees**, **Customers**, **Vendors**, **Archived**.
@@ -22,7 +22,7 @@ Click **Customers** to see only contacts marked as customers. Click **Archived**
 
 A **Portal Access** badge shows on rows of contacts that can sign in. To list them, open the filters and choose **Portal Access**.
 
-<ImagePopup src="/images1/website/cust_portal_filter.png" alt="Customers list with the filter panel open and Portal Access selected, filtered rows showing the badge" />
+<ImagePopup src="/images1/website/cust_portal_filter.png" alt="Filters panel on the Customers list with a Portal Access rule added and the Apply filters button" />
 
 ::: tip
 Use the **Portal Access** filter to find who can sign in, for example before you send an announcement.

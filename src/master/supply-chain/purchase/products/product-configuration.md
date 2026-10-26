@@ -18,7 +18,7 @@ Find them under `Purchase → Configurations`. Some entries depend on a setting.
 
 Switch these on in `Purchase → Settings → Manage Products`. See [Purchase settings](../get-started/purchase-settings.md).
 
-<ImagePopup src="/images1/purchase/cfg_menu.png" alt="Configurations menu listing Vendor Price Lists, Currencies, Categories, Attributes, Packagings and UOM Categories" />
+<ImagePopup src="/images1/purchase/cfg_menu.png" alt="Configurations menu listing Vendor Price Lists, Currencies, Categories, Attributes and UOM Categories" />
 
 ## Currencies
 

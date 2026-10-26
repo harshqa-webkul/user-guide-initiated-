@@ -12,7 +12,8 @@ Open `Project → Tasks`. A row of figures at the top sums up tasks, hours spent
 
 | Tab | Shows |
 | --- | --- |
-| **Open Tasks** | Tasks that are not **Cancelled** or **Done**. This is the default. |
+| **Default** | Every task |
+| **Open Tasks** | Tasks that are not **Cancelled** or **Done**. This tab is selected when you open the list. |
 | **My Tasks** | Tasks assigned to you |
 | **Unassigned Tasks** | Tasks with no assignee |
 | **Private Tasks** | Tasks with no project |
@@ -28,7 +29,7 @@ Two more views, **Followed Tasks** and **Closed Tasks**, are in the views dropdo
 Click the column icon to show, hide or reorder columns.
 
 - **Priority:** the star. Click it to switch on or off.
-- **State:** an icon. Click it to open **Update State**.
+- **State:** an icon. Click it to open **Update Task State**.
 - **Title**, **Project**, **Assignees**, **Deadline**, **Tags** and **Stage**.
 - **Milestone**, **Customer** and **ID**: hidden at first. **Milestone** needs **Enable Milestones**.
 - **Time Spent**, **Allocated Time**, **Time Remaining** and **Progress**: need **Enable Timesheets**.

@@ -8,7 +8,7 @@ Open `Employees → Configurations → Skill Types`.
 
 ## Overview
 
-The list has two tabs: **All** and **Archived**. The tab labels show a count. Seven types are included. Columns are **Skill Type**, **Color**, **Skills**, **Levels** and **Status**. Skills and levels appear as small badges. The list shows only the first three skill badges per type.
+The list has two tabs: **All** and **Archived**. The tab labels show a count. Seven types are included. Columns are **Skill Type**, **Color** and **Skills**. Skills appear as small badges.
 
 <ImagePopup src="/images1/employees/set_skilltype_list.png" alt="Skill Types list with All and Archived tabs showing Languages, Soft Skills and IT" />
 
@@ -53,11 +53,11 @@ Skills and levels live inside the skill type. Open the type with **Edit**. Two t
 2. Click **New skill level**.
 3. Fill in the window.
 
-- **_Name:_** Required. For example `Intermediate`.
+- **_Name:_** Required. For example `Proficient`.
 - **_Level:_** A number from 0 to 100. It is the percentage shown as a progress bar.
 - **_Default Level:_** Switch it on to pre-select this level when someone adds a skill of this type.
 
-<ImagePopup src="/images1/employees/set_level_new.png" alt="Create Skill Level window with the name Intermediate and level 50" />
+<ImagePopup src="/images1/employees/set_level_new.png" alt="Create Skill Level window with the name Proficient and level 65" />
 
 4. Click **Create**.
 

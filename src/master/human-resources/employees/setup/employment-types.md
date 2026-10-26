@@ -14,7 +14,7 @@ None. The list already holds 11 types. Add more only when you need a label that 
 
 The list has no tabs. Columns are **Employment Type**, **Code** and **Country**. Drag the handle on a row to change the order. You can group by name, code, country and more.
 
-<ImagePopup src="/images1/employees/set_emptype_list.png" alt="Employment Types list with Employment Type, Code and Country columns showing Full-Time, Intern and Permanent" />
+<ImagePopup src="/images1/employees/set_emptype_list.png" alt="Employment Types list with Employment Type, Code and Country columns showing Employee, Intern and Full-Time" />
 
 The sample types are Employee, Statutory, Thesis, Apprenticeship, Student, Intern, Full-Time, Interim, Seasonal, Temporary and Permanent.
 

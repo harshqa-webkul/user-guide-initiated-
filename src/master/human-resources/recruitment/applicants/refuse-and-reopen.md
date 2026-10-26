@@ -49,9 +49,9 @@ Each reason has an email template, **Applicant Refuse** or **Applicant Not Inter
 
 <ImagePopup src="/images1/recruitment/restore_button_header.png" alt="Refused applicant page header with the Restore button" />
 
-2. A window titled **Restore Applicant from refuse** asks **Are you sure you would like to do this?** Click **Confirm**.
+2. A window titled **Reopen Applicant** asks **Are you sure you would like to do this?** Click **Confirm**.
 
-<ImagePopup src="/images1/recruitment/restore_confirm.png" alt="Restore Applicant from refuse window with the Cancel and Confirm buttons" />
+<ImagePopup src="/images1/recruitment/restore_confirm.png" alt="Reopen Applicant window with the Cancel and Confirm buttons" />
 
 Aureus reopens the application. The stage bar comes back and you can click a stage again.
 

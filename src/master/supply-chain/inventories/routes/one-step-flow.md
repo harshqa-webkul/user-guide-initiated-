@@ -42,7 +42,7 @@ You buy 20 Camping Hammocks on a purchase order.
 
 The screenshot comes from the three-step example warehouse, so it shows `WH/Input` as the destination. In a one-step warehouse the destination is `WH/Stock`.
 
-<ImagePopup src="/images1/inventory/route_one_step_receipt.png" alt="Receipt WH/IN/11 in Ready state with destination WH/Input and the Validate button, taken from the three-step example warehouse" />
+<ImagePopup src="/images1/inventory/route_one_step_receipt.png" alt="Receipt WH/IN/00018 in Ready state with destination WH/Input and the Validate button, taken from the three-step example warehouse" />
 
 For a sale, confirming the sales order creates WH/OUT. Click **Validate** when the parcel leaves. Stock falls and the goods sit in `Partners/Customers`.
 

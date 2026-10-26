@@ -30,7 +30,7 @@ Priya Sharma has no days yet. Give her 12 days of **Paid Time Off**.
 
 1. Open `Time Off → Management → Allocation`. Click **New Allocation**.
 
-<ImagePopup src="/images1/time-off/alloc_mgt_create_empty.png" alt="Create Allocation form with the State bar on To Approve, empty Name, Time Off Type and Employee Name, Regular selected, Date From Oct 13 2026, Date To No Limit and Allocation 0" />
+<ImagePopup src="/images1/time-off/alloc_mgt_create_empty.png" alt="Create Allocation form with the State bar on To Approve, empty Name, Time Off Type and Employee Name, Regular selected, Date From Oct 26 2026, Date To No Limit and Allocation 0" />
 
 ### Allocation details
 

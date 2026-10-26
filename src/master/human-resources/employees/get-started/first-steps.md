@@ -22,7 +22,7 @@ A department groups employees and gives them a manager. Create it first so the j
 - **_Parent Department:_** Leave empty. Use it only for a sub-team.
 - **_Manager:_** Choose **Sarah Mitchell**.
 - **_Company:_** Fills with **My Company**.
-- **_Color:_** Optional. Leave it empty. A colour only marks the department in its organization tree.
+- **_Color:_** Optional. Pick a colour, for example orange `#f97316`. A colour only marks the department in its organization tree.
 
 <ImagePopup src="/images1/employees/emp_fs_department_form.png" alt="Create Department page filled with Operations, manager Sarah Mitchell and company My Company" />
 

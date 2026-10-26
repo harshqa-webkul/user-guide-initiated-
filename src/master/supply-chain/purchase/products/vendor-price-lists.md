@@ -15,7 +15,7 @@ No setting is needed. The menu is always there.
 
 The list has the columns **Vendor**, **Product**, **Company**, **Unit Price** and **Currency**. Use **Group by** to group by **Vendor**, **Product**, **Created At** or **Updated At**.
 
-<ImagePopup src="/images1/purchase/vp_list.png" alt="Vendor Price Lists page with rows for FreshFoods Wholesale showing product, unit price and currency" />
+<ImagePopup src="/images1/purchase/vp_list.png" alt="Vendor Price Lists page with three rows for FreshFoods Wholesale showing product, unit price and currency" />
 
 ## Create a vendor price
 

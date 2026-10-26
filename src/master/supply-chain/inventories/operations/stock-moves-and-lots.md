@@ -30,7 +30,7 @@ Columns: **Product**, **Packaging**, **Demand**, **Quantity**, **Unit** and **Pi
 2. On the product line, click the small list icon next to **Quantity**. Its tooltip reads **Manage Stock Moves**. It is an icon, not a button.
 3. The window **Manage Stock Moves** opens with a list called **Lines**.
 
-<ImagePopup src="/images1/inventory/mv_manage_modal.png" alt="Manage Stock Moves window for SSD 512GB with Store To WH/Input and quantity 15" />
+<ImagePopup src="/images1/inventory/mv_manage_modal.png" alt="Manage Stock Moves window for Smart LED Desk Lamp with Store To WH/Input and quantity 10, with the Add Line, Save and Cancel buttons" />
 
 ### Fields in each line
 

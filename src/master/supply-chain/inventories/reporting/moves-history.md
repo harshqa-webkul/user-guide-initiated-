@@ -53,7 +53,7 @@ Example: where did the Laptop Chassis go?
 3. Click the **Done** tab.
 4. Read the list from the bottom up. The newest line is at the top.
 
-<ImagePopup src="/images1/inventory/rep_moves_trace.png" alt="Moves History filtered to Laptop Chassis showing receipt, quality control and storage lines" />
+<ImagePopup src="/images1/inventory/rep_moves_trace.png" alt="Moves History on the Done tab filtered to Laptop Chassis showing its manufacturing moves, newest first" />
 
 From the oldest line to the newest you may see: Virtual Locations/Inventory Adjustment → WH/Stock (an opening stock correction), then Partners/Vendors → WH/Input (reference `PO/4`), then WH/Input → WH/Quality Control, then WH/Quality Control → WH/Stock. The last three lines belong to the same purchase order, so they show the three steps of the receipt.
 

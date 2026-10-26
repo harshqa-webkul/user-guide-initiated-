@@ -61,9 +61,9 @@ The badge on the button counts the entries. Read more in [Chatter](../../../gett
 
 ## Activities on the list
 
-Each row in the request list has a clock icon with the tooltip **Schedule Activity**. Click it to plan a task without opening the request. The row in the screenshot is an example of the icon. It is in **In Progress**.
+Each row in the request list has a clock icon with the tooltip **Schedule Activity**. Click it to plan a task without opening the request. The icon sits at the right end of every row.
 
-<ImagePopup src="/images1/maintenance/req_process_list_activity.png" alt="Request list row for Hydraulic press oil leak in In Progress, with the clock icon for Schedule Activity" />
+<ImagePopup src="/images1/maintenance/req_process_list_activity.png" alt="Request list scrolled to the right with a clock icon for Schedule Activity and a three-dot menu on every row" />
 
 See [Activities](../../../getting-started/activities.md).
 

@@ -22,7 +22,7 @@ This tutorial uses a purchase order and a sales order. Install the Purchase and 
 
 4. Go to `Inventory → Configurations → Locations` and find **WH/Stock**. The menu shows only when **Locations** is on.
 
-<ImagePopup src="/images1/inventory/ft_locations_list.png" alt="Locations list on the All tab showing WH/Stock, WH/Input, WH/Output and Partners/Vendors" />
+<ImagePopup src="/images1/inventory/ft_locations_list.png" alt="Locations list on the All tab searched for a slash, showing Partners/Vendors, WH/Stock, WH/Input and WH/Output" />
 
 **Behind the scenes:** The short name **WH** starts every location name. **WH/Stock** is where your sellable goods rest. See [Warehouses](../warehouses/warehouses.md) and [Locations](../warehouses/locations.md).
 
@@ -35,7 +35,7 @@ This tutorial uses one product, **Desk Lamp**, from start to finish.
 3. In the **Inventory** section, check that **Track Inventory** is on.
 4. Keep the **Category** **All**. Enter **Price** 800 and **Cost** 500.
 
-<ImagePopup src="/images1/inventory/ft_product_track_inventory.png" alt="Create Product form for Desk Lamp with Type Goods, Price 800, Cost 500 and Track Inventory switched on in the Inventory section" />
+<ImagePopup src="/images1/inventory/ft_product_track_inventory.png" alt="Create Product form for Desk Lamp with the Inventory section showing Track Inventory switched on and Track By set to By Quantity" />
 
 5. Click **Create**.
 
@@ -48,12 +48,12 @@ You buy 20 Desk Lamps from a vendor.
 1. Create a purchase order for **Consolidated Components** with 20 **Desk Lamp** at a unit price of 500, then click **Confirm Order**. Here the order is **PO/00011**. See [Purchase orders](../../purchase/orders/purchase-orders.md).
 2. Open the order and click **Receipts** in the switcher at the top (**View**, **Edit**, **Vendor Bills**, **Receipts**). The sub page **Manage PO/00011 Receipts** lists the receipt **WH/IN/00020** with the source document PO/00011.
 
-<ImagePopup src="/images1/inventory/ft_po_receipts_tab.png" alt="Manage PO/00011 Receipts sub page listing receipt WH/IN/00020 in Ready status" />
+<ImagePopup src="/images1/inventory/ft_po_receipts_tab.png" alt="Manage PO/00011 Receipts sub page listing receipt WH/IN/00020 (shown here already Done)" />
 
 3. Open **WH/IN/00020**. The status is **Ready**. The moves show Desk Lamp with a demand of 20 Units.
 4. Click **Validate**.
 
-<ImagePopup src="/images1/inventory/ft_receipt_validate.png" alt="Receipt WH/IN/00020 in Ready status showing Desk Lamp, 20 Units, with the Validate button" />
+<ImagePopup src="/images1/inventory/ft_receipt_validate.png" alt="Receipt WH/IN/00020 showing Desk Lamp, 20 Units (the screenshot was taken after the receipt was validated, so the state is Done)" />
 
 5. This warehouse uses three steps, so the goods are not in **WH/Stock** yet. Validate the next two documents of the same order in turn. Open `Inventory → Operations → Internal Transfers`, then validate the quality control document **WH/QC/00017** and the storage document **WH/STOR/00040**. With a one-step warehouse, the goods land in **WH/Stock** directly after the receipt.
 
@@ -63,9 +63,9 @@ You buy 20 Desk Lamps from a vendor.
 
 1. Go to `Inventory → Reporting → Locations`.
 2. Search **Desk Lamp**.
-3. Read the **On Hand Quantity** column. Each row is one product in one location. The page title is **Product Quantities**. **Desk Lamp** shows 20 in **WH/Stock**.
+3. Read the **On Hand Quantity** column. Each row is one product in one location. The page title is **Product Quantities**. **Desk Lamp** shows 20 in **WH/Stock**. The screenshot was taken after the delivery in step 5, so it shows 15.
 
-<ImagePopup src="/images1/inventory/ft_stock_report.png" alt="Product Quantities report searched for Desk Lamp showing 20 on hand in WH/Stock" />
+<ImagePopup src="/images1/inventory/ft_stock_report.png" alt="Product Quantities report searched for Desk Lamp showing the Desk Lamp row in WH/Stock" />
 
 ::: tip
 The search also lists other products with Desk Lamp in the name. Read the row named exactly **Desk Lamp**.
@@ -97,11 +97,11 @@ You sell 5 Desk Lamps to a customer.
 
 3. Open the product list. The **On Hand** column for **Desk Lamp** shows 15 Units.
 
-<ImagePopup src="/images1/inventory/ft_product_on_hand.png" alt="Products list searched for Desk Lamp showing price 800, cost 500 and On Hand 15 Units" />
+<ImagePopup src="/images1/inventory/ft_product_on_hand.png" alt="Products list searched for Desk Lamp showing price 800, cost 500 and On Hand 15 Units (the search also lists Smart LED Desk Lamp)" />
 
 4. Open `Inventory → Reporting → Moves History` (the page title is **Move Lines**). Search **Desk Lamp** to see every move it made.
 
-<ImagePopup src="/images1/inventory/ft_moves_history.png" alt="Move Lines list searched for Desk Lamp showing three receipt moves of 20 Units in and three delivery moves of 5 Units out" />
+<ImagePopup src="/images1/inventory/ft_moves_history.png" alt="Move Lines list searched for Desk Lamp showing the receipt moves of 20 Units from PO/00011 and the delivery moves of 5 Units from SO/00013 (the search also lists Smart LED Desk Lamp)" />
 
 The three moves of 20 Units came in from the purchase order. The three moves of 5 Units went out with the sales order.
 

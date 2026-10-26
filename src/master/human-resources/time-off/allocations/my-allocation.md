@@ -27,7 +27,7 @@ Use **Group by** to group rows by **Employee Name**, **Time Off Type**, **Alloca
 
 1. Open `Time Off → My Time → My Allocation`. Click **New My Allocation**.
 
-<ImagePopup src="/images1/time-off/alloc_my_create_empty.png" alt="Create My Allocation form with the State bar on To Approve, empty Name and Time Off Type, Regular selected, Date From Oct 13 2026, Date To No Limit and Allocation 0" />
+<ImagePopup src="/images1/time-off/alloc_my_create_empty.png" alt="Create My Allocation form with the State bar on To Approve, empty Name and Time Off Type, Regular selected, Date From Oct 26 2026, Date To No Limit and Allocation 0" />
 
 2. Look at the **State** bar. It starts on **To Approve**. You cannot change it.
 
@@ -57,7 +57,7 @@ Use **Group by** to group rows by **Employee Name**, **Time Off Type**, **Alloca
 - **_Allocation:_** Required. The number of days. The default is 0.
 - **_Reason:_** Optional. Tell the approver why you need the days.
 
-<ImagePopup src="/images1/time-off/alloc_my_create_filled.png" alt="Filled Create My Allocation form: Name Annual leave 2026 top-up, Paid Time Off, Regular, Date From Oct 13 2026, Date To No Limit, 5 days, reason Extra days for a family trip" />
+<ImagePopup src="/images1/time-off/alloc_my_create_filled.png" alt="Filled Create My Allocation form: Name Annual leave 2026 top-up, Paid Time Off, Regular, Date From Oct 26 2026, Date To No Limit, 5 days, reason Extra days for a family trip" />
 
 10. Click **Create**. Click **Create & create another** to add a second one.
 
