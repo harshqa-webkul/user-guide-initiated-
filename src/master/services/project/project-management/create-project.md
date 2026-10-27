@@ -20,10 +20,11 @@ This page creates a second project, **Customer Portal Launch**, so the pictures 
 
 Projects appear as cards, not as a table. Each card shows the name, the customer, the planned dates, the project manager and the tags. A badge with remaining hours appears when timesheets and milestones are on for the project.
 
-<ImagePopup src="/images1/project/pj_list_cards.png" alt="Project list as cards showing Customer Portal Launch, Internal IT Upgrade and ERP Implementation with customer, dates, manager and tags" />
+<ImagePopup src="/images1/project/pj_list_cards.png" alt="Project list as cards showing Customer Portal Launch, Internal IT Upgrade, ERP Implementation and Website Revamp with customer, dates, manager and tags" />
 
 ### Tabs
 
+- **Default:** every project.
 - **My Projects:** projects where you are the project manager.
 - **My Favorites:** projects you marked with the star.
 - **Unassigned Projects:** projects with no project manager.

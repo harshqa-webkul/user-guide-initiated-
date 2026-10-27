@@ -37,7 +37,7 @@ This example adds **Quarter Close Day**.
 
 ## Where mandatory days show
 
-Open the **Holidays** window on `Time Off → My Time → Dashboard`. The **Mandatory Holidays** section lists each mandatory day with its company and its start and end date and time.
+Open the **Holidays** window on `Time Off → My Time → Dashboard`. The **Mandatory Holidays** section lists each mandatory day with its start and end date.
 
 <ImagePopup src="/images1/time-off/to_set_mandatory_window.png" alt="Holidays panel with the end of the public holiday list and the Mandatory Holidays section showing Company Anniversary" />
 

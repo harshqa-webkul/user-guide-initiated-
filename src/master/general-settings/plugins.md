@@ -29,12 +29,12 @@ Each tab shows a count. You can search by name.
 
 ## View plugin details
 
-1. On a card, open the row menu.
-2. Click **View**.
+1. On a card, click the three dots.
+2. Click **View**. A **View Plugin** window opens.
 
-<ImagePopup src="/images1/general-settings/plugins_view.png" alt="Plugin details page with Plugin Information and Dependencies sections" />
+<ImagePopup src="/images1/general-settings/plugins_view.png" alt="View Plugin window with the Plugin Information and Dependencies sections" />
 
-The page shows:
+The window shows:
 
 - **_Plugin Name:_** The name of the plugin.
 - **_Version:_** The version number.
@@ -49,7 +49,7 @@ The page shows:
 
 1. Open the **Plugins** menu.
 2. Find the plugin on the **Not Installed** tab.
-3. Open the row menu and click **Install**.
+3. Click the three dots and click **Install**.
 4. Read the message. It says the install runs migrations and seeders.
 5. Click **Install Plugin**.
 
@@ -63,12 +63,12 @@ The install stops after 5 minutes. Wait for the message before you leave the pag
 
 ## Uninstall a plugin
 
-1. Open the row menu of an installed plugin.
+1. Click the three dots on the card of an installed plugin.
 2. Click **Uninstall**.
-3. Read the **Uninstall Confirmation** window.
+3. Read the **Uninstall Plugin** window. It shows an **Uninstall Confirmation** note.
 4. Click **Uninstall Plugin**.
 
-<ImagePopup src="/images1/general-settings/plugins_uninstall_confirm.png" alt="Uninstall Confirmation window with Data Impact table" />
+<ImagePopup src="/images1/general-settings/plugins_uninstall_confirm.png" alt="Uninstall Plugin window with the Uninstall Confirmation note and the Data Impact table" />
 
 The window shows:
 

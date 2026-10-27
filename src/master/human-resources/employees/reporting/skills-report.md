@@ -35,7 +35,7 @@ The report lists skill records, not employees.
 
 ### Search, group and filter
 
-Use the search box to narrow the rows. A column-toggle icon shows or hides columns. Group by has a direction select: **Ascending** or **Descending**. You can group by **Employee** or **Skill Type**. Groups start expanded. Open the filter to use **Employee**, **Skill**, **Level** or **Skill Type**.
+Use the search box to narrow the rows. A column-toggle icon shows or hides columns. The report opens grouped by **Employee**. Group by has a direction select: **Ascending** or **Descending**. You can group by **Employee** or **Skill Type**. Groups start expanded. Open the filter to use **Employee**, **Skill**, **Level** or **Skill Type**.
 
 <ImagePopup src="/images1/employees/rep_skills_filter.png" alt="Filter panel of the Skills report with Employee, Skill, Level and Skill Type" />
 

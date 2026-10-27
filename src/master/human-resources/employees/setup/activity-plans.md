@@ -29,7 +29,7 @@ Aureus includes four plans: **Offboarding**, **Onboarding**, **Verification** an
 - **_Company:_** Fills with your company.
 - **_Status:_** On means the plan can be launched.
 
-<ImagePopup src="/images1/employees/set_plan_form.png" alt="Create Activity Plan window with the name Warehouse Onboarding" />
+<ImagePopup src="/images1/employees/set_plan_form.png" alt="Create Activity Plan window with the name Warehouse Onboarding, the department Operations, the company and Status on" />
 
 4. Click **Create**.
 

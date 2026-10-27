@@ -17,7 +17,7 @@ Open `Inventory → Operations → Transfers`. The **Operations** sidebar has tw
 
 Internal Transfers needs **Locations** on. Dropships needs **Dropshipping** on. See [Inventory settings](../get-started/inventory-settings.md).
 
-Numbers come from one shared counter, so a warehouse can show **WH/IN/11**, **WH/IN/12** and **WH/OUT/42**. Other prefixes in the dev data are **WH/PICK**, **WH/PACK**, **WH/STOR**, **WH/QC** and **WH/PC** for manufacturing components. Point of sale uses **WH/POS** and **WH/POSRET**.
+Numbers come from one shared counter, so a warehouse can show **WH/IN/00024**, **WH/IN/12** and **WH/OUT/42**. Other prefixes in the dev data are **WH/PICK**, **WH/PACK**, **WH/STOR**, **WH/QC** and **WH/PC** for manufacturing components. Point of sale uses **WH/POS** and **WH/POSRET**.
 
 ## The life of a transfer
 
@@ -54,7 +54,7 @@ A transfer created from an order starts as **Waiting** or **Ready**. You rarely 
 
 **Check Availability** shows only on **Waiting** transfers, such as a delivery whose source location has no stock yet. A **Ready** transfer does not show it. On a **Done** delivery, only **Return** and **Print** remain. A **Canceled** transfer shows only **Print** and **Delete**.
 
-<ImagePopup src="/images1/inventory/ov_ready_buttons.png" alt="Receipt WH/IN/11 in Ready state with Validate, Cancel, Print and Delete buttons" />
+<ImagePopup src="/images1/inventory/ov_ready_buttons.png" alt="Receipt WH/IN/00024 in Ready state with Validate, Cancel, Print and Delete buttons" />
 
 ## The record page
 
@@ -70,7 +70,7 @@ Preset tabs sit above every list: **Default**, **To Do**, **My Transfers**, **St
 - **Group by:** **State**, **Source Document**, **Operation Type**, **Schedule At** and **Created At**.
 - **Filters:** build rules on fields such as operation type, state, partner, locations and dates, then click **Apply filters**.
 
-<ImagePopup src="/images1/inventory/ov_receipts_list.png" alt="Receipts list with preset tabs and Ready and Done badges" />
+<ImagePopup src="/images1/inventory/ov_receipts_list.png" alt="Receipts list with preset tabs and the state badge on each row" />
 
 ## Pages in this group
 

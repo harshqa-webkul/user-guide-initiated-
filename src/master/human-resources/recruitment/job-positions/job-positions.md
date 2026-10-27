@@ -38,7 +38,7 @@ Follow these steps for the example position **Warehouse Supervisor**.
 3. Open the three dots menu.
 4. Click **Applications** to see all its applicants, or **To Recruitment** to edit the target.
 
-<ImagePopup src="/images1/recruitment/jp_card_menu.png" alt="Warehouse Supervisor card with Sarah Mitchell and My Company, the 1 New Applications button and the open menu showing 2 To Recruitment and 1 Applications" />
+<ImagePopup src="/images1/recruitment/jp_card_menu.png" alt="Warehouse Supervisor card with Sarah Mitchell and My Company, the 1 New Applications button and the open menu showing 2 To Recruitment and 2 Applications" />
 
 ## Create a job position
 

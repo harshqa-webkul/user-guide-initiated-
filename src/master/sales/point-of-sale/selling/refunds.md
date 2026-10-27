@@ -12,7 +12,7 @@ You can refund only orders that are already paid. You cannot refund an order tha
 2. Search by order, receipt or customer. Or use the status filter, which starts on **All active orders**.
 3. Click the order in the list. Its lines show on the right.
 
-<ImagePopup src="/images1/pos/refund_orders_list.png" alt="Terminal Orders page with TNE/00002 for Tom Baker selected and its line Nova X5 Smartphone 128GB on the right" />
+<ImagePopup src="/images1/pos/refund_orders_list.png" alt="Terminal Orders page with an order for Sofia Rossi selected and its lines Glide Wireless Mouse and BudsAir Wireless Earbuds on the right" />
 
 The list shows **Date**, **Receipt number**, **Order number**, **Customer**, **Cashier**, **Tracking number**, **Total** and **Status**.
 
@@ -22,7 +22,7 @@ The list shows **Date**, **Receipt number**, **Order number**, **Customer**, **C
 2. Use the number pad to set the quantity. The line shows **To refund**.
 3. Repeat for other lines.
 
-<ImagePopup src="/images1/pos/refund_select_qty.png" alt="Selected order line Nova X5 Smartphone with To refund 1.00 and the Refund button at the bottom" />
+<ImagePopup src="/images1/pos/refund_select_qty.png" alt="Selected order line BudsAir Wireless Earbuds with To refund 1 and the Refund button at the bottom" />
 
 **Example:** Tom Baker bought one Nova X5 Smartphone for 24,999 on order TNE/00002. He brings it back. Click the line and keep the quantity at 1.
 
@@ -32,7 +32,7 @@ A line also shows what is still **Refundable**. You cannot return more than the 
 
 Click **Refund**. The terminal opens a new order with the returned lines at negative quantity. The customer is the same as on the original order. The total is negative, for example -24,999.
 
-<ImagePopup src="/images1/pos/refund_new_order.png" alt="New refund order with Nova X5 Smartphone quantity -1 and a total of -24,999 for Tom Baker" />
+<ImagePopup src="/images1/pos/refund_new_order.png" alt="New refund order with BudsAir Wireless Earbuds quantity -1 and a total of -3,999 for Sofia Rossi" />
 
 ## Pay the refund
 
@@ -40,11 +40,11 @@ Click **Refund**. The terminal opens a new order with the returned lines at nega
 2. Choose the method, for example **Cash**. The amount is the negative total.
 3. Click **Validate**.
 
-<ImagePopup src="/images1/pos/refund_payment_cash.png" alt="Payment screen of the refund with Cash -24,999 and the Validate button" />
+<ImagePopup src="/images1/pos/refund_payment_cash.png" alt="Payment screen of the refund with Cash -3,999 and the Validate button" />
 
 The receipt shows negative amounts: **TOTAL** -24,999 and **Cash** -24,999. Print it for the customer if you wish. Give the cash back from the drawer.
 
-<ImagePopup src="/images1/pos/refund_receipt.png" alt="Refund receipt with Nova X5 Smartphone -1, TOTAL -24,999 and Cash -24,999" />
+<ImagePopup src="/images1/pos/refund_receipt.png" alt="Refund receipt with BudsAir Wireless Earbuds -1, TOTAL -3,999 and Cash -3,999" />
 
 ## Where the refund appears
 

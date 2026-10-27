@@ -25,7 +25,7 @@ Example: move 20 **Camping Hammock** from **WH/Stock** to **WH/Packing Zone**.
 6. Click **Mark as Todo**. With stock available, the state goes straight to **Ready**. If the state is **Waiting**, click **Check Availability**.
 7. When the state is **Ready**, click **Validate**. The buttons on a **Ready** transfer are **Validate**, **Cancel**, **Print** and **Delete**.
 
-<ImagePopup src="/images1/inventory/int_validate.png" alt="Internal transfer in Ready state with Validate button" />
+<ImagePopup src="/images1/inventory/int_validate.png" alt="Internal transfer WH/PC/00031 in Ready state with Validate button" />
 
 The state becomes **Done** and the hammocks now sit in **WH/Packing Zone**.
 

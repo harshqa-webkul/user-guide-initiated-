@@ -28,13 +28,13 @@ Each card shows, from top to bottom:
 - **Archived:** employees you deleted. They stay stored and can be restored.
 - **Newly Hired:** employees created in the last month.
 
-The number on each tab shows how many employees it holds. It depends on your data and on who you are. Say your user is linked to the employee Sarah Mitchell. **My Team** then shows the people whose **Manager** is Sarah. **My Department** shows people in Sarah's department. **Newly Hired** shows Priya Sharma after you follow the tutorial. **Archived** cards have a clock icon, **View**, **Edit** and **Restore**.
+What each tab shows depends on your data and on who you are. Say your user is linked to the employee Sarah Mitchell. **My Team** then shows the people whose **Manager** is Sarah. **My Department** shows people in Sarah's department. **Newly Hired** shows Priya Sharma after you follow the tutorial. **Archived** cards have a clock icon, **View**, **Edit** and **Restore**.
 
 ::: info
 If your user has no linked employee, **My Team** and **My Department** are empty. Set **Related User** on the employee. See [Add an employee](add-employee.md).
 :::
 
-<ImagePopup src="/images1/employees/emp_list_tabs.png" alt="Employees tabs Default, My Team, My Department, Archived and Newly Hired with their counts" />
+<ImagePopup src="/images1/employees/emp_list_tabs.png" alt="Employees list header with the tabs Default, My Team, My Department, Archived and Newly Hired, and the Group by and Sort by selects" />
 
 ## Search
 
@@ -68,7 +68,7 @@ Three examples:
 2. **Staff with a skill.** Open **Skills**, pick **Communication**, click **Apply filters**.
 3. **Married staff in Pune or Mumbai.** Add rule **Marital Status** is **Married**. Then add an **OR condition** group for the cities.
 
-<ImagePopup src="/images1/employees/emp_list_filters.png" alt="Filters panel with Skills, Resumes and Timezone set to All and the Add rule menu open, shown zoomed out to 75%" />
+<ImagePopup src="/images1/employees/emp_list_filters.png" alt="Filters panel with Skills, Resumes and Timezone set to All and the Add rule menu open" />
 
 ## Group by
 
@@ -76,7 +76,7 @@ Open **Group by** and pick a field. Cards gather under collapsible headings labe
 
 **Sort by** orders cards by **Name**, **Job Title**, **Work Email** or **Work Phone**.
 
-<ImagePopup src="/images1/employees/emp_list_group_by.png" alt="Group by set to Department with the Ascending or Descending select beside it and employees gathered under Department headings, all except Operations collapsed" />
+<ImagePopup src="/images1/employees/emp_list_group_by.png" alt="Group by set to Department with the Ascending or Descending select beside it and employees gathered under Department headings, with every group except Operations collapsed" />
 
 ## Per page
 

@@ -8,7 +8,7 @@ The Orders report counts your settled orders and groups them by day, week or mon
 
 Go to `Point of Sale → Reporting → Orders`. The page title is **Order Analysis**. You can also reach it from the three-dot menu of a register card, under **Reporting → Orders**. That link opens the report already filtered for that register.
 
-<ImagePopup src="/images1/pos/orders_report_by_day.png" alt="Order Analysis page with dates 01/10/2026 to 12/10/2026, All terminals and By day, showing one row for 2026-10-12 with 3 orders and total 6,597.00" />
+<ImagePopup src="/images1/pos/orders_report_by_day.png" alt="Order Analysis page with dates 01/10/2026 to 12/10/2026, All terminals and By day, showing one row for 2026-10-12 with 4 orders and total 13,194.00" />
 
 ## Set the filters
 
@@ -53,7 +53,7 @@ The three orders are TNE/00001, TNE/00002 and the refund of TNE/00002. The smart
 
 Switch **By day** to **By month**. The table shows one row, 2026-10, with the same numbers.
 
-<ImagePopup src="/images1/pos/orders_report_by_month.png" alt="Order Analysis grouped By month showing one row 2026-10 with 3 orders and total 6,597.00 and Average order value 2,199.00" />
+<ImagePopup src="/images1/pos/orders_report_by_month.png" alt="Order Analysis grouped By month showing one row 2026-10 with 4 orders and total 13,194.00 and Average order value 3,298.50" />
 
 ## Common questions
 

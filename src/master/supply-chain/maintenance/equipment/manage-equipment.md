@@ -18,9 +18,10 @@ The list opens on the **My Equipment** tab. It shows only items where you are th
 - **My Equipment:** Items where you are the Owner. This tab is selected when the page opens.
 - **Assigned:** Items that have an Owner.
 - **Unassigned:** Items with no Owner. Owner is not the same as Technician.
+- **Under Maintenance:** Items with open maintenance requests.
 - **Archived:** Items you archived.
 
-<ImagePopup src="/images1/maintenance/eq_list_tabs.png" alt="Equipment list tab bar with Default, My Equipment, Assigned, Unassigned and Archived" />
+<ImagePopup src="/images1/maintenance/eq_list_tabs.png" alt="Equipment list tab bar with Default, My Equipment, Assigned, Unassigned, Under Maintenance and Archived" />
 
 ### Columns
 

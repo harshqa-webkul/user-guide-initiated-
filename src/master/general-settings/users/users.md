@@ -88,7 +88,7 @@ You can create a new team without leaving the form. Use the plus icon next to **
 
 ### Multi Company
 
-<ImagePopup src="/images1/general-settings/user_multi_company_section.png" alt="Multi Company section with Allowed Companies and Default Company" />
+<ImagePopup src="/images1/general-settings/user_multi_company_section.png" alt="Create User form with the Language & Status and Multi Company sections on the right side" />
 
 - **_Allowed Companies:_** Choose every company the user may work in. See [Companies](../companies/companies.md).
 - **_Default Company:_** The company that opens first. Required. It must be one of the allowed companies.

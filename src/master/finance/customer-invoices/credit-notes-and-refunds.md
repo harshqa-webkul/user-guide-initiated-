@@ -23,9 +23,9 @@ A credit note and a refund are the same idea on two sides. A customer **credit n
 
 Both apps show the same screens. Both lists have the views **Default**, **Draft**, **Posted**, **Cancelled** and **Not Secured**. The columns match the invoice and bill lists, including **Total**, **Amount Due** and **Payment State**. See [Create an invoice](create-invoice.md) and [Create a vendor bill](../vendor-bills/create-bill.md).
 
-<ImagePopup src="/images1/finance/credit_note_list.png" alt="Credit Notes list with the view tabs and one draft credit note for Azure Interiors" />
+<ImagePopup src="/images1/finance/credit_note_list.png" alt="Credit Notes list with the view tabs, showing draft and posted credit notes with the Summary totals" />
 
-<ImagePopup src="/images1/finance/refund_list.png" alt="Refunds list with the view tabs and one draft refund for FreshFoods Wholesale" />
+<ImagePopup src="/images1/finance/refund_list.png" alt="Refunds list with the view tabs, showing draft refunds for FreshFoods Wholesale" />
 
 ## Way 1: from a posted invoice or bill (recommended)
 

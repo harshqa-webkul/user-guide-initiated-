@@ -59,9 +59,9 @@ Approved and Done differ only by name. Use **Approved** when someone has accepte
 
 ### Change the State from the list
 
-In the task list, click the State icon of a row. The **Update State** modal opens. Pick the new State and save.
+In the task list, click the State icon of a row. The **Update Task State** window opens. Pick the new State under **New State** and click **Update State**.
 
-<ImagePopup src="/images1/project/tk_update_state_modal.png" alt="Update State modal on the task Migrate CMS content" />
+<ImagePopup src="/images1/project/tk_update_state_modal.png" alt="Update Task State window with the five State buttons" />
 
 ::: tip
 The **Open Tasks** tab hides tasks whose State is **Cancelled** or **Done**. The **Closed Tasks** view shows them.

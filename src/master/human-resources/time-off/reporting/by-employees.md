@@ -22,7 +22,7 @@ The page is titled **By Employees**. It groups rows by **Employee** by default. 
 - **_Duration:_** The length, for example `2 working days` or `0.5 day`.
 - **_Status:_** **To Approve**, **Approved** or **Refused**.
 
-<ImagePopup src="/images1/time-off/report_by_employees.png" alt="By Employees report grouped by employee on the Waiting For Me tab with groups for Nina Patel, Priya Sharma (Paid Time Off 2 working days and Sick Time Off 0.5 day) and Tom Baker, all To Approve" />
+<ImagePopup src="/images1/time-off/report_by_employees.png" alt="By Employees report grouped by employee on the Waiting For Me tab with groups for Priya Sharma (Paid Time Off 2 working days and Sick Time Off 0.5 day), Robert Diaz and Tom Baker, all To Approve" />
 
 ## Tabs, grouping and search
 
@@ -31,7 +31,7 @@ The page is titled **By Employees**. It groups rows by **Employee** by default. 
 3. Open **Group by** to change the grouping. Choose **Employee**, **Time Off Type**, **Status**, **Start Date** or **End Date**. Use the **Group direction** list to switch between **Ascending** and **Descending**.
 4. Type in the search box to find an employee or a request.
 
-<ImagePopup src="/images1/time-off/report_by_employees_groupby.png" alt="Group by list showing a dash, Employee, Time Off Type, Status, Start Date and End Date, and the direction list showing Ascending and Descending" />
+<ImagePopup src="/images1/time-off/report_by_employees_groupby.png" alt="Group by list expanded to show a dash, Employee, Time Off Type, Status, Start Date and End Date, and the direction list showing Ascending and Descending" />
 
 Use a row to **View** or **Edit** the request. Approve and refuse requests in [Manage requests](../requests/manage-requests.md).
 

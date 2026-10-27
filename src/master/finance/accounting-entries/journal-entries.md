@@ -8,7 +8,7 @@ Journal entries exist in the Accounting app only. Open `Accounting → Journal E
 
 ## Overview
 
-<ImagePopup src="/images1/finance/journal_entries_list.png" alt="Journal Entries list showing 5 rows: INV/2026/1, INV/2026/2, PBANK/2026/3, BILL/2026/4, PBANK/2026/5 with the Total summary 2,990" />
+<ImagePopup src="/images1/finance/journal_entries_list.png" alt="Journal Entries list on the Posted view, showing rows such as INV/2026/1, INV/2026/2, PBANK/2026/3 and BILL/2026/4 with their date, partner and journal" />
 
 ### Columns
 

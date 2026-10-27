@@ -81,7 +81,7 @@ Example: 5 laptops at **Assembly Station** with capacity 3 make 2 cycles. With a
 
 Open a work center and click **Operations**. You see every routing step that runs here, and the **New Operation** button adds one with this work center already chosen. See [Operations](operations.md).
 
-<ImagePopup src="/images1/manufacturing/wc_operations_subpage.png" alt="Assembly Station Operations sub page listing Assemble Components" />
+<ImagePopup src="/images1/manufacturing/wc_operations_subpage.png" alt="Assembly Station Operations sub page listing its routing steps with the New Operation button" />
 
 ## Actions and statuses
 

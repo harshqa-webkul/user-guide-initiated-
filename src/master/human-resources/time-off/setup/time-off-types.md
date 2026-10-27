@@ -21,7 +21,7 @@ The columns **Name** and **Allocation Approval** show by default. Use the column
 
 Each row has **View**, **Edit** and **Delete**. **Delete** archives the type.
 
-<ImagePopup src="/images1/time-off/to_set_types_list.png" alt="Leave Types list with the All and Archived tabs, the Name and Allocation Approval columns and the seven leave types" />
+<ImagePopup src="/images1/time-off/to_set_types_list.png" alt="Leave Types list with the All and Archived tabs, the Name and Allocation Approval columns and the seven standard leave types" />
 
 ## Create a leave type
 
@@ -35,7 +35,7 @@ This example creates a type for study leave.
 
 - **_Title:_** Required. The name people see, for example `Study Leave`.
 - **_Approval:_** Who must approve a request. The default is **By Time Off Officer**.
-- **_Requires Allocation:_** Choose **Yes** or **No Limit**. The default is **No Limit**. **Yes** shows the allocation settings below. **No Limit** hides them. Aureus still checks approved days when a request is saved.
+- **_Requires Allocation:_** Choose **Yes** or **No Limit**. The default is **No Limit**. **Yes** adds allocation settings. They show on the **Edit** page of the saved type. **No Limit** has none. Aureus still checks approved days when a request is saved.
 
 **Approval** has four options.
 
@@ -52,12 +52,12 @@ The choice records your policy for the leave type. On `Time Off → Management �
 
 #### What Requires Allocation reveals
 
-Choose **Yes**. Two more fields appear.
+Save a type with **Yes**, then open its **Edit** page. Two more fields show.
 
 - **_Employee Requests:_** **Not Allowed** (default) or **Extra Days Request Allowed**.
 - **_Approval:_** A second **Approval** field, for allocations. Same four options. The default is **By Time Off Officer**. It shows in the list as **Allocation Approval**.
 
-<ImagePopup src="/images1/time-off/to_set_type_yes.png" alt="Create Leave Type page with Requires Allocation set to Yes showing Employee Requests and allocation Approval" />
+<ImagePopup src="/images1/time-off/to_set_type_yes.png" alt="Edit Leave Type page of Paid Time Off with Requires Allocation set to Yes, showing Employee Requests and the allocation Approval" />
 
 ::: tip
 The first **Approval** is for requests. In this guide it is the request approval. The second is for allocations, shown in the list as **Allocation Approval**. They have the same label on the form.
@@ -70,7 +70,7 @@ The first **Approval** is for requests. In this guide it is the request approval
 ### Configuration
 
 - **_Notified Time Off Officers:_** Pick users from a searchable list. It is empty by default.
-- **_Take Time Off In:_** The unit of the type. The default is **Day**. **Half Day** is also available.
+- **_Take Time Off In:_** The unit of the type. The default is **Day**. **Half Day** and **Hour** are also available.
 - **_Public Holiday Included:_** Toggle, off by default. Public holidays do not change **Duration** in the request form.
 - **_Allow to Attach Supporting Document:_** Toggle, off by default. Turn it on for types that need proof, such as a doctor's note.
 - **_Show on Dashboard:_** Toggle, off by default. When on, the type gets a balance card on `Time Off → My Time → Dashboard`.

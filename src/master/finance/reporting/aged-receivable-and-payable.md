@@ -13,7 +13,7 @@ Both reports work the same way. Only the accounts differ: receivable for custome
 
 ## Filters
 
-<ImagePopup src="/images1/finance/aged_receivable.png" alt="Aged Receivable As of 10/12/2026 with Based on Due Date, Period Length 30 Days, showing Azure Interiors 1,207.50" />
+<ImagePopup src="/images1/finance/aged_receivable.png" alt="Aged Receivable As of 10/26/2026 with Based on Due Date, Period Length 30 Days, showing the open balance of each customer in the aging columns" />
 
 - **_As of:_** The date of the report. It starts as today.
 - **_Based on:_** **Due Date** or **Invoice Date**. It decides which date Aureus uses to measure the age.

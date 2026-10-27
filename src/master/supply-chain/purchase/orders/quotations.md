@@ -36,7 +36,7 @@ Scenario: you need 20 **SSD 512GB** from **FreshFoods Wholesale**.
 1. Click **New RFQ**.
 2. Fill the **General** section.
 
-<ImagePopup src="/images1/purchase/rfq_create_general.png" alt="New RFQ form General section filled with vendor FreshFoods Wholesale and order deadline" />
+<ImagePopup src="/images1/purchase/rfq_create_general.png" alt="New RFQ form General section filled with vendor FreshFoods Wholesale, vendor reference, expected arrival and the agreement BO/1" />
 
 - **_Vendor:_** Required. Pick the supplier. Create one in [Contacts](../../../getting-started/contacts/contacts.md) first if needed.
 - **_Vendor Reference:_** The vendor's own quote or order number. It helps match their delivery note.
@@ -49,7 +49,7 @@ Scenario: you need 20 **SSD 512GB** from **FreshFoods Wholesale**.
 
 3. Open the **Products** tab and click **Add Product**.
 
-<ImagePopup src="/images1/purchase/rfq_create_lines.png" alt="Products tab with SSD 512GB line, quantity 20 and unit price filled" />
+<ImagePopup src="/images1/purchase/rfq_create_lines.png" alt="Products tab with SSD 512GB line, quantity 20 and unit price 3300 filled" />
 
 Each line has these columns:
 
@@ -68,7 +68,7 @@ Use **Add Section** to add a heading line and **Add Note** to add a text line be
 
 4. Open **Additional Information** if needed.
 
-<ImagePopup src="/images1/purchase/rfq_create_additional.png" alt="Additional Information tab with buyer, company, incoterm and payment term" />
+<ImagePopup src="/images1/purchase/rfq_create_additional.png" alt="Additional Information tab with buyer, company, source document, incoterm, incoterm location and payment term filled" />
 
 - **Buyer:** The person in charge.
 - **Company:** The buying company.
@@ -88,7 +88,7 @@ Click **Create & create another** to enter several RFQs in a row.
 1. Open the RFQ and click **Send By Email**.
 2. Check the window.
 
-<ImagePopup src="/images1/purchase/rfq_send_email.png" alt="Send By Email window with vendor, subject and message" />
+<ImagePopup src="/images1/purchase/rfq_send_email.png" alt="Re-Send By Email window for PO/00016 with vendor, subject, message and the attached PDF" />
 
 - **To:** The vendors. They need an email address.
 - **Subject:** The default is **Purchase Order #name**.
@@ -121,7 +121,7 @@ The answer only records what the vendor said. You still click **Confirm Order** 
 
 Click **Confirm Order**. The RFQ becomes a purchase order, or **To Approve** when approval applies. See [Purchase orders](purchase-orders.md).
 
-<ImagePopup src="/images1/purchase/rfq_confirm.png" alt="RFQ Sent order PO/2 with the Confirm Order button highlighted" />
+<ImagePopup src="/images1/purchase/rfq_confirm.png" alt="RFQ Sent order PO/00016 with the Confirm Order button highlighted" />
 
 ## Actions and statuses
 

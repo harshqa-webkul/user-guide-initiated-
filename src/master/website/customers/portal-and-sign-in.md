@@ -22,7 +22,7 @@ Address: `/register`.
 2. Enter **Name**, **Email address**, **Password** and **Confirm password**. All four are required.
 3. Click **Create account**.
 
-<ImagePopup src="/images1/website/portal_register.png" alt="Public /register page filled for Nina Patel: name, email nina.patel@example.com, password dots" />
+<ImagePopup src="/images1/website/portal_register.png" alt="Public /register page filled for Nina Patel: name, email nina.patel@mail.com, password dots" />
 
 The visitor is now a contact. If a visitor already has an account, the **Log in** link opens the sign-in page.
 

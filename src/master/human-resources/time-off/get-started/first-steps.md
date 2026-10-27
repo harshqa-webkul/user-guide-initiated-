@@ -24,7 +24,7 @@ Sick allocation  >  Refuse a Sick Time Off request  >  Half day  >  Calendar
 2. Find the card **Paid Time Off**. It shows `20.0` and the line **Valid until 2026-12-31**.
 3. Find the card **Pending Requests**. It shows `0` and the line **Time Off Requests**.
 
-<ImagePopup src="/images1/time-off/to_fs_dashboard_balance.png" alt="My Time dashboard with the Paid Time Off card showing 20.0, other types showing 0.0 and the Pending Requests card showing 0" />
+<ImagePopup src="/images1/time-off/to_fs_dashboard_balance.png" alt="My Time dashboard with the balance cards for Paid Time Off, Parental Leaves and Training Time Off and the Pending Requests card" />
 
 **Behind the scenes:** Aureus adds up the approved allocations of the type. Then it subtracts the days of every request that is not refused. See [My Time](../requests/my-time.md).
 
@@ -58,7 +58,7 @@ The bar title is the leave type, then the name of the logged in user, then the l
 2. Find the row of Sarah Mitchell. Click the three-dot icon at the end of the row.
 3. Click **Approve**. The status badge changes to **Approved**. A **Time Off approved** message appears.
 
-<ImagePopup src="/images1/time-off/to_fs_approve_menu.png" alt="Management Time Offs list on the Waiting For Me tab with the row menu open on Sarah Mitchell's request showing Approve, Refuse, View, Edit and Delete" />
+<ImagePopup src="/images1/time-off/to_fs_approve_menu.png" alt="Management Time Offs list on the Waiting For Me tab with the row menu open on a Paid Time Off request showing Approve, Refuse, View, Edit and Delete" />
 
 ::: tip
 The list opens on the tab **Waiting For Me**. Click **Default** to see every request.
@@ -69,7 +69,7 @@ The list opens on the tab **Waiting For Me**. Click **Default** to see every req
 1. Open `Time Off → My Time → Dashboard`.
 2. The **Paid Time Off** card still shows `17.0`. **Pending Requests** is back to `0`.
 
-<ImagePopup src="/images1/time-off/to_fs_balance_17.png" alt="Dashboard with the Paid Time Off card showing 17.0 and Pending Requests showing 0 after the approval" />
+<ImagePopup src="/images1/time-off/to_fs_balance_17.png" alt="Dashboard with the Paid Time Off balance card and the Pending Requests card after the approval" />
 
 **Behind the scenes:** A pending request already lowers the balance. An approval keeps it lowered. A refusal gives the days back.
 
@@ -112,7 +112,7 @@ Priya has no **Paid Time Off** allocation yet. Try to book two days for her.
 4. Click **Create**. A **Time Off created** message appears. The app opens the allocation page with the state **To Approve**.
 5. Open `Time Off → Management → Allocation` and click **Default**. On the row of Priya, click the three-dot icon and click **Approve**.
 
-<ImagePopup src="/images1/time-off/to_fs_allocation_approved.png" alt="Allocations list filtered by Priya showing Priya Sharma, Paid Time Off, 12.0000, Regular, status Approved" />
+<ImagePopup src="/images1/time-off/to_fs_allocation_approved.png" alt="Allocations list filtered by Priya showing Priya Sharma with Paid Time Off 12.0000 and Sick Time Off 5.0000, both Regular and Approved" />
 
 **Behind the scenes:** Only approved allocations add to a balance. See [Manage allocations](../allocations/manage-allocations.md).
 
@@ -121,7 +121,7 @@ Priya has no **Paid Time Off** allocation yet. Try to book two days for her.
 1. Repeat Step 5 with the same values.
 2. Click **Create**. The request is saved with the status **To Approve**. A **Time Off created** message appears.
 
-<ImagePopup src="/images1/time-off/to_fs_priya_accepted.png" alt="Management Time Offs list filtered by Priya showing Paid Time Off, Annual leave request, 2026-10-22 to 2026-10-23, 2 working days, To Approve" />
+<ImagePopup src="/images1/time-off/to_fs_priya_accepted.png" alt="Management Time Offs list filtered by Priya showing the Paid Time Off request Annual leave request, 2026-10-22 to 2026-10-23, 2 working days, To Approve" />
 
 ## Step 8: Allocate Sick Time Off
 

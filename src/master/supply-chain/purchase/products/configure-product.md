@@ -24,7 +24,7 @@ See [Purchase settings](../get-started/purchase-settings.md).
 
 The product list has the tabs **Default**, **Goods**, **Services**, **Favorites**, **Archived**, **Inventory Management**, **Components** and **POS**. Columns include **Name**, **Variants**, **Reference**, **Price**, **Cost**, **On Hand** and **Forecasted**.
 
-<ImagePopup src="/images1/purchase/prod_list.png" alt="Purchase products list with Name, Variants, Reference, Price and Cost columns" />
+<ImagePopup src="/images1/purchase/prod_list.png" alt="Purchase products list on the Goods tab with Name, Variants, Reference, Price and Cost columns" />
 
 - **_Price:_** What you sell it for.
 - **_Cost:_** What it costs you. Aureus uses it as the order line price when no vendor price row matches.
@@ -39,7 +39,7 @@ Use the **Goods** tab for things you receive and the **Services** tab for work y
 2. Click a product, for example **SSD 512GB**.
 3. Use the switcher at the top: **View**, **Edit**, **Attributes**, **Variants**, **Vendors**. With Inventory installed you also see quantities and moves.
 
-<ImagePopup src="/images1/purchase/prod_switcher.png" alt="Product SSD 512GB with the switcher showing View, Edit, Attributes, Variants and Vendors" />
+<ImagePopup src="/images1/purchase/prod_switcher.png" alt="Product SSD 512GB with the switcher showing View, Edit, Attributes, Variants, Vendors and other pages" />
 
 ## Purchase fields on the product
 
@@ -56,7 +56,7 @@ Set **Cost** to a realistic number. If **Cost** is empty, Aureus falls back to *
 2. Click **Add Vendor Price**.
 3. Choose the **Vendor**. Enter **Quantity** and **Unit Price**.
 
-<ImagePopup src="/images1/purchase/prod_vendors_tab.png" alt="Vendors tab of SSD 512GB listing FreshFoods Wholesale with quantity 1 and unit price 3500" />
+<ImagePopup src="/images1/purchase/prod_vendors_tab.png" alt="Vendors tab of SSD 512GB listing three FreshFoods Wholesale price rows with unit prices 3500, 3300 and 3100" />
 
 4. Click **Create**.
 
@@ -71,7 +71,7 @@ With **Variants** on, a product can have attributes such as size or colour. Each
 1. Click **Attributes** in the switcher and add an attribute with its values.
 2. Click **Variants** to see the generated combinations.
 
-<!-- TODO-SCREENSHOT: /images1/purchase/prod_variants.png | Variants page of a product listing generated variants from its attributes -->
+<ImagePopup src="/images1/purchase/prod_variants.png" alt="Variants page of Big Vision 4K Action Camera listing four variants generated from the Lense Type attribute" />
 
 Create the attributes first. See [Product configuration](product-configuration.md).
 

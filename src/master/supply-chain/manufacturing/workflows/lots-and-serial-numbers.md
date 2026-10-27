@@ -34,7 +34,7 @@ Scenario: register a serial number for a finished **Business Laptop** that is tr
 
 3. Fill the form.
 
-<ImagePopup src="/images1/manufacturing/lot_create_form.png" alt="Create Lot form filled: Name MC-LAP-0001, Product Business Laptop, Company My Company, Reference, Description" />
+<ImagePopup src="/images1/manufacturing/lot_create_form.png" alt="Create Lot form filled: Name MC-VITC-003, Product Vitamin C Tablets 500mg, Company My Company, Reference, Description" />
 
 - **_Name:_** The lot or serial code. Required.
 - **_Product:_** The tracked product. Required. You cannot change it after the number has moved.

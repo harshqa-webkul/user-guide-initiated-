@@ -28,9 +28,9 @@ The button is grey when there is nothing to bill and blue when there is.
 Order **PO/3** from Consolidated Components has two lines: 15 **SSD 512GB** and 10 **Laptop Battery**. You validated the receipt **WH/IN/11**, so both lines show a **Received** quantity.
 
 1. Open `Purchase → Orders → Purchase Orders` and click **PO/3**.
-2. Check the **Received** and **Billed** columns on the **Products** tab. **Billed** is still 0.
+2. Check the **Received** and **Billed** columns on the **Products** tab. After the bill exists, **Billed** matches **Received**.
 
-<ImagePopup src="/images1/purchase/bill_po_lines.png" alt="PO/3 products tab with Received 15 and 10 and Billed 0 on both lines" />
+<ImagePopup src="/images1/purchase/bill_po_lines.png" alt="PO/3 products tab with Received 15 and 10 and Billed 15 and 10 on the two lines" />
 
 3. Click **Create Bill** in the header.
 

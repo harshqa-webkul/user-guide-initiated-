@@ -16,7 +16,7 @@ The **Time Off Analysis** block shows one card per leave type that has **Show on
 
 Sarah Mitchell has **Paid Time Off 20.0** and **0.0** for the other types.
 
-<ImagePopup src="/images1/time-off/mytime_dashboard_cards.png" alt="Time Off Analysis cards: Paid Time Off 20.0, the other leave types 0.0, each valid until 2026-12-31, and Pending Requests 0 with the line Time Off Requests" />
+<ImagePopup src="/images1/time-off/mytime_dashboard_cards.png" alt="Time Off Analysis cards for Paid Time Off, Parental Leaves and Training Time Off, each valid until 2026-12-31, and the Pending Requests card with the line Time Off Requests" />
 
 The last card, **Pending Requests**, counts your requests that are **To Approve**. It carries the line **Time Off Requests**. A request that waits for approval adds 1 here and also lowers the balance of its type at once.
 
@@ -37,9 +37,9 @@ Below the cards is your calendar. It shows your own requests, coloured by leave 
 Click the blue icon at the top right of the calendar, next to **New Time Off**. The **Holidays** panel slides in from the right with:
 
 - **Public Holidays:** names with dates, for example **Gandhi Jayanti** and **Christmas Day**.
-- **Mandatory Holidays:** company days such as **Company Anniversary**, shown with the company name.
+- **Mandatory Holidays:** company days such as **Company Anniversary**, shown with their date range.
 
-<ImagePopup src="/images1/time-off/mytime_holidays_window.png" alt="Holidays panel on the right listing Public Holidays and Mandatory Holidays" />
+<ImagePopup src="/images1/time-off/mytime_holidays_window.png" alt="Holidays panel on the right listing Public Holidays with their dates" />
 
 Manage these lists in [Public holidays](../setup/public-holidays.md) and [Mandatory days](../setup/mandatory-days.md).
 
@@ -57,7 +57,7 @@ Click an event on the calendar. The **View** window has the subtitle **View Time
 - **Delete:** remove it.
 - **Cancel:** close the window.
 
-<ImagePopup src="/images1/time-off/mytime_event_view.png" alt="View window for the Paid Time Off request from October 19 to October 21, 2026, status To Approve, Duration 3 working days, description Family function, with Edit, Delete and Cancel buttons" />
+<ImagePopup src="/images1/time-off/mytime_event_view.png" alt="View window for the Paid Time Off request from October 19 to October 21, 2026, status Approved, Duration 3 working days, description Family function, with Edit, Delete and Cancel buttons" />
 
 ## My Time off list
 

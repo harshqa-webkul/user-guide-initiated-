@@ -43,7 +43,7 @@ The code must start with a letter or an underscore. It can contain only letters,
 - **_Is Multiselect:_** Shown only for **Select**. Turn it on to let users pick more than one value.
 - **_Sort Order:_** A whole number. It sets the position of the field among the other custom fields.
 
-<ImagePopup src="/images1/general-settings/custom_fields_settings.png" alt="Settings section with Type, Input Type and Sort Order" />
+<ImagePopup src="/images1/general-settings/custom_fields_settings.png" alt="Settings section with Type, Is Multiselect and Sort Order, next to the Options and Resource sections" />
 
 ::: warning
 After you save, you cannot change **Code**, **Type**, **Input Type**, **Plugin** or **Resource**. Choose them with care.
@@ -58,7 +58,7 @@ Choose where the field appears.
 
 Only forms that support custom fields are listed. Forms of plugins that are not installed or not active are left out.
 
-<ImagePopup src="/images1/general-settings/custom_fields_resource.png" alt="Resource section with Plugin and Resource selected" />
+<ImagePopup src="/images1/general-settings/custom_fields_resource.png" alt="Resource section with Plugin and Resource selected, next to the Options section" />
 
 ### Options
 

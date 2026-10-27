@@ -16,7 +16,7 @@ The register must be active and set up with its journals, payment methods and ac
 2. Find the card of your register, for example **TechNest Electronics**.
 3. Click **Open Register**. The terminal opens.
 
-<ImagePopup src="/images1/pos/dashboard_register_cards.png" alt="Dashboard register cards for Spice Route Kitchen & Bar and TechNest Electronics, each with its Continue Selling or Open Register button" />
+<ImagePopup src="/images1/pos/dashboard_register_cards.png" alt="Dashboard register cards for Spice Route Kitchen & Bar and TechNest Electronics, each with a Continue Selling button" />
 
 A register that already has a live session shows **Continue Selling** instead. Click it to go back to the same session.
 
@@ -25,7 +25,7 @@ A register that already has a live session shows **Continue Selling** instead. C
 1. Open the terminal at `/pos/registers`. This page lists every register.
 2. Click **Open register** under the register you want. A register that is already open shows **Resume**.
 
-<ImagePopup src="/images1/pos/terminal_registers.png" alt="Terminal Registers page with Spice Route Kitchen & Bar showing Resume and TechNest Electronics showing Open register" />
+<ImagePopup src="/images1/pos/terminal_registers.png" alt="Terminal Registers page with Spice Route Kitchen & Bar and TechNest Electronics, each showing its session status and a Resume button" />
 
 Each card shows the register name, its short code and its status, such as **Closed** or **Open by ERP Admin**.
 
@@ -38,7 +38,7 @@ After you open, the **Opening Control** window appears over the till.
 
 3. Click the card icon next to **Opening cash** if you want to count by coin and note.
 
-<ImagePopup src="/images1/pos/opening_control_window.png" alt="Opening Control window with Opening cash 1750, opening note filled and the Open Register button" />
+<ImagePopup src="/images1/pos/opening_control_window.png" alt="Opening Control window with Previous session closing balance, Opening cash 1750, an opening note and the Open Register button" />
 
 ### Count coins and notes
 

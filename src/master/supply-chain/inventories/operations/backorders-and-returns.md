@@ -6,7 +6,7 @@ Real life is rarely perfect. A vendor ships fewer goods than ordered, or a custo
 
 ## Backorders
 
-A backorder is a new transfer for the quantity that was not processed. If **WH/IN/11** expects 15 **SSD 512GB** and only 10 arrive, the missing 5 can wait in a new receipt, like **WH/IN/15**.
+A backorder is a new transfer for the quantity that was not processed. If **WH/IN/00018** expects 10 **SSD 512GB** and only 6 arrive, the missing 4 can wait in a new receipt.
 
 ### The Create Backorder setting
 

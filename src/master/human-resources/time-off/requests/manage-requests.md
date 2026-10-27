@@ -18,7 +18,7 @@ The page opens on the **Waiting For Me** tab. Tabs sit above the list.
 - **Waiting For Me:** requests that are **To Approve**.
 - **Second Approval**, **Approved:** other saved views of the list.
 
-Click the three-dot button next to the tabs. The **Views** panel opens with **Favorite Views** (**Waiting For Me**, **Second Approval**, **Approved**) and **Preset Views** (**Currently Valid**, **My Team**, **My Department**, **Refused**). **Add New** and **Reset** sit at the top.
+Click the three-dot button next to the tabs. The **Views** panel opens with **Favorite Views** (**Waiting For Me**, **Second Approval**, **Approved**) and **Preset Views** (**Currently Valid**, **My Team**, **My Department**, **Refused**). **Reset** sits at the top of the panel.
 
 <ImagePopup src="/images1/time-off/manage_list_tabs.png" alt="Time Offs list on the Waiting For Me tab with the Views panel open showing Favorite Views and Preset Views" />
 
@@ -33,12 +33,12 @@ Sarah Mitchell's Paid Time Off request for 3 days is **To Approve**.
 1. Open `Time Off → Management → Time off`. Click **Waiting For Me**.
 2. Find Sarah's row. Click the three-dot icon at the end of the row. The clock icon beside it schedules an activity.
 
-<ImagePopup src="/images1/time-off/manage_row_actions.png" alt="Row menu on Sarah Mitchell's Paid Time Off request, 19 to 21 October, 3 working days, with Approve, Refuse, View, Edit and Delete" />
+<ImagePopup src="/images1/time-off/manage_row_actions.png" alt="Row menu on Priya Sharma's Paid Time Off request, 22 to 23 October, 2 working days, with Approve, Refuse, View, Edit and Delete" />
 
 3. Click **Approve**.
 4. A **Time Off approved** message appears and the **Status** badge changes to **Approved**. No confirmation window opens.
 
-<ImagePopup src="/images1/time-off/manage_approved_row.png" alt="Default tab of the Time Offs list with Sarah Mitchell's Paid Time Off row for 2026-10-19 to 2026-10-21, 3 working days, Status Approved" />
+<ImagePopup src="/images1/time-off/manage_approved_row.png" alt="Default tab of the Time Offs list filtered by Sarah with her Paid Time Off row for 2026-10-19 to 2026-10-21, 3 working days, Status Approved" />
 
 Sarah's **Paid Time Off** card on [My Time](my-time.md) shows **17.0**. It already showed 17.0 while the request was **To Approve**.
 
@@ -50,7 +50,7 @@ Priya Sharma asked for 1 day of Sick Time Off on 26 October.
 2. Click **Refuse**.
 3. A **Time Off refused** message appears and the **Status** badge shows **Refused**.
 
-<ImagePopup src="/images1/time-off/manage_refused_row.png" alt="Time Offs list filtered by Priya with the Paid Time Off request To Approve and the Sick Time Off request for 2026-10-26, 1 working day, Status Refused" />
+<ImagePopup src="/images1/time-off/manage_refused_row.png" alt="Time Offs list filtered by Priya with the Paid Time Off request To Approve, the Sick Time Off request for 2026-10-26, 1 working day, Status Refused, and the half day Sick Time Off request" />
 
 A refused request does not use any balance. Refuse does not ask for a reason. To explain the decision, open the request **View** page and write in **Chatter**.
 

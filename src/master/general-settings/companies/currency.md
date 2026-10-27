@@ -21,8 +21,8 @@ The list shows only active currencies. If yours is missing, activate it first. S
 
 The currency list is not in the Settings menu. It appears in the Configuration menu of modules that use money, for example Invoices, Sales, Purchases and Accounting. The menu item is **Currencies**.
 
-1. Open the Configuration menu of one of these modules.
-2. Click **Currencies**.
+1. Open the **Configurations** tab of one of these modules, for example `Accounting → Configurations`.
+2. In the left menu, click **Currencies**.
 
 <ImagePopup src="/images1/general-settings/currencies_list.png" alt="Currencies list with the Status toggle column" />
 
@@ -34,7 +34,7 @@ The list shows these columns:
 - **Status:** A toggle that shows if the currency is active.
 - **Created At** and **Updated At:** Hidden by default. Use the column menu to show them.
 
-Active currencies are listed first. You can search, sort, group by **Name**, **Status** or **Decimal Places**, and filter by **Status**.
+The tabs **All**, **Active** and **Inactive** show a count. Active currencies are listed first. You can search, sort, group by **Name**, **Status** or **Decimal Places**, and filter by **Status**.
 
 ### Create or edit a currency
 

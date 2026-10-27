@@ -8,9 +8,9 @@ Open `Barcode → Barcode App → Inventory Adjustments`. The page subtitle is *
 
 ## The list
 
-Each card is one stock row. It shows the location (for example `WH/Stock`), the product, the lot if any, and a progress such as **0 / 110 Units** (counted over on hand). A quick button, for example **+110**, sets the count to the on hand quantity. Check and clear icons apply or discard the count.
+Each card is one stock row. It shows the location (for example `WH/Stock`), the product, the lot if any, and a progress such as **0 / 106 Units** (counted over on hand). A quick button, for example **+106**, sets the count to the on hand quantity. Check and clear icons apply or discard the count.
 
-<ImagePopup src="/images1/inventory/bc_adjustments.png" alt="Barcode Inventory Adjustments list with Camping Hammock in WH/Stock showing 0 / 110 Units" />
+<ImagePopup src="/images1/inventory/bc_adjustments.png" alt="Barcode Inventory Adjustments list with Camping Hammock in WH/Stock showing 0 / 106 Units" />
 
 ## Count by scanning
 
@@ -23,7 +23,7 @@ Each card is one stock row. It shows the location (for example `WH/Stock`), the 
 
 Click the pencil icon. The **Adjustment details** screen says **Review stock details and update the counted quantity.** It shows **Location**, **Lot/Serial**, **On hand** and **Counted**.
 
-<ImagePopup src="/images1/inventory/bc_adjustment_details.png" alt="Adjustment details screen with On hand 110 and Counted 108" />
+<ImagePopup src="/images1/inventory/bc_adjustment_details.png" alt="Adjustment details screen with On hand 106 and the counted quantity 104 typed in" />
 
 Use the buttons to set the count to 0, subtract 1, add 1 or fill the remaining quantity. Click **Confirm** to save, or **Discard**. A message says **Inventory count saved.**
 

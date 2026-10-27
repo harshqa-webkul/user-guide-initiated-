@@ -14,7 +14,7 @@ A product can only be built or consumed when **Type** is **Goods** and **Track I
 
 The list shows every product with its price and stock. Use it to find finished goods and components.
 
-<ImagePopup src="/images1/manufacturing/prod_list.png" alt="Manufacturing Products list showing Business Laptop and its components with On Hand values" />
+<ImagePopup src="/images1/manufacturing/prod_list.png" alt="Manufacturing Products list filtered to Laptop, showing Business Laptop, Laptop Battery and Laptop Chassis with On Hand values" />
 
 ## Create the finished product
 
@@ -50,7 +50,7 @@ Open a saved product. The sub tabs next to **View** and **Edit** include **Bills
 
 1. Open **Business Laptop**.
 2. Click **Bills of Materials** in the switcher at the top.
-3. Click **New Bill of Material**. The product is already filled in.
+3. Click **Create Bill of Material**. The product is already filled in.
 
 <ImagePopup src="/images1/manufacturing/prod_bom_tab.png" alt="Business Laptop product page, Bills of Materials tab listing BOM-MC-LAPTOP" />
 

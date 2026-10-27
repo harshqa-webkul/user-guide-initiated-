@@ -65,7 +65,7 @@ Your installed modules or custom fields may add more fields here. See [Custom fi
 
 ### Branding
 
-<ImagePopup src="/images1/general-settings/company_branding_section.png" alt="Branding and Contact Information sections on the right side of the form" />
+<ImagePopup src="/images1/general-settings/company_branding_section.png" alt="Create Company form with the Branding and Contact Information sections on the right side" />
 
 - **_Company Logo:_** Upload an image.
 - **_Color:_** Pick a color. It is stored as a hex code.
@@ -80,13 +80,13 @@ Your installed modules or custom fields may add more fields here. See [Custom fi
 
 A branch is a company that belongs to another company. You add it on the parent company.
 
-1. Open a company and scroll to the **Branches** table.
-2. Click **New Branch**, or the create button of the table.
+1. Open `Settings → Companies`, then edit a company. Scroll to the **Branches** table.
+2. Click **New company** at the top right of the table. A **Create Company** window opens.
 
-   <ImagePopup src="/images1/general-settings/company_branch_form.png" alt="Branch form with the General Information, Address Information and Contact Information tabs" />
+   <ImagePopup src="/images1/general-settings/company_branch_form.png" alt="Create Company window for a branch, filled in on the General Information tab, with the Address Information and Contact Information tabs next to it" />
 
 3. Fill in the three tabs.
-4. Save the branch. A **Branch created** message appears.
+4. Click **Create**. The branch appears in the table.
 
 The branch form has these tabs:
 

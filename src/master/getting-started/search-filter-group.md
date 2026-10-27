@@ -67,7 +67,7 @@ The conditions depend on the field:
 
 Add more rules to narrow the list further. Choose **OR condition** to match records that meet any of the rules, instead of all of them.
 
-<ImagePopup src="/images1/getting-started/filter_rule_set.png" alt="Filters panel with a Payment Term rule, Add rule and Apply filters" />
+<ImagePopup src="/images1/getting-started/filter_rule_set.png" alt="Filters panel with a Sent rule set to Is true, Add rule and Apply filters" />
 
 ## Group records
 

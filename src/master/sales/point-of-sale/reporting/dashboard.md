@@ -8,7 +8,7 @@ The Point of Sale dashboard shows the state of your registers and the results of
 
 Open `Point of Sale → Dashboard`. Each register you created appears as a card.
 
-<ImagePopup src="/images1/pos/dashboard_register_cards.png" alt="Point of Sale Dashboard with a card for Spice Route Kitchen & Bar (Opened by ERP Admin, Continue Selling) and a card for TechNest Electronics (Opened by ERP Admin, Continue Selling, balance 7,847.00)" />
+<ImagePopup src="/images1/pos/dashboard_register_cards.png" alt="Point of Sale Dashboard with a card for Spice Route Kitchen & Bar (Continue Selling) and a card for TechNest Electronics (Continue Selling)" />
 
 Every card shows:
 
@@ -58,13 +58,13 @@ The filter bar sits at the top. Every filter accepts several values. Leave a fil
 5. Click **Salespersons** to keep only orders taken by the chosen cashiers.
 6. Click **Customers** to keep only orders of the chosen customers.
 
-<ImagePopup src="/images1/pos/dashboard_filters.png" alt="Point of Sale Dashboard filter bar with Terminals set to TechNest Electronics and Date Range set to This Month, other filters empty" />
+<ImagePopup src="/images1/pos/dashboard_filters.png" alt="Point of Sale Dashboard filter bar with Terminals set to TechNest Electronics and Date Range set to the selected period, other filters empty" />
 
 The cards and the chart refresh as soon as you change a filter.
 
 ### Read the stat cards
 
-<ImagePopup src="/images1/pos/dashboard_stats.png" alt="Four stat cards: Open Sessions 1, Orders 3, Revenue 6,597.00, Failed Operations 0, and the Top Products chart below" />
+<ImagePopup src="/images1/pos/dashboard_stats.png" alt="Four stat cards: Open Sessions 1, Orders 13, Revenue 816,556.00, Failed Operations 0, and the Top Products chart below" />
 
 - **_Open Sessions:_** How many sessions are still on the counter. It counts sessions in opening control, open and closing control. Only the **Terminals** filter changes it.
 - **_Orders:_** The number of settled orders in the period. Refund orders count as orders.

@@ -8,7 +8,7 @@ The terminal is where you sell. It has a product area on the left and the curren
 
 Open `/pos/registers` in your browser, or click **Open Register** or **Continue Selling** on the back office **Dashboard**. Pick your register. The terminal opens on the **Home** page.
 
-<ImagePopup src="/images1/pos/terminal_registers.png" alt="Terminal Registers page listing the two registers with Resume and Open register buttons" />
+<ImagePopup src="/images1/pos/terminal_registers.png" alt="Terminal Registers page listing the two registers, each marked Open by ERP Admin with a Resume button" />
 
 ## The top bar
 

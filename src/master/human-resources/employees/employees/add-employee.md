@@ -135,7 +135,7 @@ Priya is the new Warehouse Supervisor in the Operations department.
 9. Under **Emergency Contact**, enter **Anil Sharma** and **9988776655**.
 10. Under **Education**, choose **Bachelor** and type **Logistics** as **Field of Study**.
 
-<ImagePopup src="/images1/employees/emp_add_private_tab.png" alt="Left column of the Private Information tab with Pune, emergency contact and education filled, shown zoomed out" />
+<ImagePopup src="/images1/employees/emp_add_private_tab.png" alt="Private Information tab with Pune, India, a private phone, emergency contact Anil Sharma and education Bachelor in Logistics filled" />
 
 11. Open the **Settings** tab. Leave **Active Employee** on.
 
@@ -143,7 +143,7 @@ Priya is the new Warehouse Supervisor in the Operations department.
 
 12. Click **Create**. An **Employee created** notification says **The employee has been created successfully.** Aureus opens the profile with the **Resume** tab open. It is empty at first.
 
-<ImagePopup src="/images1/employees/emp_add_saved.png" alt="Profile page of Priya Sharma after saving, with the empty Resume tab open" />
+<ImagePopup src="/images1/employees/emp_add_saved.png" alt="Profile page of Priya Sharma with the Resume tab open, showing her resume lines and skill" />
 
 ## Create, Create and create another, Cancel
 

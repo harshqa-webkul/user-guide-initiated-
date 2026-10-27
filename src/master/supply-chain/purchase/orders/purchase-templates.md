@@ -36,7 +36,7 @@ Example: you reorder 20 **SSD 512GB** from FreshFoods Wholesale every month.
 - **_Reference:_** Your own note.
 - **_Company:_** Required. Starts with your current company.
 
-<!-- TODO-SCREENSHOT: /images1/purchase/tmpl_form_general.png | New purchase agreement with Agreement Type set to Purchase Template, vendor FreshFoods Wholesale and no date fields -->
+<ImagePopup src="/images1/purchase/tmpl_form_general.png" alt="New purchase agreement with Agreement Type set to Purchase Template, vendor FreshFoods Wholesale and no date fields" />
 
 3. On the **Products** tab, add a line for each product.
 
@@ -45,7 +45,7 @@ Example: you reorder 20 **SSD 512GB** from FreshFoods Wholesale every month.
 - **_Unit of Measure:_** Shown only when **Unit of Measure** is on in **Manage Products**.
 - **_Unit Price:_** Required. The price you expect to pay.
 
-<!-- TODO-SCREENSHOT: /images1/purchase/tmpl_form_lines.png | Products tab of a purchase template with SSD 512GB, quantity 20 and unit price 3200 -->
+<ImagePopup src="/images1/purchase/tmpl_form_lines.png" alt="Products tab of a purchase template with SSD 512GB, quantity 20 and unit price 3200" />
 
 4. Click **Create**. The template starts as **Draft**.
 

@@ -31,11 +31,11 @@ You can search by **Name** or **Code**, and sort most columns. Use the **Company
 Create a sequence yourself only for a custom code. Documents that need one create it for you.
 
 1. Go to `Settings → Sequences`.
-2. Click **New Sequence**.
-3. Fill in the form.
+2. Click **New Sequence**. A **Create Sequence** window opens.
+3. Fill in the window.
 4. Click **Create**.
 
-<ImagePopup src="/images1/general-settings/sequences_create.png" alt="New Sequence form with the General and Numbering sections" />
+<ImagePopup src="/images1/general-settings/sequences_create.png" alt="Create Sequence window filled in with the General and Numbering sections" />
 
 ### General
 

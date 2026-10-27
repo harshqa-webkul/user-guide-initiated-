@@ -54,7 +54,7 @@ Click **Validate**. The order becomes **Paid** and the receipt screen opens.
 
 The receipt shows the company, **Served by**, the tracking number, the customer, each line, the **Untaxed amount**, the **TOTAL**, each payment, the **Change** and the order number with date.
 
-<ImagePopup src="/images1/pos/receipt_screen.png" alt="Receipt screen for order 00004-009-0001 with lines, TOTAL 6,597, Cash 7,000, Change 403 and the Print and New order buttons" />
+<ImagePopup src="/images1/pos/receipt_screen.png" alt="Receipt screen for the order with lines, TOTAL 6,597, Cash 7,000, Change 403 and the Print and New order buttons" />
 
 - **Print:** Prints the receipt.
 - **New order:** Starts a fresh order.

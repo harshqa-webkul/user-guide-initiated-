@@ -13,8 +13,8 @@ Hours need **Enable Timesheets** and logged time. See [Timesheets](../../timeshe
 ## Filters
 
 1. Open `Dashboard → Project`.
-2. Click the filter button at the top.
-3. Choose values and apply them.
+2. Use the filters at the top of the page.
+3. Choose values. The widgets update at once.
 
 <ImagePopup src="/images1/project/pj_dashboard_filters.png" alt="Project dashboard filter panel with Project Website Revamp, Assignees, Tags, Customer and a date range" />
 

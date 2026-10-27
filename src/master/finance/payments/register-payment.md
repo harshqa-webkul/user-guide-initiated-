@@ -52,7 +52,7 @@ For **INV/2026/1**, leave the amount at $1,207.50 and click **Pay**. Then check 
 
 If you pay with a cash journal, the payment status goes straight to **Paid**.
 
-<!-- TODO-SCREENSHOT: /images1/finance/invoice_after_payment.png | INV/2026/1 after paying 1,207.50 showing Payment State Paid, Amount Due 0.00 and the payment listed in the invoice summary -->
+<ImagePopup src="/images1/finance/invoice_after_payment.png" alt="Paid invoice INV/2026/2 with Payment state Paid, the linked payment PBANK/2026/3 and Amount Due 0.00 in the summary" />
 
 ## Partial payment
 
@@ -103,7 +103,7 @@ The box at the bottom right of an invoice lists the payments tied to it.
 - **Paid payments:** Each paid line shows the payment, the date and the amount. Click **Unlink** to break the link. The amount goes back to **Amount Due**. Aureus asks you to confirm.
 - **Outstanding credits** (or **Outstanding debits** on a bill): Money from this partner that is posted but not yet matched, for example an advance. Click **Add** to apply it to this document. Aureus asks you to confirm.
 
-<!-- TODO-SCREENSHOT: /images1/finance/invoice_summary_reconcile.png | Invoice summary box showing a linked payment with Unlink and an outstanding credit line with Add -->
+<ImagePopup src="/images1/finance/invoice_summary_reconcile.png" alt="Invoice summary of INV/2026/2 with the totals, the linked payment PBANK/2026/3 with the Unlink button and Amount Due 0.00" />
 
 ::: warning
 **Unlink** does not delete the payment. It only removes the link. The payment stays in the list.

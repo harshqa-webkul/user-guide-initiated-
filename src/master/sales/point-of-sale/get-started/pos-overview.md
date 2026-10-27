@@ -54,7 +54,7 @@ The terminal is a separate full-screen app with three pages in its top bar.
 - **_Home:_** The start page of one register. A restaurant register shows the floor plan.
 - **_Orders:_** All active orders of this register, with their status. You refund, invoice and reprint receipts here.
 
-<ImagePopup src="/images1/pos/pos_terminal_registers.png" alt="Terminal Registers page listing Spice Route Kitchen & Bar with Resume and TechNest Electronics with Open register" />
+<ImagePopup src="/images1/pos/pos_terminal_registers.png" alt="Terminal Registers page listing Spice Route Kitchen & Bar and TechNest Electronics, each with a Resume button" />
 
 ## Retail and restaurant mode
 

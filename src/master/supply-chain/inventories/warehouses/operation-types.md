@@ -54,7 +54,7 @@ The step options on the [warehouse](warehouses.md) create or use these types for
 ### General tab
 
 - **_Operation Type:_** Required. Choose **Receipt**, **Delivery**, **Internal**, **Dropship** or **Manufacture**. The default is **Receipt**. The choice sets default locations. For example, choosing **Delivery** fills **WH/Stock** to **Partners/Customers**.
-- **_Sequence Prefix:_** Required. The letters in the document number, such as **IN** in **WH/IN/11**.
+- **_Sequence Prefix:_** Required. The letters in the document number, such as **IN** in **WH/IN/00024**.
 - **_Warehouse:_** The site that owns the type.
 - **Reservation Method:** Radio buttons. **At Confirm** reserves stock when the document is confirmed. **Manual** waits until you click **Check Availability**.
 - **_Company:_** Your current company.

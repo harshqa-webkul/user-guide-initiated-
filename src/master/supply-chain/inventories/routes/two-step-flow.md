@@ -37,9 +37,9 @@ The second document appears when you validate the first. The prefixes are the on
 
 ## Example: receiving
 
-You receive 15 SSD 512GB from Consolidated Components.
+You receive 10 SSD 512GB from Consolidated Components.
 
-1. Open receipt WH/IN/11 and click **Validate**. The SSDs land in `WH/Input`.
+1. Open receipt WH/IN/00018 and click **Validate**. The SSDs land in `WH/Input`.
 2. A storage transfer WH/STOR/n is created and shows **Ready**.
 3. Open it from `Inventory → Operations → Transfers → Internal Transfers`.
 4. Click **Validate**. The SSDs move to `WH/Stock`.

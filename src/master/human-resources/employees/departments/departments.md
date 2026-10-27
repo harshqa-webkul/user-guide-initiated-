@@ -40,7 +40,7 @@ This example creates the **Operations** department, managed by Sarah Mitchell. S
 - **_Parent Department:_** Optional. Pick the department that contains this one. Leave it empty for a top level department.
 - **_Manager:_** Optional. Pick **Sarah Mitchell**.
 - **_Company:_** Fills with your company. Change it only if you run several companies.
-- **_Color:_** Optional. Leave it blank for Operations. Pick a colour from the circle picker. It is blank by default. A colour marks the department in the organization tree. The card does not show it, but the **View** tab shows the swatch.
+- **_Color:_** Optional. Pick a colour from the circle picker, or type a hex code such as `#f97316` for orange. It is blank by default. A colour marks the department in the organization tree. The card does not show it, but the **View** tab shows the swatch.
 
 <ImagePopup src="/images1/employees/dep_create_form.png" alt="Create Department form titled General Information, filled with Operations as name and Sarah Mitchell as manager, with Create, Create & create another and Cancel" />
 

@@ -13,7 +13,7 @@ You can reach the same pages from two places.
 1. From the Purchase app: `Purchase → Settings → Manage Orders` or `Purchase → Settings → Manage Products`.
 2. From the Settings app: `Settings → Settings → Purchase → Manage Orders` or `Manage Products`.
 
-<ImagePopup src="/images1/purchase/set_menu_paths.png" alt="Purchase app Settings menu next to the Settings app list with the Purchase group open" />
+<ImagePopup src="/images1/purchase/set_menu_paths.png" alt="Settings app list with the Purchase group open showing Manage Orders and Manage Products" />
 
 ::: info
 Both paths open the same options. Changes made in one place show in the other.
@@ -23,7 +23,7 @@ Both paths open the same options. Changes made in one place show in the other.
 
 These options control how an order is approved, protected and linked to a deal.
 
-<ImagePopup src="/images1/purchase/set_manage_orders.png" alt="Manage Orders settings page with Purchase Order Approval on, Minimum Amount 5000, Lock Confirmed Orders and Purchase Agreements" />
+<ImagePopup src="/images1/purchase/set_manage_orders.png" alt="Manage Orders settings page with Purchase Order Approval on, Minimum Amount 5000, Lock Confirmed Orders on and Purchase Agreements on" />
 
 - **_Purchase Order Approval:_** Managers must approve orders above a minimum amount. Off by default.
 - **_Minimum Amount:_** Appears when approval is on. Orders with a total at or above it need approval. The default is 5000.
@@ -44,7 +44,7 @@ An approver is a user whose role has the resource permission **Global** or **Gro
 
 These options control how products are described and counted on order lines.
 
-<ImagePopup src="/images1/purchase/set_manage_products.png" alt="Manage Products settings page with Variants on, Unit of Measure and Packagings options and the Configure Packagings link" />
+<ImagePopup src="/images1/purchase/set_manage_products.png" alt="Manage Products settings page with Variants on, Unit of Measure on, Packagings off and the Configure Packagings link" />
 
 - **_Variants:_** Manage products with attributes such as colour or size. On by default.
 - **_Unit of Measure:_** Buy products in other units, such as boxes or dozens. Off by default.
@@ -64,7 +64,7 @@ These options control how products are described and counted on order lines.
 2. Turn on **Purchase Order Approval**. The **Minimum Amount** field appears.
 3. Enter a **Minimum Amount**, for example 5000.
 
-<ImagePopup src="/images1/purchase/set_approval_on.png" alt="Purchase Order Approval switched on with Minimum Amount set to 5000" />
+<ImagePopup src="/images1/purchase/set_approval_on.png" alt="Purchase Order Approval and Lock Confirmed Orders switched on with Minimum Amount set to 5000" />
 
 4. Click **Save changes**.
 
@@ -82,7 +82,7 @@ After you save, open the Purchase top bar.
 - With **Variants** on, **Attributes** appears under `Configurations → Products`.
 - With **Packagings** on, **Packagings** appears under `Configurations → Products`.
 
-<ImagePopup src="/images1/purchase/set_menus_after.png" alt="Purchase top bar with Purchase Agreements under Orders and Packagings under Configurations" />
+<ImagePopup src="/images1/purchase/set_menus_after.png" alt="Orders menu of the Purchase app listing Request for Quotation, Purchase Orders, Purchase Agreements and Vendors" />
 
 ## See also
 

@@ -8,7 +8,7 @@ Journal items exist in the Accounting app only. Open `Accounting → Journal Ite
 
 ## Overview
 
-<ImagePopup src="/images1/finance/journal_items_list.png" alt="Journal Items list with the Posted view showing 16 rows, for example PBANK/2026/5, BILL/2026/4, PBANK/2026/3, INV/2026/2, with the Summary totals at t" />
+<ImagePopup src="/images1/finance/journal_items_list.png" alt="Journal Items list on the Posted view, showing the number, date, account, partner and label of each item" />
 
 ### Columns
 

@@ -35,7 +35,7 @@ The **Hydraulic Press 200T** leaks oil. You raise a corrective request for it.
 - **_Request:_** Required. A short title, up to 255 characters. You cannot change it after you save.
 - **_Equipment:_** The machine that needs work. Pick it from the list.
 - **_Category:_** Filled from the equipment. You cannot edit it here. Example: **Packaging Machines**.
-- **_Request Date:_** Filled by Aureus. It is today. You cannot edit it.
+- **_Request Date:_** Filled by Aureus. It starts as today and changes to the date of the equipment you pick. You cannot edit it.
 - **_Maintenance Type:_** **Corrective** (default) or **Preventive**. Choose **Preventive** to see the **Recurrent** box. See [Preventive maintenance](preventive-maintenance.md).
 
 ### Settings card
